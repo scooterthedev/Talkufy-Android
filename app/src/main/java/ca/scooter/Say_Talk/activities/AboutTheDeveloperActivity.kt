@@ -27,14 +27,14 @@ class AboutTheDeveloperActivity : AppCompatActivity(){
         val aboutPage = AboutPage(this)
             .isRTL(false)
             .setImage(R.mipmap.ic_launcher)
-            .setDescription("Say Talk is a chatting/video calling app developed by Scooter")
+            .setDescription("Talkufy is a chatting/video calling app developed by Scooter")
             .addItem(Element("Version "+ BuildConfig.VERSION_NAME,
                 R.mipmap.ic_launcher
             ))
             .addGroup("Connect with us")
             .addEmail("yekutiel.yunger@gmail.com")
             .addWebsite("https://instructables.com/member/awesomebanana120/", "Visit my website")
-            .addGitHub("https://github.com/ScooterTheDev/", "Visit me on Github")
+            .addGitHub("https://github.com/scooterthedev/", "Visit me on Github")
 
         Log.d("about", "onCreate: uid = ${FirebaseUtils.getUid()}")
 
