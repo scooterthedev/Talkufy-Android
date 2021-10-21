@@ -32,7 +32,7 @@
                      android:layout_height="wrap_content"/>
 
 
-        <ca.scooter.Say_Talk.views.TouchImageView
+        <ca.scooter.Talkufy.views.TouchImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/preview"

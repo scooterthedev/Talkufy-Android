@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        package="ca.scooter.Say_Talk">
+        package="ca.scooter.Talkufy">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -29,7 +29,7 @@
             android:theme="@style/AppTheme"
             android:largeHeap="true"
             tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".BeginingSplashScreen"
+        <activity android:name="ca.scooter.Talkufy.BeginingSplashScreen"
                 android:exported="true"
             tools:ignore="MissingClass">
             <intent-filter>
@@ -38,28 +38,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".jitsi_sdk.JitsiMeetActivity"
+        <activity android:name="ca.scooter.Talkufy.jitsi_sdk.JitsiMeetActivity"
                 android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
                 android:launchMode="singleTask"
                 android:resizeableActivity="true"
                 android:supportsPictureInPicture="true"
                 android:windowSoftInputMode="adjustResize"
                 tools:targetApi="n" />
-        <activity android:name=".jitsi_sdk.JitsiMeetFragment"
+        <activity android:name="ca.scooter.Talkufy.jitsi_sdk.JitsiMeetFragment"
                 tools:ignore="Instantiatable" />
-        <activity android:name=".activities.CreateGroupActivity"/>
-        <activity android:name=".activities.CreateChannelActivity" />
-        <activity android:name=".activities.IncomingCallActivity" />
-        <activity android:name=".activities.OutgoingCallActivity" />
+        <activity android:name="ca.scooter.Talkufy.activities.CreateGroupActivity"/>
+        <activity android:name="ca.scooter.Talkufy.activities.CreateChannelActivity" />
+        <activity android:name="ca.scooter.Talkufy.activities.IncomingCallActivity" />
+        <activity android:name="ca.scooter.Talkufy.activities.OutgoingCallActivity" />
         <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
         <activity
-                android:name=".activities.SplashActivity"
+                android:name="ca.scooter.Talkufy.activities.SplashActivity"
                 android:theme="@style/AppTheme.NoActionBar"
                 android:roundIcon="@drawable/ic_play_black"/>
-        <activity android:name=".activities.SettingsActivity" />
-        <activity android:name=".activities.BlockListActivity" />
+        <activity android:name="ca.scooter.Talkufy.activities.SettingsActivity" />
+        <activity android:name="ca.scooter.Talkufy.activities.BlockListActivity" />
         <activity
-                android:name=".activities.ForwardActivity"
+                android:name="ca.scooter.Talkufy.activities.ForwardActivity"
                 android:launchMode="singleTop"
                 android:theme="@style/AppTheme.NoActionBar"
             android:exported="true">
@@ -90,7 +90,7 @@
                     android:value=".ShareIntentChooserService" />
         </activity>
         <activity
-                android:name=".activities.UserProfileActivity"
+                android:name="ca.scooter.Talkufy.activities.UserProfileActivity"
                 android:label="@string/title_activity_user_profile"
                 android:theme="@style/AppTheme.NoActionBar.Translucent"
             tools:ignore="MissingClass" />
@@ -107,23 +107,23 @@
                 android:value="@string/google_maps_key" />
 
         <activity
-                android:name=".activities.MapsActivity"
+                android:name="ca.scooter.Talkufy.activities.MapsActivity"
                 android:label="@string/title_activity_maps"
                 android:theme="@style/AppTheme.NoActionBar"
             tools:ignore="MissingClass" />
         <activity
-            android:name=".activities.HomeActivity"
+            android:name="ca.scooter.Talkufy.activities.HomeActivity"
             android:label="@string/app_name"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-                android:name=".activities.MessageActivity"
+                android:name="ca.scooter.Talkufy.activities.MessageActivity"
                 android:theme="@style/AppTheme.NoActionBar" />
         <activity
-                android:name=".activities.MobileLoginActivity"
+                android:name="ca.scooter.Talkufy.activities.MobileLoginActivity"
                 android:theme="@style/AppTheme.NoActionBar"
                 android:windowSoftInputMode="adjustPan" />
-        <activity android:name=".activities.ContactsActivity" /> <!-- Provider for the library -->
+        <activity android:name="ca.scooter.Talkufy.activities.ContactsActivity" /> <!-- Provider for the library -->
         <provider
                 android:name="androidx.core.content.FileProvider"
                 android:authorities="com.mvc.imagepicker.provider"
@@ -137,19 +137,19 @@
         </provider>
 
         <activity
-                android:name=".activities.UploadPreviewActivity"
+                android:name="ca.scooter.Talkufy.activities.UploadPreviewActivity"
                 android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".activities.EditProfile" />
+        <activity android:name="ca.scooter.Talkufy.activities.EditProfile" />
         <activity
-                android:name=".activities.ImagePreviewActivity"
+                android:name="ca.scooter.Talkufy.activities.ImagePreviewActivity"
                 android:theme="@style/AppTheme.NoActionBar" />
         <activity
-                android:name=".activities.AboutTheDeveloperActivity"
+                android:name="ca.scooter.Talkufy.activities.AboutTheDeveloperActivity"
                 android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".activities.MultiContactChooserActivity" />
-        <activity android:name=".activities.FeedbackActivity" />
+        <activity android:name="ca.scooter.Talkufy.activities.MultiContactChooserActivity" />
+        <activity android:name="ca.scooter.Talkufy.activities.FeedbackActivity" />
 
-        <service android:name=".firebase.MessagingService"
+        <service android:name="ca.scooter.Talkufy.firebase.MessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -171,7 +171,7 @@
                 android:resource="@color/colorAccent" />
 
         <service
-                android:name="ca.scooter.Say_Talk.utils.ShareIntentChooserService"
+                android:name="ca.scooter.Talkufy.utils.ShareIntentChooserService"
                 android:label="@string/app_name"
                 android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE"
             android:exported="true"
@@ -181,7 +181,7 @@
             </intent-filter>
         </service>
 
-        <receiver android:name=".broadcast_services.PhoneStateBroadcastReciever"
+        <receiver android:name="ca.scooter.Talkufy.broadcast_services.PhoneStateBroadcastReciever"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.PHONE_STATE" />

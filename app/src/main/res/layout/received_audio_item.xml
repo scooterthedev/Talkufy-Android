@@ -9,7 +9,7 @@
 
         <variable
             name="message"
-            type="ca.scooter.Say_Talk.models.Models" />
+            type="ca.scooter.Talkufy.models.Models" />
 
 
         <variable
