@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-ml-natural-language-translate-model:19.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b0979856840168fec234e97e89fde83d/transformed/jetified-firebase-ml-natural-language-translate-model-19.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a70ee3a87279301150c51ee6265b9ba1/transformed/jetified-firebase-ml-natural-language-translate-model-19.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cbc7ed5efc39b690591565ee9e2073d8/transformed/jetified-firebase-ml-natural-language-translate-model-19.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e1c6700b4685808ac05e519e8a869ac7/transformed/jetified-firebase-ml-natural-language-translate-model-19.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e1c6700b4685808ac05e519e8a869ac7/transformed/jetified-firebase-ml-natural-language-translate-model-19.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e1c6700b4685808ac05e519e8a869ac7/transformed/jetified-firebase-ml-natural-language-translate-model-19.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-ml-natural-language-translate-model/19.0.0/3f9c0fed8f60abacf4fc718e180fef64ea7085d8/firebase-ml-natural-language-translate-model-19.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

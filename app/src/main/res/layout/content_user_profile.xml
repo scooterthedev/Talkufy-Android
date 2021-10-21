@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        tools:context=".saytalk.activities.UserProfileActivity"
+        tools:showIn="@layout/activity_user_profile">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                android:id="@+id/profile_heading"
+                style="@style/TextViewHeading"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="@string/phone_number" />
+
+
+
+
+        <ImageView
+                android:id="@+id/invite_link"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="15dp"
+                android:background="?selectableItemBackground"
+                android:src="@drawable/ic_link_white_24dp"
+                android:contentDescription="@string/add_channel_or_group_members"
+                android:visibility="gone"
+                app:tint="@color/colorPrimary" />
+
+
+
+        <ImageView
+                android:id="@+id/add_group_member_btn"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?selectableItemBackground"
+                android:src="@drawable/ic_person_add_white_padded_24dp"
+                android:contentDescription="@string/add_channel_or_group_members"
+                app:tint="@color/colorPrimary" />
+
+    </LinearLayout>
+
+
+    <TextView
+            android:id="@+id/phone_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="?selectableItemBackground"
+            android:drawableStart="@drawable/ic_phone_green_24dp"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:paddingStart="15dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:text="@string/loading"
+            android:textSize="18sp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/group_member_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:paddingStart="15dp"
+            android:paddingBottom="5dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/gray_light" />
+
+
+    <TextView
+            style="@style/TextViewHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:text="@string/notification" />
+
+
+    <Switch
+            android:id="@+id/notification_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="?selectableItemBackground"
+            android:checked="false"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:text="@string/mute_notification"
+            android:textColor="@color/gray_dark"
+            android:textSize="16sp" />
+
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/gray_light" />
+
+    <TextView
+            android:id="@+id/block_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="?selectableItemBackground"
+            android:drawableStart="@drawable/ic_block_red_24dp"
+            android:drawablePadding="15dp"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:text="@string/block_this_contact"
+            android:textColor="#B10808" />
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/gray_light" />
+
+
+    <TextView
+            style="@style/TextViewHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/media" />
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mediaRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+
+</LinearLayout>

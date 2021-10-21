@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\621817f8e90df0173174a5ab32f5e825\\transformed\\jetified-android-image-cropper-2.8.0\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,170,226,281,367,449,537,600",
+                        "endColumns": "114,55,54,85,81,87,62,72",
+                        "endOffsets": "165,221,276,362,444,532,595,668"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "591,706,762,817,903,985,1073,1136",
+                        "endColumns": "114,55,54,85,81,87,62,72",
+                        "endOffsets": "701,757,812,898,980,1068,1131,1204"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\a3635eb719200083901f9362c1a8a032\\transformed\\jetified-android-about-page-1.2.5\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,180,249,317,392,456,520",
+                        "endColumns": "57,66,68,67,74,63,63,70",
+                        "endOffsets": "108,175,244,312,387,451,515,586"
+                    }
+                }
+            ]
+        }
+    ]
+}

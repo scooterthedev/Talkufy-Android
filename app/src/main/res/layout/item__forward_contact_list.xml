@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:padding="5dp"
+
+              android:background="?attr/selectableItemBackground"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:orientation="horizontal"
+        >
+
+        <include layout="@layout/item_contact_layout"
+                 android:layout_weight="1"
+        android:layout_height="wrap_content" android:layout_width="0dp"/>
+
+
+        <com.github.lguipeng.library.animcheckbox.AnimCheckBox
+                android:id="@+id/checkbox"
+                android:layout_gravity="center_vertical"
+                android:layout_width="36dp"
+                android:padding="4dp"
+                android:layout_height="36dp"
+                app:stroke_width="2dp"
+                app:stroke_color="@color/white"
+                app:circle_color="@color/colorPrimary"
+                app:checked="false"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

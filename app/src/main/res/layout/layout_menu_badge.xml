@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        style="?attr/actionButtonStyle"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:clipToPadding="false"
+        android:focusable="true" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_chat"
+            android:id="@+id/menu_image_view"
+    />
+
+    <com.nex3z.notificationbadge.NotificationBadge
+            android:id="@+id/menu_unread_badge"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right|end|top"
+            android:layout_marginEnd="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:padding="3dp"
+            app:nbAnimationEnabled="true"
+            app:nbAnimationDuration="200"
+            app:nbEllipsizeText="99+"
+            app:nbMaxTextLength="2"
+            android:textColor="@android:color/white"
+            android:text="0"
+            android:textSize="8sp"/>
+
+</FrameLayout>

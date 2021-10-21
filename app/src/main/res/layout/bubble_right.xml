@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/container_right"
+
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/shape_line"
+            android:drawableRight="@drawable/shape_line"
+            android:id="@+id/header_right"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/app_name"
+            android:drawableStart="@drawable/shape_line" android:drawableEnd="@drawable/shape_line"/>
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:padding="3dp"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/message_layout_text_right">
+
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="vertical"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/bubble_container_right_text"
+            android:padding="5dp"
+            android:background="@drawable/shape_bubble_right"
+            android:layout_height="wrap_content">
+
+
+        <androidx.emoji.widget.EmojiTextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:maxWidth="240dp"
+                android:autoLink="all"
+                android:text="@string/large_text"
+                android:id="@+id/messageText_right"
+            android:textColor="@color/white"
+            />
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:paddingTop="2dp"
+                      android:paddingLeft="20dp"
+                      android:orientation="horizontal"
+                      android:layout_gravity="end">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:text=".."
+                    android:textSize="10sp"
+                    android:textAllCaps="true"
+                    android:id="@+id/time_right"
+                    android:textColor="@color/transparent_white_10"
+            />
+
+            <ImageView android:layout_width="12dp"
+                       android:layout_marginLeft="5dp"
+                       android:id="@+id/delivery_status"
+                       android:src="@drawable/ic_message_pending_gray_24dp"
+                       android:layout_gravity="center"
+                       android:layout_height="12dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_gravity="end"
+                  style="@style/TextViewSmallWhite"
+                  android:textColor="@color/gray_dark"
+                  android:textSize="8sp"
+                  android:id="@+id/bubble_right_translation"
+                  android:visibility="gone"
+                  android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

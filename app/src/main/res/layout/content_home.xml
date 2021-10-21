@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:id="@+id/homeLayoutContainer"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:fitsSystemWindows="true"
+             app:layout_behavior="@string/appbar_scrolling_view_behavior"
+             xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ProgressBar android:layout_width="wrap_content"
+                 android:layout_gravity="center"
+                 android:id="@+id/conversation_progressbar"
+                 android:layout_height="wrap_content"/>
+
+
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+            xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        app:stackFromEnd="false"
+        android:paddingBottom="100dp"
+        android:id="@+id/conversationRecycler"
+            android:layout_width="match_parent"
+            tools:showIn="@layout/app_bar_home"/>
+
+
+    <TextView
+        android:id="@+id/recycler_back_message"
+        style="@style/ChatHeaderTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/segoeui"
+        android:gravity="center"
+        android:text="You have no conversation so far. Tap to choose from contact"
+        android:textColor="@color/gray_dark"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+
+</FrameLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:layout_height="wrap_content"
+              android:layout_width="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:id="@+id/container_left"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/shape_line"
+            android:drawableRight="@drawable/shape_line"
+            android:id="@+id/header_left"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+    />
+
+
+
+   <LinearLayout android:layout_width="match_parent"
+                 android:orientation="vertical"
+                 android:id="@+id/message_layout_text_left"
+                 android:layout_height="wrap_content">
+
+
+    <LinearLayout android:layout_height="wrap_content"
+                  android:layout_width="match_parent"
+                  android:orientation="horizontal">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                app:civ_border_width="0.5dp"
+                app:civ_border_color="@color/colorPrimary"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/circle_sender_text"
+                android:src="@drawable/contact_placeholder"
+                android:layout_height="50dp"/>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="3dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="50dp"
+                    android:orientation="vertical"
+                    android:padding="7dp"
+                    android:background="@drawable/shape_bubble_left"
+                    android:id="@+id/bubble_container_left_text"
+                    android:layout_height="wrap_content">
+
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
+                        android:textSize="13sp"
+                        android:maxWidth="240dp"
+                        android:visibility="gone"
+                        android:text="Sender name"
+                        android:textColor="@color/red"
+                        android:id="@+id/messageText_sender_left"
+                />
+
+
+                <androidx.emoji.widget.EmojiTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="3dp"
+                        android:paddingBottom="3dp"
+                        android:paddingRight="5dp"
+                        android:textSize="16sp"
+                        android:maxWidth="240dp"
+                        android:autoLink="all"
+                        android:text="@string/large_text"
+                        android:textColor="@color/black"
+                         android:id="@+id/messageText_left"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12:10 PM"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
+                        android:layout_gravity="end"
+                        android:textSize="10sp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="20dp"
+                        android:id="@+id/time_left"
+                        android:textColor="@color/warm_grey"
+                />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_marginStart="60dp"
+              style="@style/TextViewSmallWhite"
+              android:textColor="@color/gray_dark"
+              android:textSize="8sp"
+              android:id="@+id/bubble_left_translation"
+              android:visibility="gone"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="60dp"/>
+
+
+   </LinearLayout>
+
+</LinearLayout>
+
+

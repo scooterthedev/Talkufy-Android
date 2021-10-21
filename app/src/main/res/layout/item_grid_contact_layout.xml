@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:padding="10dp"
+              android:gravity="center"
+              android:layout_height="wrap_content">
+
+    <FrameLayout android:layout_width="60dp"
+                 android:layout_height="60dp">
+
+         <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/grid_pic"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            app:civ_border_width="0.5dp"
+            app:civ_border_color="@color/colorAccent"
+            android:src="@drawable/contact_placeholder" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+                app:civ_border_width="0.5dp"
+                app:civ_circle_background_color="@color/white"
+                app:civ_border_color="@color/white"
+                android:layout_width="wrap_content"
+                android:id="@+id/grid_cancel_btn"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_cancel_grey_24dp"
+                android:layout_gravity="end|bottom"
+        />
+
+    </FrameLayout>
+
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="0dp">
+
+        <TextView
+                android:id="@+id/grid_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="User name"
+                android:textSize="14sp" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+            android:id="@+id/app_bar_audio_call"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="Voice Call"/>
+
+    <item
+            android:id="@+id/app_bar_video_call"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/ic_videocam_black_24dp"
+            android:title="Video Call"/>
+
+    <item
+            android:id="@+id/app_bar_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Search"
+            app:actionViewClass="androidx.appcompat.widget.SearchView"
+            app:showAsAction="always" />
+
+    <item
+            android:id="@+id/menu_action_block"
+            android:title="Block"
+            app:showAsAction="never" />
+
+    <item
+            android:id="@+id/menu_action_clear"
+            android:title="Clear Messages"
+            app:showAsAction="never" />
+
+</menu>

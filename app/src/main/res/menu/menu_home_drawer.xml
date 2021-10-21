@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+
+        <item
+                android:id="@+id/nav_create_group"
+                android:icon="@drawable/ic_group_add_green_24dp"
+                android:title="Create Group" />
+
+
+        <item
+                android:id="@+id/nav_create_channel"
+                android:icon="@drawable/ic_group_add_green_24dp"
+                android:title="Create Channel" />
+
+
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@drawable/ic_person_flat"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_setting_flat_black"
+            android:title="Settings" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+            <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_person_flat"
+                    android:title="About" />
+        </menu>
+    </item>
+
+</menu>

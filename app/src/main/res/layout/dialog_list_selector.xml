@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+
+
+    <FrameLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:layout_height="wrap_content">
+
+        <TextView android:layout_width="wrap_content"
+                  android:text="Cancel"
+                  android:textSize="18sp"
+                  android:layout_gravity="start"
+                  style="@style/TextViewHeading"
+                  android:id="@+id/cancel_btn"
+                  android:layout_height="wrap_content"/>
+
+
+        <TextView android:layout_width="wrap_content"
+                  android:text="Save"
+                  android:textSize="18sp"
+                  android:layout_gravity="end"
+                  style="@style/TextViewHeading"
+                  android:id="@+id/save_btn"
+                  android:layout_height="wrap_content"/>
+
+
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:layout_width="match_parent"
+                                               android:id="@+id/recyclerView"
+                                               app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                                               android:layout_height="match_parent"/>
+
+</LinearLayout>

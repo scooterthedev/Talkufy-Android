@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_height="wrap_content"
+              android:layout_width="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:gravity="center_vertical"
+              android:paddingRight="10dp"
+              android:background="?selectableItemBackground"
+              android:id="@+id/item_selector_layout"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:paddingEnd="10dp">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content">
+        <TextView android:layout_width="match_parent"
+              style="@style/TextViewHeading"
+              android:id="@+id/item_title"
+              android:textColor="@color/black"
+              android:text="title"
+              android:textSize="21sp"
+              android:paddingBottom="5dp"
+              android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="match_parent"
+              android:id="@+id/item_sub_title"
+              android:paddingLeft="15dp"
+              android:textColor="@color/gray_dark"
+              android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+    <com.nsromapa.frenzapp.saytalk.views.AnimCheckBox
+            android:id="@+id/item_checkbox"
+            android:layout_gravity="center_vertical"
+            android:layout_width="36dp"
+            android:padding="4dp"
+            android:layout_height="36dp"
+            app:stroke_width="2dp"
+            app:stroke_color="@color/white"
+            app:circle_color="@color/colorPrimary"
+            app:checked="false"
+    />
+
+
+</LinearLayout>
+

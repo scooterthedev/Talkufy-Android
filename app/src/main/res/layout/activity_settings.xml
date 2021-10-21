@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="match_parent"
+                                       android:layout_width="match_parent"
+                                       xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+            android:layout_height="match_parent"
+                  android:layout_width="match_parent"
+                  android:orientation="vertical">
+
+
+        <com.google.android.material.navigation.NavigationView
+                xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:elevation="0dp"
+        app:menu="@menu/option_setting_menu"
+        app:itemIconTint="@color/colorPrimaryDark"
+        android:id="@+id/setting_nav_view"
+        app:itemTextAppearance="@style/TextViewHeading"
+        app:itemTextColor="@color/dark_gray"
+        app:itemHorizontalPadding="20dp"
+        android:padding="10dp"
+        android:layout_weight="1"
+        tools:context=".saytalk.activities.SettingsActivity">
+
+
+</com.google.android.material.navigation.NavigationView>
+
+
+
+
+        <TextView android:layout_width="wrap_content"
+              android:padding="20dp"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:drawablePadding="20dp"
+              android:textSize="22sp"
+                  android:layout_marginTop="20dp"
+              android:text="Logout"
+                  android:id="@+id/logout_btn"
+              android:background="?selectableItemBackground"
+              android:onClick="onLogoutClick"
+              style="@style/TextViewHeading"
+              android:textColor="@color/dark_gray"
+              android:layout_marginBottom="20dp"
+                android:layout_height="wrap_content"
+
+                app:drawableLeftCompat="@drawable/ic_logout_red" />
+
+
+
+</LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/green_backround"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+       <include layout="@layout/layout_include_message_activity_toolbar"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <!--content layout-->
+
+    <FrameLayout
+            android:layout_width="match_parent"
+                 android:animateLayoutChanges="true"
+                 android:layout_height="match_parent"
+                 app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+
+
+
+        <ProgressBar android:layout_width="wrap_content"
+                     android:layout_gravity="center"
+                     android:id="@+id/message_progressbar"
+                     android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+            <FrameLayout android:layout_width="match_parent" android:layout_height="0dp"
+                         android:layout_weight="1">
+
+                <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/messagesList"
+                        android:clipToPadding="false"
+                        android:paddingBottom="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+                <FrameLayout
+                        android:layout_margin="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                >
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/bottomScrollButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="bottom|start"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginRight="5dp"
+                            android:scaleType="center"
+                            android:src="@drawable/ic_fast_scroll_arrow_down"
+                            app:backgroundTint="@color/ivory_dark"
+                            app:elevation="0dp"
+
+                            app:fabSize="mini" />
+
+
+                    <com.nex3z.notificationbadge.NotificationBadge
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end|top"
+                            app:nbAnimationEnabled="true"
+                            app:nbAnimationDuration="200"
+                            app:nbEllipsizeText="99+"
+                            app:nbMaxTextLength="2"
+                            android:id="@+id/unreadCount"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"
+                    />
+
+                </FrameLayout>
+
+
+                <include layout="@layout/layout_attachment_menu"/>
+
+
+            </FrameLayout>
+
+
+          <androidx.core.widget.NestedScrollView android:layout_width="match_parent"
+                                                 android:fillViewport="true"
+                                                 android:id="@+id/smart_reply_root_layout"
+                                                 android:layout_height="wrap_content">
+
+              <LinearLayout android:layout_width="match_parent"
+                         android:orientation="horizontal"
+                            android:id="@+id/smart_reply_layout"
+                         android:gravity="center_vertical"
+                            android:background="@color/white"
+                         android:layout_height="wrap_content">
+
+               <androidx.recyclerview.widget.RecyclerView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                                                       app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                                                       android:orientation="horizontal"
+                                                       android:id="@+id/smart_reply_recycler"/>
+                 <ImageView android:layout_width="20dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_height="20dp"
+                         android:id="@+id/smart_reply_setting"
+                            android:src="@drawable/ic_setting_flat_black"
+                            android:layout_marginLeft="10dp"
+                         app:tint="@color/dark_gray" />
+
+           </LinearLayout>
+
+
+          </androidx.core.widget.NestedScrollView>
+
+
+
+            <com.stfalcon.chatkit.messages.MessageInput
+                    android:layout_width="match_parent"
+                    android:id="@+id/messageInputField"
+                    android:background="@color/white"
+                    app:attachmentButtonBackground="?android:selectableItemBackground"
+                    app:attachmentButtonDefaultIconColor="@color/colorAccent"
+                    app:inputButtonBackground="@drawable/round_badge"
+                    app:inputButtonDefaultIconColor="@color/white"
+                    app:attachmentButtonDefaultIconPressedColor="@color/colorAccent"
+                    app:attachmentButtonMargin="5dp"
+                    app:inputButtonDefaultIconDisabledColor="@color/white60"
+                    app:attachmentButtonHeight="32dp"
+                    app:attachmentButtonWidth="32dp"
+                    app:inputMaxLines="3"
+                    app:delayTypingStatus="3000"
+                    app:showAttachmentButton="true"
+                    app:inputHint="Type your message..."
+                    android:layout_height="wrap_content"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+                  android:text="Loading..."
+                  android:id="@+id/dateStickyHeader"
+                  android:layout_marginTop="10dp"
+                  android:textColor="@color/white"
+                  android:paddingLeft="20dp"
+                  android:textSize="14sp"
+                  android:fontFamily="@font/roboto_regular"
+                  android:paddingRight="20dp"
+                  android:paddingTop="5dp"
+                  android:paddingBottom="5dp"
+                  android:background="@drawable/blurred_header_background"
+        />
+
+
+    </FrameLayout>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

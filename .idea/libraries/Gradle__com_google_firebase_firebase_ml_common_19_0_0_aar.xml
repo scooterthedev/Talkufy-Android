@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-ml-common:19.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b69e97046b29bcbc7199715362aede69/transformed/jetified-firebase-ml-common-19.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d3ec674fb8d0cc39daf0060f8a6d7c1f/transformed/jetified-firebase-ml-common-19.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d3ec674fb8d0cc39daf0060f8a6d7c1f/transformed/jetified-firebase-ml-common-19.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d3ec674fb8d0cc39daf0060f8a6d7c1f/transformed/jetified-firebase-ml-common-19.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/31ca6a1be5ade790332cb5708c5148d0/transformed/jetified-firebase-ml-common-19.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3fc41cc2381c537be571a1825e36d554/transformed/jetified-firebase-ml-common-19.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8a6c6fa48816ac3af3dc9044eb902a89/transformed/jetified-firebase-ml-common-19.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8a6c6fa48816ac3af3dc9044eb902a89/transformed/jetified-firebase-ml-common-19.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8a6c6fa48816ac3af3dc9044eb902a89/transformed/jetified-firebase-ml-common-19.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-ml-common/19.0.0/d744794686c273d9fe2fdad77ee686c87a47625b/firebase-ml-common-19.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

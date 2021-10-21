@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-ml-natural-language-smart-reply-model:19.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9a8ed458ff331d8f985fbba644282673/transformed/jetified-firebase-ml-natural-language-smart-reply-model-19.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3ea390a6b27ef8d733a9715bb1f50c54/transformed/jetified-firebase-ml-natural-language-smart-reply-model-19.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3ea390a6b27ef8d733a9715bb1f50c54/transformed/jetified-firebase-ml-natural-language-smart-reply-model-19.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3ea390a6b27ef8d733a9715bb1f50c54/transformed/jetified-firebase-ml-natural-language-smart-reply-model-19.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/29b72fc659affd5b0c5d78259f5fd1cf/transformed/jetified-firebase-ml-natural-language-smart-reply-model-19.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/878e0e45085cf11054ec5a8df1843d15/transformed/jetified-firebase-ml-natural-language-smart-reply-model-19.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/067d6bbefd3ba29bdd377aab36ee8f93/transformed/jetified-firebase-ml-natural-language-smart-reply-model-19.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/067d6bbefd3ba29bdd377aab36ee8f93/transformed/jetified-firebase-ml-natural-language-smart-reply-model-19.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/067d6bbefd3ba29bdd377aab36ee8f93/transformed/jetified-firebase-ml-natural-language-smart-reply-model-19.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-ml-natural-language-smart-reply-model/19.0.0/af66f65383d0fafadcaaf9a4c4c9cc197757219f/firebase-ml-natural-language-smart-reply-model-19.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

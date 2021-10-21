@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Recent"
+          app:showAsAction="always"
+          android:checked="true"
+          android:icon="@drawable/ic_chat"
+          android:actionLayout="@layout/layout_menu_badge"
+          android:id="@+id/nav_action_inbox"
+    />
+    <item android:title="Online"
+          android:id="@+id/nav_action_online"
+          android:icon="@drawable/ic_person_flat"
+          app:showAsAction="always"
+    />
+
+</menu>

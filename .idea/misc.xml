@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/drawable/gradient_2.xml" value="0.2265" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/drawable/ic_call_black_24dp.xml" value="0.2265" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_begining_splash_screen.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_block_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_create_channel.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_create_group.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_edit_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_feedback.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_forward.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_image_preview.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_incoming_call.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_jitsi_meet.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_maps.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_message.xml" value="0.4" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_mobile_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_multi_contact_chooser.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_outgoing_call.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_upload_preview.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_user_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/app_bar_home.xml" value="0.1" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/bubble_image_left.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/bubble_image_right.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/bubble_left.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/bubble_map_left.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/bubble_map_right.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/bubble_right.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/bubble_video_left.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/bubble_video_right.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/contact_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/content_home.xml" value="0.2" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/content_user_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/dialog_list_selector.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/dialog_location_picker.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/fragment_demo_card.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/input_otp.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/input_phone.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item__forward_contact_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_contact_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_contact_layout_2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_conversation_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_feedback.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_grid_contact_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_group_member_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_image.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_layout_online.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_selector.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_smart_reply.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_video.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/layout_attachment_menu.xml" value="0.264" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/layout_fragment_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/layout_include_message_activity_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/layout_line.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/layout_menu_badge.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/layout_menu_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/layout_profile_image_picker.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/layout_recycler_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/layout_upload_image_preview.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/nav_header_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/received_audio_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/sent_audio_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/sent_audio_placeholder_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/text_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/menu/chat_actions_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/menu/converstation_option_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/menu/menu_home_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/menu/menu_tick.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/menu/message_activity_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/menu/nav_bottom_home_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/menu/user_profile_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

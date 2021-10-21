@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        xmlns:map="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:id="@+id/container_map_right"
+
+        android:layout_height="wrap_content" app:ignore="NamespaceTypo">
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/shape_line"
+            android:drawableRight="@drawable/shape_line"
+        android:id="@+id/header_map_right"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:text="@string/app_name"
+        />
+
+
+
+   <LinearLayout android:layout_width="match_parent"
+                 android:orientation="vertical"
+                 android:padding="5dp"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/message_layout_map_right">
+
+
+       <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/shape_bubble_right"
+        android:layout_height="wrap_content">
+
+
+           <com.nsromapa.frenzapp.saytalk.views.RoundCornerLayout
+                   android:layout_width="240dp"
+
+                   android:id="@+id/map_container_right_card"
+
+                   android:layout_height="210dp"
+                   app:cornerRadius="35dp"
+                   app:topLeftEnabled="true"
+                   app:topRightEnabled="true"
+                   app:bottomLeftEnabled="true"
+                   app:bottomRightEnabled="false"
+                   android:background="@drawable/shape_bubble_right"
+                   android:orientation="vertical">
+
+
+
+
+            <com.google.android.gms.maps.MapView
+                    android:layout_width="match_parent"
+                    android:id="@+id/mapview_right"
+                    map:cameraZoom="15"
+                    map:mapType="normal"
+                    android:background="@drawable/shape_bubble_right"
+                    android:layout_gravity="center"
+                    map:liteMode="true"
+                    android:layout_height="match_parent"
+
+            />
+
+
+
+               <View android:layout_width="match_parent"
+                     android:layout_gravity="bottom"
+                     android:layout_height="match_parent"
+                     android:background="@drawable/image_background"
+               />
+
+
+               <LinearLayout android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:padding="5dp"
+                             android:gravity="end"
+                             android:orientation="horizontal"
+                             android:layout_gravity="end|bottom">
+
+
+
+                   <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="match_parent"
+                           android:layout_gravity="end"
+                           android:text="12:10 PM"
+                           android:textSize="10sp"
+                           android:textAllCaps="true"
+                           android:layout_marginRight="4dp"
+                           android:id="@+id/time_map_right"
+                           android:textColor="@color/white"
+                   />
+
+                   <ImageView android:layout_width="12dp"
+                              android:id="@+id/delivery_status_map_right"
+                              android:layout_gravity="center"
+                              android:layout_height="12dp"/>
+
+
+               </LinearLayout>
+
+
+           </com.nsromapa.frenzapp.saytalk.views.RoundCornerLayout>
+
+
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:maxWidth="230dp"
+                android:autoLink="all"
+                android:id="@+id/messageText_map_right"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+
+
+
+   </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:paddingBottom="40dp"
+        android:layout_height="match_parent"
+        tools:context=".saytalk.activities.SplashActivity">
+
+    <ImageView android:layout_width="160dp"
+               android:layout_weight="1"
+               android:layout_height="0dp"
+        android:layout_gravity="center"
+    android:src="@drawable/app_logo"
+    />
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+    style="@style/TextViewHeading"
+              android:textSize="22sp"
+              android:gravity="center"
+              android:textStyle="normal"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:layout_marginBottom="20dp"
+              android:fontFamily="@font/roboto_regular"
+              android:textColor="@color/gray_dark"
+              android:text="Experience Fast and reliable chat experience"
+    />
+
+
+    <Button
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            style="@style/RoundButton"
+            android:background="@drawable/button_round"
+            android:text="Get started"
+            android:onClick="onGetStartedClick"
+
+    />
+
+</LinearLayout>
