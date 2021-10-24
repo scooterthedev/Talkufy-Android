@@ -88,12 +88,12 @@
         "source": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\src\\main\\res\\layout\\activity_edit_profile.xml"
     },
     {
-        "merged": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_copy.png.flat",
-        "source": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_copy.png"
-    },
-    {
         "merged": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_read_round.png.flat",
         "source": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\src\\main\\res\\drawable\\ic_read_round.png"
+    },
+    {
+        "merged": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_copy.png.flat",
+        "source": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_copy.png"
     },
     {
         "merged": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_block_list.xml.flat",
@@ -200,12 +200,12 @@
         "source": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_delete.png"
     },
     {
-        "merged": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_begining_splash_screen.xml.flat",
-        "source": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\src\\main\\res\\layout\\activity_begining_splash_screen.xml"
-    },
-    {
         "merged": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_ic_menu_gallery.xml.flat",
         "source": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\src\\main\\res\\drawable-v21\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_begining_splash_screen.xml.flat",
+        "source": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\src\\main\\res\\layout\\activity_begining_splash_screen.xml"
     },
     {
         "merged": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",

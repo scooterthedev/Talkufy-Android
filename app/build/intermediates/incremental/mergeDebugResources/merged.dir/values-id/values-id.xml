@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_contact_us">Hubungi kami</string>
+    <string name="about_facebook">"Like" kami di Facebook</string>
+    <string name="about_github">"Fork" proyek ini di GitHub</string>
+    <string name="about_instagram">Ikuti kami di Instagram</string>
+    <string name="about_play_store">Beri kami nilai di Play Store</string>
+    <string name="about_twitter">Ikuti kami di Twitter</string>
+    <string name="about_website">Kunjungi website kami</string>
+    <string name="about_youtube">Tonton video kami di Youtube</string>
+    <string name="crop_image_activity_no_permissions">Membatalkan, tidak mendapatkan izin yang diperlukan</string>
+    <string name="crop_image_menu_crop">Potong</string>
+    <string name="crop_image_menu_flip">Balik</string>
+    <string name="crop_image_menu_flip_horizontally">Balik secara horizontal</string>
+    <string name="crop_image_menu_flip_vertically">Balik secara vertikal</string>
+    <string name="crop_image_menu_rotate_left">Putar berlawanan arah jarum jam</string>
+    <string name="crop_image_menu_rotate_right">Putar</string>
+    <string name="pick_image_intent_chooser_title">Pilih sumber</string>
+</resources>
