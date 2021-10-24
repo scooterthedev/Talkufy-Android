@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/scooterthedev/Talkufy-Android/main/Images/talkufy.png?token=AWE6C4HJ3L2UQHI3YEWZEP3BPZYOQ" />
+  <img src="https://github.com/scooterthedev/Talkufy-Android/blob/main/Images/talkufy_nobackround.png?raw=true" />
 </p>
 
 ![GitHub forks](https://img.shields.io/github/forks/scooterthedev/Talkufy-Android) ![GitHub all releases](https://img.shields.io/github/downloads/scooterthedev/Talkufy-Android/total) ![GitHub repo size](https://img.shields.io/github/repo-size/scooterthedev/Talkufy-Android)[![GitHub repo size](https://img.shields.io/badge/PM%20Me-on%20Github-red)](github.com/scooterthedev) ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/scooterthedev/Talkufy-Android) [![GitHub stars](https://img.shields.io/github/stars/scooterthedev/Talkufy-Android)](https://GitHub.com/scooterthedev/Talkufy-Android/)
