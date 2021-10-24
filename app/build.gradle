@@ -73,6 +73,7 @@ android {
         implementation 'com.squareup.picasso:picasso:2.71828'
         // do not update this library or else file picker library will crash
         implementation 'com.github.bumptech.glide:glide:4.8.0'
+        testImplementation 'junit:junit:4.12'
         annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
 
         //for image compression
