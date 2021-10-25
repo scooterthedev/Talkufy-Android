@@ -1,12 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.react:react-native-default-preference:1.4.2-jitsi-4429568@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e0ec3a437b2f8d567a1428904fe1d760/transformed/jetified-react-native-default-preference-1.4.2-jitsi-4429568/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/494af2b33a0a899076b9a5cf17bbf27a/transformed/jetified-react-native-default-preference-1.4.2-jitsi-4429568/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4793c30de1259c8b6e7c8830b407b2a3/transformed/jetified-react-native-default-preference-1.4.2-jitsi-4429568/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/493d944fc5d21846575b7aeb880ef823/transformed/jetified-react-native-default-preference-1.4.2-jitsi-4429568/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/493d944fc5d21846575b7aeb880ef823/transformed/jetified-react-native-default-preference-1.4.2-jitsi-4429568/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/493d944fc5d21846575b7aeb880ef823/transformed/jetified-react-native-default-preference-1.4.2-jitsi-4429568/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/04f9fe542da82c154197c54b5374ac42/transformed/jetified-react-native-default-preference-1.4.2-jitsi-4429568/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/04f9fe542da82c154197c54b5374ac42/transformed/jetified-react-native-default-preference-1.4.2-jitsi-4429568/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/04f9fe542da82c154197c54b5374ac42/transformed/jetified-react-native-default-preference-1.4.2-jitsi-4429568/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

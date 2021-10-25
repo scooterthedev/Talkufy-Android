@@ -1,12 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.viewpager:viewpager:1.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7a749d5c62cce82c6ea024bd2494525e/transformed/viewpager-1.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e660fff8330c3539d5ebd38ebfde8976/transformed/viewpager-1.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/527657ffeb2ae1bcc59391abded77c79/transformed/viewpager-1.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f887fbfa6109b606f9e39c97dc97f5ba/transformed/viewpager-1.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f887fbfa6109b606f9e39c97dc97f5ba/transformed/viewpager-1.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f887fbfa6109b606f9e39c97dc97f5ba/transformed/viewpager-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5c6526d7630e645c0644190664ea5b71/transformed/viewpager-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5c6526d7630e645c0644190664ea5b71/transformed/viewpager-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5c6526d7630e645c0644190664ea5b71/transformed/viewpager-1.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

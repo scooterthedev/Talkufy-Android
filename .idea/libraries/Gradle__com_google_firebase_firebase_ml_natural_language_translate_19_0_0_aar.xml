@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-ml-natural-language-translate:19.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/985fd32352320054135094020e458a96/transformed/jetified-firebase-ml-natural-language-translate-19.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/985fd32352320054135094020e458a96/transformed/jetified-firebase-ml-natural-language-translate-19.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/985fd32352320054135094020e458a96/transformed/jetified-firebase-ml-natural-language-translate-19.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9f7e23dcbecf86bd1e7191ed8ec29253/transformed/jetified-firebase-ml-natural-language-translate-19.0.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9f7e23dcbecf86bd1e7191ed8ec29253/transformed/jetified-firebase-ml-natural-language-translate-19.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9f7e23dcbecf86bd1e7191ed8ec29253/transformed/jetified-firebase-ml-natural-language-translate-19.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5009dbf3c7ae69036b448767ace44a3e/transformed/jetified-firebase-ml-natural-language-translate-19.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5009dbf3c7ae69036b448767ace44a3e/transformed/jetified-firebase-ml-natural-language-translate-19.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5009dbf3c7ae69036b448767ace44a3e/transformed/jetified-firebase-ml-natural-language-translate-19.0.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-ml-natural-language-translate/19.0.0/6da925994b23061680f6a13bb3d13223bbb339b0/firebase-ml-natural-language-translate-19.0.0-javadoc.jar!/" />

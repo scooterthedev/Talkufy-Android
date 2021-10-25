@@ -1,12 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-ml-natural-language-smart-reply:17.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/06ab1339893dfe9e3913ea8ec4659284/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b1105c4463d916d300f39c22c74e6ea1/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e3db93f4184ae63c9203ec119b15b993/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7b35bd7a1b99d15b7e0d6944fa431df0/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7b35bd7a1b99d15b7e0d6944fa431df0/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7b35bd7a1b99d15b7e0d6944fa431df0/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fcdff3cdc75a0edaeeeee60b53239a43/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fcdff3cdc75a0edaeeeee60b53239a43/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fcdff3cdc75a0edaeeeee60b53239a43/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-ml-natural-language-smart-reply/17.0.0/eb096e78f4d2d005533cd522849118ed68590cb7/firebase-ml-natural-language-smart-reply-17.0.0-javadoc.jar!/" />

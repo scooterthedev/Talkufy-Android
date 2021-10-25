@@ -1,15 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.squareup.picasso:picasso:2.71828@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2b2db0bc77b4558acf9cb6847c71dccd/transformed/jetified-picasso-2.71828/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6fcd401a0bce62428b378435c6fc60a1/transformed/jetified-picasso-2.71828/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6fcd401a0bce62428b378435c6fc60a1/transformed/jetified-picasso-2.71828/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6fcd401a0bce62428b378435c6fc60a1/transformed/jetified-picasso-2.71828/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dce3d3b0fd9e1fdb39536b6ba36af9ee/transformed/jetified-picasso-2.71828/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3209df4c2905a475541f1bb682af32ed/transformed/jetified-picasso-2.71828/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0c518038df9c4908a27c54df793194cc/transformed/jetified-picasso-2.71828/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0c518038df9c4908a27c54df793194cc/transformed/jetified-picasso-2.71828/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0c518038df9c4908a27c54df793194cc/transformed/jetified-picasso-2.71828/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4a28a93f1026941407e22e35dce606a6/transformed/jetified-picasso-2.71828/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4a28a93f1026941407e22e35dce606a6/transformed/jetified-picasso-2.71828/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4a28a93f1026941407e22e35dce606a6/transformed/jetified-picasso-2.71828/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.71828/2843564e6bac90b1e125104d7c842c87a96a8ee9/picasso-2.71828-javadoc.jar!/" />

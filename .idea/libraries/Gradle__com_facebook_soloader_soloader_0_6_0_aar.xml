@@ -1,12 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.soloader:soloader:0.6.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/214e80deb3b08dcb6b7decb0bf6468fd/transformed/jetified-soloader-0.6.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/df3ecacd024dd3a755459fb4cddfced4/transformed/jetified-soloader-0.6.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6e109baa3928308182df8c5643d49ba4/transformed/jetified-soloader-0.6.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/94996d5a0aeb2093c73f2518d219246d/transformed/jetified-soloader-0.6.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/94996d5a0aeb2093c73f2518d219246d/transformed/jetified-soloader-0.6.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/94996d5a0aeb2093c73f2518d219246d/transformed/jetified-soloader-0.6.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c2e5d8ca822884d200e097046c948615/transformed/jetified-soloader-0.6.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c2e5d8ca822884d200e097046c948615/transformed/jetified-soloader-0.6.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c2e5d8ca822884d200e097046c948615/transformed/jetified-soloader-0.6.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.soloader/soloader/0.6.0/b4563b4595a606372d4bf917f406180e1a59099/soloader-0.6.0-javadoc.jar!/" />
