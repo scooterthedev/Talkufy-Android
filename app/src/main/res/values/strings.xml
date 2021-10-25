@@ -20,6 +20,7 @@
     <string name="action_delete" translatable="false">Delete</string>
     <string name="action_copy" translatable="false">Copy</string>
     <string name="copied_message" translatable="false">Message copied to clipboard!</string>
+    <string name="google_maps_key" translatable="false">AIzaSyBaZjnZm2myrbhG2fTu5y-iy6ymz1CUOrc</string>
 
     <string name="date_header_today" translatable="false">Today</string>
     <string name="date_header_yesterday" translatable="false">Yesterday</string>
