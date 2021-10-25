@@ -1,11 +1,22 @@
-# To get started with Dependabot version updates, you'll need to specify which
-# package ecosystems to update and where the package manifests are located.
-# Please see the documentation for all configuration options:
-# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
-
 version: 2
 updates:
-  - package-ecosystem: "gradle" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule:
-      interval: "daily"
+# Updates for Github Actions used in the repo
+    - package-ecosystem: "github-actions"
+      directory: "/"
+      schedule:
+        interval: "weekly"
+# Updates for Gradle dependencies used in the app      
+    - package-ecosystem: gradle
+      directory: "/"
+      schedule:
+        interval: "weekly"
+      open-pull-requests-limit: 10
+      ignore:
+        - dependency-name: com.google.firebase:firebase-ml-natural-language
+          versions: "> 19.0.0"
+        - dependency-name: com.google.firebase:firebase-ml-natural-language-smart-reply-model
+          versions: "> 19.0.0"
+        - dependency-name: com.google.firebase:firebase-ml-natural-language-language-id-model
+          versions: "> 19.0.0"
+        - dependency-name: com.google.firebase:firebase-ml-natural-language-translate-model  
+          versions: "> 19.0.0"
