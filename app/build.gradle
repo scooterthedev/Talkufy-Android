@@ -69,7 +69,7 @@ android {
         // FirebaseUI for Firebase Realtime Database
         implementation 'com.firebaseui:firebase-ui-database:8.0.0'
         implementation 'androidx.multidex:multidex:2.0.1'
-        implementation 'com.chaos.view:pinview:1.4.3'
+        implementation 'com.chaos.view:pinview:1.4.4'
         implementation 'com.github.Mariovc:ImagePicker:1.2.2'
         implementation 'com.vincent.filepicker:MultiTypeFilePicker:1.0.8'
         implementation 'de.hdodenhof:circleimageview:3.1.0'
