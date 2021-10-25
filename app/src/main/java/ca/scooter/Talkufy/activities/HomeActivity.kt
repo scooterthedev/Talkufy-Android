@@ -32,6 +32,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
+import com.nex3z.notificationbadge.NotificationBadge
 import de.hdodenhof.circleimageview.CircleImageView
 import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.app_bar_home.*
@@ -50,6 +51,11 @@ import java.net.MalformedURLException
 import java.net.URL
 import java.util.concurrent.Future
 
+
+private val Unit.text: Any
+    get() {
+        TODO("Not yet implemented")
+    }
 
 class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -743,4 +749,8 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     fun setOnlineCount(size: Int) {
 
     }
+}
+
+private fun NotificationBadge.getTextView() {
+
 }

@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\d54f470e1ca03caa96b61d7b8a0e64d9\\transformed\\jetified-play-services-auth-17.0.0\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\b0fb9f4cd986aa68bca86912a69a2a09\\transformed\\jetified-play-services-auth-17.0.0\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\bd36170c9b6628a24388a6fdbedb131f\\transformed\\appcompat-1.3.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\fe586dba4aadea27fea7ba7e16015fce\\transformed\\appcompat-1.3.1\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

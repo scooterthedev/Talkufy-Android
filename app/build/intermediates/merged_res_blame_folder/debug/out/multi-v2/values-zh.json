@@ -4,24 +4,17 @@
             "outputFile": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\621817f8e90df0173174a5ab32f5e825\\transformed\\jetified-android-image-cropper-2.8.0\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\c17d6769b7ff72bea447d21230fc99e1\\transformed\\jetified-AppUpdater-2.7\\res\\values-zh\\values-zh.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,135,182,234,286,353,418,480,540",
-                        "endColumns": "79,46,51,51,66,64,61,59,64",
-                        "endOffsets": "130,177,229,281,348,413,475,535,600"
-                    },
-                    "to": {
-                        "startLines": "12,13,14,15,16,17,18,19,20",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "873,953,1000,1052,1104,1171,1236,1298,1358",
-                        "endColumns": "79,46,51,51,66,64,61,59,64",
-                        "endOffsets": "948,995,1047,1099,1166,1231,1293,1353,1418"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,111,165,218,280,403,534,630,719,785",
+                        "endColumns": "55,53,52,61,122,130,95,88,65,87",
+                        "endOffsets": "106,160,213,275,398,529,625,714,780,868"
                     }
                 },
                 {
-                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\56066c37059d48deefcb0a0fea2e642b\\transformed\\jetified-MultiTypeFilePicker-1.0.8\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\9d0b60b07aecc1a55f953efab74dd461\\transformed\\jetified-MultiTypeFilePicker-1.0.8\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -38,13 +31,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\d481cbf7aac7a6078d3fdce6ed256a79\\transformed\\jetified-AppUpdater-2.7\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\6c958527aae5b335009dd63c0763304d\\transformed\\jetified-android-image-cropper-2.8.0\\res\\values-zh\\values-zh.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,111,165,218,280,403,534,630,719,785",
-                        "endColumns": "55,53,52,61,122,130,95,88,65,87",
-                        "endOffsets": "106,160,213,275,398,529,625,714,780,868"
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,135,182,234,286,353,418,480,540",
+                        "endColumns": "79,46,51,51,66,64,61,59,64",
+                        "endOffsets": "130,177,229,281,348,413,475,535,600"
+                    },
+                    "to": {
+                        "startLines": "12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "873,953,1000,1052,1104,1171,1236,1298,1358",
+                        "endColumns": "79,46,51,51,66,64,61,59,64",
+                        "endOffsets": "948,995,1047,1099,1166,1231,1293,1353,1418"
                     }
                 }
             ]

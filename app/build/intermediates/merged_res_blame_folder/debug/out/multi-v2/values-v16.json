@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\bd36170c9b6628a24388a6fdbedb131f\\transformed\\appcompat-1.3.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\fe586dba4aadea27fea7ba7e16015fce\\transformed\\appcompat-1.3.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\80239c12ba9fb36a4ab447c2609aa729\\transformed\\core-1.5.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\5070b1985d87bf4319350018437e4037\\transformed\\core-1.6.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

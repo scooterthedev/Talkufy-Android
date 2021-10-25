@@ -400,6 +400,7 @@
     <attr format="reference|string" name="motionTarget"/>
     <attr format="reference" name="navigationRailStyle"/>
     <attr format="reference" name="navigationViewStyle"/>
+    <attr format="reference" name="nestedScrollViewStyle"/>
     <attr format="enum" name="onStateTransition">
         <enum name="actionDown" value="1"/>
         <enum name="actionUp" value="2"/>
@@ -528,15 +529,20 @@
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="about_background_color">#FFFFFF</color>
+    <color name="about_background_dark_color">#303030</color>
+    <color name="about_description_dark_text_color">#C1C1C1</color>
     <color name="about_description_text_color">#595959</color>
     <color name="about_facebook_color">#3b5998</color>
     <color name="about_github_color">#333333</color>
     <color name="about_instagram_color">#3f729b</color>
+    <color name="about_item_dark_text_color">#FFFFFF</color>
     <color name="about_item_icon_color">#313131</color>
     <color name="about_item_text_color">#7c7c7c</color>
     <color name="about_play_store_color">#689F38</color>
     <color name="about_separator_color">#e1e1e1</color>
+    <color name="about_separator_dark_color">#494949</color>
     <color name="about_text_color">#595959</color>
+    <color name="about_text_dark_color">#C1C1C1</color>
     <color name="about_twitter_color">#55acee</color>
     <color name="about_youtube_color">#cd201f</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
@@ -1184,6 +1190,7 @@
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
+    <dimen name="ccp_padding">8dp</dimen>
     <dimen name="clock_face_margin_start">64dp</dimen>
     <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
     <dimen name="compat_button_inset_vertical_material">6dp</dimen>
@@ -1854,6 +1861,7 @@
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
     <string name="chip_text">Chip text</string>
+    <string name="clear_search_button_content_description">Clear search</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
     <string name="combobox_description" translatable="false">Combo Box</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
@@ -1887,6 +1895,7 @@
     <string name="date_header_yesterday" translatable="false">Yesterday</string>
     <string name="default_web_client_id" translatable="false">665003322152-qee7gs6ah40qnr6441mm3ppgnnrua3q4.apps.googleusercontent.com</string>
     <string name="define_appupdater" translatable="false"/>
+    <string name="dismiss_button_content_description">Dismiss</string>
     <string name="don_t_play_with_fire_play_with_n_chatting">Don\'t play with fire, play with \n Chatting</string>
     <string name="dont_show_again">Don\'t show again</string>
     <string name="dropbox_app_key"/>
@@ -1896,7 +1905,6 @@
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
-    <string name="fastscroll__app_name">RecyclerViewFastScroll</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="firebase_database_url" translatable="false">https://say-talk-3a648-default-rtdb.firebaseio.com</string>
     <string name="font_fontFamily_medium">sans-serif</string>
@@ -2134,9 +2142,9 @@
     <string name="sample_title_layout" translatable="false">Custom layout</string>
     <string name="scrollbar_description" translatable="false">Scroll Bar</string>
     <string name="search_description" translatable="false">Search Field</string>
-    <string name="search_hint">Search...</string>
+    <string name="search_hint">Search…</string>
     <string name="search_menu_title">Search</string>
-    <string name="select_country">Select a county</string>
+    <string name="select_country">Select a country</string>
     <string name="smart_reply_settings" translatable="false">Smart Reply settings</string>
     <string name="spinbutton_description" translatable="false">Spin Button</string>
     <string name="start_typing_status" translatable="false">Start typing</string>
@@ -4413,6 +4421,10 @@
         <item name="android:background">@null</item>
         <item name="android:minHeight">0dp</item>
         <item name="android:maxLines">1</item>
+        <item name="android:textCursorDrawable">@drawable/pv_invisible_image</item>
+        <item name="android:textSelectHandle">@drawable/pv_invisible_image</item>
+        <item name="android:textSelectHandleLeft">@drawable/pv_invisible_image</item>
+        <item name="android:textSelectHandleRight">@drawable/pv_invisible_image</item>
     </style>
     <style name="Platform.AppCompat" parent="android:Theme.Holo">
         <item name="android:windowNoTitle">true</item>
@@ -6280,10 +6292,6 @@
     </style>
     <style name="about_About"/>
     <style name="about_About.wrapper">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:orientation">vertical</item>
-        <item name="android:gravity">center</item>
         <item name="android:background">@color/about_background_color</item>
     </style>
     <style name="about_description" parent="@android:style/TextAppearance">
@@ -6315,7 +6323,6 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:background">@color/about_separator_color</item>
         <item name="android:padding">0dp</item>
-        <item name="android:layout_weight">1</item>
         <item name="android:layout_marginTop">0dp</item>
         <item name="android:layout_marginBottom">0dp</item>
     </style>
@@ -7362,6 +7369,13 @@
         <!-- Whether to automatically stack the buttons when there is not
              enough space to lay them out side-by-side. -->
         <attr format="boolean" name="allowStacking"/>
+    </declare-styleable>
+    <declare-styleable name="Capability">
+        <!-- Resource reference to the string array of query patterns for a custom capability. -->
+        <attr format="reference" name="queryPatterns"/>
+        <!-- Indicates whether a parameter in a capability template can only contain a matched
+             shortcut id and not an arbitrary string. -->
+        <attr format="boolean" name="shortcutMatchRequired"/>
     </declare-styleable>
     <declare-styleable name="CardView">
         <!-- Background color for CardView. -->
@@ -8534,6 +8548,10 @@
 
         </attr>
 
+
+        <!--CCP dimension properties-->
+        <attr format="dimension" name="ccp_padding"/>
+
         <!--CCP bool properties-->
         <attr format="boolean" name="ccp_showNameCode"/>
         <attr format="boolean" name="ccp_showFlag"/>
@@ -8559,7 +8577,9 @@
         <attr format="color" name="ccpDialog_fastScroller_bubbleColor"/>
         <attr format="color" name="ccpDialog_fastScroller_handleColor"/>
         <attr format="reference" name="ccpDialog_fastScroller_bubbleTextAppearance"/>
-        <attr format="color" name="ccpDialog_backgroundColor"/>
+        <attr format="reference" name="ccpDialog_backgroundColor"/>
+        <attr format="reference" name="ccpDialog_background"/>
+        <attr format="dimension" name="ccpDialog_cornerRadius"/>
         <attr format="color" name="ccpDialog_textColor"/>
         <attr format="color" name="ccpDialog_searchEditTextTint"/>
         <attr format="boolean" name="ccpDialog_showCloseIcon"/>
@@ -8587,18 +8607,24 @@
             <enum name="INDONESIA" value="16"/>
             <enum name="ITALIAN" value="17"/>
             <enum name="JAPANESE" value="18"/>
-            <enum name="KOREAN" value="19"/>
-            <enum name="POLISH" value="20"/>
-            <enum name="PORTUGUESE" value="21"/>
-            <enum name="PUNJABI" value="22"/>
-            <enum name="RUSSIAN" value="23"/>
-            <enum name="SLOVAK" value="24"/>
-            <enum name="SPANISH" value="25"/>
-            <enum name="SWEDISH" value="26"/>
-            <enum name="TURKISH" value="27"/>
-            <enum name="UKRAINIAN" value="28"/>
-            <enum name="UZBEK" value="29"/>
-            <enum name="VIETNAMESE" value="30"/>
+            <enum name="KAZAKH" value="19"/>
+            <enum name="KOREAN" value="20"/>
+            <enum name="MARATHI" value="21"/>
+            <enum name="POLISH" value="22"/>
+            <enum name="PORTUGUESE" value="23"/>
+            <enum name="PUNJABI" value="24"/>
+            <enum name="RUSSIAN" value="25"/>
+            <enum name="SLOVAK" value="26"/>
+            <enum name="SLOVENIAN" value="27"/>
+            <enum name="SPANISH" value="28"/>
+            <enum name="SWEDISH" value="29"/>
+            <enum name="TAGALOG" value="30"/>
+            <enum name="THAI" value="31"/>
+            <enum name="TURKISH" value="32"/>
+            <enum name="UKRAINIAN" value="33"/>
+            <enum name="URDU" value="34"/>
+            <enum name="UZBEK" value="35"/>
+            <enum name="VIETNAMESE" value="36"/>
         </attr>
 
         <attr format="enum" name="ccp_countryAutoDetectionPref">
@@ -10184,7 +10210,15 @@
     -->
     <attr name="shapeAppearanceOverlay"/>
   </declare-styleable>
-    <declare-styleable name="NotificationBadge"><attr name="android:textSize"/><attr name="android:textColor"/><attr format="reference" name="nbBackground"/><attr format="boolean" name="nbAnimationEnabled"/><attr format="integer" name="nbAnimationDuration"/><attr format="integer" name="nbMaxTextLength"/><attr format="string" name="nbEllipsizeText"/></declare-styleable>
+    <declare-styleable name="NotificationBadge">
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr format="reference" name="nbBackground"/>
+        <attr format="boolean" name="nbAnimationEnabled"/>
+        <attr format="integer" name="nbAnimationDuration"/>
+        <attr format="integer" name="nbMaxTextLength"/>
+        <attr format="string" name="nbEllipsizeText"/>
+    </declare-styleable>
     <declare-styleable name="OnClick">
         <attr name="targetId"/>
         <attr name="clickAction">
@@ -11404,7 +11438,11 @@
         <attr format="reference" name="ifTagSet"/>
         <attr format="reference" name="ifTagNotSet"/>
     </declare-styleable>
-    <declare-styleable name="fastscroll__fastScroller"><attr format="color" name="fastscroll__bubbleColor"/><attr format="color" name="fastscroll__handleColor"/><attr format="reference" name="fastscroll__bubbleTextAppearance"/></declare-styleable>
+    <declare-styleable name="fastscroll__fastScroller">
+	    <attr format="color" name="fastscroll__bubbleColor"/>
+	    <attr format="color" name="fastscroll__handleColor"/>
+	    <attr format="reference" name="fastscroll__bubbleTextAppearance"/>
+	</declare-styleable>
     <declare-styleable name="include">
         <attr name="constraintSet"/>
     </declare-styleable>

@@ -31,13 +31,13 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Teilen mit"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Mit <ns1:g id="APPLICATION_NAME">%s</ns1:g> teilen"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Minimieren"</string>
-    <string name="about_contact_us">Kontaktiere uns</string>
-    <string name="about_facebook">Like uns auf Facebook</string>
-    <string name="about_github">Fork uns auf GitHub</string>
-    <string name="about_instagram">Follow uns auf Instagram</string>
-    <string name="about_play_store">Bewerte uns im Play Store</string>
-    <string name="about_twitter">Follow uns auf Twitter</string>
-    <string name="about_website">Besuche unsere Webseite</string>
+    <string name="about_contact_us">Kontaktieren Sie uns</string>
+    <string name="about_facebook">Liken Sie uns auf Facebook</string>
+    <string name="about_github">Forken Sie uns auf GitHub</string>
+    <string name="about_instagram">Folgen Sie uns auf Instagram</string>
+    <string name="about_play_store">Bewerten Sie uns im Play Store</string>
+    <string name="about_twitter">Folgen Sie uns auf Twitter</string>
+    <string name="about_website">Besuchen Sie unsere Webseite</string>
     <string name="about_youtube">Unsere Videos auf Youtube</string>
     <string name="appupdater_btn_disable">Nicht mehr anzeigen</string>
     <string name="appupdater_btn_dismiss">Abbrechen</string>

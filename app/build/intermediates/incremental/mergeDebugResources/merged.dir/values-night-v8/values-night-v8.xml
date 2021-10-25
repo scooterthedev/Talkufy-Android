@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="about_background_color">#303030</color>
-    <color name="about_description_text_color">#C1C1C1</color>
-    <color name="about_item_text_color">#FFFFFF</color>
-    <color name="about_separator_color">#494949</color>
-    <color name="about_text_color">#C1C1C1</color>
     <style name="Theme.AppCompat.DayNight" parent="Theme.AppCompat"/>
     <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="Theme.AppCompat"/>
     <style name="Theme.AppCompat.DayNight.Dialog" parent="Theme.AppCompat.Dialog"/>

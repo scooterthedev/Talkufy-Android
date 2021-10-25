@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\621817f8e90df0173174a5ab32f5e825\\transformed\\jetified-android-image-cropper-2.8.0\\res\\values-id\\values-id.xml",
+                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\6c958527aae5b335009dd63c0763304d\\transformed\\jetified-android-image-cropper-2.8.0\\res\\values-id\\values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\a3635eb719200083901f9362c1a8a032\\transformed\\jetified-android-about-page-1.2.5\\res\\values-id\\values-id.xml",
+                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\e254ae841e56205a5eb349b1cc9e1873\\transformed\\jetified-android-about-page-1.3.1\\res\\values-id\\values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

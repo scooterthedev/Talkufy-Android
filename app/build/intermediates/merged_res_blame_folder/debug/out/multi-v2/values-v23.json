@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\bd36170c9b6628a24388a6fdbedb131f\\transformed\\appcompat-1.3.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\fe586dba4aadea27fea7ba7e16015fce\\transformed\\appcompat-1.3.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\bcf689092a7cb7db9d8edda29b84e384\\transformed\\material-1.4.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\d7fcf1defac2cfcd724ebaba289e427e\\transformed\\material-1.4.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -34,7 +34,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\d922277fe9f4b0d768464415e3586266\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\38ee44254a49c32f255532b2e4d24bb7\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
