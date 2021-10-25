@@ -93,7 +93,7 @@ android {
 
         // the above version is based androidX pattern
         implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
-        implementation 'com.yarolegovich:lovely-dialog:1.1.0'
+        implementation 'com.yarolegovich:lovely-dialog:1.1.1'
 
         implementation 'com.aurelhubert:ahbottomnavigation:2.3.4'
 
