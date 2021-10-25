@@ -67,7 +67,7 @@ android {
         implementation 'com.google.firebase:firebase-firestore'
         implementation 'com.google.firebase:firebase-storage'
         // FirebaseUI for Firebase Realtime Database
-        implementation 'com.firebaseui:firebase-ui-database:6.2.0'
+        implementation 'com.firebaseui:firebase-ui-database:8.0.0'
         implementation 'androidx.multidex:multidex:2.0.1'
         implementation 'com.chaos.view:pinview:1.4.3'
         implementation 'com.github.Mariovc:ImagePicker:1.2.2'
