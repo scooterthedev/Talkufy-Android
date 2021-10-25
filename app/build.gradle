@@ -107,7 +107,7 @@ android {
         implementation 'com.google.firebase:firebase-ml-natural-language-translate-model:19.0.0'
 
         // Jitsi Meet
-        implementation('org.jitsi.react:jitsi-meet-sdk:2.9.0') { transitive = true }
+        implementation('org.jitsi.react:jitsi-meet-sdk:3.10.2') { transitive = true }
 
         //toast
         implementation 'com.github.Spikeysanju:MotionToast:1.4'
