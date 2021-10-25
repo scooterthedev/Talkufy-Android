@@ -107,7 +107,7 @@ android {
         implementation('org.jitsi.react:jitsi-meet-sdk:2.9.0') { transitive = true }
 
         //toast
-        implementation 'com.github.Spikeysanju:MotionToast:1.3'
+        implementation 'com.github.Spikeysanju:MotionToast:1.4'
 
         //AppUpdater
         implementation 'com.github.javiersantos:AppUpdater:2.7'
