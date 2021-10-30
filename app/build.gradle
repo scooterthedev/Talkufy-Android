@@ -85,7 +85,7 @@ android {
         implementation 'com.google.android.gms:play-services-location:18.0.0'
         implementation 'com.google.android.gms:play-services-maps:17.0.1'
         implementation('com.github.ozodrukh:CircularReveal:1.3.1@aar') { transitive = true }
-        implementation 'com.mikhaellopez:circularprogressbar:2.0.0'
+        implementation 'com.mikhaellopez:circularprogressbar:3.1.0'
         implementation 'androidx.emoji:emoji-bundled:1.1.0'
         implementation 'com.github.lguipeng:AnimCheckBox:1.0.1'
         implementation 'com.skyline.widget:round-corner-layout:1.0.1'
