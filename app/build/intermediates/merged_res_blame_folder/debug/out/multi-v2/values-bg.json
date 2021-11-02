@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
+            "outputFile": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Talkufy\\Talkufy-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
             "map": [
                 {
                     "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\d7fcf1defac2cfcd724ebaba289e427e\\transformed\\material-1.4.0\\res\\values-bg\\values-bg.xml",
@@ -57,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\e0d506648601285126940035181828f0\\transformed\\jetified-firebase-messaging-22.0.0\\res\\values-bg\\values.xml",
+                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\5d3e3ae1a46cfd3cdbdba68cfd7dde18\\transformed\\jetified-firebase-messaging-23.0.0\\res\\values-bg\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

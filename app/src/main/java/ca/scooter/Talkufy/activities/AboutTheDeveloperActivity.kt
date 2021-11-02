@@ -11,6 +11,9 @@ import ca.scooter.Talkufy.R
 import ca.scooter.Talkufy.models.Models
 import ca.scooter.Talkufy.utils.FirebaseUtils
 import ca.scooter.Talkufy.utils.utils
+import com.github.javiersantos.appupdater.AppUpdater
+import com.github.javiersantos.appupdater.enums.Display
+import com.github.javiersantos.appupdater.enums.UpdateFrom
 import com.yarolegovich.lovelydialog.BuildConfig
 import com.yarolegovich.lovelydialog.LovelyTextInputDialog
 import mehdi.sakout.aboutpage.AboutPage
@@ -33,10 +36,20 @@ class AboutTheDeveloperActivity : AppCompatActivity(){
             ))
             .addGroup("Connect with us")
             .addEmail("yekutiel.yunger@gmail.com")
-            .addWebsite("https://instructables.com/member/awesomebanana120/", "Visit my website")
-            .addGitHub("https://github.com/scooterthedev/", "Visit me on Github")
+            .addWebsite("https://instructables.com/member/AwesomeBanana120/", "Visit my website (Temp)")
+            .addGitHub("scooterthedev/", "Visit me on Github")
 
-        Log.d("about", "onCreate: uid = ${FirebaseUtils.getUid()}")
+        val appUpdater = AppUpdater(this)
+            .setUpdateFrom(UpdateFrom.GITHUB)
+            .setGitHubUserAndRepo("scooterthdev", "Talkufy-Android")
+            .setDisplay(Display.DIALOG)
+            .showAppUpdated(true)
+            .start();
+
+
+
+
+    Log.d("about", "onCreate: uid = ${FirebaseUtils.getUid()}")
 
         if(FirebaseUtils.getUid()  == utils.constants.debugUserID ||
                 FirebaseUtils.getUid() == "C0eXLeD02zYWTTsIPt3OyDQndad2" ||

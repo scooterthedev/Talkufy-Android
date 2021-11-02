@@ -41,7 +41,7 @@
            android:src="@drawable/shape_bubble_online"
            />
 
-           <com.nsromapa.frenzapp.saytalk.views.AnimCheckBox
+           <com.github.lguipeng.library.animcheckbox.AnimCheckBox
                    android:layout_width="22dp"
                    android:layout_height="22dp"
                    app:checked="false"
@@ -50,8 +50,7 @@
                    app:circle_color="@color/color4"
                    app:stroke_width="2dp"
                    android:id="@+id/contact_checkbox"
-                   android:layout_gravity="end|bottom"
-           />
+                   android:layout_gravity="end|bottom" />
 
        </FrameLayout>
 

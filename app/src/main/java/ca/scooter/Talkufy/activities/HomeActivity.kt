@@ -6,7 +6,10 @@ import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
-import android.view.*
+import android.view.Menu
+import android.view.MenuItem
+import android.view.View
+import android.view.ViewGroup
 import android.widget.TextView
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AlertDialog
@@ -17,7 +20,6 @@ import androidx.core.view.GravityCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import ca.scooter.Talkufy.R
-import ca.scooter.Talkufy.activities.*
 import ca.scooter.Talkufy.broadcast_services.IncomingCallEventClass
 import ca.scooter.Talkufy.fragments.FragmentOnlineFriends
 import ca.scooter.Talkufy.models.Models
@@ -38,24 +40,15 @@ import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.app_bar_home.*
 import kotlinx.android.synthetic.main.content_home.*
 import kotlinx.android.synthetic.main.content_home.recycler_back_message
-import kotlinx.android.synthetic.main.item__forward_contact_list.view.*
 import kotlinx.android.synthetic.main.item_conversation_layout.view.*
-import kotlinx.android.synthetic.main.item_selector.*
 import kotlinx.android.synthetic.main.layout_recycler_view.*
-import org.jetbrains.anko.*
+import org.jetbrains.anko.activityUiThread
 import org.jetbrains.anko.design.indefiniteSnackbar
-import org.jitsi.meet.sdk.JitsiMeet
-import org.jitsi.meet.sdk.JitsiMeetConferenceOptions
-import org.jitsi.meet.sdk.JitsiMeetUserInfo
-import java.net.MalformedURLException
-import java.net.URL
+import org.jetbrains.anko.doAsyncResult
+import org.jetbrains.anko.intentFor
+import org.jetbrains.anko.onComplete
 import java.util.concurrent.Future
 
-
-private val Unit.text: Any
-    get() {
-        TODO("Not yet implemented")
-    }
 
 class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -117,81 +110,53 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     }
 
-    private fun initComponents(){
+    private fun initComponents() {
         conversation_progressbar.visibility = View.GONE
         asyncLoader = doAsyncResult {
 
-            onComplete {  }
+            onComplete { }
 
             activityUiThread {
-                nav_view.setNavigationItemSelectedListener(this@HomeActivity )
+                nav_view.setNavigationItemSelectedListener(this@HomeActivity)
 
                 setBottomNavigationView()
 
-                hasPermission = utils.hasContactPermission(this@HomeActivity) && utils.hasStoragePermission(context)
+                hasPermission =
+                    utils.hasContactPermission(this@HomeActivity) && utils.hasStoragePermission(
+                        context
+                    )
 
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                    if(!hasPermission) {
-                        requestPermissions(arrayOf(Manifest.permission.READ_CONTACTS, Manifest.permission.WRITE_EXTERNAL_STORAGE,
-                            Manifest.permission.READ_EXTERNAL_STORAGE), 101)
-                    }
-                    else
+                    if (!hasPermission) {
+                        requestPermissions(
+                            arrayOf(
+                                Manifest.permission.READ_CONTACTS,
+                                Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                                Manifest.permission.READ_EXTERNAL_STORAGE
+                            ), 101
+                        )
+                    } else
                         setAdapter()
-                }
-                else
+                } else
                     setAdapter()
 
 
-
                 //setting update navigation drawer
-                if(FirebaseUtils.isLoggedIn()) {
+                if (FirebaseUtils.isLoggedIn()) {
 
-                    (nav_view.getHeaderView(0).findViewById(R.id.nav_header_title) as TextView).text = FirebaseAuth.getInstance().currentUser!!.displayName
-                    (nav_view.getHeaderView(0).findViewById(R.id.nav_header_subtitle) as TextView).text = FirebaseAuth.getInstance().currentUser!!.phoneNumber
-                    FirebaseUtils.loadProfileThumbnail(this@HomeActivity, FirebaseUtils.getUid(),
-                        nav_view.getHeaderView(0).findViewById<CircleImageView>(R.id.drawer_profile_image_view))
+                    (nav_view.getHeaderView(0)
+                        .findViewById(R.id.nav_header_title) as TextView).text =
+                        FirebaseAuth.getInstance().currentUser!!.displayName
+                    (nav_view.getHeaderView(0)
+                        .findViewById(R.id.nav_header_subtitle) as TextView).text =
+                        FirebaseAuth.getInstance().currentUser!!.phoneNumber
+                    FirebaseUtils.loadProfileThumbnail(
+                        this@HomeActivity, FirebaseUtils.getUid(),
+                        nav_view.getHeaderView(0)
+                            .findViewById<CircleImageView>(R.id.drawer_profile_image_view)
+                    )
 
                     IncomingCallEventClass(applicationContext).initiatializeEvent()
-
-
-                    // Initialize default options for Jitsi Meet conferences.
-                    val serverURL: URL
-                    try {
-                        serverURL = URL("https://meet.jit.si")
-                    } catch (e: MalformedURLException) {
-                        e.printStackTrace()
-                        throw RuntimeException("Invalid server URL!")
-                    }
-                    val userInfo = JitsiMeetUserInfo()
-                    userInfo.displayName = FirebaseAuth.getInstance().currentUser!!.displayName
-                    userInfo.email = "yekutiel.yunger@gmail.com"
-                    try {
-                        FirebaseUtils.ref.user(FirebaseUtils.getUid())
-                            .child(FirebaseUtils.KEY_PROFILE_PIC_URL)
-                            .addValueEventListener(object : ValueEventListener {
-                                override fun onCancelled(p0: DatabaseError) {}
-                                override fun onDataChange(p0: DataSnapshot) {
-                                    if (p0.exists()) {
-
-                                        userInfo.avatar = URL(p0.value.toString())
-                                        TODO("There is a problem with the text above on line 170. That line will crash on startup")
-
-                                    }
-                                }
-
-                            })
-
-                    } catch (e: MalformedURLException) {
-                        e.printStackTrace()
-                    }
-
-                    val defaultOptions = JitsiMeetConferenceOptions.Builder()
-                        .setServerURL(serverURL)
-                        .setUserInfo(userInfo)
-                        .setSubject("Talkafy Meeting")
-                        .build()
-                    JitsiMeet.setDefaultConferenceOptions(defaultOptions)
-
                 }
             }
         }
@@ -372,7 +337,7 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
                 if(!isContextToolbarActive){
                     holder.checkbox.visibility = View.INVISIBLE
-                    item_checkbox.checkbox.isChecked = false
+                    holder.checkbox.isChecked = false
                 }
 
                 holder.itemView.setOnClickListener {
@@ -382,13 +347,13 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                         if(!selectedItemPosition.contains(position))
                         {
                             holder.checkbox.visibility = View.VISIBLE
-                            item_checkbox.checkbox.isChecked = true
+                            holder.checkbox.isChecked = true
                             selectedItemPosition.add(position)
                             selectedRecipients.add(uid)
                         }
                         else{
                             holder.checkbox.visibility = View.INVISIBLE
-                            item_checkbox.checkbox.isChecked = false
+                            holder.checkbox.isChecked = false
                             selectedItemPosition.remove(position)
                             selectedRecipients.remove(uid)
                         }
@@ -403,7 +368,7 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                         return@setOnClickListener
                     }
 
-                    val unreadCount = try { holder.unreadCount.getTextView().text.toString().toInt() }
+                    val unreadCount = try { holder.unreadCount.getTextView().toString().toInt() }
                     catch (e:Exception){ 0 }
 
 
@@ -435,7 +400,7 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                     checkIfAnyMuted(adapter.getRef(position).key!!)
 
                     holder.checkbox.visibility = View.VISIBLE
-                    item_checkbox.checkbox.isChecked = true
+                    holder.checkbox.isChecked = true
 
                     actionMode = startSupportActionMode(object : ActionMode.Callback {
                         override fun onActionItemClicked(p0: ActionMode?, p1: MenuItem?): Boolean {
@@ -505,40 +470,39 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
 
 
+
         val unreadConversations:MutableList<String> = ArrayList()
 
         recycler_back_message.setOnClickListener { startActivity(intentFor<ContactsActivity>()) }
 
         reference.addValueEventListener(object : ValueEventListener {
-                override fun onCancelled(p0: DatabaseError) {
+            override fun onCancelled(p0: DatabaseError) {
+            }
+
+            override fun onDataChange(p0: DataSnapshot) {
+
+                conversation_progressbar.visibility = View.GONE
+
+                p0.children.forEach {
+                    val uid = it.key?:""
+
+                    FirebaseUtils.ref.allMessageStatus(FirebaseUtils.getUid(), uid)
+                        .orderByChild("read").equalTo(false)
+                        .addValueEventListener(object : ValueEventListener{
+                            override fun onDataChange(p0: DataSnapshot) {
+                                if(p0.childrenCount > 0 ) {
+                                    if(!unreadConversations.contains(uid) && uid.isNotEmpty())
+                                        unreadConversations.add(uid)
+                                }
+                                else unreadConversations.remove(uid)
+
+                            }
+
+                            override fun onCancelled(p0: DatabaseError) {}
+                        })
                 }
 
-                override fun onDataChange(p0: DataSnapshot) {
-
-                    conversation_progressbar.visibility = View.GONE
-
-                    p0.children.forEach {
-                        val uid = it.key?:""
-
-                        FirebaseUtils.ref.allMessageStatus(FirebaseUtils.getUid(), uid)
-                            .orderByChild("read").equalTo(false)
-                            .addValueEventListener(object : ValueEventListener{
-                                override fun onDataChange(p0: DataSnapshot) {
-                                    if(p0.childrenCount > 0 ) {
-                                        if(!unreadConversations.contains(uid) && uid.isNotEmpty())
-                                            unreadConversations.add(uid)
-                                    }
-                                    else unreadConversations.remove(uid)
-
-                                    bottom_navigation_home.setNotification(unreadConversations.size.toString().takeIf { unreadConversations.size > 0 }?:"", 0)
-
-                                }
-
-                                override fun onCancelled(p0: DatabaseError) {}
-                            })
-                    }
-
-                    if(p0.exists()){
+                if(p0.exists()){
                         recycler_back_message.visibility = View.GONE
                     }
                     else

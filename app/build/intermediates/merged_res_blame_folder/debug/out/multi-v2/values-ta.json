@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
+            "outputFile": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Talkufy\\Talkufy-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\e0d506648601285126940035181828f0\\transformed\\jetified-firebase-messaging-22.0.0\\res\\values-ta\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "207",
-                        "endColumns": "70",
-                        "endOffsets": "277"
-                    },
-                    "to": {
-                        "startLines": "57",
-                        "startColumns": "4",
-                        "startOffsets": "6335",
-                        "endColumns": "74",
-                        "endOffsets": "6405"
-                    }
-                },
                 {
                     "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\e5eb7e733c868b0200848f1e4a57f45e\\transformed\\jetified-play-services-basement-17.5.0\\res\\values-ta\\values.xml",
                     "from": {
@@ -105,6 +88,23 @@
                         "endLines": "5,33,34,35,36,55,56,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105",
                         "endColumns": "12,83,108,117,83,63,107,67,60,107,85,57,83,66,53,122,61,62,53,87,127,85,81,101,79,80,88,66,65,84,87,91,68,76,79,67,98,82,91,93,73,85,93,49,65,84,86,62,64,62,107,102,97,104,85",
                         "endOffsets": "272,3122,3231,3349,3433,6222,6330,6473,6534,6642,6728,6786,6870,6937,6991,7114,7176,7239,7293,7381,7509,7595,7677,7779,7859,7940,8029,8096,8162,8247,8335,8427,8496,8573,8653,8721,8820,8903,8995,9089,9163,9249,9343,9393,9459,9544,9631,9694,9759,9822,9930,10033,10131,10236,10322"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\5d3e3ae1a46cfd3cdbdba68cfd7dde18\\transformed\\jetified-firebase-messaging-23.0.0\\res\\values-ta\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "207",
+                        "endColumns": "70",
+                        "endOffsets": "277"
+                    },
+                    "to": {
+                        "startLines": "57",
+                        "startColumns": "4",
+                        "startOffsets": "6335",
+                        "endColumns": "74",
+                        "endOffsets": "6405"
                     }
                 }
             ]

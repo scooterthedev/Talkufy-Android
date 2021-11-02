@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
+            "outputFile": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Talkufy\\Talkufy-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\5d3e3ae1a46cfd3cdbdba68cfd7dde18\\transformed\\jetified-firebase-messaging-23.0.0\\res\\values-az\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "207",
+                        "endColumns": "72",
+                        "endOffsets": "279"
+                    },
+                    "to": {
+                        "startLines": "65",
+                        "startColumns": "4",
+                        "startOffsets": "6766",
+                        "endColumns": "76",
+                        "endOffsets": "6838"
+                    }
+                },
                 {
                     "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\b7c131e30509db3fdb977cdd17b3c25d\\transformed\\jetified-play-services-base-17.5.0\\res\\values-az\\values.xml",
                     "from": {
@@ -52,23 +69,6 @@
                         "startOffsets": "270,380,481,591,679,786,900,982,1060,1151,1244,1338,1437,1537,1630,1725,1819,1910,2002,2087,2192,2298,2398,2507,2612,2714,2872,10579",
                         "endColumns": "109,100,109,87,106,113,81,77,90,92,93,98,99,92,94,93,90,91,84,104,105,99,108,104,101,157,105,83",
                         "endOffsets": "375,476,586,674,781,895,977,1055,1146,1239,1333,1432,1532,1625,1720,1814,1905,1997,2082,2187,2293,2393,2502,2607,2709,2867,2973,10658"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\e0d506648601285126940035181828f0\\transformed\\jetified-firebase-messaging-22.0.0\\res\\values-az\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "207",
-                        "endColumns": "72",
-                        "endOffsets": "279"
-                    },
-                    "to": {
-                        "startLines": "65",
-                        "startColumns": "4",
-                        "startOffsets": "6766",
-                        "endColumns": "76",
-                        "endOffsets": "6838"
                     }
                 },
                 {

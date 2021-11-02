@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
+            "outputFile": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Talkufy\\Talkufy-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
             "map": [
                 {
                     "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\d7fcf1defac2cfcd724ebaba289e427e\\transformed\\material-1.4.0\\res\\values-en-rGB\\values-en-rGB.xml",
@@ -37,23 +37,6 @@
                         "startOffsets": "277,381,481,589,673,773,888,966,1041,1132,1225,1320,1414,1514,1607,1702,1796,1887,1978,2060,2163,2266,2365,2470,2574,2678,2834,9886",
                         "endColumns": "103,99,107,83,99,114,77,74,90,92,94,93,99,92,94,93,90,90,81,102,102,98,104,103,103,155,99,82",
                         "endOffsets": "376,476,584,668,768,883,961,1036,1127,1220,1315,1409,1509,1602,1697,1791,1882,1973,2055,2158,2261,2360,2465,2569,2673,2829,2929,9964"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\e0d506648601285126940035181828f0\\transformed\\jetified-firebase-messaging-22.0.0\\res\\values-en-rGB\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "211",
-                        "endColumns": "77",
-                        "endOffsets": "288"
-                    },
-                    "to": {
-                        "startLines": "57",
-                        "startColumns": "4",
-                        "startOffsets": "6106",
-                        "endColumns": "81",
-                        "endOffsets": "6183"
                     }
                 },
                 {
@@ -105,6 +88,23 @@
                         "startOffsets": "4443",
                         "endColumns": "196",
                         "endOffsets": "4635"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\5d3e3ae1a46cfd3cdbdba68cfd7dde18\\transformed\\jetified-firebase-messaging-23.0.0\\res\\values-en-rGB\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "211",
+                        "endColumns": "77",
+                        "endOffsets": "288"
+                    },
+                    "to": {
+                        "startLines": "57",
+                        "startColumns": "4",
+                        "startOffsets": "6106",
+                        "endColumns": "81",
+                        "endOffsets": "6183"
                     }
                 }
             ]

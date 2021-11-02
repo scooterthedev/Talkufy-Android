@@ -15,13 +15,14 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import androidx.recyclerview.widget.RecyclerView
 import ca.scooter.Talkufy.R
 import ca.scooter.Talkufy.models.Models
 import ca.scooter.Talkufy.utils.FirebaseUtils
+import ca.scooter.Talkufy.utils.utils
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
-import ca.scooter.Talkufy.utils.utils
 import kotlinx.android.synthetic.main.contact_screen.*
 import kotlinx.android.synthetic.main.item_conversation_layout.view.*
 import org.jetbrains.anko.doAsyncResult
@@ -164,16 +165,10 @@ class ContactsActivity : AppCompatActivity(){
     }
 
 
-    val adapter = object : androidx.recyclerview.widget.RecyclerView.Adapter<ViewHolder>() {
+    val adapter: RecyclerView.Adapter<ViewHolder> = object : RecyclerView.Adapter<ViewHolder>() {
 
         override fun onCreateViewHolder(p0: ViewGroup, p1: Int): ViewHolder
-                = ViewHolder(
-            layoutInflater.inflate(
-                R.layout.item_conversation_layout,
-                p0,
-                false
-            )
-        )
+                = ViewHolder(layoutInflater.inflate(R.layout.item_conversation_layout, p0, false))
 
         override fun getItemCount(): Int = registeredAvailableUser.size
 

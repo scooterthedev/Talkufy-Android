@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Talkufy\\Talkufy-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\yekut_hqh3zdc\\.gradle\\caches\\transforms-3\\e42a2b40322f9ef347ca92c7a2b2819d\\transformed\\media-1.0.0\\res\\values-v21\\values-v21.xml",
@@ -20,6 +20,25 @@
                         "endLines": "338,341,345,349",
                         "endColumns": "12,12,12,12",
                         "endOffsets": "25259,25422,25716,26011"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Talkufy\\Talkufy-Android\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "19",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "245"
+                    },
+                    "to": {
+                        "startLines": "274",
+                        "startColumns": "4",
+                        "startOffsets": "20792",
+                        "endLines": "278",
+                        "endColumns": "12",
+                        "endOffsets": "21014"
                     }
                 },
                 {
@@ -75,25 +94,6 @@
                         "endLines": "3,4,5,6,7,8,9,10,11,12,77,78,79,80,84,87,90,185,188,191,194,200,265,268,273,289,295,355,361,367,373,374,375,376,380,383,386,389,392,404,408,411",
                         "endColumns": "67,78,87,87,87,87,86,86,86,86,92,106,104,118,10,10,10,10,10,10,10,10,115,10,12,10,10,10,10,10,10,137,143,155,10,10,10,10,10,10,10,10",
                         "endOffsets": "236,315,403,491,579,667,754,841,928,1015,6739,6846,6951,7070,7386,7645,7916,14476,14708,14944,15194,15624,20296,20466,20787,22043,22500,26353,26697,27047,27397,27535,27679,27835,28228,28446,28668,28894,29110,29875,30134,30311"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\yekut_hqh3zdc\\Desktop\\Say Talk\\SAY Talk Android\\app\\src\\main\\res\\values-v21\\styles.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "19",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "245"
-                    },
-                    "to": {
-                        "startLines": "274",
-                        "startColumns": "4",
-                        "startOffsets": "20792",
-                        "endLines": "278",
-                        "endColumns": "12",
-                        "endOffsets": "21014"
                     }
                 },
                 {

@@ -1,12 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:2:1-192:12
-INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:2:1-192:12
-INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:2:1-192:12
-INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:2:1-192:12
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:2:1-192:12
+INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:2:1-192:12
+INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:2:1-192:12
+INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:2:1-192:12
 MERGED from [com.nex3z:notification-badge:1.0.5] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b44012074b67885cd8e595e8564ea25\transformed\jetified-notification-badge-1.0.5\AndroidManifest.xml:2:1-13:12
 MERGED from [com.github.Spikeysanju:MotionToast:1.3] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\7319c25ac70397af48edb260eb460d2a\transformed\jetified-MotionToast-1.3\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9b94a2756812f19efb2039669b3ef65a\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\771ad510eaa3b88cda1035d5d1c4e2fa\transformed\jetified-lifecycle-viewmodel-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [org.jetbrains.anko:anko-design:0.10.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c47183bb42b83951250f569c8e469f7e\transformed\jetified-anko-design-0.10.8\AndroidManifest.xml:2:1-13:12
 MERGED from [org.jetbrains.anko:anko-commons:0.10.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9df96cb7bf8bb547b7302c5d846dc6f9\transformed\jetified-anko-commons-0.10.8\AndroidManifest.xml:2:1-13:12
 MERGED from [com.firebaseui:firebase-ui-database:8.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\0fd78a27a6f887d4e7c8dc8d247d43be\transformed\jetified-firebase-ui-database-8.0.0\AndroidManifest.xml:2:1-11:12
@@ -44,10 +44,10 @@ MERGED from [com.facebook.react:react-native-svg:9.7.1-jitsi-4429568] C:\Users\y
 MERGED from [com.facebook.react:react-native-webrtc:1.75.3-jitsi-4429568] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\7ffd28cf2af327e91fe817c2f6d0ba50\transformed\jetified-react-native-webrtc-1.75.3-jitsi-4429568\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.61.5-jitsi.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\4c12a052d4242cc7db812db29e1e87d9\transformed\jetified-react-native-0.61.5-jitsi.1\AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fe586dba4aadea27fea7ba7e16015fce\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-core:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\15c06843eb90642a12fe8d7a8be9c6f3\transformed\jetified-firebase-core-19.0.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:17:1-58:12
+MERGED from [com.google.firebase:firebase-core:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\587bb2fd754668f96bce9bcb69ed29dd\transformed\jetified-firebase-core-20.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:17:1-58:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\af633de402f87ba8f50bd24b5bff3a5b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:17:1-83:12
-MERGED from [com.google.firebase:firebase-firestore:23.0.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\01f6112d05b3ce89f0996c61daf9d926\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b00f9c5576d81aa3086da681a0b6aa97\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\076f71c23d03272ddc633da9c16a8a3c\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:15:1-39:12
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\0a4a501967afa7a79b387a4ca0bf04ce\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b88ac0c1dd85fed0b3cdd328f168d103\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
@@ -69,16 +69,16 @@ MERGED from [com.google.firebase:firebase-ml-natural-language-translate-model:19
 MERGED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\82e9577ad207715a1f31abcaaa1a4287\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:15:1-34:12
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\51c3140808b51bd57e0524a4adec9272\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\634d887ced6b2b1f0a98bf36aac13697\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
-MERGED from [com.google.firebase:firebase-analytics:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\23fffa47ac1f7a130ba1f55c8a5451c7\transformed\jetified-firebase-analytics-19.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\8d94550def22c47d201675bbbb092d01\transformed\jetified-firebase-analytics-20.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-ml-natural-language-translate:19.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5009dbf3c7ae69036b448767ace44a3e\transformed\jetified-firebase-ml-natural-language-translate-19.0.0\AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-ml-common:19.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\4833bf5a945a519f9bbc356b8900c9c1\transformed\jetified-firebase-ml-common-19.0.0\AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\286b6bbc8798500183826aa4c422e812\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.firebase:firebase-config:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1cb8ededa6ee66d7c692855a74aefe36\transformed\jetified-firebase-config-21.0.1\AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\15edfdbb63fcf3f816ea0f7ba67719b9\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5f5f58f28caac156b318396c6ec1dc63\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c01595685dff74e2d26320866d2deddc\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:17:1-36:12
-MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d8b0a1482e6ebfc7cdf670ddf4b4cbaa\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\8eaf2314bfd4e8709e6a62963e29359a\transformed\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3196b56003201f548576b9a75cf3af42\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d8b0a1482e6ebfc7cdf670ddf4b4cbaa\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-abt:21.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\992a4b5019659cf0dfb3685f157a582f\transformed\jetified-firebase-abt-21.0.0\AndroidManifest.xml:2:1-19:12
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\18e2d0e5c50bb3389f998992cd538b00\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:15:1-40:12
 MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\302c8360b2837df2327533c880c0c5d5\transformed\jetified-timber-4.7.1\AndroidManifest.xml:2:1-9:12
@@ -97,18 +97,18 @@ MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\y
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ad58879fc247828fe675100ceade0207\transformed\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b7c131e30509db3fdb977cdd17b3c25d\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5c2dc457fd9c3720c8233c5449241ee3\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6a9c15f72f72ffb78070467c74c532b2\transformed\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:2:1-13:12
-MERGED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:17:1-46:12
-MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a1bcb14558964b3806cf56c00f4b33c8\transformed\jetified-play-services-measurement-sdk-19.0.2\AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c307e0b6490375be21ae9775ee5a4eff\transformed\jetified-play-services-measurement-impl-19.0.2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\59cbe8353262ed54ff20fa599c375cd0\transformed\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\69aa5545344c2f6f53688e2bb517c126\transformed\jetified-play-services-measurement-sdk-20.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fc48c903b0b11bd8746e512f6a30be8d\transformed\jetified-play-services-measurement-impl-20.0.0\AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\601893f88bc5d4a0485112fc74363db7\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\cefe6a1e2db846047fa9e0df7afc6bd5\transformed\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\632e46c371790f8fb13e72d86271c0ec\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\61592b0783196f422a422b43ba43bc18\transformed\jetified-firebase-installations-interop-17.0.0\AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a42bc7d72876e51987b86cf79a6d54a3\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2f265c1b3e7aba021bcf99a7ac7443ba\transformed\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\da407b0014d360e2756312d46fe3ab06\transformed\jetified-play-services-measurement-sdk-api-19.0.2\AndroidManifest.xml:17:1-27:12
-MERGED from [com.google.android.gms:play-services-measurement-base:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1217b97bba2b7dbe160684a255a5f46b\transformed\jetified-play-services-measurement-base-19.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3efb73a234af39ca1c6e644c5870182c\transformed\jetified-play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e5926f02674f909b44613d302145629e\transformed\jetified-play-services-measurement-base-20.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e5eb7e733c868b0200848f1e4a57f45e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fe42aaf356d4cbbf76c54d5c37f0523d\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\db009e3a3b58bfa84e4b0bf84395f0d7\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
@@ -159,7 +159,7 @@ MERGED from [io.michaelrocks:libphonenumber-android:8.12.28] C:\Users\yekut_hqh3
 MERGED from [com.squareup.duktape:duktape-android:1.3.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3f60e46e2c69ce2feea6a7008709f897\transformed\jetified-duktape-android-1.3.0\AndroidManifest.xml:2:1-14:12
 MERGED from [com.facebook:hermes:0.2.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3ca5b26cc54f0921a4d21be0b9af20a2\transformed\jetified-hermes-0.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ac2506507ad9561064bcac806008454c\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
-MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1f23ab9d8416822555dd4d267605797b\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
+MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\95cd00480c992e05fe669673ccccc287\transformed\jetified-grpc-android-1.41.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3e3ddf424b51bb96c91d9ff47f813b6f\transformed\jetified-fresco-2.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fcf3e21f7515c5fe7f601e662a6b9790\transformed\jetified-drawee-2.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a1c3508c1f7343a24e6b6cc745e14009\transformed\jetified-nativeimagefilters-2.0.0\AndroidManifest.xml:2:1-9:12
@@ -168,49 +168,49 @@ MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\yekut_hqh
 MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e6037814fdb1a15b8ed382c31c7ae0b1\transformed\jetified-imagepipeline-base-2.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c2e5d8ca822884d200e097046c948615\transformed\jetified-soloader-0.6.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d6bfe7a2e74a8df611030e67c29f9fad\transformed\jetified-fbcore-2.0.0\AndroidManifest.xml:2:1-9:12
-INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:2:1-192:12
-INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:2:1-192:12
-INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:2:1-192:12
+INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:2:1-192:12
+INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:2:1-192:12
+INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:2:1-192:12
 	package
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:4:9-37
-		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:4:9-37
+		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:2:1-192:12
-		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:2:1-192:12
+		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:3:9-55
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:3:9-55
 	android:versionCode
-		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:2:1-192:12
-		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:2:1-192:12
+		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:11:5-79
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:11:22-76
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:11:22-76
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:12:5-72
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:12:5-72
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:12:22-69
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:12:22-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:13:5-80
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:13:5-80
 MERGED from [com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9d0b60b07aecc1a55f953efab74dd461\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:12:5-80
 MERGED from [com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9d0b60b07aecc1a55f953efab74dd461\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:13:22-77
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:13:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:14:5-15:40
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:14:5-15:40
 MERGED from [com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9d0b60b07aecc1a55f953efab74dd461\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:11:5-81
 MERGED from [com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9d0b60b07aecc1a55f953efab74dd461\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:11:5-81
 	tools:ignore
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:15:9-37
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:15:9-37
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:14:22-78
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:14:22-78
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:16:5-67
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:16:5-67
 MERGED from [com.firebaseui:firebase-ui-database:8.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\0fd78a27a6f887d4e7c8dc8d247d43be\transformed\jetified-firebase-ui-database-8.0.0\AndroidManifest.xml:9:5-67
 MERGED from [com.firebaseui:firebase-ui-database:8.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\0fd78a27a6f887d4e7c8dc8d247d43be\transformed\jetified-firebase-ui-database-8.0.0\AndroidManifest.xml:9:5-67
 MERGED from [org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6b866982f44292fe676e93aecde6394e\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:12:5-67
@@ -219,8 +219,8 @@ MERGED from [com.github.javiersantos:AppUpdater:2.7] C:\Users\yekut_hqh3zdc\.gra
 MERGED from [com.github.javiersantos:AppUpdater:2.7] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c17d6769b7ff72bea447d21230fc99e1\transformed\jetified-AppUpdater-2.7\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\af633de402f87ba8f50bd24b5bff3a5b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\af633de402f87ba8f50bd24b5bff3a5b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-firestore:23.0.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\01f6112d05b3ce89f0996c61daf9d926\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:14:5-67
-MERGED from [com.google.firebase:firebase-firestore:23.0.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\01f6112d05b3ce89f0996c61daf9d926\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b00f9c5576d81aa3086da681a0b6aa97\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b00f9c5576d81aa3086da681a0b6aa97\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\076f71c23d03272ddc633da9c16a8a3c\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:27:5-67
 MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\076f71c23d03272ddc633da9c16a8a3c\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:27:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b72cdac637268f4b9224432b1c1cc709\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:24:5-67
@@ -233,48 +233,48 @@ MERGED from [com.google.firebase:firebase-config:21.0.1] C:\Users\yekut_hqh3zdc\
 MERGED from [com.google.firebase:firebase-config:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1cb8ededa6ee66d7c692855a74aefe36\transformed\jetified-firebase-config-21.0.1\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\15edfdbb63fcf3f816ea0f7ba67719b9\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\15edfdbb63fcf3f816ea0f7ba67719b9\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:26:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c01595685dff74e2d26320866d2deddc\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c01595685dff74e2d26320866d2deddc\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3196b56003201f548576b9a75cf3af42\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3196b56003201f548576b9a75cf3af42\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d8b0a1482e6ebfc7cdf670ddf4b4cbaa\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d8b0a1482e6ebfc7cdf670ddf4b4cbaa\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6a9c15f72f72ffb78070467c74c532b2\transformed\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6a9c15f72f72ffb78070467c74c532b2\transformed\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c307e0b6490375be21ae9775ee5a4eff\transformed\jetified-play-services-measurement-impl-19.0.2\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c307e0b6490375be21ae9775ee5a4eff\transformed\jetified-play-services-measurement-impl-19.0.2\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\da407b0014d360e2756312d46fe3ab06\transformed\jetified-play-services-measurement-sdk-api-19.0.2\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\da407b0014d360e2756312d46fe3ab06\transformed\jetified-play-services-measurement-sdk-api-19.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\59cbe8353262ed54ff20fa599c375cd0\transformed\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\59cbe8353262ed54ff20fa599c375cd0\transformed\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fc48c903b0b11bd8746e512f6a30be8d\transformed\jetified-play-services-measurement-impl-20.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fc48c903b0b11bd8746e512f6a30be8d\transformed\jetified-play-services-measurement-impl-20.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3efb73a234af39ca1c6e644c5870182c\transformed\jetified-play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3efb73a234af39ca1c6e644c5870182c\transformed\jetified-play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:16:22-64
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:16:22-64
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:17:5-81
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:17:5-81
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:17:22-78
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:17:22-78
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:18:5-66
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:18:5-66
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:18:22-63
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:18:22-63
 uses-permission#android.permission.CALL_PHONE
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:19:5-69
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:19:5-69
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:19:22-66
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:19:22-66
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:20:5-74
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:20:5-74
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:20:22-72
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:20:22-72
 uses-permission#android.permission.INSTALL_SHORTCUT
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:21:5-74
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:21:5-74
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:21:22-72
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:21:22-72
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:22:5-70
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:22:5-70
 MERGED from [org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6b866982f44292fe676e93aecde6394e\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:15:5-71
 MERGED from [org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6b866982f44292fe676e93aecde6394e\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:15:5-71
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:22:22-68
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:22:22-68
 application
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:24:5-190:19
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:24:5-190:19
 MERGED from [com.nex3z:notification-badge:1.0.5] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b44012074b67885cd8e595e8564ea25\transformed\jetified-notification-badge-1.0.5\AndroidManifest.xml:11:5-20
 MERGED from [com.nex3z:notification-badge:1.0.5] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b44012074b67885cd8e595e8564ea25\transformed\jetified-notification-badge-1.0.5\AndroidManifest.xml:11:5-20
 MERGED from [org.jetbrains.anko:anko-design:0.10.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c47183bb42b83951250f569c8e469f7e\transformed\jetified-anko-design-0.10.8\AndroidManifest.xml:11:5-20
@@ -303,14 +303,14 @@ MERGED from [pub.devrel:easypermissions:0.3.0] C:\Users\yekut_hqh3zdc\.gradle\ca
 MERGED from [pub.devrel:easypermissions:0.3.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\def85f89a8f7a93847b81439fa294066\transformed\jetified-easypermissions-0.3.0\AndroidManifest.xml:11:5-17:19
 MERGED from [com.facebook.react:react-native:0.61.5-jitsi.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\4c12a052d4242cc7db812db29e1e87d9\transformed\jetified-react-native-0.61.5-jitsi.1\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.61.5-jitsi.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\4c12a052d4242cc7db812db29e1e87d9\transformed\jetified-react-native-0.61.5-jitsi.1\AndroidManifest.xml:11:5-20
-MERGED from [com.google.firebase:firebase-core:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\15c06843eb90642a12fe8d7a8be9c6f3\transformed\jetified-firebase-core-19.0.2\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-core:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\15c06843eb90642a12fe8d7a8be9c6f3\transformed\jetified-firebase-core-19.0.2\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:27:5-56:19
-MERGED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-core:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\587bb2fd754668f96bce9bcb69ed29dd\transformed\jetified-firebase-core-20.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\587bb2fd754668f96bce9bcb69ed29dd\transformed\jetified-firebase-core-20.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:27:5-56:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\af633de402f87ba8f50bd24b5bff3a5b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\af633de402f87ba8f50bd24b5bff3a5b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
-MERGED from [com.google.firebase:firebase-firestore:23.0.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\01f6112d05b3ce89f0996c61daf9d926\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:16:5-24:19
-MERGED from [com.google.firebase:firebase-firestore:23.0.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\01f6112d05b3ce89f0996c61daf9d926\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b00f9c5576d81aa3086da681a0b6aa97\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b00f9c5576d81aa3086da681a0b6aa97\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\076f71c23d03272ddc633da9c16a8a3c\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:29:5-37:19
 MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\076f71c23d03272ddc633da9c16a8a3c\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:29:5-37:19
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b88ac0c1dd85fed0b3cdd328f168d103\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
@@ -335,8 +335,8 @@ MERGED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\yekut_h
 MERGED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\82e9577ad207715a1f31abcaaa1a4287\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\51c3140808b51bd57e0524a4adec9272\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\51c3140808b51bd57e0524a4adec9272\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-analytics:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\23fffa47ac1f7a130ba1f55c8a5451c7\transformed\jetified-firebase-analytics-19.0.2\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-analytics:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\23fffa47ac1f7a130ba1f55c8a5451c7\transformed\jetified-firebase-analytics-19.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\8d94550def22c47d201675bbbb092d01\transformed\jetified-firebase-analytics-20.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\8d94550def22c47d201675bbbb092d01\transformed\jetified-firebase-analytics-20.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\286b6bbc8798500183826aa4c422e812\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\286b6bbc8798500183826aa4c422e812\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-config:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1cb8ededa6ee66d7c692855a74aefe36\transformed\jetified-firebase-config-21.0.1\AndroidManifest.xml:28:5-36:19
@@ -345,12 +345,12 @@ MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\yekut_hqh3zd
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\15edfdbb63fcf3f816ea0f7ba67719b9\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5f5f58f28caac156b318396c6ec1dc63\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5f5f58f28caac156b318396c6ec1dc63\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c01595685dff74e2d26320866d2deddc\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c01595685dff74e2d26320866d2deddc\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d8b0a1482e6ebfc7cdf670ddf4b4cbaa\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:14:5-22:19
-MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d8b0a1482e6ebfc7cdf670ddf4b4cbaa\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\8eaf2314bfd4e8709e6a62963e29359a\transformed\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:24:5-20
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\8eaf2314bfd4e8709e6a62963e29359a\transformed\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3196b56003201f548576b9a75cf3af42\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3196b56003201f548576b9a75cf3af42\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d8b0a1482e6ebfc7cdf670ddf4b4cbaa\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d8b0a1482e6ebfc7cdf670ddf4b4cbaa\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-abt:21.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\992a4b5019659cf0dfb3685f157a582f\transformed\jetified-firebase-abt-21.0.0\AndroidManifest.xml:11:5-17:19
 MERGED from [com.google.firebase:firebase-abt:21.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\992a4b5019659cf0dfb3685f157a582f\transformed\jetified-firebase-abt-21.0.0\AndroidManifest.xml:11:5-17:19
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\18e2d0e5c50bb3389f998992cd538b00\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
@@ -371,12 +371,12 @@ MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\yekut_hq
 MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b7c131e30509db3fdb977cdd17b3c25d\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5c2dc457fd9c3720c8233c5449241ee3\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5c2dc457fd9c3720c8233c5449241ee3\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:28:5-44:19
-MERGED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:28:5-44:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a1bcb14558964b3806cf56c00f4b33c8\transformed\jetified-play-services-measurement-sdk-19.0.2\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a1bcb14558964b3806cf56c00f4b33c8\transformed\jetified-play-services-measurement-sdk-19.0.2\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c307e0b6490375be21ae9775ee5a4eff\transformed\jetified-play-services-measurement-impl-19.0.2\AndroidManifest.xml:28:5-29:19
-MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c307e0b6490375be21ae9775ee5a4eff\transformed\jetified-play-services-measurement-impl-19.0.2\AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\69aa5545344c2f6f53688e2bb517c126\transformed\jetified-play-services-measurement-sdk-20.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\69aa5545344c2f6f53688e2bb517c126\transformed\jetified-play-services-measurement-sdk-20.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fc48c903b0b11bd8746e512f6a30be8d\transformed\jetified-play-services-measurement-impl-20.0.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fc48c903b0b11bd8746e512f6a30be8d\transformed\jetified-play-services-measurement-impl-20.0.0\AndroidManifest.xml:28:5-29:19
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\601893f88bc5d4a0485112fc74363db7\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\601893f88bc5d4a0485112fc74363db7\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\cefe6a1e2db846047fa9e0df7afc6bd5\transformed\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
@@ -387,8 +387,8 @@ MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\yekut_h
 MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a42bc7d72876e51987b86cf79a6d54a3\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2f265c1b3e7aba021bcf99a7ac7443ba\transformed\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2f265c1b3e7aba021bcf99a7ac7443ba\transformed\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1217b97bba2b7dbe160684a255a5f46b\transformed\jetified-play-services-measurement-base-19.0.2\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1217b97bba2b7dbe160684a255a5f46b\transformed\jetified-play-services-measurement-base-19.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e5926f02674f909b44613d302145629e\transformed\jetified-play-services-measurement-base-20.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e5926f02674f909b44613d302145629e\transformed\jetified-play-services-measurement-base-20.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e5eb7e733c868b0200848f1e4a57f45e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e5eb7e733c868b0200848f1e4a57f45e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.6.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5070b1985d87bf4319350018437e4037\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
@@ -408,311 +408,311 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\yekut_hqh3zdc\.gradl
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5070b1985d87bf4319350018437e4037\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:28:13-39
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:28:13-39
 	android:label
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:26:13-45
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:26:13-45
 	tools:ignore
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:31:13-64
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:31:13-64
 	android:roundIcon
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:27:13-52
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:27:13-52
 	android:allowBackup
 		ADDED from [org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6b866982f44292fe676e93aecde6394e\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:32:9-35
 	android:largeHeap
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:30:13-37
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:30:13-37
 	android:icon
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:25:13-47
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:25:13-47
 	android:theme
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:29:13-44
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:29:13-44
 activity#ca.scooter.Talkufy.BeginingSplashScreen
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:32:9-40:20
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:32:9-40:20
 	android:exported
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:33:17-40
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:33:17-40
 	tools:ignore
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:34:13-40
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:34:13-40
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:32:19-73
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:32:19-73
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:35:13-39:29
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:35:13-39:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:36:17-69
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:36:25-66
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:38:17-77
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:38:17-77
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:38:27-74
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:38:27-74
 activity#ca.scooter.Talkufy.jitsi_sdk.JitsiMeetActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:41:9-47:39
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:41:9-47:39
 	android:launchMode
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:43:17-48
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:43:17-48
 	android:windowSoftInputMode
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:46:17-59
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:46:17-59
 	android:supportsPictureInPicture
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:45:17-56
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:45:17-56
 	android:resizeableActivity
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:44:17-50
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:44:17-50
 	android:configChanges
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:42:17-119
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:42:17-119
 	tools:targetApi
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:47:17-36
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:47:17-36
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:41:19-80
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:41:19-80
 activity#ca.scooter.Talkufy.jitsi_sdk.JitsiMeetFragment
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:48:9-49:49
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:48:9-49:49
 	tools:ignore
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:49:17-46
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:49:17-46
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:48:19-80
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:48:19-80
 activity#ca.scooter.Talkufy.activities.CreateGroupActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:50:9-85
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:50:9-85
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:50:19-83
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:50:19-83
 activity#ca.scooter.Talkufy.activities.CreateChannelActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:51:9-88
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:51:9-88
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:51:19-85
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:51:19-85
 activity#ca.scooter.Talkufy.activities.IncomingCallActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:52:9-87
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:52:9-87
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:52:19-84
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:52:19-84
 activity#ca.scooter.Talkufy.activities.OutgoingCallActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:53:9-87
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:53:9-87
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:53:19-84
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:53:19-84
 activity#com.theartofdev.edmodo.cropper.CropImageActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:54:9-85
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:54:9-85
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:54:19-82
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:54:19-82
 activity#ca.scooter.Talkufy.activities.SplashActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:55:9-58:62
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:55:9-58:62
 	android:roundIcon
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:58:17-60
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:58:17-60
 	android:theme
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:57:17-60
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:57:17-60
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:56:17-76
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:56:17-76
 activity#ca.scooter.Talkufy.activities.SettingsActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:59:9-83
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:59:9-83
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:59:19-80
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:59:19-80
 activity#ca.scooter.Talkufy.activities.BlockListActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:60:9-84
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:60:9-84
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:60:19-81
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:60:19-81
 activity#ca.scooter.Talkufy.activities.ForwardActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:61:9-91:20
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:61:9-91:20
 	android:launchMode
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:63:17-47
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:63:17-47
 	android:exported
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:65:13-36
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:65:13-36
 	android:theme
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:64:17-60
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:64:17-60
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:62:17-77
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:62:17-77
 intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:66:13-72:29
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:66:13-72:29
 action#android.intent.action.SEND
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:67:17-69
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:67:17-69
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:67:25-66
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:67:25-66
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:69:17-76
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:69:17-76
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:69:27-73
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:69:27-73
 data
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:71:17-55
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:71:17-55
 	android:mimeType
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:71:23-52
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:71:23-52
 intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:image/*
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:73:13-79:29
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:73:13-79:29
 intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:video/*
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:80:13-86:29
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:80:13-86:29
 meta-data#android.service.chooser.chooser_target_service
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:88:13-90:66
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:88:13-90:66
 	android:value
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:90:21-63
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:90:21-63
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:89:21-82
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:89:21-82
 activity#ca.scooter.Talkufy.activities.UserProfileActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:92:9-96:43
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:92:9-96:43
 	android:label
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:94:17-68
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:94:17-68
 	tools:ignore
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:96:13-40
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:96:13-40
 	android:theme
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:95:17-72
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:95:17-72
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:93:17-81
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:93:17-81
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:105:9-107:59
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:105:9-107:59
 	android:value
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:107:17-56
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:107:17-56
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:106:17-62
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:106:17-62
 activity#ca.scooter.Talkufy.activities.MapsActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:109:9-113:43
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:109:9-113:43
 	android:label
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:111:17-60
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:111:17-60
 	tools:ignore
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:113:13-40
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:113:13-40
 	android:theme
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:112:17-60
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:112:17-60
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:110:17-74
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:110:17-74
 activity#ca.scooter.Talkufy.activities.HomeActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:114:9-118:59
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:114:9-118:59
 	android:label
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:116:13-45
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:116:13-45
 	android:launchMode
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:117:13-43
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:117:13-43
 	android:theme
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:118:13-56
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:118:13-56
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:115:13-70
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:115:13-70
 activity#ca.scooter.Talkufy.activities.MessageActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:119:9-121:63
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:119:9-121:63
 	android:theme
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:121:17-60
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:121:17-60
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:120:17-77
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:120:17-77
 activity#ca.scooter.Talkufy.activities.MobileLoginActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:122:9-125:59
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:122:9-125:59
 	android:windowSoftInputMode
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:125:17-56
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:125:17-56
 	android:theme
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:124:17-60
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:124:17-60
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:123:17-81
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:123:17-81
 activity#ca.scooter.Talkufy.activities.ContactsActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:126:9-83
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:126:9-83
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:126:19-80
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:126:19-80
 provider#androidx.core.content.FileProvider
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:127:9-137:20
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:127:9-137:20
 MERGED from [com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9d0b60b07aecc1a55f953efab74dd461\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:39:9-47:20
 MERGED from [com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9d0b60b07aecc1a55f953efab74dd461\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:39:9-47:20
 MERGED from [com.github.Mariovc:ImagePicker:1.2.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\30f9fdd96acd9ddacaa42922afc36e1d\transformed\jetified-ImagePicker-1.2.2\AndroidManifest.xml:29:9-37:20
 MERGED from [com.github.Mariovc:ImagePicker:1.2.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\30f9fdd96acd9ddacaa42922afc36e1d\transformed\jetified-ImagePicker-1.2.2\AndroidManifest.xml:29:9-37:20
 	android:grantUriPermissions
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:131:17-51
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:131:17-51
 	android:authorities
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:129:17-67
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:129:17-67
 		REJECTED from [com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9d0b60b07aecc1a55f953efab74dd461\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:41:13-60
 		REJECTED from [com.github.Mariovc:ImagePicker:1.2.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\30f9fdd96acd9ddacaa42922afc36e1d\transformed\jetified-ImagePicker-1.2.2\AndroidManifest.xml:31:13-60
 	android:exported
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:130:17-41
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:130:17-41
 	tools:replace
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:132:17-52
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:132:17-52
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:128:17-66
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:128:17-66
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:133:13-136:56
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:133:13-136:56
 MERGED from [com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9d0b60b07aecc1a55f953efab74dd461\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:44:13-46:54
 MERGED from [com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9d0b60b07aecc1a55f953efab74dd461\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:44:13-46:54
 MERGED from [com.github.Mariovc:ImagePicker:1.2.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\30f9fdd96acd9ddacaa42922afc36e1d\transformed\jetified-ImagePicker-1.2.2\AndroidManifest.xml:34:13-36:58
 MERGED from [com.github.Mariovc:ImagePicker:1.2.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\30f9fdd96acd9ddacaa42922afc36e1d\transformed\jetified-ImagePicker-1.2.2\AndroidManifest.xml:34:13-36:58
 	android:resource
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:135:21-59
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:135:21-59
 		REJECTED from [com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9d0b60b07aecc1a55f953efab74dd461\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:46:17-51
 		REJECTED from [com.github.Mariovc:ImagePicker:1.2.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\30f9fdd96acd9ddacaa42922afc36e1d\transformed\jetified-ImagePicker-1.2.2\AndroidManifest.xml:36:17-55
 	tools:replace
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:136:21-53
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:136:21-53
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:134:21-71
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:134:21-71
 activity#ca.scooter.Talkufy.activities.UploadPreviewActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:139:9-141:63
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:139:9-141:63
 	android:theme
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:141:17-60
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:141:17-60
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:140:17-83
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:140:17-83
 activity#ca.scooter.Talkufy.activities.EditProfile
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:142:9-78
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:142:9-78
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:142:19-75
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:142:19-75
 activity#ca.scooter.Talkufy.activities.ImagePreviewActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:143:9-145:63
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:143:9-145:63
 	android:theme
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:145:17-60
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:145:17-60
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:144:17-82
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:144:17-82
 activity#ca.scooter.Talkufy.activities.AboutTheDeveloperActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:146:9-148:63
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:146:9-148:63
 	android:theme
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:148:17-60
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:148:17-60
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:147:17-87
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:147:17-87
 activity#ca.scooter.Talkufy.activities.MultiContactChooserActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:149:9-94
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:149:9-94
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:149:19-91
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:149:19-91
 activity#ca.scooter.Talkufy.activities.FeedbackActivity
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:150:9-83
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:150:9-83
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:150:19-80
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:150:19-80
 service#ca.scooter.Talkufy.firebase.MessagingService
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:152:9-157:19
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:152:9-157:19
 	android:exported
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:153:13-37
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:153:13-37
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:152:18-77
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:152:18-77
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:154:13-156:29
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:154:13-156:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:155:17-78
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:155:17-78
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:155:25-75
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:155:25-75
 meta-data#com.google.firebase.messaging.default_notification_icon
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:162:9-164:58
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:162:9-164:58
 	android:resource
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:164:17-55
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:164:17-55
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:163:17-87
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:163:17-87
 meta-data#com.google.firebase.messaging.default_notification_color
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:169:9-171:57
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:169:9-171:57
 	android:resource
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:171:17-54
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:171:17-54
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:170:17-88
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:170:17-88
 service#ca.scooter.Talkufy.utils.ShareIntentChooserService
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:173:9-182:19
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:173:9-182:19
 	android:label
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:175:17-49
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:175:17-49
 	android:exported
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:177:13-36
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:177:13-36
 	tools:ignore
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:178:13-38
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:178:13-38
 	android:permission
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:176:17-84
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:176:17-84
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:174:17-82
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:174:17-82
 intent-filter#action:name:android.service.chooser.ChooserTargetService
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:179:13-181:29
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:179:13-181:29
 action#android.service.chooser.ChooserTargetService
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:180:17-87
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:180:17-87
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:180:25-84
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:180:25-84
 receiver#ca.scooter.Talkufy.broadcast_services.PhoneStateBroadcastReciever
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:184:9-189:20
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:184:9-189:20
 	android:exported
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:185:13-36
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:185:13-36
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:184:19-99
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:184:19-99
 intent-filter#action:name:android.intent.action.PHONE_STATE
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:186:13-188:29
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:186:13-188:29
 action#android.intent.action.PHONE_STATE
-ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:187:17-76
+ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:187:17-76
 	android:name
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml:187:25-73
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml:187:25-73
 uses-sdk
-INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml
 MERGED from [com.nex3z:notification-badge:1.0.5] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b44012074b67885cd8e595e8564ea25\transformed\jetified-notification-badge-1.0.5\AndroidManifest.xml:7:5-9:41
 MERGED from [com.nex3z:notification-badge:1.0.5] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b44012074b67885cd8e595e8564ea25\transformed\jetified-notification-badge-1.0.5\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.Spikeysanju:MotionToast:1.3] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\7319c25ac70397af48edb260eb460d2a\transformed\jetified-MotionToast-1.3\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.Spikeysanju:MotionToast:1.3] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\7319c25ac70397af48edb260eb460d2a\transformed\jetified-MotionToast-1.3\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9b94a2756812f19efb2039669b3ef65a\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9b94a2756812f19efb2039669b3ef65a\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\771ad510eaa3b88cda1035d5d1c4e2fa\transformed\jetified-lifecycle-viewmodel-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\771ad510eaa3b88cda1035d5d1c4e2fa\transformed\jetified-lifecycle-viewmodel-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [org.jetbrains.anko:anko-design:0.10.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c47183bb42b83951250f569c8e469f7e\transformed\jetified-anko-design-0.10.8\AndroidManifest.xml:7:5-9:41
 MERGED from [org.jetbrains.anko:anko-design:0.10.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c47183bb42b83951250f569c8e469f7e\transformed\jetified-anko-design-0.10.8\AndroidManifest.xml:7:5-9:41
 MERGED from [org.jetbrains.anko:anko-commons:0.10.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9df96cb7bf8bb547b7302c5d846dc6f9\transformed\jetified-anko-commons-0.10.8\AndroidManifest.xml:7:5-9:41
@@ -787,14 +787,14 @@ MERGED from [com.facebook.react:react-native:0.61.5-jitsi.1] C:\Users\yekut_hqh3
 MERGED from [com.facebook.react:react-native:0.61.5-jitsi.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\4c12a052d4242cc7db812db29e1e87d9\transformed\jetified-react-native-0.61.5-jitsi.1\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fe586dba4aadea27fea7ba7e16015fce\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fe586dba4aadea27fea7ba7e16015fce\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-core:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\15c06843eb90642a12fe8d7a8be9c6f3\transformed\jetified-firebase-core-19.0.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-core:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\15c06843eb90642a12fe8d7a8be9c6f3\transformed\jetified-firebase-core-19.0.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\587bb2fd754668f96bce9bcb69ed29dd\transformed\jetified-firebase-core-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\587bb2fd754668f96bce9bcb69ed29dd\transformed\jetified-firebase-core-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\af633de402f87ba8f50bd24b5bff3a5b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\af633de402f87ba8f50bd24b5bff3a5b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-firestore:23.0.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\01f6112d05b3ce89f0996c61daf9d926\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-firestore:23.0.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\01f6112d05b3ce89f0996c61daf9d926\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b00f9c5576d81aa3086da681a0b6aa97\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b00f9c5576d81aa3086da681a0b6aa97\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\076f71c23d03272ddc633da9c16a8a3c\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\076f71c23d03272ddc633da9c16a8a3c\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\0a4a501967afa7a79b387a4ca0bf04ce\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
@@ -837,8 +837,8 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Us
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\51c3140808b51bd57e0524a4adec9272\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\634d887ced6b2b1f0a98bf36aac13697\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\634d887ced6b2b1f0a98bf36aac13697\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-analytics:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\23fffa47ac1f7a130ba1f55c8a5451c7\transformed\jetified-firebase-analytics-19.0.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-analytics:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\23fffa47ac1f7a130ba1f55c8a5451c7\transformed\jetified-firebase-analytics-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\8d94550def22c47d201675bbbb092d01\transformed\jetified-firebase-analytics-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\8d94550def22c47d201675bbbb092d01\transformed\jetified-firebase-analytics-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-ml-natural-language-translate:19.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5009dbf3c7ae69036b448767ace44a3e\transformed\jetified-firebase-ml-natural-language-translate-19.0.0\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-ml-natural-language-translate:19.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5009dbf3c7ae69036b448767ace44a3e\transformed\jetified-firebase-ml-natural-language-translate-19.0.0\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-ml-common:19.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\4833bf5a945a519f9bbc356b8900c9c1\transformed\jetified-firebase-ml-common-19.0.0\AndroidManifest.xml:6:5-44
@@ -851,12 +851,12 @@ MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\yekut_hqh3zd
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\15edfdbb63fcf3f816ea0f7ba67719b9\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5f5f58f28caac156b318396c6ec1dc63\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5f5f58f28caac156b318396c6ec1dc63\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c01595685dff74e2d26320866d2deddc\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c01595685dff74e2d26320866d2deddc\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d8b0a1482e6ebfc7cdf670ddf4b4cbaa\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d8b0a1482e6ebfc7cdf670ddf4b4cbaa\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\8eaf2314bfd4e8709e6a62963e29359a\transformed\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\8eaf2314bfd4e8709e6a62963e29359a\transformed\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3196b56003201f548576b9a75cf3af42\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3196b56003201f548576b9a75cf3af42\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d8b0a1482e6ebfc7cdf670ddf4b4cbaa\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d8b0a1482e6ebfc7cdf670ddf4b4cbaa\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-abt:21.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\992a4b5019659cf0dfb3685f157a582f\transformed\jetified-firebase-abt-21.0.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-abt:21.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\992a4b5019659cf0dfb3685f157a582f\transformed\jetified-firebase-abt-21.0.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\18e2d0e5c50bb3389f998992cd538b00\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
@@ -893,14 +893,14 @@ MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\yekut_hq
 MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b7c131e30509db3fdb977cdd17b3c25d\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5c2dc457fd9c3720c8233c5449241ee3\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5c2dc457fd9c3720c8233c5449241ee3\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6a9c15f72f72ffb78070467c74c532b2\transformed\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6a9c15f72f72ffb78070467c74c532b2\transformed\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a1bcb14558964b3806cf56c00f4b33c8\transformed\jetified-play-services-measurement-sdk-19.0.2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a1bcb14558964b3806cf56c00f4b33c8\transformed\jetified-play-services-measurement-sdk-19.0.2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c307e0b6490375be21ae9775ee5a4eff\transformed\jetified-play-services-measurement-impl-19.0.2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c307e0b6490375be21ae9775ee5a4eff\transformed\jetified-play-services-measurement-impl-19.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\59cbe8353262ed54ff20fa599c375cd0\transformed\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\59cbe8353262ed54ff20fa599c375cd0\transformed\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\69aa5545344c2f6f53688e2bb517c126\transformed\jetified-play-services-measurement-sdk-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\69aa5545344c2f6f53688e2bb517c126\transformed\jetified-play-services-measurement-sdk-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fc48c903b0b11bd8746e512f6a30be8d\transformed\jetified-play-services-measurement-impl-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fc48c903b0b11bd8746e512f6a30be8d\transformed\jetified-play-services-measurement-impl-20.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\601893f88bc5d4a0485112fc74363db7\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\601893f88bc5d4a0485112fc74363db7\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\cefe6a1e2db846047fa9e0df7afc6bd5\transformed\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
@@ -913,10 +913,10 @@ MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\yekut_h
 MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a42bc7d72876e51987b86cf79a6d54a3\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2f265c1b3e7aba021bcf99a7ac7443ba\transformed\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2f265c1b3e7aba021bcf99a7ac7443ba\transformed\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\da407b0014d360e2756312d46fe3ab06\transformed\jetified-play-services-measurement-sdk-api-19.0.2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\da407b0014d360e2756312d46fe3ab06\transformed\jetified-play-services-measurement-sdk-api-19.0.2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1217b97bba2b7dbe160684a255a5f46b\transformed\jetified-play-services-measurement-base-19.0.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1217b97bba2b7dbe160684a255a5f46b\transformed\jetified-play-services-measurement-base-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3efb73a234af39ca1c6e644c5870182c\transformed\jetified-play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3efb73a234af39ca1c6e644c5870182c\transformed\jetified-play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e5926f02674f909b44613d302145629e\transformed\jetified-play-services-measurement-base-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e5926f02674f909b44613d302145629e\transformed\jetified-play-services-measurement-base-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e5eb7e733c868b0200848f1e4a57f45e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e5eb7e733c868b0200848f1e4a57f45e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fe42aaf356d4cbbf76c54d5c37f0523d\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
@@ -1017,8 +1017,8 @@ MERGED from [com.facebook:hermes:0.2.1] C:\Users\yekut_hqh3zdc\.gradle\caches\tr
 MERGED from [com.facebook:hermes:0.2.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3ca5b26cc54f0921a4d21be0b9af20a2\transformed\jetified-hermes-0.2.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ac2506507ad9561064bcac806008454c\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ac2506507ad9561064bcac806008454c\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
-MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1f23ab9d8416822555dd4d267605797b\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
-MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1f23ab9d8416822555dd4d267605797b\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\95cd00480c992e05fe669673ccccc287\transformed\jetified-grpc-android-1.41.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\95cd00480c992e05fe669673ccccc287\transformed\jetified-grpc-android-1.41.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3e3ddf424b51bb96c91d9ff47f813b6f\transformed\jetified-fresco-2.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3e3ddf424b51bb96c91d9ff47f813b6f\transformed\jetified-fresco-2.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fcf3e21f7515c5fe7f601e662a6b9790\transformed\jetified-drawee-2.0.0\AndroidManifest.xml:5:5-7:41
@@ -1035,28 +1035,28 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\yekut_hqh3zdc\.gradl
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c2e5d8ca822884d200e097046c948615\transformed\jetified-soloader-0.6.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d6bfe7a2e74a8df611030e67c29f9fad\transformed\jetified-fbcore-2.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d6bfe7a2e74a8df611030e67c29f9fad\transformed\jetified-fbcore-2.0.0\AndroidManifest.xml:5:5-7:41
-INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Say Talk\SAY Talk Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yekut_hqh3zdc\Desktop\Talkufy\Talkufy-Android\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6b866982f44292fe676e93aecde6394e\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:9:5-79
 MERGED from [com.github.javiersantos:AppUpdater:2.7] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c17d6769b7ff72bea447d21230fc99e1\transformed\jetified-AppUpdater-2.7\AndroidManifest.xml:12:5-79
 MERGED from [com.github.javiersantos:AppUpdater:2.7] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c17d6769b7ff72bea447d21230fc99e1\transformed\jetified-AppUpdater-2.7\AndroidManifest.xml:12:5-79
 MERGED from [com.facebook.react:react-native-community_netinfo:4.1.5-jitsi-4429568] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2428ca1dd9ba1deb8b60e608719a5deb\transformed\jetified-react-native-community_netinfo-4.1.5-jitsi-4429568\AndroidManifest.xml:9:5-79
 MERGED from [com.facebook.react:react-native-community_netinfo:4.1.5-jitsi-4429568] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2428ca1dd9ba1deb8b60e608719a5deb\transformed\jetified-react-native-community_netinfo-4.1.5-jitsi-4429568\AndroidManifest.xml:9:5-79
-MERGED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\af633de402f87ba8f50bd24b5bff3a5b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\af633de402f87ba8f50bd24b5bff3a5b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-firestore:23.0.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\01f6112d05b3ce89f0996c61daf9d926\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:13:5-79
-MERGED from [com.google.firebase:firebase-firestore:23.0.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\01f6112d05b3ce89f0996c61daf9d926\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b00f9c5576d81aa3086da681a0b6aa97\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b00f9c5576d81aa3086da681a0b6aa97\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\076f71c23d03272ddc633da9c16a8a3c\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\076f71c23d03272ddc633da9c16a8a3c\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b72cdac637268f4b9224432b1c1cc709\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
@@ -1069,22 +1069,22 @@ MERGED from [com.google.firebase:firebase-config:21.0.1] C:\Users\yekut_hqh3zdc\
 MERGED from [com.google.firebase:firebase-config:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1cb8ededa6ee66d7c692855a74aefe36\transformed\jetified-firebase-config-21.0.1\AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\15edfdbb63fcf3f816ea0f7ba67719b9\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\15edfdbb63fcf3f816ea0f7ba67719b9\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c01595685dff74e2d26320866d2deddc\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c01595685dff74e2d26320866d2deddc\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3196b56003201f548576b9a75cf3af42\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3196b56003201f548576b9a75cf3af42\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d8b0a1482e6ebfc7cdf670ddf4b4cbaa\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:10:5-79
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d8b0a1482e6ebfc7cdf670ddf4b4cbaa\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:10:5-79
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6a9c15f72f72ffb78070467c74c532b2\transformed\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:7:5-79
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6a9c15f72f72ffb78070467c74c532b2\transformed\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:7:5-79
-MERGED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c307e0b6490375be21ae9775ee5a4eff\transformed\jetified-play-services-measurement-impl-19.0.2\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c307e0b6490375be21ae9775ee5a4eff\transformed\jetified-play-services-measurement-impl-19.0.2\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\da407b0014d360e2756312d46fe3ab06\transformed\jetified-play-services-measurement-sdk-api-19.0.2\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\da407b0014d360e2756312d46fe3ab06\transformed\jetified-play-services-measurement-sdk-api-19.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\59cbe8353262ed54ff20fa599c375cd0\transformed\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\59cbe8353262ed54ff20fa599c375cd0\transformed\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fc48c903b0b11bd8746e512f6a30be8d\transformed\jetified-play-services-measurement-impl-20.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fc48c903b0b11bd8746e512f6a30be8d\transformed\jetified-play-services-measurement-impl-20.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3efb73a234af39ca1c6e644c5870182c\transformed\jetified-play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3efb73a234af39ca1c6e644c5870182c\transformed\jetified-play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\f7ce632795ec79d2c3921625a262e1ea\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\f7ce632795ec79d2c3921625a262e1ea\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:22:5-79
-MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1f23ab9d8416822555dd4d267605797b\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:11:5-79
-MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1f23ab9d8416822555dd4d267605797b\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\95cd00480c992e05fe669673ccccc287\transformed\jetified-grpc-android-1.41.0\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\95cd00480c992e05fe669673ccccc287\transformed\jetified-grpc-android-1.41.0\AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from [org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6b866982f44292fe676e93aecde6394e\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:9:22-76
 uses-permission#android.permission.BLUETOOTH
@@ -1111,20 +1111,20 @@ uses-permission#android.permission.WAKE_LOCK
 ADDED from [org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6b866982f44292fe676e93aecde6394e\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:17:5-68
 MERGED from [com.facebook.react:react-native-background-timer:2.1.1-jitsi-4429568] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fc1a005bcc2e4104f6350ad2f3f9d537\transformed\jetified-react-native-background-timer-2.1.1-jitsi-4429568\AndroidManifest.xml:11:5-68
 MERGED from [com.facebook.react:react-native-background-timer:2.1.1-jitsi-4429568] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fc1a005bcc2e4104f6350ad2f3f9d537\transformed\jetified-react-native-background-timer-2.1.1-jitsi-4429568\AndroidManifest.xml:11:5-68
-MERGED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:23:5-68
-MERGED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:23:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:23:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:23:5-68
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\286b6bbc8798500183826aa4c422e812\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\286b6bbc8798500183826aa4c422e812\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:24:5-68
-MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c01595685dff74e2d26320866d2deddc\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:24:5-68
-MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c01595685dff74e2d26320866d2deddc\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:24:5-68
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6a9c15f72f72ffb78070467c74c532b2\transformed\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:9:5-68
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6a9c15f72f72ffb78070467c74c532b2\transformed\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:9:5-68
-MERGED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c307e0b6490375be21ae9775ee5a4eff\transformed\jetified-play-services-measurement-impl-19.0.2\AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c307e0b6490375be21ae9775ee5a4eff\transformed\jetified-play-services-measurement-impl-19.0.2\AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\da407b0014d360e2756312d46fe3ab06\transformed\jetified-play-services-measurement-sdk-api-19.0.2\AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\da407b0014d360e2756312d46fe3ab06\transformed\jetified-play-services-measurement-sdk-api-19.0.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3196b56003201f548576b9a75cf3af42\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3196b56003201f548576b9a75cf3af42\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\59cbe8353262ed54ff20fa599c375cd0\transformed\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\59cbe8353262ed54ff20fa599c375cd0\transformed\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fc48c903b0b11bd8746e512f6a30be8d\transformed\jetified-play-services-measurement-impl-20.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fc48c903b0b11bd8746e512f6a30be8d\transformed\jetified-play-services-measurement-impl-20.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3efb73a234af39ca1c6e644c5870182c\transformed\jetified-play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3efb73a234af39ca1c6e644c5870182c\transformed\jetified-play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:25:5-68
 	android:name
 		ADDED from [org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6b866982f44292fe676e93aecde6394e\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:17:22-65
 uses-permission#android.permission.ACCESS_WIFI_STATE
@@ -1203,12 +1203,12 @@ service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e4d2d95a2d5731117f7b9565a789ab75\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:12:9-18:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\f7b35d1b6c579767b30e66eb7e9e4477\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:12:9-18:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\f7b35d1b6c579767b30e66eb7e9e4477\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:12:9-18:19
-MERGED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:49:9-55:19
-MERGED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:49:9-55:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\af633de402f87ba8f50bd24b5bff3a5b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\af633de402f87ba8f50bd24b5bff3a5b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
-MERGED from [com.google.firebase:firebase-firestore:23.0.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\01f6112d05b3ce89f0996c61daf9d926\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:17:9-23:19
-MERGED from [com.google.firebase:firebase-firestore:23.0.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\01f6112d05b3ce89f0996c61daf9d926\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b00f9c5576d81aa3086da681a0b6aa97\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b00f9c5576d81aa3086da681a0b6aa97\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\076f71c23d03272ddc633da9c16a8a3c\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:30:9-36:19
 MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\076f71c23d03272ddc633da9c16a8a3c\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:30:9-36:19
 MERGED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\82e9577ad207715a1f31abcaaa1a4287\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:25:9-31:19
@@ -1219,8 +1219,8 @@ MERGED from [com.google.firebase:firebase-config:21.0.1] C:\Users\yekut_hqh3zdc\
 MERGED from [com.google.firebase:firebase-config:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1cb8ededa6ee66d7c692855a74aefe36\transformed\jetified-firebase-config-21.0.1\AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\15edfdbb63fcf3f816ea0f7ba67719b9\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\15edfdbb63fcf3f816ea0f7ba67719b9\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c01595685dff74e2d26320866d2deddc\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:27:9-33:19
-MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c01595685dff74e2d26320866d2deddc\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3196b56003201f548576b9a75cf3af42\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3196b56003201f548576b9a75cf3af42\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d8b0a1482e6ebfc7cdf670ddf4b4cbaa\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:15:9-21:19
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d8b0a1482e6ebfc7cdf670ddf4b4cbaa\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:15:9-21:19
 MERGED from [com.google.firebase:firebase-abt:21.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\992a4b5019659cf0dfb3685f157a582f\transformed\jetified-firebase-abt-21.0.0\AndroidManifest.xml:12:9-16:19
@@ -1308,41 +1308,41 @@ ADDED from [com.facebook.react:react-native-calendar-events:2.0.0-jitsi-4429568]
 	android:name
 		ADDED from [com.facebook.react:react-native-calendar-events:2.0.0-jitsi-4429568] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\908af84c7dd9e1ae2cd35e944f38d7b4\transformed\jetified-react-native-calendar-events-2.0.0-jitsi-4429568\AndroidManifest.xml:12:22-69
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:5-82
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:5-82
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\286b6bbc8798500183826aa4c422e812\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:26:5-82
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\286b6bbc8798500183826aa4c422e812\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:26:5-82
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6a9c15f72f72ffb78070467c74c532b2\transformed\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:11:5-82
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\6a9c15f72f72ffb78070467c74c532b2\transformed\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\59cbe8353262ed54ff20fa599c375cd0\transformed\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\59cbe8353262ed54ff20fa599c375cd0\transformed\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:11:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:22-79
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:22-79
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:28:9-35:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:30:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:31:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:29:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:32:13-34:29
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:32:13-34:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:17-81
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:25-78
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:25-78
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:41:9-48:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:44:13-37
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:43:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:42:13-82
 meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
-ADDED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:52:13-54:85
 	android:value
-		ADDED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:54:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e0d506648601285126940035181828f0\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d3e3ae1a46cfd3cdbdba68cfd7dde18\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:53:17-119
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\af633de402f87ba8f50bd24b5bff3a5b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
 	android:excludeFromRecents
@@ -1400,11 +1400,11 @@ ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gr
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\af633de402f87ba8f50bd24b5bff3a5b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
 meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
-ADDED from [com.google.firebase:firebase-firestore:23.0.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\01f6112d05b3ce89f0996c61daf9d926\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:20:13-22:85
+ADDED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b00f9c5576d81aa3086da681a0b6aa97\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:20:13-22:85
 	android:value
-		ADDED from [com.google.firebase:firebase-firestore:23.0.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\01f6112d05b3ce89f0996c61daf9d926\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:22:17-82
+		ADDED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b00f9c5576d81aa3086da681a0b6aa97\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-firestore:23.0.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\01f6112d05b3ce89f0996c61daf9d926\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:21:17-111
+		ADDED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b00f9c5576d81aa3086da681a0b6aa97\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:21:17-111
 meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
 ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\076f71c23d03272ddc633da9c16a8a3c\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
 	android:value
@@ -1484,11 +1484,11 @@ ADDED from [com.google.firebase:firebase-database:20.0.2] C:\Users\yekut_hqh3zdc
 	android:name
 		ADDED from [com.google.firebase:firebase-database:20.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\15edfdbb63fcf3f816ea0f7ba67719b9\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:33:17-109
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
-ADDED from [com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c01595685dff74e2d26320866d2deddc\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:30:13-32:85
+ADDED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3196b56003201f548576b9a75cf3af42\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:30:13-32:85
 	android:value
-		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c01595685dff74e2d26320866d2deddc\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:32:17-82
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3196b56003201f548576b9a75cf3af42\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:32:17-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c01595685dff74e2d26320866d2deddc\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:31:17-139
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3196b56003201f548576b9a75cf3af42\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:31:17-139
 meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
 ADDED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\d8b0a1482e6ebfc7cdf670ddf4b4cbaa\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
 	android:value
@@ -1540,37 +1540,37 @@ ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\yekut_hqh
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b7c131e30509db3fdb977cdd17b3c25d\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
-ADDED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c307e0b6490375be21ae9775ee5a4eff\transformed\jetified-play-services-measurement-impl-19.0.2\AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\c307e0b6490375be21ae9775ee5a4eff\transformed\jetified-play-services-measurement-impl-19.0.2\AndroidManifest.xml:26:5-110
+ADDED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fc48c903b0b11bd8746e512f6a30be8d\transformed\jetified-play-services-measurement-impl-20.0.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fc48c903b0b11bd8746e512f6a30be8d\transformed\jetified-play-services-measurement-impl-20.0.0\AndroidManifest.xml:26:5-110
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:26:22-107
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:26:22-107
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:29:9-33:20
+ADDED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:29:9-33:20
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:31:13-35
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:31:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:32:13-37
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:30:13-85
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:30:13-85
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:35:9-38:40
+ADDED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:35:9-38:40
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:37:13-35
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:38:13-37
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:36:13-84
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:36:13-84
 service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:39:9-43:72
+ADDED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:39:9-43:72
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:41:13-35
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:41:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:42:13-37
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:42:13-37
 	android:permission
-		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:43:13-69
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:43:13-69
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2c892903093a8db5169212d7f4e1ea1f\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:40:13-87
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9fd499a047919abe812836528c281f5d\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:40:13-87
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e5eb7e733c868b0200848f1e4a57f45e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
 	android:value

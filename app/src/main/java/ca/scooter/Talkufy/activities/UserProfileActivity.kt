@@ -19,15 +19,15 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import ca.scooter.Talkufy.R
+import ca.scooter.Talkufy.models.Models
+import ca.scooter.Talkufy.utils.FirebaseUtils
+import ca.scooter.Talkufy.utils.utils
 import com.google.android.gms.tasks.Continuation
 import com.google.android.gms.tasks.Task
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
 import com.google.firebase.storage.UploadTask
-import ca.scooter.Talkufy.models.Models
-import ca.scooter.Talkufy.utils.FirebaseUtils
-import ca.scooter.Talkufy.utils.utils
 import com.squareup.picasso.Picasso
 import com.theartofdev.edmodo.cropper.CropImage
 import com.theartofdev.edmodo.cropper.CropImageView
@@ -643,14 +643,11 @@ class UserProfileActivity : AppCompatActivity() {
                         .child("phone")
                         .addListenerForSingleValueEvent(object : ValueEventListener {
                             override fun onCancelled(p0: DatabaseError) {}
-
-                            @SuppressLint("LogNotTimber")
                             override fun onDataChange(p0: DataSnapshot) {
                                 val phone = p0.getValue(String::class.java)
                                 val subtitle = "Created by ${utils.getNameFromNumber(context,phone!!)}" +
                                         " on ${utils.getHeaderFormattedDate(group.createdOn)}"
 
-                                Log.d("UserProfileActivity", "onDataChange: $subtitle")
                                 supportActionBar?.subtitle = subtitle
                                 toolbar_subtitle_textView.text = subtitle
                             }
