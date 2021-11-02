@@ -20,7 +20,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 5
-        versionName "1.0.5"
+        versionName "1.0.7-beta2"
         ndkVersion '21.3.6528147'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
