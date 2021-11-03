@@ -1,6 +1,6 @@
 <AppUpdater>
   <update>
-    <latestVersion>1.0.6-beta2</latestVersion>
+    <latestVersion>1.0.7-beta2</latestVersion>
     <latestVersionCode>5</latestVersionCode>
     <url>https://github.com/scooterthdev/Talkufy-Android/releases</url>
      <releaseNotes>
