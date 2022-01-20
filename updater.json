@@ -1,10 +1,5 @@
 {
-    "versionName": "1.0.5-beta2",
-    "versionCode": "5",
-    "url": "https://github.com/scooterthedev/Talkufy-Android/releases/download/v1.0.6-beta2/v1.0.6-beta2.apk",
-    "release": 
-    [
-        "- Fixed Major Bugs",
-        "- Added v1 of an App Updater",
-    ]
+	"versionCode": 5,
+	"cancellable": false,
+	"url": "https://github.com/scooterthedev/Talkufy-Android" 
 }
