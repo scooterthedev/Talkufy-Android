@@ -136,7 +136,7 @@ android {
         implementation 'com.google.android.gms:play-services-ads:20.5.0'
 
         //App Updater
-        implementation 'com.github.KhunHtetzNaing:AppUpdater:1.0'
+        implementation 'com.github.KhunHtetzNaing:AppUpdater:1.2'
 
         //Gif Support
         implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.23'
