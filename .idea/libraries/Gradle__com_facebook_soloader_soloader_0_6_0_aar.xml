@@ -3,8 +3,15 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/94996d5a0aeb2093c73f2518d219246d/transformed/jetified-soloader-0.6.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c2e5d8ca822884d200e097046c948615/transformed/jetified-soloader-0.6.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c2e5d8ca822884d200e097046c948615/transformed/jetified-soloader-0.6.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c2e5d8ca822884d200e097046c948615/transformed/jetified-soloader-0.6.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/da3aed13e2e134179ff86bb28bbb9514/transformed/jetified-soloader-0.6.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/214ead21dd20571e286ec6309528efbf/transformed/jetified-soloader-0.6.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fae2584540ce3f1e5dc19a9414310986/transformed/jetified-soloader-0.6.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/92500d80940a5812d7ab9d47af4d76cf/transformed/jetified-soloader-0.6.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4f12a6d54406e042f64628b885bc10d4/transformed/jetified-soloader-0.6.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a5d440ea200120d330df97b78d939677/transformed/jetified-soloader-0.6.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a8ef0240ced6621c07900836bcee4c96/transformed/jetified-soloader-0.6.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a8ef0240ced6621c07900836bcee4c96/transformed/jetified-soloader-0.6.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a8ef0240ced6621c07900836bcee4c96/transformed/jetified-soloader-0.6.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.soloader/soloader/0.6.0/b4563b4595a606372d4bf917f406180e1a59099/soloader-0.6.0-javadoc.jar!/" />

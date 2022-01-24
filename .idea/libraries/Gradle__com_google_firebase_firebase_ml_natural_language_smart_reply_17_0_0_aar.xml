@@ -2,9 +2,16 @@
   <library name="Gradle: com.google.firebase:firebase-ml-natural-language-smart-reply:17.0.0@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7b35bd7a1b99d15b7e0d6944fa431df0/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fcdff3cdc75a0edaeeeee60b53239a43/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fcdff3cdc75a0edaeeeee60b53239a43/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fcdff3cdc75a0edaeeeee60b53239a43/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/359a28886abd32dd0b715560f4a85404/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d9279e80c124fc8d99736475ea8d0fb6/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/df1d643a3ca6c318d5933f18e9d703a4/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/38e3d6a0af50ae1e5905b265434a4972/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4a3561b8ae1711803b0939ed6cc9de40/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fa23a7e4206dca906e1d0045e25f521e/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/290b0f55b490e0799aba952052c632ed/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/290b0f55b490e0799aba952052c632ed/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/290b0f55b490e0799aba952052c632ed/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-ml-natural-language-smart-reply/17.0.0/eb096e78f4d2d005533cd522849118ed68590cb7/firebase-ml-natural-language-smart-reply-17.0.0-javadoc.jar!/" />

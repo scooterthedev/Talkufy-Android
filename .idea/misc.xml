@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BuildAttributionWarningsFilter">
+    <option name="noGCSettingWarning" value="true" />
+  </component>
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
@@ -103,8 +106,40 @@
         <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/text_header.xml" value="0.25" />
         <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/menu/message_activity_menu.xml" value="0.25" />
         <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/menu/option_setting_menu.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/drawable/ic_group_add_green_24dp.xml" value="0.199609375" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/drawable/shape_custom_cursor.xml" value="0.199609375" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout-sw600dp/activity_begining_splash_screen.xml" value="0.264" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/activity_begining_splash_screen.xml" value="0.264" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/activity_home.xml" value="0.6" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/activity_message.xml" value="0.13114754098360656" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/activity_mobile_login.xml" value="0.1875" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/activity_updates.xml" value="0.264" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/app_bar_home.xml" value="0.1875" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/bubble_image_left.xml" value="0.1875" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/bubble_image_right.xml" value="0.1875" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/content_updates.xml" value="0.1875" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/dialog_update.xml" value="0.264" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/fragment_demo_card.xml" value="0.1875" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/fragment_first.xml" value="0.1875" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/fragment_second.xml" value="0.1" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/received_audio_item.xml" value="0.1" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/sent_audio_item.xml" value="0.44430051813471505" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/sent_audio_placeholder_item.xml" value="0.8" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/menu/edit_profile_menu.xml" value="0.1984375" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/menu/menu_home_drawer.xml" value="1.2" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/menu/menu_tick.xml" value="0.1984375" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/menu/menu_user_profile.xml" value="0.1984375" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/menu/nav_bottom_home_menu.xml" value="0.1984375" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/xml/file_paths.xml" value="0.13490437158469945" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/xml/preferences.xml" value="0.8" />
       </map>
     </option>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

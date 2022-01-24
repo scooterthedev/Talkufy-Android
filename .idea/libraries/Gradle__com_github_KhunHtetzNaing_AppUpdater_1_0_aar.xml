@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.KhunHtetzNaing:AppUpdater:1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/770986f7ecbf2917063112d4a9030fbe/transformed/jetified-AppUpdater-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/770986f7ecbf2917063112d4a9030fbe/transformed/jetified-AppUpdater-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/770986f7ecbf2917063112d4a9030fbe/transformed/jetified-AppUpdater-1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.KhunHtetzNaing/AppUpdater/1.0/467cd8e72e4471f60af5fc93f78d6aa4f0f12183/AppUpdater-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

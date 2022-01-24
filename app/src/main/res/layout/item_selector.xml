@@ -33,7 +33,7 @@
 
 
 
-    <com.nsromapa.frenzapp.saytalk.views.AnimCheckBox
+    <ca.scooter.talkufy.views.AnimCheckBox
             android:id="@+id/item_checkbox"
             android:layout_gravity="center_vertical"
             android:layout_width="36dp"

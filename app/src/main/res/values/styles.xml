@@ -12,12 +12,6 @@
 
     </style>
 
-    <style name="AppTheme.NoActionBar" parent="AppTheme">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-        <item name="actionModeBackground">@color/colorPrimaryDark</item>
-        <item name="windowActionModeOverlay">true</item>
-    </style>
 
 
     <style name="AppTheme.NoActionBar.Translucent" parent="AppTheme.NoActionBar">
@@ -26,9 +20,6 @@
     </style>
 
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
-
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
     <style name="AppTheme.Toolbar" parent="ThemeOverlay.AppCompat.ActionBar"/>
 
@@ -55,10 +46,6 @@
         <item name="colorAccent">@color/green</item>
     </style>
 
-    <style name="GreenTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
 
     <style name="GreenTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 

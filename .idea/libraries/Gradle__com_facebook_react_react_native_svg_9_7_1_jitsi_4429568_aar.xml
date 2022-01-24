@@ -1,9 +1,16 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.react:react-native-svg:9.7.1-jitsi-4429568@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/92608617a79a1aefe7f40c799d9db602/transformed/jetified-react-native-svg-9.7.1-jitsi-4429568/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/92608617a79a1aefe7f40c799d9db602/transformed/jetified-react-native-svg-9.7.1-jitsi-4429568/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/92608617a79a1aefe7f40c799d9db602/transformed/jetified-react-native-svg-9.7.1-jitsi-4429568/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9c4e582b34410de19be2af2aea5de97e/transformed/jetified-react-native-svg-9.7.1-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c7c49d59dbd5b6cd822870cb8becf0d7/transformed/jetified-react-native-svg-9.7.1-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/34111d457652a227e22d1d6ad1eba11e/transformed/jetified-react-native-svg-9.7.1-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/02343316369ab279436f47ee805396be/transformed/jetified-react-native-svg-9.7.1-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d9c316b2c20ea59bddedf942ff2ca72b/transformed/jetified-react-native-svg-9.7.1-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/07fbe387fe8b52a45af41ef92d70c755/transformed/jetified-react-native-svg-9.7.1-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4ab34a8bd8d36262778f735af29cf094/transformed/jetified-react-native-svg-9.7.1-jitsi-4429568/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4ab34a8bd8d36262778f735af29cf094/transformed/jetified-react-native-svg-9.7.1-jitsi-4429568/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4ab34a8bd8d36262778f735af29cf094/transformed/jetified-react-native-svg-9.7.1-jitsi-4429568/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

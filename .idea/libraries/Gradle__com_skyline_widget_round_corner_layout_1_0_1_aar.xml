@@ -1,9 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.skyline.widget:round-corner-layout:1.0.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3fae4e9edde22db938b9b3db091c1597/transformed/jetified-round-corner-layout-1.0.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3fae4e9edde22db938b9b3db091c1597/transformed/jetified-round-corner-layout-1.0.1/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3fae4e9edde22db938b9b3db091c1597/transformed/jetified-round-corner-layout-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/925de89eea83a93d834aace7a9d77f9e/transformed/jetified-round-corner-layout-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/925de89eea83a93d834aace7a9d77f9e/transformed/jetified-round-corner-layout-1.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/925de89eea83a93d834aace7a9d77f9e/transformed/jetified-round-corner-layout-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1bf138c0bc585b82c360a7a252ff6196/transformed/jetified-round-corner-layout-1.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1bf138c0bc585b82c360a7a252ff6196/transformed/jetified-round-corner-layout-1.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1bf138c0bc585b82c360a7a252ff6196/transformed/jetified-round-corner-layout-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0dfc27c17c98106d7835ebb76d73d8ce/transformed/jetified-round-corner-layout-1.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0dfc27c17c98106d7835ebb76d73d8ce/transformed/jetified-round-corner-layout-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0dfc27c17c98106d7835ebb76d73d8ce/transformed/jetified-round-corner-layout-1.0.1/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.skyline.widget/round-corner-layout/1.0.1/67fa2a3a95bf4314508fd9b74b986eee5f5fe32/round-corner-layout-1.0.1-javadoc.jar!/" />

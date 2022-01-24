@@ -1,9 +1,16 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.react:react-native-community_netinfo:4.1.5-jitsi-4429568@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2428ca1dd9ba1deb8b60e608719a5deb/transformed/jetified-react-native-community_netinfo-4.1.5-jitsi-4429568/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2428ca1dd9ba1deb8b60e608719a5deb/transformed/jetified-react-native-community_netinfo-4.1.5-jitsi-4429568/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2428ca1dd9ba1deb8b60e608719a5deb/transformed/jetified-react-native-community_netinfo-4.1.5-jitsi-4429568/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c5797295e55ddcf56862cc8f8f208271/transformed/jetified-react-native-community_netinfo-4.1.5-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/51513bb9d26e74be15a3e00819c5a374/transformed/jetified-react-native-community_netinfo-4.1.5-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/de56719f4f9f975ac510593e12dbd51b/transformed/jetified-react-native-community_netinfo-4.1.5-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/51f10d17848c0f714ad4c86cb22eba5f/transformed/jetified-react-native-community_netinfo-4.1.5-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/709dd8df78ce212141e4c1c55e53f042/transformed/jetified-react-native-community_netinfo-4.1.5-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f856540ef45f11a1ffe55cfd17575ca9/transformed/jetified-react-native-community_netinfo-4.1.5-jitsi-4429568/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c3f4357de98e79b479f9bd7ad44848ea/transformed/jetified-react-native-community_netinfo-4.1.5-jitsi-4429568/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c3f4357de98e79b479f9bd7ad44848ea/transformed/jetified-react-native-community_netinfo-4.1.5-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c3f4357de98e79b479f9bd7ad44848ea/transformed/jetified-react-native-community_netinfo-4.1.5-jitsi-4429568/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

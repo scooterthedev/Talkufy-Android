@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-measurement-impl:20.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fc48c903b0b11bd8746e512f6a30be8d/transformed/jetified-play-services-measurement-impl-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/511d6fd6174d9c293e21e4bef7a28a49/transformed/jetified-play-services-measurement-impl-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/84dc3d1e0a954a02b716a44e0ebb9a72/transformed/jetified-play-services-measurement-impl-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6ae652c6d410fa0b3020027826a4978c/transformed/jetified-play-services-measurement-impl-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b393b45ed2a62ed726597604e9ca9cc9/transformed/jetified-play-services-measurement-impl-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3adabfe5722767795b6e160715a2f2a6/transformed/jetified-play-services-measurement-impl-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/61d45b14f7ad7290b5e1862fed81dc79/transformed/jetified-play-services-measurement-impl-20.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/22824fc3b5b4dc54ba526a74098d1656/transformed/jetified-play-services-measurement-impl-20.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/22824fc3b5b4dc54ba526a74098d1656/transformed/jetified-play-services-measurement-impl-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/22824fc3b5b4dc54ba526a74098d1656/transformed/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-impl/20.0.0/6bc51b836b6df71a1582ce83f28caca56e70905e/play-services-measurement-impl-20.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

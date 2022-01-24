@@ -1,13 +1,20 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.Mariovc:ImagePicker:1.2.2@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/30f9fdd96acd9ddacaa42922afc36e1d/transformed/jetified-ImagePicker-1.2.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/30f9fdd96acd9ddacaa42922afc36e1d/transformed/jetified-ImagePicker-1.2.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/30f9fdd96acd9ddacaa42922afc36e1d/transformed/jetified-ImagePicker-1.2.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/686dc17142a1f6ec730bf57a030324d6/transformed/jetified-ImagePicker-1.2.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/686dc17142a1f6ec730bf57a030324d6/transformed/jetified-ImagePicker-1.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/686dc17142a1f6ec730bf57a030324d6/transformed/jetified-ImagePicker-1.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0a3eb5cad5d68b0bce2e97fec1d7de63/transformed/jetified-ImagePicker-1.2.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0a3eb5cad5d68b0bce2e97fec1d7de63/transformed/jetified-ImagePicker-1.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0a3eb5cad5d68b0bce2e97fec1d7de63/transformed/jetified-ImagePicker-1.2.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/70a8715d2041f8fe0a314353d76103f4/transformed/jetified-ImagePicker-1.2.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/70a8715d2041f8fe0a314353d76103f4/transformed/jetified-ImagePicker-1.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/70a8715d2041f8fe0a314353d76103f4/transformed/jetified-ImagePicker-1.2.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Mariovc/ImagePicker/1.2.2/6db0e5875e3dccc4e501b89ec9a8cd56e90145e3/ImagePicker-1.2.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Mariovc/ImagePicker/1.2.2/d7b5deec22d0c9b4bd6afd3d048fd3d95a9b3a09/ImagePicker-1.2.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

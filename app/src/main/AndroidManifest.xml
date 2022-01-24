@@ -1,99 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        package="ca.scooter.Talkufy">
+          xmlns:tools="http://schemas.android.com/tools"
+          package="ca.scooter.talkufy">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
          location permissions for the 'MyLocation' functional
     -->
-
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.READ_CONTACTS" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        tools:ignore="ScopedStorage" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <uses-permission android:name="android.permission.INSTALL_SHORTCUT"/>
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 
     <application
-            android:icon="@mipmap/ic_launcher"
-            android:label="@string/app_name"
-            android:roundIcon="@mipmap/ic_launcher"
-            android:supportsRtl="true"
-            android:theme="@style/AppTheme"
-            android:largeHeap="true"
-            tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name="ca.scooter.Talkufy.BeginingSplashScreen"
-                android:exported="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity
+            android:name=".activities.Updates"
+            android:exported="true"/>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7637534093966773~4215198755"/>
+
+        <activity
+            android:name=".BeginingSplashScreen"
+            android:exported="true"
             tools:ignore="MissingClass">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="ca.scooter.Talkufy.jitsi_sdk.JitsiMeetActivity"
-                android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
-                android:launchMode="singleTask"
-                android:resizeableActivity="true"
-                android:supportsPictureInPicture="true"
-                android:windowSoftInputMode="adjustResize"
-                tools:targetApi="n" />
-        <activity android:name="ca.scooter.Talkufy.jitsi_sdk.JitsiMeetFragment"
-                tools:ignore="Instantiatable" />
-        <activity android:name="ca.scooter.Talkufy.activities.CreateGroupActivity"/>
-        <activity android:name="ca.scooter.Talkufy.activities.CreateChannelActivity" />
-        <activity android:name="ca.scooter.Talkufy.activities.IncomingCallActivity" />
-        <activity android:name="ca.scooter.Talkufy.activities.OutgoingCallActivity" />
-        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
         <activity
-                android:name="ca.scooter.Talkufy.activities.SplashActivity"
-                android:theme="@style/AppTheme.NoActionBar"
-                android:roundIcon="@drawable/ic_play_black"/>
-        <activity android:name="ca.scooter.Talkufy.activities.SettingsActivity" />
-        <activity android:name="ca.scooter.Talkufy.activities.BlockListActivity" />
+            android:name=".jitsi_sdk.JitsiMeetActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:launchMode="singleTask"
+            android:resizeableActivity="true"
+            android:supportsPictureInPicture="true"
+            android:windowSoftInputMode="adjustResize"
+            tools:targetApi="n"/>
         <activity
-                android:name="ca.scooter.Talkufy.activities.ForwardActivity"
-                android:launchMode="singleTop"
-                android:theme="@style/AppTheme.NoActionBar"
-            android:exported="true">
+            android:name=".jitsi_sdk.JitsiMeetFragment"
+            tools:ignore="Instantiatable"/>
+        <activity android:name=".activities.CreateGroupActivity"/>
+        <activity android:name=".activities.CreateChannelActivity"/>
+        <activity android:name=".activities.IncomingCallActivity"/>
+        <activity android:name=".activities.OutgoingCallActivity"/>
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"/>
+        <activity
+            android:name=".activities.SplashActivity"
+            android:roundIcon="@drawable/ic_play_black"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".activities.SettingsActivity"/>
+        <activity android:name=".activities.BlockListActivity"/>
+        <activity
+            android:name=".activities.ForwardActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.SEND"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
 
-                <data android:mimeType="text/plain" />
+                <data android:mimeType="text/plain"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.SEND"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
 
-                <data android:mimeType="image/*" />
+                <data android:mimeType="image/*"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.SEND"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
 
-                <data android:mimeType="video/*" />
+                <data android:mimeType="video/*"/>
             </intent-filter>
 
             <meta-data
-                    android:name="android.service.chooser.chooser_target_service"
-                    android:value=".ShareIntentChooserService" />
+                android:name="android.service.chooser.chooser_target_service"
+                android:value=".ShareIntentChooserService"/>
         </activity>
         <activity
-                android:name="ca.scooter.Talkufy.activities.UserProfileActivity"
-                android:label="@string/title_activity_user_profile"
-                android:theme="@style/AppTheme.NoActionBar.Translucent"
-            tools:ignore="MissingClass" />
+            android:name=".activities.UserProfileActivity"
+            android:label="@string/title_activity_user_profile"
+            android:theme="@style/AppTheme.NoActionBar.Translucent"
+            tools:ignore="MissingClass"/>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -103,56 +114,57 @@
              You can define the keys for the debug and release targets in src/debug/ and src/release/.
         -->
         <meta-data
-                android:name="com.google.android.geo.API_KEY"
-                android:value="@string/google_maps_key" />
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/>
 
         <activity
-                android:name="ca.scooter.Talkufy.activities.MapsActivity"
-                android:label="@string/title_activity_maps"
-                android:theme="@style/AppTheme.NoActionBar"
-            tools:ignore="MissingClass" />
+            android:name=".activities.MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="MissingClass"/>
         <activity
-            android:name="ca.scooter.Talkufy.activities.HomeActivity"
+            android:name=".activities.HomeActivity"
             android:label="@string/app_name"
             android:launchMode="singleTop"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-                android:name="ca.scooter.Talkufy.activities.MessageActivity"
-                android:theme="@style/AppTheme.NoActionBar" />
+            android:name=".activities.MessageActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-                android:name="ca.scooter.Talkufy.activities.MobileLoginActivity"
-                android:theme="@style/AppTheme.NoActionBar"
-                android:windowSoftInputMode="adjustPan" />
-        <activity android:name="ca.scooter.Talkufy.activities.ContactsActivity" /> <!-- Provider for the library -->
+            android:name=".activities.MobileLoginActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".activities.ContactsActivity"/> <!-- Provider for the library -->
         <provider
-                android:name="androidx.core.content.FileProvider"
-                android:authorities="com.mvc.imagepicker.provider"
-                android:exported="false"
-                android:grantUriPermissions="true"
-                tools:replace="android:authorities">
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.mvc.imagepicker.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
             <meta-data
-                    android:name="android.support.FILE_PROVIDER_PATHS"
-                    android:resource="@xml/provider_paths"
-                    tools:replace="android:resource" />
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"
+                tools:replace="android:resource"/>
         </provider>
 
         <activity
-                android:name="ca.scooter.Talkufy.activities.UploadPreviewActivity"
-                android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="ca.scooter.Talkufy.activities.EditProfile" />
+            android:name=".activities.UploadPreviewActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".activities.EditProfile"/>
         <activity
-                android:name="ca.scooter.Talkufy.activities.ImagePreviewActivity"
-                android:theme="@style/AppTheme.NoActionBar" />
+            android:name=".activities.ImagePreviewActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-                android:name="ca.scooter.Talkufy.activities.AboutTheDeveloperActivity"
-                android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="ca.scooter.Talkufy.activities.MultiContactChooserActivity" />
-        <activity android:name="ca.scooter.Talkufy.activities.FeedbackActivity" />
+            android:name=".activities.AboutTheDeveloperActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".activities.MultiContactChooserActivity"/>
+        <activity android:name=".activities.FeedbackActivity"/>
 
-        <service android:name="ca.scooter.Talkufy.firebase.MessagingService"
+        <service
+            android:name=".firebase.MessagingService"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
             </intent-filter>
         </service>
         <!--
@@ -160,31 +172,32 @@
      See README(https://goo.gl/l4GJaQ) for more.
         -->
         <meta-data
-                android:name="com.google.firebase.messaging.default_notification_icon"
-                android:resource="@mipmap/ic_launcher" />
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher"/>
         <!--
  Set color used with incoming notification messages. This is used when no color is set for the incoming
              notification message. See README(https://goo.gl/6BKBk7) for more.
         -->
         <meta-data
-                android:name="com.google.firebase.messaging.default_notification_color"
-                android:resource="@color/colorAccent" />
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent"/>
 
         <service
-                android:name="ca.scooter.Talkufy.utils.ShareIntentChooserService"
-                android:label="@string/app_name"
-                android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE"
+            android:name=".utils.ShareIntentChooserService"
             android:exported="true"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE"
             tools:ignore="Deprecated">
             <intent-filter>
-                <action android:name="android.service.chooser.ChooserTargetService" />
+                <action android:name="android.service.chooser.ChooserTargetService"/>
             </intent-filter>
         </service>
 
-        <receiver android:name="ca.scooter.Talkufy.broadcast_services.PhoneStateBroadcastReciever"
+        <receiver
+            android:name=".broadcast_services.PhoneStateBroadcastReciever"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.PHONE_STATE" />
+                <action android:name="android.intent.action.PHONE_STATE"/>
             </intent-filter>
         </receiver>
     </application>

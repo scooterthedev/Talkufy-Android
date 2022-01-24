@@ -1,9 +1,16 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.react:react-native-immersive:2.0.0-jitsi-4429568@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/879ca69d218c643ea1a870c8609087e3/transformed/jetified-react-native-immersive-2.0.0-jitsi-4429568/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/879ca69d218c643ea1a870c8609087e3/transformed/jetified-react-native-immersive-2.0.0-jitsi-4429568/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/879ca69d218c643ea1a870c8609087e3/transformed/jetified-react-native-immersive-2.0.0-jitsi-4429568/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/454fcd9fd8f2f4dc044dfe9432f70f71/transformed/jetified-react-native-immersive-2.0.0-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2e0379b78c366815efdaea5d28d567de/transformed/jetified-react-native-immersive-2.0.0-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/18388f10ce5c12ab534d5fa5cc30bb6e/transformed/jetified-react-native-immersive-2.0.0-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e35d5ac6c1a20e26f348a3a15de1dbb1/transformed/jetified-react-native-immersive-2.0.0-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4615486fbe6381841f2b3fb166cd8188/transformed/jetified-react-native-immersive-2.0.0-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/739c6f654bc96099441593b76c69403f/transformed/jetified-react-native-immersive-2.0.0-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9f164057443de9da4d8d6d1783a4f510/transformed/jetified-react-native-immersive-2.0.0-jitsi-4429568/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9f164057443de9da4d8d6d1783a4f510/transformed/jetified-react-native-immersive-2.0.0-jitsi-4429568/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9f164057443de9da4d8d6d1783a4f510/transformed/jetified-react-native-immersive-2.0.0-jitsi-4429568/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

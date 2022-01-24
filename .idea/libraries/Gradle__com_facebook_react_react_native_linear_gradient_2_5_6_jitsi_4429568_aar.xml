@@ -1,9 +1,16 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.react:react-native-linear-gradient:2.5.6-jitsi-4429568@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/810a0700e62a08668e8442315a014414/transformed/jetified-react-native-linear-gradient-2.5.6-jitsi-4429568/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/810a0700e62a08668e8442315a014414/transformed/jetified-react-native-linear-gradient-2.5.6-jitsi-4429568/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/810a0700e62a08668e8442315a014414/transformed/jetified-react-native-linear-gradient-2.5.6-jitsi-4429568/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7c3c219f1c4fabd082db2d7df367147f/transformed/jetified-react-native-linear-gradient-2.5.6-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/33c62827ec46a77b1da21aa5911ed876/transformed/jetified-react-native-linear-gradient-2.5.6-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3e8e92a2c7e04e7ef849f94e938fff0f/transformed/jetified-react-native-linear-gradient-2.5.6-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/29db61fcb11c8b6467723924827faf4b/transformed/jetified-react-native-linear-gradient-2.5.6-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bd935a145fc3485c66ec0d3882c94959/transformed/jetified-react-native-linear-gradient-2.5.6-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/042a8a136fc422f198c7730ac905347b/transformed/jetified-react-native-linear-gradient-2.5.6-jitsi-4429568/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a11c97b2819a68f056d2c571b19f3fe4/transformed/jetified-react-native-linear-gradient-2.5.6-jitsi-4429568/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a11c97b2819a68f056d2c571b19f3fe4/transformed/jetified-react-native-linear-gradient-2.5.6-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a11c97b2819a68f056d2c571b19f3fe4/transformed/jetified-react-native-linear-gradient-2.5.6-jitsi-4429568/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
