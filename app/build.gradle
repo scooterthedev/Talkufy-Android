@@ -109,7 +109,7 @@ android {
         implementation 'androidx.emoji:emoji-bundled:1.1.0'
         implementation 'com.github.lguipeng:AnimCheckBox:1.0.1'
         implementation 'com.skyline.widget:round-corner-layout:1.0.1'
-        implementation 'com.hbb20:ccp:2.5.4'
+        implementation 'com.hbb20:ccp:2.6.0'
         implementation 'org.jetbrains.anko:anko-commons:0.10.8'
         implementation 'org.jetbrains.anko:anko-design:0.10.8'
         implementation 'com.github.medyo:android-about-page:1.3.1'
