@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Talkafy</string>
+    <string name="app_name" translatable="false">Talkufy</string>
     <string name="sample_title" translatable="false">ChatKit for Android</string>
 
     <string name="view" translatable="false">View</string>
@@ -11,9 +11,13 @@
     <string name="sample_title_layout" translatable="false">Custom layout</string>
     <string name="sample_subtitle_layout" translatable="false">Custom layouts to change default views position</string>
     <string name="sample_title_holder" translatable="false">Custom view holder</string>
-    <string name="sample_subtitle_holder" translatable="false">Custom view holder to extend default behaviour for a new features</string>
+    <string name="sample_subtitle_holder" translatable="false">Custom view holder to extend default behaviour for a new
+        features
+    </string>
     <string name="sample_title_custom_content" translatable="false">Custom content type</string>
-    <string name="sample_subtitle_custom_content" translatable="false">Custom message content on the example of voice message</string>
+    <string name="sample_subtitle_custom_content" translatable="false">Custom message content on the example of voice
+        message
+    </string>
 
     <string name="hint_enter_a_message" translatable="false">Type a message…</string>
     <string name="on_log_click_message" translatable="false">Your custom long click handler</string>
@@ -143,7 +147,8 @@
     <string name="pref_header_general" translatable="false">General</string>
 
     <string name="pref_title_social_recommendations" translatable="false">Enable social recommendations</string>
-    <string name="pref_description_social_recommendations" translatable="false">Recommendations for people to contact based on your message
+    <string name="pref_description_social_recommendations" translatable="false">Recommendations for people to contact
+        based on your message
         history
     </string>
 
@@ -195,7 +200,7 @@
         <item>3</item>
     </string-array>
 
-    <string-array name="multi_select_list_preference_default_value" />
+    <string-array name="multi_select_list_preference_default_value"/>
 
     <string name="pref_title_system_sync_settings" translatable="false">System sync settings</string>
 
@@ -237,4 +242,31 @@
     <string name="phone_number" translatable="false">Phone Number</string>
     <string name="stop" translatable="false">play</string>
     <string name="don_t_play_with_fire_play_with_n_chatting">Don\'t play with fire, play with \n Chatting</string>
+    <string name="title_activity_updates">Updates</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="updater_available_title">New update available !</string>
+    <string name="updater_available_description">The update %1$s is available. \n\nYou can benefit from the following
+        features:
+    </string>
+
+    <string name="updater_not_available_title">No update available !</string>
+    <string name="updater_not_available_description">You have the latest version of %1$s</string>
+
+    <string name="updater_btn_download">Download</string>
+    <string name="updater_btn_back">Back</string>
+    <string name="updater_btn_ok">Ok</string>
+
+    <string name="updater_downloading">Downloading…</string>
+    <string name="experience_fast_and_reliable_chat_experience">Experience Fast and reliable chat experience</string>
+    <string name="get_started">Get started</string>
+
+
 </resources>

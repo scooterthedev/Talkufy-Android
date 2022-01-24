@@ -2,9 +2,16 @@
   <library name="Gradle: com.bm.photoview:library:1.4.1@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/96027a02423131831e25984a921f6f7c/transformed/jetified-library-1.4.1/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4412653af0d9899357b10d777c281358/transformed/jetified-library-1.4.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4412653af0d9899357b10d777c281358/transformed/jetified-library-1.4.1/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4412653af0d9899357b10d777c281358/transformed/jetified-library-1.4.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a065e84dee34865066a5510ce9c2442a/transformed/jetified-library-1.4.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/36113ee3be9476fc9ba9780a632b6006/transformed/jetified-library-1.4.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/babde23d6de0c91fdeb13ac5014d2730/transformed/jetified-library-1.4.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a4ff3c9e2784315bebb37c042fc71ef3/transformed/jetified-library-1.4.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a9002f59ca24f4167a9a9861e4a4c559/transformed/jetified-library-1.4.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/57cd558358646083802c33be333ea01f/transformed/jetified-library-1.4.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dfa0563361e210ed164541b7aae48e06/transformed/jetified-library-1.4.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dfa0563361e210ed164541b7aae48e06/transformed/jetified-library-1.4.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/dfa0563361e210ed164541b7aae48e06/transformed/jetified-library-1.4.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bm.photoview/library/1.4.1/1443677c523f07ad6024e247cd54bdd2ad3b8235/library-1.4.1-javadoc.jar!/" />

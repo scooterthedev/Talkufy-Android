@@ -1,9 +1,16 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.ozodrukh:CircularReveal:1.3.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/26ef227d0df88fc8f27f18dc3c014176/transformed/jetified-CircularReveal-1.3.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/26ef227d0df88fc8f27f18dc3c014176/transformed/jetified-CircularReveal-1.3.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/26ef227d0df88fc8f27f18dc3c014176/transformed/jetified-CircularReveal-1.3.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9f79bc20022a033b6712172a6ccff1a0/transformed/jetified-CircularReveal-1.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bb2d6e7fb060de143a2485c72573e3a1/transformed/jetified-CircularReveal-1.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fe71cb9581c6271f1a423f996a3eafd0/transformed/jetified-CircularReveal-1.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/77cac04b77337db1202ddf1e5e0ec4a3/transformed/jetified-CircularReveal-1.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2a32888c674ee6bc72801c6d0cae1ee4/transformed/jetified-CircularReveal-1.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5872c838b1fbbff8db8b5549a5bcb409/transformed/jetified-CircularReveal-1.3.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9202f93f0a7d5fe020676bfa018ce157/transformed/jetified-CircularReveal-1.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9202f93f0a7d5fe020676bfa018ce157/transformed/jetified-CircularReveal-1.3.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9202f93f0a7d5fe020676bfa018ce157/transformed/jetified-CircularReveal-1.3.1/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ozodrukh/CircularReveal/1.3.1/906e86a1b2e7ca0d1766d4f43aa47ad6c8a5104a/CircularReveal-1.3.1-javadoc.jar!/" />

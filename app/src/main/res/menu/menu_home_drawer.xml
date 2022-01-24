@@ -26,6 +26,11 @@
             android:icon="@drawable/ic_setting_flat_black"
             android:title="Settings" />
 
+        <item
+            android:id="@+id/nav_updates"
+            android:icon="@drawable/ic_person_flat"
+            android:title="Check for Updates" />
+
     </group>
 
     <item android:title="Communicate">
@@ -37,7 +42,7 @@
 
             <item
                     android:id="@+id/nav_about"
-                    android:icon="@drawable/ic_person_flat"
+                    android:icon="@drawable/ic_info_flat"
                     android:title="About" />
         </menu>
     </item>

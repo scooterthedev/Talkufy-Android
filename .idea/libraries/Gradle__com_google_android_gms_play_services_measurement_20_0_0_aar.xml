@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-measurement:20.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9fd499a047919abe812836528c281f5d/transformed/jetified-play-services-measurement-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c165819a6ad3a8dd894d53f1ab2c5402/transformed/jetified-play-services-measurement-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/960f8f7dee712c7136d08590216ca15f/transformed/jetified-play-services-measurement-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/17fb248ccee724b3617b134943d5bf81/transformed/jetified-play-services-measurement-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ea8239e18706f5ed6c11fc4189bbc844/transformed/jetified-play-services-measurement-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/62979e291e054ec7ece5b2cde218041a/transformed/jetified-play-services-measurement-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/17d0bf7fae2c655ba08bcbf60bf0a110/transformed/jetified-play-services-measurement-20.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5739e8770cdb51d23f29034bb65cbfdf/transformed/jetified-play-services-measurement-20.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5739e8770cdb51d23f29034bb65cbfdf/transformed/jetified-play-services-measurement-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5739e8770cdb51d23f29034bb65cbfdf/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement/20.0.0/75caab5bd6b0ff8f17080c9076511ff96a6b2bfe/play-services-measurement-20.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

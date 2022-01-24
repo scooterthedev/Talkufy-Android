@@ -3,8 +3,15 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6c2180d06f77f1f1c7314b9bcf0fe594/transformed/jetified-firebase-abt-21.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/992a4b5019659cf0dfb3685f157a582f/transformed/jetified-firebase-abt-21.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/992a4b5019659cf0dfb3685f157a582f/transformed/jetified-firebase-abt-21.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/992a4b5019659cf0dfb3685f157a582f/transformed/jetified-firebase-abt-21.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fbe0144234d31cb186e1badb5f266682/transformed/jetified-firebase-abt-21.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c0d3ac2a9eb62ad8a36ff914b73f6dff/transformed/jetified-firebase-abt-21.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/446ce22a22538cf8e3b6a32c90cd7d29/transformed/jetified-firebase-abt-21.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5fe15926b8d6b1fcf9a5ba9ce77b3790/transformed/jetified-firebase-abt-21.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1d25f82e156020b3979856db7881f928/transformed/jetified-firebase-abt-21.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/52d20911e7ac5f72fe84b3c421a3398e/transformed/jetified-firebase-abt-21.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2fc1b0ac6e49f0edcda192b2f95fc1b4/transformed/jetified-firebase-abt-21.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2fc1b0ac6e49f0edcda192b2f95fc1b4/transformed/jetified-firebase-abt-21.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2fc1b0ac6e49f0edcda192b2f95fc1b4/transformed/jetified-firebase-abt-21.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-abt/21.0.0/7b2d56b2cae5e1744ac2a3ab7a8dfc4523bdbd0f/firebase-abt-21.0.0-javadoc.jar!/" />

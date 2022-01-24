@@ -1,9 +1,16 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.react:react-native-keep-awake:4.0.0-jitsi-4429568@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5cabe4ba12764692836d000841ba55c4/transformed/jetified-react-native-keep-awake-4.0.0-jitsi-4429568/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5cabe4ba12764692836d000841ba55c4/transformed/jetified-react-native-keep-awake-4.0.0-jitsi-4429568/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5cabe4ba12764692836d000841ba55c4/transformed/jetified-react-native-keep-awake-4.0.0-jitsi-4429568/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e9541067843fefe1c15a0574a3ba48e9/transformed/jetified-react-native-keep-awake-4.0.0-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f89eb7a5013e4dd987a366efffe58f69/transformed/jetified-react-native-keep-awake-4.0.0-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bd9d6aadbef7c44305622c598f2b219b/transformed/jetified-react-native-keep-awake-4.0.0-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1ad413ace001160a47238249ef71e1fd/transformed/jetified-react-native-keep-awake-4.0.0-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5692db281e2607d26e08e93ced5e37dc/transformed/jetified-react-native-keep-awake-4.0.0-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3324c4e8d9f7ff80ba42f69b81150bbe/transformed/jetified-react-native-keep-awake-4.0.0-jitsi-4429568/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4c08db4b6c089a582c0c08548a33fe76/transformed/jetified-react-native-keep-awake-4.0.0-jitsi-4429568/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4c08db4b6c089a582c0c08548a33fe76/transformed/jetified-react-native-keep-awake-4.0.0-jitsi-4429568/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4c08db4b6c089a582c0c08548a33fe76/transformed/jetified-react-native-keep-awake-4.0.0-jitsi-4429568/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

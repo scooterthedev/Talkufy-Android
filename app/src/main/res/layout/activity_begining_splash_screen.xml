@@ -21,15 +21,29 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="333dp"
-        android:layout_height="79dp"
+        android:layout_width="288dp"
+        android:layout_height="58dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="121dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="28dp"
-        android:text="@string/don_t_play_with_fire_play_with_n_chatting"
-        android:textSize="25dp"
+        android:text="The Future is Here!"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"/>
+    <pl.droidsonroids.gif.GifImageButton
+        android:layout_width="407dp"
+        android:layout_height="164dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="16dp"
+        android:background="#fafafa"
+        android:src="@drawable/loading_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="SpeakableTextPresentCheck"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

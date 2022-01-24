@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-measurement-sdk:20.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/69aa5545344c2f6f53688e2bb517c126/transformed/jetified-play-services-measurement-sdk-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a6b35ae1b34c914f34b72f4b920cb54a/transformed/jetified-play-services-measurement-sdk-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7e8c9a33de44888395bf5a1aa7af1ea1/transformed/jetified-play-services-measurement-sdk-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ffd4a138fc0366a8817d416467a03e19/transformed/jetified-play-services-measurement-sdk-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/71d45a7ba55831cc76da7d9db16b80a8/transformed/jetified-play-services-measurement-sdk-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ee2443e79b0562ac6c9047f4698ac4cd/transformed/jetified-play-services-measurement-sdk-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1e2c5ca8eabb3116070a04c7dc4a7f6f/transformed/jetified-play-services-measurement-sdk-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/86c657d7d083f339bd1c046122374416/transformed/jetified-play-services-measurement-sdk-20.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/86c657d7d083f339bd1c046122374416/transformed/jetified-play-services-measurement-sdk-20.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/86c657d7d083f339bd1c046122374416/transformed/jetified-play-services-measurement-sdk-20.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-sdk/20.0.0/ace98f39b262c59be4be4d52b871d1ba5dfff723/play-services-measurement-sdk-20.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

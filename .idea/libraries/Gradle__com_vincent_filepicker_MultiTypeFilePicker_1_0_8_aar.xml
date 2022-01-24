@@ -1,9 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.vincent.filepicker:MultiTypeFilePicker:1.0.8@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9d0b60b07aecc1a55f953efab74dd461/transformed/jetified-MultiTypeFilePicker-1.0.8/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9d0b60b07aecc1a55f953efab74dd461/transformed/jetified-MultiTypeFilePicker-1.0.8/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9d0b60b07aecc1a55f953efab74dd461/transformed/jetified-MultiTypeFilePicker-1.0.8/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9f83719a78ba35bc2b00d3a844236d08/transformed/jetified-MultiTypeFilePicker-1.0.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9f83719a78ba35bc2b00d3a844236d08/transformed/jetified-MultiTypeFilePicker-1.0.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9f83719a78ba35bc2b00d3a844236d08/transformed/jetified-MultiTypeFilePicker-1.0.8/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c47da0d96178a964b62deec4a4782118/transformed/jetified-MultiTypeFilePicker-1.0.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c47da0d96178a964b62deec4a4782118/transformed/jetified-MultiTypeFilePicker-1.0.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c47da0d96178a964b62deec4a4782118/transformed/jetified-MultiTypeFilePicker-1.0.8/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2b36d28ee479a5b5327537d6973e60c6/transformed/jetified-MultiTypeFilePicker-1.0.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2b36d28ee479a5b5327537d6973e60c6/transformed/jetified-MultiTypeFilePicker-1.0.8/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2b36d28ee479a5b5327537d6973e60c6/transformed/jetified-MultiTypeFilePicker-1.0.8/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vincent.filepicker/MultiTypeFilePicker/1.0.8/1d033a94b5d9c007462458b13827a76b7eb0d93d/MultiTypeFilePicker-1.0.8-javadoc.jar!/" />

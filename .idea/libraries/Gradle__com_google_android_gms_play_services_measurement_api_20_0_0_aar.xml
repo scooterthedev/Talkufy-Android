@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-measurement-api:20.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3196b56003201f548576b9a75cf3af42/transformed/jetified-play-services-measurement-api-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5504de49997d05f86b7dbd06241ac38b/transformed/jetified-play-services-measurement-api-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5d0e04d8bc7b1459ddf9e1d5d9245187/transformed/jetified-play-services-measurement-api-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a6f1d8b66d9716ddc439851552fb1b9b/transformed/jetified-play-services-measurement-api-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a6f3efb47066229e3af945ea6f667acc/transformed/jetified-play-services-measurement-api-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/22c346f2516864d262b333d12936b712/transformed/jetified-play-services-measurement-api-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6bf39dba708e3557156f430a6facde01/transformed/jetified-play-services-measurement-api-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/17ea0208a409c2cef3c1383ef377c052/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/17ea0208a409c2cef3c1383ef377c052/transformed/jetified-play-services-measurement-api-20.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/17ea0208a409c2cef3c1383ef377c052/transformed/jetified-play-services-measurement-api-20.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-api/20.0.0/d9fa6f35328a64f32f2606643124f206db82aa35/play-services-measurement-api-20.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

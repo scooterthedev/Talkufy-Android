@@ -1,9 +1,16 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.react:react-native-sound:0.11.0-jitsi-4429568@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7fbc9e7604881b272c1b9afc75560821/transformed/jetified-react-native-sound-0.11.0-jitsi-4429568/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7fbc9e7604881b272c1b9afc75560821/transformed/jetified-react-native-sound-0.11.0-jitsi-4429568/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7fbc9e7604881b272c1b9afc75560821/transformed/jetified-react-native-sound-0.11.0-jitsi-4429568/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/955a206e3807ffd91cd4ff236ea0a1f6/transformed/jetified-react-native-sound-0.11.0-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/394b3b282c163888375b4122e6b31f2b/transformed/jetified-react-native-sound-0.11.0-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/474a02d3340bb80f2928689b720b026c/transformed/jetified-react-native-sound-0.11.0-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/624f3c3d7d84bf80ad3ab94ec970483b/transformed/jetified-react-native-sound-0.11.0-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ba21022b2acf44c585a3c6ad16aefecf/transformed/jetified-react-native-sound-0.11.0-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/df24f5c4d6ae5b2f022ae98a9b943f49/transformed/jetified-react-native-sound-0.11.0-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e332c30034e0b098ec0f8e33615b7975/transformed/jetified-react-native-sound-0.11.0-jitsi-4429568/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e332c30034e0b098ec0f8e33615b7975/transformed/jetified-react-native-sound-0.11.0-jitsi-4429568/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e332c30034e0b098ec0f8e33615b7975/transformed/jetified-react-native-sound-0.11.0-jitsi-4429568/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

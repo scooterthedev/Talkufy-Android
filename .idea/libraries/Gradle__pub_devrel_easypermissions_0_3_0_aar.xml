@@ -1,9 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: pub.devrel:easypermissions:0.3.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/def85f89a8f7a93847b81439fa294066/transformed/jetified-easypermissions-0.3.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/def85f89a8f7a93847b81439fa294066/transformed/jetified-easypermissions-0.3.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/def85f89a8f7a93847b81439fa294066/transformed/jetified-easypermissions-0.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/65d1e2e3d8ec1036e8de5e8f8490640f/transformed/jetified-easypermissions-0.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/65d1e2e3d8ec1036e8de5e8f8490640f/transformed/jetified-easypermissions-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/65d1e2e3d8ec1036e8de5e8f8490640f/transformed/jetified-easypermissions-0.3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f0a95c2df69f2f9f0f035456a2eebf43/transformed/jetified-easypermissions-0.3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f0a95c2df69f2f9f0f035456a2eebf43/transformed/jetified-easypermissions-0.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f0a95c2df69f2f9f0f035456a2eebf43/transformed/jetified-easypermissions-0.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/46e23246d55c6e8dda1a2d773a80c78d/transformed/jetified-easypermissions-0.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/46e23246d55c6e8dda1a2d773a80c78d/transformed/jetified-easypermissions-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/46e23246d55c6e8dda1a2d773a80c78d/transformed/jetified-easypermissions-0.3.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

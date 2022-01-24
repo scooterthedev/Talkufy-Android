@@ -1,10 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-ml-natural-language:19.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a248705e92f3e293cf1589fcd232631a/transformed/jetified-firebase-ml-natural-language-19.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3051bc2a6522dabe3db791b8f5179d32/transformed/jetified-firebase-ml-natural-language-19.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3051bc2a6522dabe3db791b8f5179d32/transformed/jetified-firebase-ml-natural-language-19.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3051bc2a6522dabe3db791b8f5179d32/transformed/jetified-firebase-ml-natural-language-19.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dca727667d6d5f9e4ccc151ee5a93313/transformed/jetified-firebase-ml-natural-language-19.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/dca727667d6d5f9e4ccc151ee5a93313/transformed/jetified-firebase-ml-natural-language-19.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dca727667d6d5f9e4ccc151ee5a93313/transformed/jetified-firebase-ml-natural-language-19.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a82d53c879e21de56f3e7a2630dcedaf/transformed/jetified-firebase-ml-natural-language-19.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a82d53c879e21de56f3e7a2630dcedaf/transformed/jetified-firebase-ml-natural-language-19.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a82d53c879e21de56f3e7a2630dcedaf/transformed/jetified-firebase-ml-natural-language-19.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5b16790831984c4854ad914098b7eebe/transformed/jetified-firebase-ml-natural-language-19.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5b16790831984c4854ad914098b7eebe/transformed/jetified-firebase-ml-natural-language-19.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5b16790831984c4854ad914098b7eebe/transformed/jetified-firebase-ml-natural-language-19.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-ml-natural-language/19.0.0/85618742ae8542dab82f6ae39c84f88d5bf66ddd/firebase-ml-natural-language-19.0.0-javadoc.jar!/" />

@@ -75,7 +75,7 @@
 
 
 
-                <com.nsromapa.frenzapp.saytalk.views.RoundCornerLayout
+                <ca.scooter.talkufy.views.RoundCornerLayout
                         android:layout_width="240dp"
                         android:id="@+id/image_container_left_card"
                         android:layout_height="210dp"
@@ -121,7 +121,7 @@
 
 
 
-                </com.nsromapa.frenzapp.saytalk.views.RoundCornerLayout>
+                </ca.scooter.talkufy.views.RoundCornerLayout>
 
 
                 <TextView

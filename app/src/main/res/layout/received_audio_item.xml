@@ -2,14 +2,14 @@
 
 
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
 
     <data>
 
         <variable
             name="message"
-            type="ca.scooter.Talkufy.models.Models" />
+            type="ca.scooter.talkufy.models.Models" />
 
 
         <variable
