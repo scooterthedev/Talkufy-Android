@@ -31,7 +31,7 @@ android {
         buildFeatures.dataBinding true
         useLibrary 'org.apache.http.legacy'
         configurations.all {
-            resolutionStrategy { force 'androidx.work:work-runtime:2.5.0' }
+            resolutionStrategy { force 'androidx.work:work-runtime:2.7.1' }
         }
         buildTypes {
             lintOptions {
