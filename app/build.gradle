@@ -97,7 +97,7 @@ android {
         implementation 'androidx.navigation:navigation-fragment:2.3.5'
         implementation 'androidx.navigation:navigation-ui:2.3.5'
         testImplementation 'junit:junit:4.13.2'
-        annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+        annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
 
         //for image compression
         implementation 'me.shaohui.advancedluban:library:1.3.5'
