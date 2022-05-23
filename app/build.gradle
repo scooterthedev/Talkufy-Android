@@ -75,7 +75,7 @@ android {
         implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
         implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0'
         implementation 'com.google.firebase:firebase-core'
-        implementation platform('com.google.firebase:firebase-bom:29.0.4')
+        implementation platform('com.google.firebase:firebase-bom:30.0.2')
         implementation 'com.github.stfalcon:chatkit:0.3.3'
         implementation 'com.google.firebase:firebase-messaging'
         implementation 'com.google.firebase:firebase-auth'
