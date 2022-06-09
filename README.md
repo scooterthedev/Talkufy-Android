@@ -9,7 +9,7 @@
 # Talkufy
 A highly advanced and encrypted **open source** featured chat/video calling app for android using Firebase Firestore and Jitsi Meet. With this app you can chat and make calls with Jitsi Meet.
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://instructables.com/member/awesomebanana120)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://GitHub.com/scooterthedev/Talkufy-Android)
 
 ## Why this project and a chat platform?
 In this era of the social media craze and internet age, where smartphones have become a core part in peoples' lives. And with millions monthly active users on advanced chat apps such as Facebook Messenger, WhatsApp, WeChat, Telegram etc. We (consumers) have started taking these awesome features as for granted. This has become a trouble and headache for developers (especially those who provide development services or freelancing) to create such feature-rich platforms in constrained time.
@@ -113,7 +113,7 @@ Please read [CONTRIBUTING.md](https://github.com/scooterthedev/Talkufy-Android/b
 ## Communication
 Please feel free to PM me if you have any questions on GitHub or on Instructables
 * [GitHub PM](https://github.com)
-* [Instructables PM](https://instructables.com/member/awesomebanana120)
+* [Email](mailto:talkufy@outlook.com)
 
 # License
 
