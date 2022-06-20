@@ -40,7 +40,7 @@ public class TouchImageView extends androidx.appcompat.widget.AppCompatImageView
     // Scale of image ranges from minScale to maxScale, where minScale == 1
     // when the image is stretched to fit view.
     //
-    private float normalizedScale;
+    private int normalizedScale;
 
     //
     // Matrix applied to image. MSCALE_X and MSCALE_Y should always be equal.
@@ -238,7 +238,7 @@ public class TouchImageView extends androidx.appcompat.widget.AppCompatImageView
     public void onRestoreInstanceState(Parcelable state) {
         if (state instanceof Bundle) {
             Bundle bundle = (Bundle) state;
-            normalizedScale = bundle.getFloat("saveScale");
+            normalizedScale = (int) bundle.getFloat("saveScale");
             m = bundle.getFloatArray("matrix");
             prevMatrix.setValues(m);
             prevMatchViewHeight = bundle.getFloat("matchViewHeight");
@@ -375,7 +375,7 @@ public class TouchImageView extends androidx.appcompat.widget.AppCompatImageView
             setScaleType(scaleType);
         }
         resetZoom();
-        scaleImage(scale, viewWidth / 2, viewHeight / 2, true);
+        scaleImage((int) scale, viewWidth / 2, viewHeight / 2, true);
         matrix.getValues(m);
         m[Matrix.MTRANS_X] = -((focusX * getImageWidth()) - (viewWidth * 0.5f));
         m[Matrix.MTRANS_Y] = -((focusY * getImageHeight()) - (viewHeight * 0.5f));
@@ -728,7 +728,7 @@ public class TouchImageView extends androidx.appcompat.widget.AppCompatImageView
 
     }
 
-    private void scaleImage(double deltaScale, float focusX, float focusY, boolean stretchImageToSuper) {
+    private void scaleImage(int deltaScale, float focusX, float focusY, boolean stretchImageToSuper) {
 
         float lowerScale, upperScale;
         if (stretchImageToSuper) {
@@ -743,11 +743,11 @@ public class TouchImageView extends androidx.appcompat.widget.AppCompatImageView
         float origScale = normalizedScale;
         normalizedScale *= deltaScale;
         if (normalizedScale > upperScale) {
-            normalizedScale = upperScale;
-            deltaScale = upperScale / origScale;
+            normalizedScale = (int) upperScale;
+            deltaScale = (int) (upperScale / origScale);
         } else if (normalizedScale < lowerScale) {
-            normalizedScale = lowerScale;
-            deltaScale = lowerScale / origScale;
+            normalizedScale = (int) lowerScale;
+            deltaScale = (int) (lowerScale / origScale);
         }
 
         matrix.postScale((float) deltaScale, (float) deltaScale, focusX, focusY);
@@ -965,7 +965,7 @@ public class TouchImageView extends androidx.appcompat.widget.AppCompatImageView
 
         @Override
         public boolean onScale(ScaleGestureDetector detector) {
-            scaleImage(detector.getScaleFactor(), detector.getFocusX(), detector.getFocusY(), true);
+            scaleImage((int) detector.getScaleFactor(), detector.getFocusX(), detector.getFocusY(), true);
 
             //
             // OnTouchImageViewListener is set: TouchImageView pinch zoomed by user.
@@ -1038,7 +1038,7 @@ public class TouchImageView extends androidx.appcompat.widget.AppCompatImageView
         public void run() {
             float t = interpolate();
             double deltaScale = calculateDeltaScale(t);
-            scaleImage(deltaScale, bitmapX, bitmapY, stretchImageToSuper);
+            scaleImage((int) deltaScale, bitmapX, bitmapY, stretchImageToSuper);
             translateImageToCenterTouchPosition(t);
             fixScaleTrans();
             setImageMatrix(matrix);
