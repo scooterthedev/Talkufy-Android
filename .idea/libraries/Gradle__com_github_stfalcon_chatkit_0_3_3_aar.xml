@@ -10,6 +10,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b8f34a887de87cd80510d1bc74b5c7c1/transformed/jetified-chatkit-0.3.3/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b8f34a887de87cd80510d1bc74b5c7c1/transformed/jetified-chatkit-0.3.3/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b8f34a887de87cd80510d1bc74b5c7c1/transformed/jetified-chatkit-0.3.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0301ebd1758cebde4d268b616506b9cc/transformed/jetified-chatkit-0.3.3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0301ebd1758cebde4d268b616506b9cc/transformed/jetified-chatkit-0.3.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0301ebd1758cebde4d268b616506b9cc/transformed/jetified-chatkit-0.3.3/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.stfalcon/chatkit/0.3.3/f08d0e9a5fc31ce6cadd580c5e16c8fa99c9ba50/chatkit-0.3.3-javadoc.jar!/" />

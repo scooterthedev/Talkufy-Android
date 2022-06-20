@@ -10,6 +10,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ab26013f2781dea9839f9a2ebca7c08b/transformed/jetified-anko-design-0.10.8/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ab26013f2781dea9839f9a2ebca7c08b/transformed/jetified-anko-design-0.10.8/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ab26013f2781dea9839f9a2ebca7c08b/transformed/jetified-anko-design-0.10.8/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8f2dbfedd5f5f67680e570734f9b62a6/transformed/jetified-anko-design-0.10.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8f2dbfedd5f5f67680e570734f9b62a6/transformed/jetified-anko-design-0.10.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8f2dbfedd5f5f67680e570734f9b62a6/transformed/jetified-anko-design-0.10.8/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

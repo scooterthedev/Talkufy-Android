@@ -12,16 +12,14 @@
 
 
 android {
-    lintOptions {
-        checkReleaseBuilds false
-    }
     signingConfigs {
     }
-    compileSdkVersion 31
+    compileSdkVersion 29
     flavorDimensions "versionCode"
     defaultConfig {
         applicationId 'ca.scooter.talkufy'
         minSdkVersion 21
+        //noinspection ExpiredTargetSdkVersion
         targetSdkVersion 29
         versionCode 4
         versionName "1"
@@ -142,6 +140,9 @@ android {
         implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.24'
 
 
+    }
+    lint {
+        checkReleaseBuilds false
     }
 }
 

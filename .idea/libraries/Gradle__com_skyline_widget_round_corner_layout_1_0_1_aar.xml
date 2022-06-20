@@ -10,6 +10,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0dfc27c17c98106d7835ebb76d73d8ce/transformed/jetified-round-corner-layout-1.0.1/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0dfc27c17c98106d7835ebb76d73d8ce/transformed/jetified-round-corner-layout-1.0.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0dfc27c17c98106d7835ebb76d73d8ce/transformed/jetified-round-corner-layout-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/966ee1c3505fbe3e98c7272fc8503d08/transformed/jetified-round-corner-layout-1.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/966ee1c3505fbe3e98c7272fc8503d08/transformed/jetified-round-corner-layout-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/966ee1c3505fbe3e98c7272fc8503d08/transformed/jetified-round-corner-layout-1.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.skyline.widget/round-corner-layout/1.0.1/67fa2a3a95bf4314508fd9b74b986eee5f5fe32/round-corner-layout-1.0.1-javadoc.jar!/" />
