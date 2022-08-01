@@ -1,0 +1,9 @@
+{
+  "update": "Yes",
+  "new_version": "1.0.6",
+  "apk_file_url": "https://github.com/scooterthedev/Talkufy-Android/releases/download/v1.0.6-beta2/v1.0.6-beta2.apk",
+  "update_log": "1. test 1 /n 2. test 2",
+  "target_size": "50M",
+  "new_md5":"b97bea014531123f94c3ba7b7afbaad2",
+  "constraint": true
+}
