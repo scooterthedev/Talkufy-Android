@@ -111,9 +111,10 @@ Steps to contribute:
 Please read [CONTRIBUTING.md](https://github.com/scooterthedev/Talkufy-Android/blob/main/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Communication
-Please feel free to PM me if you have any questions on GitHub or on Instructables
+Please feel free to PM me if you have any questions on GitHub, email or by using Slack
 * [GitHub PM](https://github.com/scooterthedev)
 * [Email](mailto:talkufy@outlook.com)
+* [Slack](https://join.slack.com/t/talkufy/shared_invite/zt-1efhrwgdz-YPjWrhClS~7lariBDdFu2w)
 
 ## Donations:
 
