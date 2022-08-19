@@ -112,8 +112,14 @@ Please read [CONTRIBUTING.md](https://github.com/scooterthedev/Talkufy-Android/b
 
 ## Communication
 Please feel free to PM me if you have any questions on GitHub or on Instructables
-* [GitHub PM](https://github.com)
+* [GitHub PM](https://github.com/scooterthedev)
 * [Email](mailto:talkufy@outlook.com)
+
+## Donations:
+
+​If you think that this project is super cool, and want to help out with the future devopment of Talkufy please consider donating. Talkufy **will always be free** because I feel that everyone should enjoy a great app for free, and not just the people that have the money to pay for them. Donating will allow me to keep Talkufy free of charge and it helps me a ton with the future development of Talkufy (Including allowing files more than 16MB to be sent at once).
+
+Ethereum Address: 0x65c397b50F61A6fa71fA774A1ecc35EC089f7916
 
 # License
 
