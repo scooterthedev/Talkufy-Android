@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sent_audio_placeholder_item.xml",
+        "source": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\src\\main\\res\\layout\\sent_audio_placeholder_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sent_audio_item.xml",
+        "source": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\src\\main\\res\\layout\\sent_audio_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\received_audio_item.xml",
+        "source": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\src\\main\\res\\layout\\received_audio_item.xml"
+    }
+]

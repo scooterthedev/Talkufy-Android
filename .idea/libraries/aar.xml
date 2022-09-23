@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="aar">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/Updater_Android/build/outputs/aar" />
+    </SOURCES>
+  </library>
+</component>

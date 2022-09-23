@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw-rIL\\values-iw-rIL.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\yekut\\.gradle\\caches\\transforms-3\\b1311ff84cb9978a23c65615f5c48811\\transformed\\jetified-android-about-page-1.3.1\\res\\values-iw-rIL\\values-iw-rIL.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,170,223,289,355,417,474",
+                        "endColumns": "52,61,52,65,65,61,56,59",
+                        "endOffsets": "103,165,218,284,350,412,469,529"
+                    }
+                }
+            ]
+        }
+    ]
+}

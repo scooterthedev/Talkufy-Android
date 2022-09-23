@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.MatrixFrog:android-scalablevideoview:v1.0.4-jitpack@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c9efc94314908b3b960109f1eec5b080/transformed/jetified-android-scalablevideoview-v1.0.4-jitpack/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c9efc94314908b3b960109f1eec5b080/transformed/jetified-android-scalablevideoview-v1.0.4-jitpack/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c9efc94314908b3b960109f1eec5b080/transformed/jetified-android-scalablevideoview-v1.0.4-jitpack/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.MatrixFrog/android-scalablevideoview/v1.0.4-jitpack/234b1944c56cea053e6fd46f62944380eb542612/android-scalablevideoview-v1.0.4-jitpack-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

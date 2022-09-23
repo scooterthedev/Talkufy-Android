@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                 style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
+                 android:id="@+id/contact_progressbar"
+    />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:paddingBottom="50dp"
+        android:id="@+id/contacts_list"/>
+
+</FrameLayout>
