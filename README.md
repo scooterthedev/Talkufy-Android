@@ -81,14 +81,14 @@ Here's a list of features that we plan to include overtime.
 - [x] Online/Last Active Status
 - [x] Message Read/Receipt Ticks
 - [x] Unread Messages Count
-- [x] Delete Messages (Works for everything, but doesn't work for images without a caption)
+- [x] Delete Messages (Works for everything. This does not work for images without a caption)
 - [x] Video Messages (Up to 16 MB so far)
 - [x] Multiple Image Messages (Up to 5 per message)
 - [x] Location Messages
 - [x] Text Messages
 - [x] Image Messages
-- [x] Video Calling (in beta, still has major bugs)
-- [x] Audio Calling(in beta, still has major bugs)
+- [x] Video Calling (in beta)
+- [x] Audio Calling(in beta)
 
 
 
