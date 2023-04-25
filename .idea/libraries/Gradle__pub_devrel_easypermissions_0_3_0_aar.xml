@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bc0763260657ab99f55ca316ad900827ede912b3cad4974104c1794b0bf1dbc2
-size 2275
+<component name="libraryTable">
+  <library name="Gradle: pub.devrel:easypermissions:0.3.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e7b83e147ba31a24831683c5e5a0f294/transformed/jetified-easypermissions-0.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e7b83e147ba31a24831683c5e5a0f294/transformed/jetified-easypermissions-0.3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e7b83e147ba31a24831683c5e5a0f294/transformed/jetified-easypermissions-0.3.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/pub.devrel/easypermissions/0.3.0/fbcbfe8a871702db53e5be80e1f2da72c733655d/easypermissions-0.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

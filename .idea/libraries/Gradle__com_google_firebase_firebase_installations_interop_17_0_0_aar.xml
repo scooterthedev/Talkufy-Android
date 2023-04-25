@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f1d17451fa2636821de29d4dfc6b2fa15084f2a4d0af21ee5aeabdd4a3704bba
-size 2607
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-installations-interop:17.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0b2142dad82cc87ddc8df2c763191367/transformed/jetified-firebase-installations-interop-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0b2142dad82cc87ddc8df2c763191367/transformed/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-installations-interop/17.0.0/ac6ab4866e0eefc2f4aa88b449b5c615939c3545/firebase-installations-interop-17.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

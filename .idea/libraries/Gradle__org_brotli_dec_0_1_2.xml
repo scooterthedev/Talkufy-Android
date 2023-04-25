@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: org.brotli:dec:0.1.2">
+  <library name="Gradle: org.brotli:dec:0.1.2" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.brotli/dec/0.1.2/c26a897ae0d524809eef1c786cc6183b4ddcc3b/dec-0.1.2.jar!/" />
     </CLASSES>

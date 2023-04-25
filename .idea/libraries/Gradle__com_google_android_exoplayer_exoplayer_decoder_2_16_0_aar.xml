@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:efd2628e1d7a09124932c7baaa830fdc76dfbd20288f53e9a4633a6d2c346ee3
-size 1410
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.exoplayer:exoplayer-decoder:2.16.0@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/927382cb0e1662ad8a22d217819fb969/transformed/jetified-exoplayer-decoder-2.16.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/927382cb0e1662ad8a22d217819fb969/transformed/jetified-exoplayer-decoder-2.16.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/927382cb0e1662ad8a22d217819fb969/transformed/jetified-exoplayer-decoder-2.16.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.exoplayer/exoplayer-decoder/2.16.0/f1eb93932d5f21b47a56ae73275c218836f47ca9/exoplayer-decoder-2.16.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

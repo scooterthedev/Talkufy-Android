@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6f118ae729c84dba74e5e7e5f6b21f9da10ca205fbf9a40f14670aa5e5254921
-size 1221
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-appset:16.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bbe36a1a7fa860114dfed5fb86116918/transformed/jetified-play-services-appset-16.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bbe36a1a7fa860114dfed5fb86116918/transformed/jetified-play-services-appset-16.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-appset/16.0.0/8cd9011920c394af16ca93e693a993705090787a/play-services-appset-16.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

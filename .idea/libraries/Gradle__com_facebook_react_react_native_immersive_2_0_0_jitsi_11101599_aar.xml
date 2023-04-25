@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b2274477dfc2172c45fbfbd2515ca1fc00586b76a6c803143645e1d9d0593725
-size 1341
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.react:react-native-immersive:2.0.0-jitsi-11101599@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6b8db41b4f8c3d7400b9e01e38c170df/transformed/jetified-react-native-immersive-2.0.0-jitsi-11101599/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6b8db41b4f8c3d7400b9e01e38c170df/transformed/jetified-react-native-immersive-2.0.0-jitsi-11101599/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.react/react-native-immersive/2.0.0-jitsi-11101599/6416f45fab096461cd5bf24eb109a569b914ecec/react-native-immersive-2.0.0-jitsi-11101599-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

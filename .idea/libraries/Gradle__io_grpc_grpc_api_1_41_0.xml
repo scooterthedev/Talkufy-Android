@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: io.grpc:grpc-api:1.41.0">
+  <library name="Gradle: io.grpc:grpc-api:1.41.0" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-api/1.41.0/8c0613e23cdca9fc69e3a0abc52db24ac98327dd/grpc-api-1.41.0.jar!/" />
     </CLASSES>

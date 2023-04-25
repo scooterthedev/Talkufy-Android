@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8647a485ae71e83099ce725f86b5eae462668af78208a00df5394e5a4b5a1f8e
-size 2335
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-auth:21.0.1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ca6e2e07749a35081c7605d40ef909a2/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ca6e2e07749a35081c7605d40ef909a2/transformed/jetified-firebase-auth-21.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-auth/21.0.1/93cfb8e92221edeece91b286008325e05ab1f53f/firebase-auth-21.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

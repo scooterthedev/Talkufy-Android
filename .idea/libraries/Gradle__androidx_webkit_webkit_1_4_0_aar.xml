@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:afa2a768d652404a390a1f290d9b85e37504bc9d8a3822464523a3ee9e8b568f
-size 1222
+<component name="libraryTable">
+  <library name="Gradle: androidx.webkit:webkit:1.4.0@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a72b5aa315cffef909b6e35cb4dd2c11/transformed/webkit-1.4.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a72b5aa315cffef909b6e35cb4dd2c11/transformed/webkit-1.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a72b5aa315cffef909b6e35cb4dd2c11/transformed/webkit-1.4.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.webkit/webkit/1.4.0/a73605771c2a3ea2e168fa93ece88975d67587a9/webkit-1.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

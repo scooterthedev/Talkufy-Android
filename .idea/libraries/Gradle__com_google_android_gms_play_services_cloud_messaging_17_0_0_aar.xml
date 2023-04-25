@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fa067b1e8e11cd35494379b8398a4d82671386d57fef6a735fd7a896c0c92ebf
-size 2108
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-cloud-messaging:17.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/75685a1dc821acbb0c82a6480d84d037/transformed/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/75685a1dc821acbb0c82a6480d84d037/transformed/jetified-play-services-cloud-messaging-17.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-cloud-messaging/17.0.0/5b54e40c89bf1882a551b10312acdf03dcf34e82/play-services-cloud-messaging-17.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

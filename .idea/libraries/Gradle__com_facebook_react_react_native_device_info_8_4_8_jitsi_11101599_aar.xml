@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:176dd6806c08ac3f8171070cc44bc0162201224287ab32dba69e42a67255fe94
-size 1357
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.react:react-native-device-info:8.4.8-jitsi-11101599@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ea714e1e579afb046b49f78292422d67/transformed/jetified-react-native-device-info-8.4.8-jitsi-11101599/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ea714e1e579afb046b49f78292422d67/transformed/jetified-react-native-device-info-8.4.8-jitsi-11101599/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.react/react-native-device-info/8.4.8-jitsi-11101599/d60dda2559108203e8d283e7411c7215d3cf6b86/react-native-device-info-8.4.8-jitsi-11101599-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

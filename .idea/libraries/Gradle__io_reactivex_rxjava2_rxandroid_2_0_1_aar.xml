@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3066e90c14aa2b98314f030ce70167c03ddf72c9750f629ed75f02007cc8e07e
-size 1316
+<component name="libraryTable">
+  <library name="Gradle: io.reactivex.rxjava2:rxandroid:2.0.1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/958d2ee403813db32ec427eff189e851/transformed/jetified-rxandroid-2.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/958d2ee403813db32ec427eff189e851/transformed/jetified-rxandroid-2.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxandroid/2.0.1/d7f5f2dd884fe1de5fe8b0d536d19068b15559fc/rxandroid-2.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxandroid/2.0.1/67244b35fe87c5899f87151f8b63981b7c9b37db/rxandroid-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:92a2d85456bbc4ce76694bde75faaecaf164962d8c50b3623a7489eb28e4fdb0
-size 1237
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.ump:user-messaging-platform:1.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4bdc2cf5b8fd58d98b58e93d53e2fe42/transformed/jetified-user-messaging-platform-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4bdc2cf5b8fd58d98b58e93d53e2fe42/transformed/jetified-user-messaging-platform-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.ump/user-messaging-platform/1.0.0/d735fbf1a7e252ffda813ef2622c3a1ccdd2bb3c/user-messaging-platform-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

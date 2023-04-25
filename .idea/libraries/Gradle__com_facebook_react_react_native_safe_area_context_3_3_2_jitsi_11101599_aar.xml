@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f27aef01a5f7bcdec93fc713cd27bb4ac424c1fca8af5cd589c3d90c2a992b39
-size 1405
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.react:react-native-safe-area-context:3.3.2-jitsi-11101599@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/042382c430e76a3eeaa708c9c9a56bc1/transformed/jetified-react-native-safe-area-context-3.3.2-jitsi-11101599/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/042382c430e76a3eeaa708c9c9a56bc1/transformed/jetified-react-native-safe-area-context-3.3.2-jitsi-11101599/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.react/react-native-safe-area-context/3.3.2-jitsi-11101599/1468f263ac2039bc8731a4e096dd691af4dcc2dd/react-native-safe-area-context-3.3.2-jitsi-11101599-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

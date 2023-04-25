@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6991bbfc76af06ae0597e7303ccc42228dd4878b937ac72b21337cd5f09ff2f5
-size 1465
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-measurement-impl:20.0.2@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/197fa9d71fbbb6425c6db63fe04da6d4/transformed/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/197fa9d71fbbb6425c6db63fe04da6d4/transformed/jetified-play-services-measurement-impl-20.0.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-impl/20.0.2/6bc51b836b6df71a1582ce83f28caca56e70905e/play-services-measurement-impl-20.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

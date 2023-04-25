@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8deef4a9caee1bea1db85aa74f7a1233718c7b43afd67ae2c3d5f2f804ba75a2
-size 1181
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-process:2.2.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/aa7a3f5926a5d0ab8d16644008374085/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/aa7a3f5926a5d0ab8d16644008374085/transformed/jetified-lifecycle-process-2.2.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-process/2.2.0/87ad54b3a3ab3e83595fd66749e92beaf8123dd9/lifecycle-process-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

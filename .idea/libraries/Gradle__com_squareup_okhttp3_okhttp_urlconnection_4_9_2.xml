@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.squareup.okhttp3:okhttp-urlconnection:4.9.2">
+  <library name="Gradle: com.squareup.okhttp3:okhttp-urlconnection:4.9.2" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/4.9.2/3b9e64d3d56370bc7488ed8b336d17a8013cb336/okhttp-urlconnection-4.9.2.jar!/" />
     </CLASSES>

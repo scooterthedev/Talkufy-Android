@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:474a19ac139dd3117113e9967af8c907199aa96699978f323721f216798df77c
-size 2767
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-ml-natural-language-smart-reply:17.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d81822fe088b2004cff7a4d80f732130/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d81822fe088b2004cff7a4d80f732130/transformed/jetified-firebase-ml-natural-language-smart-reply-17.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-ml-natural-language-smart-reply/17.0.0/eb096e78f4d2d005533cd522849118ed68590cb7/firebase-ml-natural-language-smart-reply-17.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

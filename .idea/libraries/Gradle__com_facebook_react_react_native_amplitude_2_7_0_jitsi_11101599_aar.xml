@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:29099e7784566cfa92dbe6883ee02e4d9b2af5081d25f80a99954a260b6adba2
-size 1341
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.react:react-native-amplitude:2.7.0-jitsi-11101599@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2a4e20abd54cdb55650f21c954c385d0/transformed/jetified-react-native-amplitude-2.7.0-jitsi-11101599/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2a4e20abd54cdb55650f21c954c385d0/transformed/jetified-react-native-amplitude-2.7.0-jitsi-11101599/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.react/react-native-amplitude/2.7.0-jitsi-11101599/6d77a217ee8c851813962b704d9d498578f39913/react-native-amplitude-2.7.0-jitsi-11101599-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

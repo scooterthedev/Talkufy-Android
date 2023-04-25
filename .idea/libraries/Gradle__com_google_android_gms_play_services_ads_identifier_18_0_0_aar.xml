@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4bbac5d8c531a4a0ccfd6acaa92267392f78c97987787e91ee3a621d69bd443c
-size 1447
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-ads-identifier:18.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bca2ddc1cc6de7223353b41279fb6735/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bca2ddc1cc6de7223353b41279fb6735/transformed/jetified-play-services-ads-identifier-18.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-ads-identifier/18.0.0/71d2e97dbe034b36f64b28491590ec2b2ec324e3/play-services-ads-identifier-18.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

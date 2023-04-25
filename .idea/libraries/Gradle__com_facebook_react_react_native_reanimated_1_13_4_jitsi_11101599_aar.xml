@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e9faaabc47164ee440c7f7ba3555dd209965b1c75ca3d8de14de5701502a9cb9
-size 1356
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.react:react-native-reanimated:1.13.4-jitsi-11101599@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/efcb2390f524231fa6d4fe49a0de6e02/transformed/jetified-react-native-reanimated-1.13.4-jitsi-11101599/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/efcb2390f524231fa6d4fe49a0de6e02/transformed/jetified-react-native-reanimated-1.13.4-jitsi-11101599/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.react/react-native-reanimated/1.13.4-jitsi-11101599/b525e5baded3bb231336c1eafc10b0437d21ef8/react-native-reanimated-1.13.4-jitsi-11101599-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

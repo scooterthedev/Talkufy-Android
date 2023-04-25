@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:264cf1e31f7967526328054c73aefa318966ef255d4c1688e0175c258b0aeb30
-size 3873
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-ml-common:19.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2709d2c27c05b66f0a06f5977b3793ae/transformed/jetified-firebase-ml-common-19.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2709d2c27c05b66f0a06f5977b3793ae/transformed/jetified-firebase-ml-common-19.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-ml-common/19.0.0/d744794686c273d9fe2fdad77ee686c87a47625b/firebase-ml-common-19.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

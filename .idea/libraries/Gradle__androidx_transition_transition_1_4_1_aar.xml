@@ -1,16 +1,3 @@
-<component name="libraryTable">
-  <library name="Gradle: androidx.transition:transition:1.4.1@aar">
-    <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/13e3d4c7a0333306bb5632e7d029449f/transformed/transition-1.4.1/annotations.zip!/" />
-    </ANNOTATIONS>
-    <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/13e3d4c7a0333306bb5632e7d029449f/transformed/transition-1.4.1/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/13e3d4c7a0333306bb5632e7d029449f/transformed/transition-1.4.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/13e3d4c7a0333306bb5632e7d029449f/transformed/transition-1.4.1/AndroidManifest.xml" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.transition/transition/1.4.1/975f706c6c0892d0dfaa416cf04f469cfb0a4343/transition-1.4.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:274de9587554d98934f215db0565dd2a1f72feb4588f86e44d1df43909ebe6cc
+size 1026

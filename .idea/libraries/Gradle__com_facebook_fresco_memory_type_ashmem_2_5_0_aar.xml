@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e17dc858b03cde564bc2532f01938736cf4713b6b8263da72adb63d057cea56a
-size 1403
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.fresco:memory-type-ashmem:2.5.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/341035d0a5b33fae1a28e2f8f870516a/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/341035d0a5b33fae1a28e2f8f870516a/transformed/jetified-memory-type-ashmem-2.5.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/memory-type-ashmem/2.5.0/c4472e14c3f2865fc972efe4ed9055cf34a53e5e/memory-type-ashmem-2.5.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/memory-type-ashmem/2.5.0/f0a2d07ff418c927b5f2ccfa269f07a4ef0edf82/memory-type-ashmem-2.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

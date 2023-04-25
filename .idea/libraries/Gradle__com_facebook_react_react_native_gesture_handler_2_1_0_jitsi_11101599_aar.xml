@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4de729ed83fe21bb86e6245b9d6e34d18fd21e4e00f03e5c2f57ce22d408d19b
-size 1389
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.react:react-native-gesture-handler:2.1.0-jitsi-11101599@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ac7253797032e9caf0f5df2782eaa9ab/transformed/jetified-react-native-gesture-handler-2.1.0-jitsi-11101599/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ac7253797032e9caf0f5df2782eaa9ab/transformed/jetified-react-native-gesture-handler-2.1.0-jitsi-11101599/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.react/react-native-gesture-handler/2.1.0-jitsi-11101599/178d8d34c46df22f47386656aca5d5d44ef5cf49/react-native-gesture-handler-2.1.0-jitsi-11101599-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

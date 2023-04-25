@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2d175517ad1e2efec331426a24f09ba10b746275577281696d7cb6dd9d5d1f9e
-size 1018
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-auth-base:17.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/dbeebfbdc4ea0fc293bef8b3b79d0c26/transformed/jetified-play-services-auth-base-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dbeebfbdc4ea0fc293bef8b3b79d0c26/transformed/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

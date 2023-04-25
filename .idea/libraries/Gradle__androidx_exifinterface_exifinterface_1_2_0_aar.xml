@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6873443774827f84b76a8e86a660e5800d8578c797533ffc7227ac9e3a952505
-size 1299
+<component name="libraryTable">
+  <library name="Gradle: androidx.exifinterface:exifinterface:1.2.0@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/136d63a89a7187a69b20a2dfe34d08b2/transformed/exifinterface-1.2.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/136d63a89a7187a69b20a2dfe34d08b2/transformed/exifinterface-1.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/136d63a89a7187a69b20a2dfe34d08b2/transformed/exifinterface-1.2.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.exifinterface/exifinterface/1.2.0/cae89dd2d8af4160feaed1a42933db7ccf0002d7/exifinterface-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

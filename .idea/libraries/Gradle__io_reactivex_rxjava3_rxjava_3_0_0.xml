@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: io.reactivex.rxjava3:rxjava:3.0.0">
+  <library name="Gradle: io.reactivex.rxjava3:rxjava:3.0.0" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava3/rxjava/3.0.0/52e38d1aef8f3638806844a644f7b126f99c9aca/rxjava-3.0.0.jar!/" />
     </CLASSES>

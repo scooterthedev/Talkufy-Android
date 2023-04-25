@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.20">
+  <library name="Gradle: org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.20" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-parcelize-runtime/1.4.20/6793e58811b4a22aa104ecd2798836e1cd6cad9f/kotlin-parcelize-runtime-1.4.20.jar!/" />
     </CLASSES>

@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b323f3bea9a91b7b47594e3eb2ee76395110be7286f80a843ed1033dc2b810db
-size 1318
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.soloader:soloader:0.10.3@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0a7cfff0daea189154cc5f6209459a11/transformed/jetified-soloader-0.10.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0a7cfff0daea189154cc5f6209459a11/transformed/jetified-soloader-0.10.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.soloader/soloader/0.10.3/1ffe4ee232db855b81035b50dfa01d0c405e05b/soloader-0.10.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.soloader/soloader/0.10.3/c36d8791ed0ef1d4baa68e27638c6555dd5130ab/soloader-0.10.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

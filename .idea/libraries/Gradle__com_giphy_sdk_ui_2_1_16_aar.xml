@@ -1,10 +1,10 @@
 <component name="libraryTable">
-  <library name="Gradle: com.giphy.sdk:ui:2.1.16@aar">
+  <library name="Gradle: com.giphy.sdk:ui:2.1.16@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6675667080b80d705e56d2bd2604390c/transformed/jetified-ui-2.1.16/jars/libs/omsdk-android-1.2.13-Giphy.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6675667080b80d705e56d2bd2604390c/transformed/jetified-ui-2.1.16/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6675667080b80d705e56d2bd2604390c/transformed/jetified-ui-2.1.16/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6675667080b80d705e56d2bd2604390c/transformed/jetified-ui-2.1.16/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ace53b4f470a9117a3160c75de2c5b0a/transformed/jetified-ui-2.1.16/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ace53b4f470a9117a3160c75de2c5b0a/transformed/jetified-ui-2.1.16/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ace53b4f470a9117a3160c75de2c5b0a/transformed/jetified-ui-2.1.16/jars/libs/omsdk-android-1.2.13-Giphy.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ace53b4f470a9117a3160c75de2c5b0a/transformed/jetified-ui-2.1.16/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

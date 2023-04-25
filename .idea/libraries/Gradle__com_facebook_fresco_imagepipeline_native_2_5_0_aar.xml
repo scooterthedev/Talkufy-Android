@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bcdceb4b2df9d84c5716ea6e509f53777d8cdc27694d780fd967b9fe25e09dd4
-size 1422
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.fresco:imagepipeline-native:2.5.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a0356ce01aaabd0a853d4516616476f0/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a0356ce01aaabd0a853d4516616476f0/transformed/jetified-imagepipeline-native-2.5.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline-native/2.5.0/3c789ca8f8784e986cee0c70514d99bb36d7cab2/imagepipeline-native-2.5.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline-native/2.5.0/1e3cd9f02d436ceb22cb125cbcdd84e1ab6d606/imagepipeline-native-2.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

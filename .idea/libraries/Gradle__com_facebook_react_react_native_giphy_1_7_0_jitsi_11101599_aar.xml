@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6cf37abf3014dade90e77731bf18a55d56377090b80eab3a01d0c7841562f229
-size 1309
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.react:react-native-giphy:1.7.0-jitsi-11101599@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ee3d5f79c0f06f6f684dccfcb41da29d/transformed/jetified-react-native-giphy-1.7.0-jitsi-11101599/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ee3d5f79c0f06f6f684dccfcb41da29d/transformed/jetified-react-native-giphy-1.7.0-jitsi-11101599/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.react/react-native-giphy/1.7.0-jitsi-11101599/7627b10a70985ec31b477319f4bff25a76876193/react-native-giphy-1.7.0-jitsi-11101599-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

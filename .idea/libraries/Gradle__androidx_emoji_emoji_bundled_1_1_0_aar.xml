@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f6939a210c684b641f3a6a743ad943b31f68ac18346ac75131999a9dfc3b1bfa
-size 1096
+<component name="libraryTable">
+  <library name="Gradle: androidx.emoji:emoji-bundled:1.1.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d5d8bc963b24500d158ac23843ccd586/transformed/emoji-bundled-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d5d8bc963b24500d158ac23843ccd586/transformed/emoji-bundled-1.1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.emoji/emoji-bundled/1.1.0/5a2d6e97a7ba22b886d214e1cd61d56a19ddfa67/emoji-bundled-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

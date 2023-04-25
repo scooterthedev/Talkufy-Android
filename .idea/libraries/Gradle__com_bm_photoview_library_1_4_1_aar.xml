@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:105b2c59b66d2cec32fb296a809e2fafd013c586889cac60dc7b826e0dea2f72
-size 2404
+<component name="libraryTable">
+  <library name="Gradle: com.bm.photoview:library:1.4.1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/74390dbed1b5148904cd23e926ed9ec9/transformed/jetified-library-1.4.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/74390dbed1b5148904cd23e926ed9ec9/transformed/jetified-library-1.4.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bm.photoview/library/1.4.1/1443677c523f07ad6024e247cd54bdd2ad3b8235/library-1.4.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bm.photoview/library/1.4.1/d40bc6af03344c733e2c2865f2fc26212df9be6c/library-1.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

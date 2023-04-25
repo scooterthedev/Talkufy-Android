@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:753a854121cd80e05e0f0101073ec4f6c89e08f17b93c86061486c27eb6a5028
-size 2473
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.datatransport:transport-backend-cct:3.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c4b22272e71196d7a76445d0b6de6e91/transformed/jetified-transport-backend-cct-3.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c4b22272e71196d7a76445d0b6de6e91/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.datatransport/transport-backend-cct/3.0.0/7f506fe3498cda976d1b350c218464a0f1974982/transport-backend-cct-3.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

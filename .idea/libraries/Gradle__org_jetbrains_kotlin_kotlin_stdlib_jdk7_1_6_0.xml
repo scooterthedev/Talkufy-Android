@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0">
+  <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.6.0/da6bdc87391322974a43ccc00a25536ae74dad51/kotlin-stdlib-jdk7-1.6.0.jar!/" />
     </CLASSES>

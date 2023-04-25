@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6118ea3faf98f7bf426d1e4ff3b3437c624b3339cde202c8aa88bd7cfee2bb8d
-size 2536
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.anko:anko-design:0.10.8@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bbb5191c99129db230e6fcb152c97594/transformed/jetified-anko-design-0.10.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bbb5191c99129db230e6fcb152c97594/transformed/jetified-anko-design-0.10.8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-design/0.10.8/f2cda8486566f8be97152be34ab216ee14b8a6b9/anko-design-0.10.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

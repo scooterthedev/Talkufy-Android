@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0a70e00baa6cec3eea61e884b4d15167cf8be11ff606b0a50a55b534c904acd5
-size 3754
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-clearcut:16.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0cdf1acb3991150b1fce30a36e63eeb1/transformed/jetified-play-services-clearcut-16.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0cdf1acb3991150b1fce30a36e63eeb1/transformed/jetified-play-services-clearcut-16.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

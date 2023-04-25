@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3e4390cb4ca91c259e587f6c52c8c0eb3587653699d6b73c0a139f10e80bb7dd
-size 2831
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-ml-natural-language-translate-model:19.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/db8b53a9869ffe45988f9e0988fc8ceb/transformed/jetified-firebase-ml-natural-language-translate-model-19.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/db8b53a9869ffe45988f9e0988fc8ceb/transformed/jetified-firebase-ml-natural-language-translate-model-19.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-ml-natural-language-translate-model/19.0.0/3f9c0fed8f60abacf4fc718e180fef64ea7085d8/firebase-ml-natural-language-translate-model-19.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

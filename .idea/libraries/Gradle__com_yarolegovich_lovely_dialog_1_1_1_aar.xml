@@ -1,9 +1,9 @@
 <component name="libraryTable">
-  <library name="Gradle: com.yarolegovich:lovely-dialog:1.1.1@aar">
+  <library name="Gradle: com.yarolegovich:lovely-dialog:1.1.1@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a5e677acfdea53a7201d7f7f6bf440fe/transformed/jetified-lovely-dialog-1.1.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a5e677acfdea53a7201d7f7f6bf440fe/transformed/jetified-lovely-dialog-1.1.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a5e677acfdea53a7201d7f7f6bf440fe/transformed/jetified-lovely-dialog-1.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/328c5a392df6fecdd9ca009f62c9137b/transformed/jetified-lovely-dialog-1.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/328c5a392df6fecdd9ca009f62c9137b/transformed/jetified-lovely-dialog-1.1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/328c5a392df6fecdd9ca009f62c9137b/transformed/jetified-lovely-dialog-1.1.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.facebook.soloader:nativeloader:0.10.3">
+  <library name="Gradle: com.facebook.soloader:nativeloader:0.10.3" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.soloader/nativeloader/0.10.3/171783d0f3f525fb9e18eb3af758c0b3aaeaed69/nativeloader-0.10.3.jar!/" />
     </CLASSES>

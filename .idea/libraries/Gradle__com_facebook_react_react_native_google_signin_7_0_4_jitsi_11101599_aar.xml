@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0319600e7e85a26255807bd0019fcec75accb36d61d6e37fb5c2fb25956b0375
-size 1373
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.react:react-native-google-signin:7.0.4-jitsi-11101599@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f36271308585b778ad80272207a7f344/transformed/jetified-react-native-google-signin-7.0.4-jitsi-11101599/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f36271308585b778ad80272207a7f344/transformed/jetified-react-native-google-signin-7.0.4-jitsi-11101599/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.react/react-native-google-signin/7.0.4-jitsi-11101599/2c9a82766d0b601cbdcbcfa7787c599f7261d725/react-native-google-signin-7.0.4-jitsi-11101599-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

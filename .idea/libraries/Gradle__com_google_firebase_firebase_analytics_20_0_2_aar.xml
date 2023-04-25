@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8971386589c0abeebf41bfa39e6bbf3dc81c859d051138885d2074960d0b59fc
-size 1351
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-analytics:20.0.2@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/69d2102768084403b520e1045c2dc039/transformed/jetified-firebase-analytics-20.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/69d2102768084403b520e1045c2dc039/transformed/jetified-firebase-analytics-20.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-analytics/20.0.2/ace98f39b262c59be4be4d52b871d1ba5dfff723/firebase-analytics-20.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
