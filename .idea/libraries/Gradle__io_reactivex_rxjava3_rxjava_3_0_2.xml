@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Gradle: io.reactivex.rxjava3:rxjava:3.0.2" external-system-id="GRADLE">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava3/rxjava/3.0.2/e652ec63717b1a92509abc8dc884fca0da3a974c/rxjava-3.0.2.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava3/rxjava/3.0.2/73203f683b962f61d104ad897378fb3d2b4a8c59/rxjava-3.0.2-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava3/rxjava/3.0.2/322ad78484576e016e3051705fcee2f2569cd78b/rxjava-3.0.2-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:625fdfd0f4744144c782655a602d57d799613a8d00212d508b6b90a423c6cf76
+size 753

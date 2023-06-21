@@ -1,19 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item android:title="Item" android:id="@+id/action_delete_conversation"
-    android:icon="@drawable/ic_delete_white_24dp"
-    app:showAsAction="always"
-    />
-
-    <item android:title="Mark as read"
-          android:id="@+id/action_mark_as_read"
-          app:showAsAction="never"
-    />
-
-    <item android:title="Mute Notifications"
-          android:id="@+id/action_mute"
-          android:visible="false"
-          app:showAsAction="never"/>
-
-</menu>
+version https://git-lfs.github.com/spec/v1
+oid sha256:bba03957ded88f72a0e1b6a0329649deb7a3c56df95c392ef3c6e7896cd8b33f
+size 616

@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Gradle: io.grpc:grpc-stub:1.41.0" external-system-id="GRADLE">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.41.0/6832169ea09d5f69a4ae3830590a5f71c0d27214/grpc-stub-1.41.0.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.41.0/2f7fd486c81552de91a2ed34fbc26ff05be19cb8/grpc-stub-1.41.0-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.41.0/79ea8dfdb526ca67d60d8bef396317546fa759c5/grpc-stub-1.41.0-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:d25ae4b93df0f72591bc7bdc483997c8b5adcdd0cb82441eef2ff865635dc91f
+size 729

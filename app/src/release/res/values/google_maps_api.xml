@@ -1,19 +1,3 @@
-<resources>
-    <!--
-
-    To do this, you can either add your release key credentials to your existing
-    key, or create a new key.
-
-    Note that this file specifies the API key for the release build target.
-    If you have previously set up a key for the debug target with the debug signing certificate,
-    you will also need to set up a key for your release certificate.
-
-    Follow the directions here:
-
-    https://developers.google.com/maps/documentation/android/signup
-
-    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
-    string in this file.
-    -->
-    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">AIzaSyCntU4j3nWmh1BQ10woru8mVXbPU3_nnTM</string>
-</resources>
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e01c418e47386c6cef2d599c9be66a03807d8cbe5dee08631f065df76f9c9cc
+size 745

@@ -1,9 +1,3 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:app="http://schemas.android.com/apk/res-auto"
-      xmlns:tools="http://schemas.android.com/tools"
-      tools:context=".activities.UserProfileActivity">
-    <item android:id="@+id/action_settings"
-          android:title="@string/action_settings"
-          android:orderInCategory="100"
-          app:showAsAction="never"/>
-</menu>
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8b2a85bdbb39d7059c17764a7a4bab2391a5ee118c71f5f68fc086d4837e7b7
+size 410

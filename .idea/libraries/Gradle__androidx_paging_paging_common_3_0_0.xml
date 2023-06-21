@@ -1,11 +1,3 @@
-<component name="libraryTable">
-  <library name="Gradle: androidx.paging:paging-common:3.0.0" external-system-id="GRADLE">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.paging/paging-common/3.0.0/a4aa6ffbc719e85d264dbb0c8d03795fba978729/paging-common-3.0.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.paging/paging-common/3.0.0/305fc4a31769467b3e3872e6970fe9cdc101b400/paging-common-3.0.0-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:f385113a6bbc4643a960c4391a08b97f31496913847d3ba7a4c010abfad59a47
+size 584

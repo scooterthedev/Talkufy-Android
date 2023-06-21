@@ -1,18 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rotate xmlns:android="http://schemas.android.com/apk/res/android"
-        android:fromDegrees="270"
-        android:toDegrees="270">
-    <shape
-            android:innerRadiusRatio="2.5"
-            android:shape="ring"
-            android:thickness="1dp"
-            android:useLevel="true"><!-- this line fixes the issue for lollipop api 21 -->
-
-        <gradient
-                android:angle="0"
-                android:endColor="@color/colorAccent"
-                android:startColor="@color/colorAccent"
-                android:type="sweep"
-                android:useLevel="false" />
-    </shape>
-</rotate>
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f165d63bbb427abfd30afdcd55822a578bd29fac44bac7eaa6acded840486a9
+size 654

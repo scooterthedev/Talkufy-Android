@@ -1,12 +1,3 @@
-<component name="libraryTable">
-  <library name="Gradle: com.google.android.gms:play-services-ads-base:20.5.0@aar" external-system-id="GRADLE">
-    <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/33fa8f2efe45195e6b7b393f5a0d6c65/transformed/jetified-play-services-ads-base-20.5.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/33fa8f2efe45195e6b7b393f5a0d6c65/transformed/jetified-play-services-ads-base-20.5.0/jars/classes.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-ads-base/20.5.0/ace98f39b262c59be4be4d52b871d1ba5dfff723/play-services-ads-base-20.5.0-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES />
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:71b08d8b9131e1e0053415f00776d188e2a2fd44e9783b62a93db53a5b5af513
+size 797

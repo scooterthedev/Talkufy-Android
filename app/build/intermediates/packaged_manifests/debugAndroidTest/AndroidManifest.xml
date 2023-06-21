@@ -1,22 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ca.scooter.talkufy.test" >
-
-    <uses-sdk
-        android:minSdkVersion="23"
-        android:targetSdkVersion="29" />
-
-    <instrumentation
-        android:name="androidx.test.runner.AndroidJUnitRunner"
-        android:functionalTest="false"
-        android:handleProfiling="false"
-        android:label="Tests for ca.scooter.talkufy"
-        android:targetPackage="ca.scooter.talkufy" />
-
-    <application
-        android:debuggable="true"
-        android:extractNativeLibs="false" >
-        <uses-library android:name="android.test.runner" />
-    </application>
-
-</manifest>
+version https://git-lfs.github.com/spec/v1
+oid sha256:514e4f12fb6b019dcd627d4739f473c19dee0bcf01335d995537604065a6ed6c
+size 665

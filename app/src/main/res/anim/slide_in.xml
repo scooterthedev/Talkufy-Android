@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<translate xmlns:android="http://schemas.android.com/apk/res/android"
-    android:fromYDelta="100%p"
-    android:duration="@android:integer/config_longAnimTime"/>
+version https://git-lfs.github.com/spec/v1
+oid sha256:f091098ab5f93020a32dac654443e4c38932f21ce6b3711cef64313c650f3392
+size 201

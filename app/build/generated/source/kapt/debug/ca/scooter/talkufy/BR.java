@@ -1,9 +1,3 @@
-package ca.scooter.talkufy;
-
-public class BR {
-  public static final int _all = 0;
-
-  public static final int message = 1;
-
-  public static final int position = 2;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:341d24ec368bf1fb0f49785bb46fc02458081b01bed5d83dcf1a2d113585807b
+size 166

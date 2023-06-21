@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="clock_face_margin_start">24dp</dimen>
-    <dimen name="material_clock_face_margin_top">36dp</dimen>
-</resources>
+version https://git-lfs.github.com/spec/v1
+oid sha256:38cb9c46e8387e7592c10be9236a91916a705bba22e3d89f7f83667c0513b643
+size 180

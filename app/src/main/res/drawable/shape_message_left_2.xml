@@ -1,20 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item>
-        <rotate
-                android:fromDegrees="-45"
-                android:pivotX="0%"
-                android:pivotY="0%"
-                android:toDegrees="0" >
-            <shape android:shape="rectangle" >
-                <solid android:color="@color/colorPrimary" />
-            </shape>
-        </rotate>
-    </item>
-    <item android:left="16dp">
-        <shape android:shape="rectangle" >
-            <solid android:color="@color/colorPrimary" />
-            <corners android:radius="4dp" />
-        </shape>
-    </item>
-</layer-list>
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e65ffd629abb0e5ebc2d3f5625788eb9dce805efc0ea255a4d3940e8e926d42
+size 671

@@ -1,36 +1,3 @@
-package com.github.javiersantos.appupdater.objects;
-
-public class GitHub {
-    private String gitHubUser;
-    private String gitHubRepo;
-
-    public GitHub(String gitHubUser, String gitHubRepo) {
-        this.gitHubUser = gitHubUser;
-        this.gitHubRepo = gitHubRepo;
-    }
-
-    public String getGitHubUser() {
-        return gitHubUser;
-    }
-
-    public void setGitHubUser(String user) {
-        this.gitHubUser = user;
-    }
-
-    public String getGitHubRepo() {
-        return gitHubRepo;
-    }
-
-    public void setGitHubRepo(String repo) {
-        this.gitHubRepo = repo;
-    }
-
-    public static Boolean isGitHubValid(GitHub gitHub) {
-        if (gitHub == null || gitHub.getGitHubUser().length() == 0 || gitHub.getGitHubRepo().length() == 0) {
-            return false;
-        } else {
-            return true;
-        }
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e648c38c62a00a4780eddaf588084ff83f11c7c623fec13fe947479771919dd
+size 877

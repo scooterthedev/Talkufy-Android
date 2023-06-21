@@ -1,12 +1,3 @@
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="rectangle">
-
-    <corners
-        android:bottomLeftRadius="@dimen/message_bubble_corners_radius"
-        android:bottomRightRadius="0dp"
-        android:topLeftRadius="@dimen/message_bubble_corners_radius"
-        android:topRightRadius="@dimen/message_bubble_corners_radius" />
-
-    <solid android:color="@color/white" />
-
-</shape>
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c401c2cf915597fe039529006b0b8ccb8f1c13d4b456e70ed8756e072738651
+size 418

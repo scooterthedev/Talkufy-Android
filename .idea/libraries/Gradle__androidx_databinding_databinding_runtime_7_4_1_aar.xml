@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Gradle: androidx.databinding:databinding-runtime:7.4.1@aar" external-system-id="GRADLE">
-    <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0cebdcf044c5de5304b244dc40654503/transformed/databinding-runtime-7.4.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0cebdcf044c5de5304b244dc40654503/transformed/databinding-runtime-7.4.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0cebdcf044c5de5304b244dc40654503/transformed/databinding-runtime-7.4.1/jars/classes.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-runtime/7.4.1/76350a26307c4b137b4f19fe9c3d3fe1a5682ea3/databinding-runtime-7.4.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:053cc9718e87c1f84e327ea6c54305ec58934520f9125d803c975ce81be1d0bc
+size 910

@@ -1,10 +1,3 @@
-<component name="libraryTable">
-  <library name="Gradle: com.google.android.gms:play-services-safetynet:17.0.0@aar" external-system-id="GRADLE">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/74b10c869a490c1cab17666e5451de29/transformed/jetified-play-services-safetynet-17.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/74b10c869a490c1cab17666e5451de29/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8ede04061ecb3b13b79014dede1d4c14b2b17933888bf7eee8aaba0b229330a
+size 575

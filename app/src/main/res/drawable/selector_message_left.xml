@@ -1,13 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true"
-          android:color="@color/colorAccent"
-          android:drawable="@drawable/shape_outcoming_message"/> <!-- pressed -->
-    <item android:state_focused="true"
-          android:drawable="@drawable/shape_outcoming_message"
-          android:color="#000000" /> <!-- focused -->
-    <item android:drawable="@drawable/shape_outcoming_message" android:color="#FFFFFF" /> <!-- default -->
-
-
-
-</selector>
+version https://git-lfs.github.com/spec/v1
+oid sha256:8bc46b66604a43c1686146f74fa756374275500b4dca44783040efc23f0d22e4
+size 552
