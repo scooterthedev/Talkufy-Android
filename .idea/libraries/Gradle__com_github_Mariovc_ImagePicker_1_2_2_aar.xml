@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.Mariovc:ImagePicker:1.2.2@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/eac286f292429ab34f692057891806c2/transformed/jetified-ImagePicker-1.2.2/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/eac286f292429ab34f692057891806c2/transformed/jetified-ImagePicker-1.2.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/eac286f292429ab34f692057891806c2/transformed/jetified-ImagePicker-1.2.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e1c2cf7f977264aebc37c335a0544f89/transformed/jetified-ImagePicker-1.2.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e1c2cf7f977264aebc37c335a0544f89/transformed/jetified-ImagePicker-1.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e1c2cf7f977264aebc37c335a0544f89/transformed/jetified-ImagePicker-1.2.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

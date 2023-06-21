@@ -1,0 +1,5 @@
+ca.scooter.talkufy.test.app-androidTest-0 C:\Users\yekut\IdeaProjects\Talkufy-Android\app\build\generated\res\resValues\androidTest\debug
+ca.scooter.talkufy.test.app-androidTest-1 C:\Users\yekut\IdeaProjects\Talkufy-Android\app\build\generated\res\rs\androidTest\debug
+ca.scooter.talkufy.test.app-mergeDebugAndroidTestResources-2 C:\Users\yekut\IdeaProjects\Talkufy-Android\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+ca.scooter.talkufy.test.app-mergeDebugAndroidTestResources-3 C:\Users\yekut\IdeaProjects\Talkufy-Android\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+ca.scooter.talkufy.test.app-merged_res-4 C:\Users\yekut\IdeaProjects\Talkufy-Android\app\build\intermediates\merged_res\debugAndroidTest

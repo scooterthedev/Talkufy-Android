@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "ca.scooter.talkufy.app-mergeDebugResources-97:/layout/received_audio_item.xml",
+        "source": "ca.scooter.talkufy.app-main-100:/layout/received_audio_item.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-mergeDebugResources-97:/layout/sent_audio_placeholder_item.xml",
+        "source": "ca.scooter.talkufy.app-main-100:/layout/sent_audio_placeholder_item.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-mergeDebugResources-97:/layout/sent_audio_item.xml",
+        "source": "ca.scooter.talkufy.app-main-100:/layout/sent_audio_item.xml"
+    }
+]

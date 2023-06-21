@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.react:react-native-video:5.2.0-jitsi-11101599@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2d5af94a1169ca2476a5a81400a4308f/transformed/jetified-react-native-video-5.2.0-jitsi-11101599/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2d5af94a1169ca2476a5a81400a4308f/transformed/jetified-react-native-video-5.2.0-jitsi-11101599/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6e47b1e1ba1a7d7c463777717a91339f/transformed/jetified-react-native-video-5.2.0-jitsi-11101599/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6e47b1e1ba1a7d7c463777717a91339f/transformed/jetified-react-native-video-5.2.0-jitsi-11101599/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

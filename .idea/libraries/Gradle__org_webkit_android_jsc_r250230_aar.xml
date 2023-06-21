@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: org.webkit:android-jsc:r250230@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8d51f67346b94b9edb9892a93bdc3a89/transformed/jetified-android-jsc-r250230/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8d51f67346b94b9edb9892a93bdc3a89/transformed/jetified-android-jsc-r250230/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/073415e05eb458daf0b05ff4ede01370/transformed/jetified-android-jsc-r250230/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/073415e05eb458daf0b05ff4ede01370/transformed/jetified-android-jsc-r250230/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

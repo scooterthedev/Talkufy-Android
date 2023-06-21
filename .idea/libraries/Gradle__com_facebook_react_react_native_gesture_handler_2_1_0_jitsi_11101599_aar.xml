@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.react:react-native-gesture-handler:2.1.0-jitsi-11101599@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ac7253797032e9caf0f5df2782eaa9ab/transformed/jetified-react-native-gesture-handler-2.1.0-jitsi-11101599/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ac7253797032e9caf0f5df2782eaa9ab/transformed/jetified-react-native-gesture-handler-2.1.0-jitsi-11101599/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4bb8c4c75bf6ebce90689c27b5e9c4ca/transformed/jetified-react-native-gesture-handler-2.1.0-jitsi-11101599/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4bb8c4c75bf6ebce90689c27b5e9c4ca/transformed/jetified-react-native-gesture-handler-2.1.0-jitsi-11101599/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
