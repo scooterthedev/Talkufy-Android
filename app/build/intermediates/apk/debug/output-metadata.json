@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:48b852fd8e685f096d5f33f79fbc1e300aefe8b54f57cf1c22681935f0530844
-size 366
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "ca.scooter.talkufy",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 4,
+      "versionName": "1",
+      "outputFile": "app-debug.apk"
+    }
+  ],
+  "elementType": "File"
+}

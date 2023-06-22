@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:525e1a35bccd470550494bfb7c04a39b93a5bdba7a6036c6e8245bd4b2c2b304
-size 708
+{
+    "logs": [
+        {
+            "outputFile": "ca.scooter.talkufy.app-mergeDebugResources-78:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\yekut\\.gradle\\caches\\transforms-3\\87626fdc4c78afb79b8d95683637ae3d\\transformed\\material-1.5.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,191",
+                        "endColumns": "135,140",
+                        "endOffsets": "186,327"
+                    }
+                }
+            ]
+        }
+    ]
+}

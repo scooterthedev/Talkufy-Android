@@ -1,3 +1,184 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:98826d1f4aaa8e31bd56af818474af2e99cbb1b6db9e8b80764e42e0aa2a52e0
-size 6789
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:background="?attr/selectableItemBackground"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        >
+
+
+       <FrameLayout android:layout_width="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pic"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            app:civ_border_width="1dp"
+            app:civ_circle_background_color="@color/colorAccent"
+            app:civ_border_color="@color/colorAccent"
+            android:src="@drawable/contact_placeholder" />
+
+           <de.hdodenhof.circleimageview.CircleImageView
+                   android:layout_width="15dp"
+                      android:layout_height="15dp"
+           android:layout_gravity="end|top"
+                     app:civ_border_width="2dp"
+                   android:visibility="gone"
+                      app:civ_border_color="@color/white"
+                      android:id="@+id/online_status_imageview"
+           android:src="@drawable/shape_bubble_online"
+           />
+
+           <com.github.lguipeng.library.animcheckbox.AnimCheckBox
+                   android:layout_width="22dp"
+                   android:layout_height="22dp"
+                   app:checked="false"
+                   android:visibility="invisible"
+                   app:stroke_color="@color/white"
+                   app:circle_color="@color/color4"
+                   app:stroke_width="2dp"
+                   android:id="@+id/contact_checkbox"
+                   android:layout_gravity="end|bottom" />
+
+       </FrameLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="15dp">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:fontFamily="@font/roboto_regular"
+                android:text="User name"
+                android:textSize="16sp" />
+
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:orientation="horizontal"
+                          android:layout_marginTop="5dp"
+                          android:gravity="center"
+                          android:layout_height="wrap_content">
+
+                <ImageView android:layout_width="12dp"
+                           android:scaleType="centerInside"
+                           android:layout_height="12dp"
+                           android:layout_marginRight="5dp"
+                           android:visibility="gone"
+                           android:id="@+id/delivery_status_last_msg"
+                           android:src="@drawable/ic_message_pending_gray_24dp"
+                           android:layout_gravity="center"
+
+                />
+
+                <TextView
+                android:id="@+id/mobile_number"
+                android:layout_weight="1"
+                android:lines="1"
+                android:ellipsize="end"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Phone no."
+                android:fontFamily="@font/roboto_light"
+                android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:orientation="vertical"
+                      android:gravity="end"
+                      android:layout_marginTop="5dp"
+                      android:id="@+id/messageInfoLayout"
+                      android:layout_height="match_parent">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:layout_gravity="end"
+                      android:id="@+id/messageTime"
+                      android:fontFamily="@font/roboto_thin"
+                        android:text="Yesterday"
+                      android:textSize="12sp"
+            />
+
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:orientation="horizontal"
+                          android:gravity="end|center"
+                          android:layout_weight="1"
+                          android:layout_height="0dp">
+
+                <ImageView android:layout_width="24dp"
+                           android:layout_height="24dp"
+                           android:scaleType="fitXY"
+                           android:visibility="gone"
+                           android:src="@drawable/ic_mute_green"
+                        android:id="@+id/conversation_mute_icon"
+                        app:tint="@color/colorPrimaryDark" />
+
+                <com.nex3z.notificationbadge.NotificationBadge
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:nbAnimationEnabled="true"
+                        app:nbAnimationDuration="100"
+                        android:layout_gravity="center"
+                        app:nbEllipsizeText="99+"
+                        app:nbMaxTextLength="2"
+                        android:visibility="gone"
+                        android:id="@+id/unreadCount"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <View android:layout_width="match_parent"
+          android:layout_height="0.01dp"
+    android:background="@color/black"
+          android:layout_marginRight="10dp"
+          android:layout_marginLeft="100dp"
+    />
+
+</LinearLayout>

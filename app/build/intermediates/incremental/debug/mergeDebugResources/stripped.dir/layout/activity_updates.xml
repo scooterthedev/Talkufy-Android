@@ -1,3 +1,35 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:47fa6087f42a7652b4df927ed06887b2ea4695fc4c503f81f31a6b7c50bd0cce
-size 1184
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:orientation="vertical"
+              tools:context=".activities.Updates">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/checkButton"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="10dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/check"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

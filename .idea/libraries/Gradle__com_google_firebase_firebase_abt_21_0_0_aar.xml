@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:96bfead290e459730719d5fb08e832c22e5a063f433a5ecdfe19ca64c19659c8
-size 943
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-abt:21.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c9ad00608180d9b2b43e2e63d8987a42/transformed/jetified-firebase-abt-21.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c9ad00608180d9b2b43e2e63d8987a42/transformed/jetified-firebase-abt-21.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-abt/21.0.0/7b2d56b2cae5e1744ac2a3ab7a8dfc4523bdbd0f/firebase-abt-21.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-abt/21.0.0/4f26643cad393fa4d1e2073fe4d4034b9dd2d690/firebase-abt-21.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

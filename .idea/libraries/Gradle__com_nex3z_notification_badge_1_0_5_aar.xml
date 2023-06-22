@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:02e8364c87fc0cef1e6a8ad47f6fb2bed91ecddaa8f18aa794c8f9840fa3b853
-size 1113
+<component name="libraryTable">
+  <library name="Gradle: com.nex3z:notification-badge:1.0.5@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/863a2a876d77f2c1820c63f2b9645570/transformed/jetified-notification-badge-1.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/863a2a876d77f2c1820c63f2b9645570/transformed/jetified-notification-badge-1.0.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/863a2a876d77f2c1820c63f2b9645570/transformed/jetified-notification-badge-1.0.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nex3z/notification-badge/1.0.5/eae99b74466f726286672ff0b381cdc6f7b72315/notification-badge-1.0.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nex3z/notification-badge/1.0.5/25f466f37e32ee010a6dcca5c47b74842cf05e06/notification-badge-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

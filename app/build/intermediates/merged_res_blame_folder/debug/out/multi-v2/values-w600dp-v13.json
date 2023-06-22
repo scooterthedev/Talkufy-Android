@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8a3c96ccfee81ec303ac4cf5f30d783b8852f411c11bd3c73eeaa64466e9fdf4
-size 904
+{
+    "logs": [
+        {
+            "outputFile": "ca.scooter.talkufy.app-mergeDebugResources-78:/values-w600dp-v13/values-w600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "41",
+                        "endOffsets": "53"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "41",
+                        "endOffsets": "92"
+                    }
+                }
+            ]
+        }
+    ]
+}

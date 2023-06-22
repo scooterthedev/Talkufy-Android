@@ -1,3 +1,1118 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8f1f7d4903e400cc7e94a8964ba22d39f017141c83c2574654231fec60b39374
-size 53271
+[
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-hdpi_ic_location.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-hdpi/ic_location.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_android_black_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_android_black_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_bubble_map_left.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/bubble_map_left.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_layout_line.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/layout_line.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_notification.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_camera_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_camera_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_gradient_5.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/gradient_5.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/menu_chat_actions_menu.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/menu/chat_actions_menu.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_feedback.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_feedback.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_item_group_member_layout.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/item_group_member_layout.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_link_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_link_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_create_channel.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_create_channel.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-v24_ic_baseline_arrow_forward_24.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-v24/ic_baseline_arrow_forward_24.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_drawable_gradient_animation_list.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/drawable_gradient_animation_list.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_received_audio_item.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/received_audio_item.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_play_black.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_play_black.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_contact_screen.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/contact_screen.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-xxxhdpi_ic_action_copy.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-xxxhdpi/ic_action_copy.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_inter_extra_light.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/inter_extra_light.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_layout_menu_badge.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/layout_menu_badge.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_inter_black.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/inter_black.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_item__forward_contact_list.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/item__forward_contact_list.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_person_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_person_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_shape_message_right_2.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/shape_message_right_2.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_error_placeholder.jpg.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/error_placeholder.jpg"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_image_preview.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_image_preview.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_gallery.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_gallery.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-v21_ic_menu_manage.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-v21/ic_menu_manage.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_layout_recycler_view.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/layout_recycler_view.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_contact_placeholder.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/contact_placeholder.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_blurred_text_background.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/blurred_text_background.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_person_add_white_padded_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_person_add_white_padded_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/menu_message_activity_menu.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/menu/message_activity_menu.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_progress_drawable.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/progress_drawable.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_delete_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_delete_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/menu_option_setting_menu.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/menu/option_setting_menu.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_inter_medium.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/inter_medium.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_top_round_drawable.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/top_round_drawable.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_raleway_regular.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/raleway_regular.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-xxhdpi_ic_action_delete.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-xxhdpi/ic_action_delete.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_selector_message_right.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/selector_message_right.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_location_white.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_location_white.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_dialog_list_selector.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/dialog_list_selector.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_delivered_tick.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_delivered_tick.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_down_arrow_green.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_down_arrow_green.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-hdpi_ic_action_copy.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-hdpi/ic_action_copy.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_sent_audio_item.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/sent_audio_item.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-mdpi_ic_action_copy.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-mdpi/ic_action_copy.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_forward_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_forward_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_bubble_video_right.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/bubble_video_right.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-xxhdpi_ic_action_copy.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-xxhdpi/ic_action_copy.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_stop_black_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_stop_black_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-v21_ic_menu_camera.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-v21/ic_menu_camera.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_shape_bubble_left.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/shape_bubble_left.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_content_main.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/content_main.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-mdpi_ic_mute_green.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-mdpi/ic_mute_green.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/xml_preference_settings.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/xml/preference_settings.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/menu_converstation_option_menu.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/menu/converstation_option_menu.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_gradient_3.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/gradient_3.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_my_msgs.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_my_msgs.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_group_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_group_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_tick_sent_grey_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_tick_sent_grey_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_roboto_black.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/roboto_black.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_edit_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_edit_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_forward.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_forward.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_read_status.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_read_status.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_shape_outcoming_message.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/shape_outcoming_message.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_gradient_green.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/gradient_green.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_checkbox_drawable.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/checkbox_drawable.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_gotham.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/gotham.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_shape_bubble_offline.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/shape_bubble_offline.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_read_green.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_read_green.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-xhdpi_ic_mute_green.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-xhdpi/ic_mute_green.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_gradient_2.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/gradient_2.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/anim_rotate.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/anim/rotate.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_delivered_round.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_delivered_round.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-anydpi_ic_location.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-anydpi/ic_location.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_selector_message_left.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/selector_message_left.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_jitsi_meet.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_jitsi_meet.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_mute_light.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_mute_light.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_multi_contact_chooser.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_multi_contact_chooser.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_group_add_green_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_group_add_green_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_splash.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_lato_light.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/lato_light.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_like_flat.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_like_flat.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_layout_include_message_activity_toolbar.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/layout_include_message_activity_toolbar.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_add_btn.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_add_btn.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_item_contact_layout.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/item_contact_layout.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_gradient_1.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/gradient_1.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-xxhdpi_ic_location.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-xxhdpi/ic_location.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_pause_black_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_pause_black_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_roboto_medium.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/roboto_medium.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_button_round_with_transparency.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/button_round_with_transparency.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_vibration_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_vibration_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_circle_shape.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/circle_shape.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_button_round_with_stroke.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/button_round_with_stroke.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_create_group.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_create_group.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/menu_user_profile_menu.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/menu/user_profile_menu.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_maps.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_inter_thin.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/inter_thin.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_updated.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_updated.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_item_video.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/item_video.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_message.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_message.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_share_flat.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_share_flat.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-mdpi_ic_action_delete.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-mdpi/ic_action_delete.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_play_white.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_play_white.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_mic_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_mic_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_layout_upload_image_preview.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/layout_upload_image_preview.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_camera.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_camera.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_call_end_white_34dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_call_end_white_34dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_info_flat.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_info_flat.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_inter_regular.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/inter_regular.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_roboto_bold.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/roboto_bold.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_message_light_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_message_light_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_more_flat.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_more_flat.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_play_arrow_black_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_play_arrow_black_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_app_bar_home.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/app_bar_home.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_arrow_back_black_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_arrow_back_black_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_error_placeholder2.jpg.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/error_placeholder2.jpg"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_search_black_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/menu_menu_tick.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/menu/menu_tick.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_video_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_video_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_incoming_call.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_incoming_call.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_video.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_video.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/menu_nav_bottom_home_menu.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/menu/nav_bottom_home_menu.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_buttonshape.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/buttonshape.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-mdpi_ic_location.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-mdpi/ic_location.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-xxhdpi_ic_mute_green.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-xxhdpi/ic_mute_green.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_side_nav_bar.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_text_header.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/text_header.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_done_tick_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_done_tick_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-hdpi_ic_action_delete.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-hdpi/ic_action_delete.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_content_home.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/content_home.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_up_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_up_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_item_smart_reply.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/item_smart_reply.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_item_grid_contact_layout.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/item_grid_contact_layout.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_block_list.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_block_list.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_layout_attachment_menu.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/layout_attachment_menu.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_layout_profile_image_picker.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/layout_profile_image_picker.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-xxxhdpi_ic_mute_green.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-xxxhdpi/ic_mute_green.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_item_layout_online.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/item_layout_online.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_edit_profile.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_file_download_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_file_download_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_photo_library_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_photo_library_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_loading_bar.gif.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/loading_bar.gif"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-v21_ic_menu_send.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-v21/ic_menu_send.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/menu_edit_profile_menu.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/menu/edit_profile_menu.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_bubble_image_left.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/bubble_image_left.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_upload_preview.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_upload_preview.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_call_green_34dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_call_green_34dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_item_conversation_layout.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/item_conversation_layout.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-v24_ic_info.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-v24/ic_info.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_file_upload_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_file_upload_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_inter_semi_bold.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/inter_semi_bold.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_person_add_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_person_add_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-v24_ic_update.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-v24/ic_update.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_user_profile.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_user_profile.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-v21_ic_menu_slideshow.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-v21/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_read_round.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_read_round.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_videocam_black_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_videocam_black_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_call_black_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_call_black_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_picture_white.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/picture_white.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_fragment_demo_card.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/fragment_demo_card.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic__down_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic__down_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_item_contact_layout_2.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/item_contact_layout_2.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_settings.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_layout_fragment_splash_screen.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/layout_fragment_splash_screen.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_shape_bubble_online.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/shape_bubble_online.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_rounded_suggestion_background.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/rounded_suggestion_background.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_phone_green_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_phone_green_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_placeholder_image.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/placeholder_image.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_raleway_bold.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/raleway_bold.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_dark_blue_top_gradient.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/dark_blue_top_gradient.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_bubble_image_right.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/bubble_image_right.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_shape_bubble_online_large.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/shape_bubble_online_large.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_down_arrow_white.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_down_arrow_white.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_arrow_back_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_arrow_back_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_nav_header_home.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/nav_header_home.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_home.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_home.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-xxxhdpi_ic_action_delete.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-xxxhdpi/ic_action_delete.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-xhdpi_ic_action_delete.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-xhdpi/ic_action_delete.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_mail_box_img.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/mail_box_img.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_message_pending_gray_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_message_pending_gray_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_shape_custom_cursor.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/shape_custom_cursor.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_clear_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_clear_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_segoeui.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/segoeui.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_sent_round.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_sent_round.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-v24_round_button.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-v24/round_button.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_chat_bubble_white_24dp.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_chat_bubble_white_24dp.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_roboto_regular.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/roboto_regular.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_lato_regular.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/lato_regular.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_group_add_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_group_add_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_item_selector.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/item_selector.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_information.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/information.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-hdpi_ic_mute_green.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-hdpi/ic_mute_green.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_incoming_bubble.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/incoming_bubble.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_button_round_header.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/button_round_header.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_setting_flat_black.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_setting_flat_black.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_shape_incoming_message.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/shape_incoming_message.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_inter_extra_bold.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/inter_extra_bold.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_action_delete.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_action_delete.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_image_background.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/image_background.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_blurred_header_background.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/blurred_header_background.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_block_red_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_block_red_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_bubble_left.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/bubble_left.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_person_outlined.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_person_outlined.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_item_feedback.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/item_feedback.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_logout_red.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_logout_red.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_mobile_login.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_mobile_login.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_calibri.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/calibri.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_content_user_profile.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/content_user_profile.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_roboto_thin.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/roboto_thin.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-v21_ic_menu_gallery.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-v21/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_location_on_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_location_on_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_input_otp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/input_otp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_input_phone.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/input_phone.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_shape_line.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/shape_line.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_dialog_location_picker.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/dialog_location_picker.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_begining_splash_screen.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_begining_splash_screen.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_bubble_video_left.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/bubble_video_left.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_arrow_drop_down_black_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_arrow_drop_down_black_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/menu_menu_user_profile.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/menu/menu_user_profile.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_app_logo.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/app_logo.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_cancel_grey_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_cancel_grey_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_volume_up_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_volume_up_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_play_circle_outline_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_play_circle_outline_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_chat.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_chat.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_lato_black.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/lato_black.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_outgoing_call.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_outgoing_call.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_image_placeholder.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/image_placeholder.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_reply_black_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_reply_black_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_send_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_send_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_layout_menu_item.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/layout_menu_item.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_fast_scroll_arrow_down.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_fast_scroll_arrow_down.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_action_forward.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_action_forward.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_bubble_right.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/bubble_right.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_person_flat.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_person_flat.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_baseline_10mp_24.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_baseline_10mp_24.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_activity_updates.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/activity_updates.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_shape_message_left_2.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/shape_message_left_2.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/menu_menu_home_drawer.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/menu/menu_home_drawer.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-xhdpi_ic_location.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-xhdpi/ic_location.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/anim_bounce.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/anim/bounce.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_image_background_bottom_gradient.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/image_background_bottom_gradient.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_roboto_light.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/roboto_light.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_gradient_4.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/gradient_4.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_add_blue.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_add_blue.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_translate_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_translate_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_perm_media_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_perm_media_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_button_round.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/button_round.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_location.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_location.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_bubble_map_right.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/bubble_map_right.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_item_image.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/item_image.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/anim_slide_in.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/anim/slide_in.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_background_white_button.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/background_white_button.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/layout_sent_audio_placeholder_item.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/sent_audio_placeholder_item.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_round_badge.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/round_badge.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-xhdpi_green_backround.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-xhdpi/green_backround.png"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_inter_light.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/inter_light.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_ic_video_library_white_24dp.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/ic_video_library_white_24dp.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_shape_bubble_right.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/shape_bubble_right.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "ca.scooter.talkufy.app-pngs-75:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/font_inter_bold.ttf.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/font/inter_bold.ttf"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/anim_slide_out.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/anim/slide_out.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable_toolbar_shadow.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable/toolbar_shadow.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-v21_ic_menu_share.xml.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-v21/ic_menu_share.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-merged_res-80:/drawable-xhdpi_ic_action_copy.png.flat",
+        "source": "ca.scooter.talkufy.app-main-82:/drawable-xhdpi/ic_action_copy.png"
+    }
+]

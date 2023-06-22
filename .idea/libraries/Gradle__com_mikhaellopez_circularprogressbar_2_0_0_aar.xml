@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f998a3c38547a25d8d9cf006d64ba4b8098cc87f50ccbc2c55ba09998c5e5588
-size 929
+<component name="libraryTable">
+  <library name="Gradle: com.mikhaellopez:circularprogressbar:2.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7d456b9d21bec18a5d59988011ff1706/transformed/jetified-circularprogressbar-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7d456b9d21bec18a5d59988011ff1706/transformed/jetified-circularprogressbar-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7d456b9d21bec18a5d59988011ff1706/transformed/jetified-circularprogressbar-2.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikhaellopez/circularprogressbar/2.0.0/3854ef2c2a80eea698336ae42bfcd6426edb0ed9/circularprogressbar-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

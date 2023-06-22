@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:032b9b9a8c4b709b099fbdcefe2066fca16eebea1881d121cd7b6689be467623
-size 105
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="md_is_tablet">true</bool>
+</resources>

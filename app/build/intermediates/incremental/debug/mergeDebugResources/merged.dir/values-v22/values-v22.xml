@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:762c8de596a9f70939a3b381c6391c65b58dca95e225e40bef43f2ee518c2aec
-size 777
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat" parent="Base.V22.Theme.AppCompat"/>
+    <style name="Base.Theme.AppCompat.Light" parent="Base.V22.Theme.AppCompat.Light"/>
+    <style name="Base.V22.Theme.AppCompat" parent="Base.V21.Theme.AppCompat">
+        <item name="actionModeShareDrawable">?android:attr/actionModeShareDrawable</item>
+        
+        <item name="editTextBackground">?android:attr/editTextBackground</item>
+    </style>
+    <style name="Base.V22.Theme.AppCompat.Light" parent="Base.V21.Theme.AppCompat.Light">
+        <item name="actionModeShareDrawable">?android:attr/actionModeShareDrawable</item>
+        
+        <item name="editTextBackground">?android:attr/editTextBackground</item>
+    </style>
+</resources>

@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bbcead9286e4ccba535c61886e3f2251670ff543b8e7cfb7b039ede1ae2750ab
-size 739
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.anko:commons-base:0.10.8@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/892626bd4512fbc66d6c39bd14eb56f5/transformed/jetified-commons-base-0.10.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/892626bd4512fbc66d6c39bd14eb56f5/transformed/jetified-commons-base-0.10.8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/commons-base/0.10.8/a7b9886dd34c114aebcbcd7c492855425b2300e1/commons-base-0.10.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

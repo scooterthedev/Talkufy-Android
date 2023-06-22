@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:456dbf4d87e9d818fcfb708589a4733e7a1aea4eecca9c1fc5ce6d73de5dc513
-size 1147
+<component name="libraryTable">
+  <library name="Gradle: com.skyline.widget:round-corner-layout:1.0.1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/97cd4662aa6a7fc139c25f4cdb20b672/transformed/jetified-round-corner-layout-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/97cd4662aa6a7fc139c25f4cdb20b672/transformed/jetified-round-corner-layout-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/97cd4662aa6a7fc139c25f4cdb20b672/transformed/jetified-round-corner-layout-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.skyline.widget/round-corner-layout/1.0.1/67fa2a3a95bf4314508fd9b74b986eee5f5fe32/round-corner-layout-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.skyline.widget/round-corner-layout/1.0.1/93ca002d2d77ab88989d505f419362ea70602e57/round-corner-layout-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a733f10a4f7c4116ec552541f4cc222f76b21a85514fc90841e5b832a2db2475
-size 1012
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.fresco:nativeimagetranscoder:2.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/816183395c1dd0c8c66618dd52580db9/transformed/jetified-nativeimagetranscoder-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/816183395c1dd0c8c66618dd52580db9/transformed/jetified-nativeimagetranscoder-2.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/nativeimagetranscoder/2.0.0/932ea9d534186b04741da83dfd2a084858b387c3/nativeimagetranscoder-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/nativeimagetranscoder/2.0.0/fb21c65434fc60833b60f9d81f255de5db0dde47/nativeimagetranscoder-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

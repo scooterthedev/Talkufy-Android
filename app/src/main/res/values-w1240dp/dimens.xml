@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d6887b19bf9d21f1cbd6b05226bc25079c1cfa455ab30e9cf66f46cc1837db70
-size 67
+<resources>
+    <dimen name="fab_margin">200dp</dimen>
+</resources>

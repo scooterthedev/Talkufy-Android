@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:906f708dbf6482018e614ef0ca3b2d37b91e9f233d3220168f8a6a096b0bc41a
-size 715
+<component name="libraryTable">
+  <library name="Gradle: androidx.core:core-ktx:1.1.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bfb2b4746d609867ce74498917fe1f9f/transformed/jetified-core-ktx-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bfb2b4746d609867ce74498917fe1f9f/transformed/jetified-core-ktx-1.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.core/core-ktx/1.1.0/8e51cf92327310f53f74ba17a62d465f6fdde392/core-ktx-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

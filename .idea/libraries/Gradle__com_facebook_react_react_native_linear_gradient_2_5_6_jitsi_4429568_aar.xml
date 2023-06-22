@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1ba8e8f2ace8c1c57848c720b7668ffef14e03459687e36c5e985a4732b53e7e
-size 895
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.react:react-native-linear-gradient:2.5.6-jitsi-4429568@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0c240375cae0a29ccad987977200177e/transformed/jetified-react-native-linear-gradient-2.5.6-jitsi-4429568/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0c240375cae0a29ccad987977200177e/transformed/jetified-react-native-linear-gradient-2.5.6-jitsi-4429568/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.react/react-native-linear-gradient/2.5.6-jitsi-4429568/76711e998ccaee4e0fa5528919611a9f7125ec3f/react-native-linear-gradient-2.5.6-jitsi-4429568-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

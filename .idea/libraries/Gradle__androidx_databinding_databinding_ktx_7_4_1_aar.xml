@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9ad6f809e39c7dae26e5366ee32c6543b984342aaf9f30e2d2bd54f61776d6a8
-size 764
+<component name="libraryTable">
+  <library name="Gradle: androidx.databinding:databinding-ktx:7.4.1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/505c59da6bb93465c18b346638ad8ff8/transformed/jetified-databinding-ktx-7.4.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/505c59da6bb93465c18b346638ad8ff8/transformed/jetified-databinding-ktx-7.4.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-ktx/7.4.1/47c815dcd3287ae92dcfb4056cfbbd9f9e12b97e/databinding-ktx-7.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

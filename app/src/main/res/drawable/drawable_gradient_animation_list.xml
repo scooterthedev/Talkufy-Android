@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:403f6b430cc2206e0bcf935ffe6e0ee12f9a4218bf851a3e31f01033eb3528bc
-size 637
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:drawable="@drawable/gradient_1"
+            android:duration="6000" />
+    <item
+            android:drawable="@drawable/gradient_2"
+            android:duration="6000" />
+    <item
+            android:drawable="@drawable/gradient_3"
+            android:duration="6000" />
+    <item
+            android:drawable="@drawable/gradient_4"
+            android:duration="6000" />
+    <item
+            android:drawable="@drawable/gradient_5"
+            android:duration="6000" />
+</animation-list>

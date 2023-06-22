@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4607f8630062ef5c1d7757df8d502199cd2a0f722d6f2adbb7199b31a6fd8702
-size 987
+<component name="libraryTable">
+  <library name="Gradle: androidx.core:core:1.7.0@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/44e5f464f64f66579cea618e294f8abe/transformed/core-1.7.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/44e5f464f64f66579cea618e294f8abe/transformed/core-1.7.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/44e5f464f64f66579cea618e294f8abe/transformed/core-1.7.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/44e5f464f64f66579cea618e294f8abe/transformed/core-1.7.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.core/core/1.7.0/f1c3685231d49092ae301932de1481d9b7a9e025/core-1.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1a4772e37ac432eaeb26def5fb6bee605e86357814df957d87f43a6146d22bc3
-size 1032
+<component name="libraryTable">
+  <library name="Gradle: androidx.appcompat:appcompat:1.4.1@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6950459f76286bd0cc68dfa06db07f23/transformed/appcompat-1.4.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6950459f76286bd0cc68dfa06db07f23/transformed/appcompat-1.4.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6950459f76286bd0cc68dfa06db07f23/transformed/appcompat-1.4.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6950459f76286bd0cc68dfa06db07f23/transformed/appcompat-1.4.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.4.1/f9e48179ea0c6ac0080a277b9383f74523f56aa2/appcompat-1.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:235ddf8e0e2b69ed20cbc7ec03a6980679a92ad4e4368261c3b9f0611bfe4bbb
-size 933
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.react:react-native:0.61.5-jitsi.1@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b069dea8b347e8571753e7de95710789/transformed/jetified-react-native-0.61.5-jitsi.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b069dea8b347e8571753e7de95710789/transformed/jetified-react-native-0.61.5-jitsi.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b069dea8b347e8571753e7de95710789/transformed/jetified-react-native-0.61.5-jitsi.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b069dea8b347e8571753e7de95710789/transformed/jetified-react-native-0.61.5-jitsi.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

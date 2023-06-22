@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:13d3a84f9a212558afc092f87e3157979f2f59ba80e5264cea32e7545cb98192
-size 902
+<component name="libraryTable">
+  <library name="Gradle: androidx.constraintlayout:constraintlayout:2.1.3@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a148f214d67c1990eb59e950083f2aa9/transformed/constraintlayout-2.1.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a148f214d67c1990eb59e950083f2aa9/transformed/constraintlayout-2.1.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a148f214d67c1990eb59e950083f2aa9/transformed/constraintlayout-2.1.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout/2.1.3/ef09d725f04e18996fce65076118fc289416b8ca/constraintlayout-2.1.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

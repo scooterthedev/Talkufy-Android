@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d30633d6e5d387278f09e4efc43fef003cad3a9748e07b713ce93e9dc46eca9a
-size 885
+<component name="libraryTable">
+  <library name="Gradle: androidx.paging:paging-rxjava3:3.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/656084595395ed61bf9e6e579bcd99e2/transformed/jetified-paging-rxjava3-3.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/656084595395ed61bf9e6e579bcd99e2/transformed/jetified-paging-rxjava3-3.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/656084595395ed61bf9e6e579bcd99e2/transformed/jetified-paging-rxjava3-3.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.paging/paging-rxjava3/3.0.0/fd1469b1518a12a94de37c5b793050f37a37ec74/paging-rxjava3-3.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

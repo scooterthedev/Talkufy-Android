@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7dfdfd9230ce789c73fddacca76a6fcdf4e3af9c38c1a1cedf26089699be3598
-size 870
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.react:react-native-keep-awake:4.0.0-jitsi-4429568@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f1a408460598e9daf39d87f3405f7726/transformed/jetified-react-native-keep-awake-4.0.0-jitsi-4429568/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f1a408460598e9daf39d87f3405f7726/transformed/jetified-react-native-keep-awake-4.0.0-jitsi-4429568/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.react/react-native-keep-awake/4.0.0-jitsi-4429568/8c916fc523908be16dda066851741fa14f9c8435/react-native-keep-awake-4.0.0-jitsi-4429568-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

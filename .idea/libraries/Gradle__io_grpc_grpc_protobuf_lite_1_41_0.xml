@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ea9223c13de5093b9772b4c3260b25c8944ec98662a83429b07479e5eb3b73e6
-size 792
+<component name="libraryTable">
+  <library name="Gradle: io.grpc:grpc-protobuf-lite:1.41.0" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.41.0/11f2938941f953d5b2403e4d563f5691250fe5e9/grpc-protobuf-lite-1.41.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.41.0/7ec74eb908d17fe03c61158dbfa366b712838f16/grpc-protobuf-lite-1.41.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.41.0/a1f3de0c0f9e87af1d4b96b52aa5714f12f1ca1f/grpc-protobuf-lite-1.41.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

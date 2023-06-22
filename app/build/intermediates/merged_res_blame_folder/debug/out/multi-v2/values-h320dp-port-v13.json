@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2bd37ddb77eee34b09a501025ba85cd9e1bc87f2d716c69e566cd274a55abe9b
-size 715
+{
+    "logs": [
+        {
+            "outputFile": "ca.scooter.talkufy.app-mergeDebugResources-78:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\yekut\\.gradle\\caches\\transforms-3\\87626fdc4c78afb79b8d95683637ae3d\\transformed\\material-1.5.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "75",
+                        "endOffsets": "126"
+                    }
+                }
+            ]
+        }
+    ]
+}

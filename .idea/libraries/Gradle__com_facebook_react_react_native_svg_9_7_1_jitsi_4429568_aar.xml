@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:12f6a561b901e5e68ad1e462f349873c79fcb9f0869e03111fbf18a1b47dd0cf
-size 835
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.react:react-native-svg:9.7.1-jitsi-4429568@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/add4caf86e8d05418a13ead53d2bea37/transformed/jetified-react-native-svg-9.7.1-jitsi-4429568/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/add4caf86e8d05418a13ead53d2bea37/transformed/jetified-react-native-svg-9.7.1-jitsi-4429568/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.react/react-native-svg/9.7.1-jitsi-4429568/1788fbde11db55d5ce501f4e41b8392f167f41ea/react-native-svg-9.7.1-jitsi-4429568-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

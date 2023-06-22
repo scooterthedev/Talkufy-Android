@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:016d837601cbf8d67c31779b58da95353b2b84d1c72a34b2036429fb282c69b7
-size 842
+<component name="libraryTable">
+  <library name="Gradle: androidx.work:work-runtime:2.5.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9aecf93771bdd900eb3e9a8e8499e708/transformed/work-runtime-2.5.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9aecf93771bdd900eb3e9a8e8499e708/transformed/work-runtime-2.5.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9aecf93771bdd900eb3e9a8e8499e708/transformed/work-runtime-2.5.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.work/work-runtime/2.5.0/f0a35272321dcf8f72108a971adcf3891e90b75f/work-runtime-2.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

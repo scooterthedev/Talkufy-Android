@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f2c6e51e30ceb81b08628b506cb8a80cb83d48c745f2847e2bd564a6c8205994
-size 672
+{
+    "logs": [
+        {
+            "outputFile": "ca.scooter.talkufy.app-mergeDebugResources-78:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\yekut\\.gradle\\caches\\transforms-3\\6950459f76286bd0cc68dfa06db07f23\\transformed\\appcompat-1.4.1\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

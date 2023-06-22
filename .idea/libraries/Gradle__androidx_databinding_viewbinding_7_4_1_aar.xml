@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0fb9f7ceedc38dbbb1a7e44a7652da935edaaaffdffa2b7378af839d165d43e6
-size 744
+<component name="libraryTable">
+  <library name="Gradle: androidx.databinding:viewbinding:7.4.1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/25e32209259168e00d0ace306ffb1a52/transformed/jetified-viewbinding-7.4.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/25e32209259168e00d0ace306ffb1a52/transformed/jetified-viewbinding-7.4.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/viewbinding/7.4.1/15d0e1fc45bb7d15e96c8dc9467400be34ab8b43/viewbinding-7.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

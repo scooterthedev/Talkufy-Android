@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:40ad867995d4f03eb438a94e86f9afb53dfbd9055838a20c9bc22520fb0f1acf
-size 520
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="androidTest" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\androidTest\shaders"/></dataSet><dataSet config="androidTestDebug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\androidTestDebug\shaders"/></dataSet></merger>

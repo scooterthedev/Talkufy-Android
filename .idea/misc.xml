@@ -1,3 +1,179 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e3b87bdcaa62af74e4d618d43143bf20d86aa33458986a5da94e063971c86567
-size 25010
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildAttributionWarningsFilter">
+    <option name="noGCSettingWarning" value="true" />
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/yekut/.gradle/caches/transforms-3/37d8ec850a82cc16ef72d2833b918392/transformed/jetified-updaate-78cd7f91fc/res/layout/updaate_advance_layout.xml" value="0.338768115942029" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/Updater_Android/src/main/res/layout/lib_update_app_dialog.xml" value="0.3625" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/drawable-v24/ic_baseline_arrow_forward_24.xml" value="0.19537037037037036" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/drawable-v24/ic_info.xml" value="0.19537037037037036" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/drawable-v24/round_button.xml" value="0.19537037037037036" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/drawable/ic_baseline_10mp_24.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/drawable/ic_updated.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/activity_begining_splash_screen.xml" value="0.3625" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/activity_block_list.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/activity_create_group.xml" value="0.3625" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/activity_edit_profile.xml" value="0.3625" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/activity_feedback.xml" value="0.3625" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/activity_forward.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/activity_home.xml" value="0.75" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/activity_image_preview.xml" value="0.3625" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/activity_incoming_call.xml" value="0.3625" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/activity_jitsi_meet.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/activity_maps.xml" value="0.36268890046899427" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/activity_outgoing_call.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/activity_settings.xml" value="0.22" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/activity_splash.xml" value="0.33" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/activity_updates.xml" value="0.3625" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/activity_user_profile.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/bubble_image_right.xml" value="0.25" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/bubble_map_left.xml" value="0.1" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/bubble_map_right.xml" value="0.1" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/bubble_video_left.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/bubble_video_right.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/content_scrolling.xml" value="0.3770833333333333" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/dialog_list_selector.xml" value="0.24456521739130435" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/lib_update_app_dialog.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/layout/nav_header_home.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/yekut/IdeaProjects/Talkufy-Android/app/src/main/res/menu/menu_home_drawer.xml" value="0.5" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/drawable/gradient_2.xml" value="0.2265" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/drawable/ic_call_black_24dp.xml" value="0.2265" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_begining_splash_screen.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_block_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_create_channel.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_create_group.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_edit_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_feedback.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_forward.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_image_preview.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_incoming_call.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_jitsi_meet.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_maps.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_message.xml" value="0.4" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_mobile_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_multi_contact_chooser.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_outgoing_call.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_upload_preview.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/activity_user_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/app_bar_home.xml" value="0.1" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/bubble_image_left.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/bubble_image_right.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/bubble_left.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/bubble_map_left.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/bubble_map_right.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/bubble_right.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/bubble_video_left.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/bubble_video_right.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/contact_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/content_home.xml" value="0.2" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/content_user_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/dialog_list_selector.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/dialog_location_picker.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/fragment_demo_card.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/input_otp.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/input_phone.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item__forward_contact_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_contact_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_contact_layout_2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_conversation_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_feedback.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_grid_contact_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_group_member_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_image.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_layout_online.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_selector.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_smart_reply.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/item_video.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/layout_attachment_menu.xml" value="0.264" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/layout_fragment_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/layout_include_message_activity_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/layout_line.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/layout_menu_badge.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/layout_menu_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/layout_profile_image_picker.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/layout_recycler_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/layout_upload_image_preview.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/nav_header_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/received_audio_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/sent_audio_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/sent_audio_placeholder_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/layout/text_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/menu/chat_actions_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/menu/converstation_option_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/menu/menu_home_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/menu/menu_tick.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/menu/message_activity_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/menu/nav_bottom_home_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Say Talk/SAY Talk Android/app/src/main/res/menu/user_profile_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/activity_image_preview.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/activity_message.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/activity_outgoing_call.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/bubble_image_left.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/bubble_image_right.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/content_home.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/fragment_demo_card.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/input_phone.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/item_conversation_layout.xml" value="0.6" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/item_feedback.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/item_grid_contact_layout.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/item_group_member_layout.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/item_image.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/item_selector.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/item_smart_reply.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/item_video.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/layout_attachment_menu.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/layout_fragment_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/layout_line.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/layout_menu_item.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/layout_profile_image_picker.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/received_audio_item.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/sent_audio_placeholder_item.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/layout/text_header.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/menu/message_activity_menu.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/Desktop/Talkufy/Talkufy-Android/app/src/main/res/menu/option_setting_menu.xml" value="0.25" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/drawable/ic_group_add_green_24dp.xml" value="0.199609375" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/drawable/shape_custom_cursor.xml" value="0.199609375" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout-sw600dp/activity_begining_splash_screen.xml" value="0.264" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/activity_begining_splash_screen.xml" value="0.264" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/activity_home.xml" value="0.6" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/activity_message.xml" value="0.13114754098360656" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/activity_mobile_login.xml" value="0.1875" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/activity_updates.xml" value="0.264" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/app_bar_home.xml" value="0.1875" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/bubble_image_left.xml" value="0.1875" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/bubble_image_right.xml" value="0.1875" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/content_updates.xml" value="0.1875" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/dialog_update.xml" value="0.264" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/fragment_demo_card.xml" value="0.1875" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/fragment_first.xml" value="0.1875" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/fragment_second.xml" value="0.1" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/received_audio_item.xml" value="0.1" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/sent_audio_item.xml" value="0.44430051813471505" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/layout/sent_audio_placeholder_item.xml" value="0.8" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/menu/edit_profile_menu.xml" value="0.1984375" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/menu/menu_home_drawer.xml" value="1.2" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/menu/menu_tick.xml" value="0.1984375" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/menu/menu_user_profile.xml" value="0.1984375" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/menu/nav_bottom_home_menu.xml" value="0.1984375" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/xml/file_paths.xml" value="0.13490437158469945" />
+        <entry key="..\:/Users/yekut_hqh3zdc/IntelliJIDEAProjects/Talkufy-Android/app/src/main/res/xml/preferences.xml" value="0.8" />
+      </map>
+    </option>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-11" project-jdk-type="JavaSDK" />
+</project>

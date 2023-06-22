@@ -1,3 +1,151 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dd932d649962588672ced0e423c7b903a69780d498caba9a5dd2ddfef11afd95
-size 6046
+//file:noinspection GroovyAssignabilityCheck
+     apply plugin: 'com.android.application'
+
+     apply plugin: 'kotlin-android'
+
+     apply plugin: 'kotlin-android-extensions'
+
+     apply plugin: 'com.google.gms.google-services'
+
+     apply plugin: 'kotlin-kapt'
+
+android {
+    signingConfigs {
+    }
+    compileSdkVersion 31
+    flavorDimensions "versionCode"
+    defaultConfig {
+        applicationId 'ca.scooter.talkufy'
+        minSdkVersion 21
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 29
+        versionCode 4
+        versionName "1"
+        ndkVersion '21.3.6528147'
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        namespace "ca.scooter.talkufy"
+        buildFeatures.dataBinding true
+        useLibrary 'org.apache.http.legacy'
+        configurations.all {
+            resolutionStrategy { force 'androidx.work:work-runtime:2.5.0' }
+        }
+        buildTypes {
+            lintOptions {
+                abortOnError false
+            }
+            release {
+                minifyEnabled false
+                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            }
+        }
+
+        compileOptions {
+            sourceCompatibility 1.8
+            targetCompatibility 1.8
+        }
+        kotlinOptions {
+            jvmTarget = '1.8'
+        }
+        productFlavors {
+        }
+        androidExtensions {
+            experimental = true
+        }
+        aaptOptions {
+            noCompress "tflite"
+        }
+        buildToolsVersion '30.0.3'
+        ndkVersion '23.0.7344513 rc4'
+        buildFeatures {
+            viewBinding false
+        }
+    }
+
+    dependencies {
+        implementation fileTree(include: ['*.jar'], dir: 'libs')
+        //noinspection GradleDependency
+        implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+        //noinspection GradleCompatible
+        implementation 'androidx.appcompat:appcompat:1.3.1'
+        implementation 'com.google.android.material:material:1.4.0'
+        implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+        implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
+        implementation 'com.google.firebase:firebase-core'
+        implementation platform('com.google.firebase:firebase-bom:29.0.4')
+        implementation 'com.github.stfalcon:chatkit:0.3.3'
+        implementation 'com.google.firebase:firebase-messaging'
+        implementation 'com.google.firebase:firebase-auth'
+        implementation 'com.google.firebase:firebase-database-ktx'
+        implementation 'com.google.firebase:firebase-firestore'
+        implementation 'com.google.firebase:firebase-storage'
+        // FirebaseUI for Firebase Realtime Database
+        implementation 'com.firebaseui:firebase-ui-database:8.0.0'
+        implementation 'androidx.multidex:multidex:2.0.1'
+        implementation 'com.chaos.view:pinview:1.4.4'
+        implementation 'com.github.Mariovc:ImagePicker:1.2.2'
+        implementation 'com.vincent.filepicker:MultiTypeFilePicker:1.0.8'
+        implementation 'de.hdodenhof:circleimageview:3.1.0'
+        implementation 'com.squareup.picasso:picasso:2.71828'
+        // do not update this library or else file picker library will crash
+        implementation 'com.github.bumptech.glide:glide:4.12.0'
+        implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
+        implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+        implementation 'androidx.navigation:navigation-fragment:2.3.5'
+        implementation 'androidx.navigation:navigation-ui:2.3.5'
+        testImplementation 'junit:junit:4.13.2'
+        annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+        //for image compression
+        implementation 'me.shaohui.advancedluban:library:1.3.5'
+        implementation 'com.nex3z:notification-badge:1.0.5'
+        implementation 'com.google.android.gms:play-services-location:18.0.0'
+        implementation 'com.google.android.gms:play-services-maps:17.0.1'
+        implementation('com.github.ozodrukh:CircularReveal:1.3.1@aar') { transitive = true }
+        implementation 'com.mikhaellopez:circularprogressbar:2.0.0'
+        implementation 'androidx.emoji:emoji-bundled:1.1.0'
+        implementation 'com.github.lguipeng:AnimCheckBox:1.0.1'
+        implementation 'com.skyline.widget:round-corner-layout:1.0.1'
+        implementation 'com.hbb20:ccp:2.6.0'
+        implementation 'org.jetbrains.anko:anko-commons:0.10.8'
+        implementation 'org.jetbrains.anko:anko-design:0.10.8'
+        implementation 'com.github.medyo:android-about-page:1.3.1'
+
+        // the above version is based androidX pattern
+        implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+        implementation 'com.yarolegovich:lovely-dialog:1.1.1'
+
+        implementation 'com.aurelhubert:ahbottomnavigation:2.3.4'
+
+        //ML
+        implementation 'com.google.firebase:firebase-ml-natural-language:19.0.0'
+        implementation 'com.google.firebase:firebase-ml-natural-language-smart-reply-model:19.0.0'
+        implementation 'com.google.firebase:firebase-ml-natural-language-language-id-model:19.0.0'
+        implementation 'com.google.firebase:firebase-ml-natural-language-translate-model:19.0.0'
+
+        // Jitsi Meet
+        implementation('org.jitsi.react:jitsi-meet-sdk:2.9.0') { transitive = true }
+
+        //toast
+        implementation 'com.github.Spikeysanju:MotionToast:1.3'
+
+        //Ads
+        implementation 'com.google.android.gms:play-services-ads:20.5.0'
+
+        //App Updater
+        implementation 'com.github.KhunHtetzNaing:AppUpdater:1.0'
+
+        //Gif Support
+        implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.24'
+
+    }
+    lint {
+        checkReleaseBuilds false
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+}

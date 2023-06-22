@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b44da16790eb833ef0f4039c0f4feea3246a82daaed5c4d471cd4ec795923afa
-size 957
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8df82ed4b70fa3b9c6ec7d2af2f2b958/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8df82ed4b70fa3b9c6ec7d2af2f2b958/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8df82ed4b70fa3b9c6ec7d2af2f2b958/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-ktx/2.4.0/a900dc99643d8638beb02bd809a495f772d457e7/lifecycle-viewmodel-ktx-2.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:aeb3e3cc14cfe8aab64b2c16c7752c5eb5cdcca6f7ccbbeb58239e79d9ce3278
-size 340
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle.Common">
+          <item name="barLength">18.66dp</item>
+          <item name="gapBetweenBars">3.33dp</item>
+          <item name="drawableSize">24dp</item>
+     </style>
+</resources>

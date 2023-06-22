@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1918c7d371268e84175b95069a54d2d4ed0e3d84c72a6d22ff56cf6c8784e212
-size 1160
+<component name="libraryTable">
+  <library name="Gradle: com.vincent.filepicker:MultiTypeFilePicker:1.0.8@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d6bc51f259d795df2631b9b1bac6f369/transformed/jetified-MultiTypeFilePicker-1.0.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d6bc51f259d795df2631b9b1bac6f369/transformed/jetified-MultiTypeFilePicker-1.0.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d6bc51f259d795df2631b9b1bac6f369/transformed/jetified-MultiTypeFilePicker-1.0.8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vincent.filepicker/MultiTypeFilePicker/1.0.8/1d033a94b5d9c007462458b13827a76b7eb0d93d/MultiTypeFilePicker-1.0.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vincent.filepicker/MultiTypeFilePicker/1.0.8/d1d8d7c29f8a3fff6ea49dae935476ed44716b71/MultiTypeFilePicker-1.0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

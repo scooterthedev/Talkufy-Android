@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:accfa546bb506b6d4ba6f37842553a79b7fb4a2ecb7aa936d59f1bb5f49ebf02
-size 1065
+{
+    "logs": [
+        {
+            "outputFile": "ca.scooter.talkufy.app-mergeDebugResources-78:/values-v14/values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\yekut\\.gradle\\caches\\transforms-3\\f530e977d99947c194060574f1c687f0\\transformed\\jetified-core-0.9.0.2\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,428",
+                        "endLines": "8,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "423,855"
+                    },
+                    "to": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,428",
+                        "endLines": "8,14",
+                        "endColumns": "12,12",
+                        "endOffsets": "423,727"
+                    }
+                }
+            ]
+        }
+    ]
+}

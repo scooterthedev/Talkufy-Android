@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f55102796371a9adf0ec47852eb8a027d03a2fa23153b0f2e45835f3e0ffe128
-size 295
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#2c987d" />
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+</selector>
+
+

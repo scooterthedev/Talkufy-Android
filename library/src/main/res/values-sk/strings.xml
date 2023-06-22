@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fdcffd3ef25295e85dce4c20b971fd041eac1bc7f3979389fb34c9fe110d0cc4
-size 1164
+<resources>
+    <string name="appupdater_update_available">Dostupná nová aktualizácia!</string>
+    <string name="appupdater_update_available_description_dialog">Aktualizácia %1$s je dostupná na stiahnutie. Stiahnutím najnovšej aktualizácie získate nové funkcie, vylepšenia a opravy chýb pre %2$s.</string>
+    <string name="appupdater_update_available_description_dialog_before_release_notes">Aktualizácia %1$s je dostupná na stiahnutie.\n\nZískate tieto nové funkcie:\n%2$s</string>
+    <string name="appupdater_update_available_description_snackbar">Aktualizácia %1$s je dostupná!</string>
+    <string name="appupdater_update_available_description_notification">Aktualizácia %1$s aplikácie %2$s je dostupná na stiahnutie</string>
+    <string name="appupdater_update_not_available">Žiadne dostupné aktualizácie</string>
+    <string name="appupdater_update_not_available_description">Máte najnovšiu dostupnú verziu %s!</string>
+    <string name="appupdater_btn_update">Aktualizovať</string>
+    <string name="appupdater_btn_disable">Nezobrazovať znovu</string>
+    <string name="appupdater_btn_dismiss">Zrušiť</string>
+</resources>

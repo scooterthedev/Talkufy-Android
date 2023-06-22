@@ -1,3 +1,34 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c2bf673cebf02ff18f04489659d417d112bc756a92676eff5e61f0fc3c098cdf
-size 981
+package com.github.javiersantos.appupdater.enums;
+
+public enum UpdateFrom {
+    /**
+     * @see <a href="https://github.com/javiersantos/AppUpdater/wiki/UpdateFrom.GOOGLE_PLAY">Wiki: UpdateFrom.GOOGLE_PLAY</a>
+     */
+    GOOGLE_PLAY,
+
+    /**
+     * @see <a href="https://github.com/javiersantos/AppUpdater/wiki/UpdateFrom.GITHUB">Wiki: UpdateFrom.GITHUB</a>
+     */
+    GITHUB,
+
+    /**
+     * @see <a href="https://github.com/javiersantos/AppUpdater/wiki/UpdateFrom.AMAZON">Wiki: UpdateFrom.AMAZON</a>
+     */
+    AMAZON,
+
+    /**
+     * @see <a href="https://github.com/javiersantos/AppUpdater/wiki/UpdateFrom.FDROID">Wiki: UpdateFrom.FDROID</a>
+     */
+    FDROID,
+
+    /**
+     * @see <a href="https://github.com/javiersantos/AppUpdater/wiki/UpdateFrom.XML">Wiki: UpdateFrom.XML</a>
+     */
+    XML,
+
+    /**
+     * @see <a href="https://github.com/javiersantos/AppUpdater/wiki/UpdateFrom.JSON">Wiki: UpdateFrom.JSON</a>
+     */
+    JSON
+
+}

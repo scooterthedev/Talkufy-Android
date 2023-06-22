@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:966c8f31ea8b94fd1a97b9decac763856ba3923a3014b3fc2639e371050bd283
-size 1059
+<component name="libraryTable">
+  <library name="Gradle: androidx.drawerlayout:drawerlayout:1.1.1@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a3bb860d058aa9b2b5ccfe53de4b3e62/transformed/drawerlayout-1.1.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a3bb860d058aa9b2b5ccfe53de4b3e62/transformed/drawerlayout-1.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a3bb860d058aa9b2b5ccfe53de4b3e62/transformed/drawerlayout-1.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a3bb860d058aa9b2b5ccfe53de4b3e62/transformed/drawerlayout-1.1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.drawerlayout/drawerlayout/1.1.1/d95f7d9cd7d95cc0c038bbcf9c65f521b56fee55/drawerlayout-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

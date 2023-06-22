@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3b523bdbf305056c863acbbae583b3f343d6336f1dca4ef2de7d6aea13e2d546
-size 595
+[
+    {
+        "merged": "ca.scooter.talkufy.app-mergeDebugResources-79:/layout/sent_audio_placeholder_item.xml",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/sent_audio_placeholder_item.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-mergeDebugResources-79:/layout/received_audio_item.xml",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/received_audio_item.xml"
+    },
+    {
+        "merged": "ca.scooter.talkufy.app-mergeDebugResources-79:/layout/sent_audio_item.xml",
+        "source": "ca.scooter.talkufy.app-main-82:/layout/sent_audio_item.xml"
+    }
+]

@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9a9f1b7ef3b4c81d0daa8f19b307d2c575e68c44e741224c68cc7adb8ab52827
-size 353
+package ca.scooter.talkufy
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+/**
+ * Example local unit test, which will execute on the development machine (host).
+ *
+ * See [testing documentation](http://d.android.com/tools/testing).
+ */
+class ExampleUnitTest {
+    @Test
+    fun addition_isCorrect() {
+        assertEquals(4, 2 + 2)
+    }
+}

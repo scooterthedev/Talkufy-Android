@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:601c7b6b52f1e4caca3f4fd2433ce270789ee5207c88d42b1aed9d69c8ce5e9d
-size 523
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+        android:shape="rectangle"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/colorPrimary"/>
+    <corners android:bottomLeftRadius="35dp"
+             android:topRightRadius="35dp"
+             android:bottomRightRadius="35dp"/>
+    <gradient android:angle="225"
+              android:endColor="#FFEFBA"
+              android:centerColor="#F8E3B4"
+              android:startColor="#FAE3E3"
+              />
+
+
+</shape>

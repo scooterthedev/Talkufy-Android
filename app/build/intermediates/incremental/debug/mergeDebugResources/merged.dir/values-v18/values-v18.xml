@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:14211cb9c56f886ea3425aaacdcae8da116bc30c3004ca97e4b55e872c19ccfd
-size 112
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_switch_padding">0px</dimen>
+</resources>

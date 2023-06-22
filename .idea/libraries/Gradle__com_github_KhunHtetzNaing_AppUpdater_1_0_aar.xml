@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:389277d4750bc554be520d685ff4c44679b53e030f7ac0145138f391aab038b7
-size 881
+<component name="libraryTable">
+  <library name="Gradle: com.github.KhunHtetzNaing:AppUpdater:1.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ddd5d2eefbd3d2339336ad076882e5d7/transformed/jetified-AppUpdater-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ddd5d2eefbd3d2339336ad076882e5d7/transformed/jetified-AppUpdater-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ddd5d2eefbd3d2339336ad076882e5d7/transformed/jetified-AppUpdater-1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.KhunHtetzNaing/AppUpdater/1.0/467cd8e72e4471f60af5fc93f78d6aa4f0f12183/AppUpdater-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

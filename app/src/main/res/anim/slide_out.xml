@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d4db0449e370c380730bb4011981d3ce8c662c5e2f320fe198ff39d8ec676a72
-size 199
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:toYDelta="100%p"
+    android:duration="@android:integer/config_longAnimTime"/>

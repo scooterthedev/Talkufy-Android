@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:94cf0be07f57d5f7b52138fabb87fd3eb6ace9868f14ba6d5e795bbab02fb0b3
-size 754
+<component name="libraryTable">
+  <library name="Gradle: androidx.databinding:databinding-common:7.4.1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="androidx.databinding" artifactId="databinding-common" version="7.4.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/7.4.1/84ed411631d2c4113f4ad992669fe3f50a83f072/databinding-common-7.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/7.4.1/4cb687b64a50157d299fa5059374429f2f137de2/databinding-common-7.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

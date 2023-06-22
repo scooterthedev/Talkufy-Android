@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:400ad68cc10d2daeef6c9745376402459abe44e3a5a9f168fc1a08681016f706
-size 592
+package com.github.javiersantos.appupdater;
+
+class Config {
+    static final String PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=%s&hl=%s";
+    static final String GITHUB_URL = "https://github.com/";
+    static final String AMAZON_URL = "http://www.amazon.com/gp/mas/dl/android?p=";
+    static final String FDROID_URL = "https://f-droid.org/repository/browse/?fdid=";
+
+    static final String GITHUB_TAG_RELEASE = "/tree/";
+    static final String AMAZON_TAG_RELEASE = "<strong>Version:</strong>";
+    static final String FDROID_TAG_RELEASE = "<b>Version";
+
+}

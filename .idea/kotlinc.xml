@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5d37770006a549d2b90b672ab3952a6c95f1c9e357df886e5333e80014913033
-size 181
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="KotlinJpsPluginSettings">
+    <option name="version" value="1.7.10" />
+  </component>
+</project>

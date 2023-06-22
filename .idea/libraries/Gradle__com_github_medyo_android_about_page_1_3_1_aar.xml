@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ef30ae10cd0835e115e4f6b85994b87a7bf158d8f991e0b7ca70c3fd68c238b6
-size 1134
+<component name="libraryTable">
+  <library name="Gradle: com.github.medyo:android-about-page:1.3.1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/75601a77f48bf6af2e4c5945635deb43/transformed/jetified-android-about-page-1.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/75601a77f48bf6af2e4c5945635deb43/transformed/jetified-android-about-page-1.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/75601a77f48bf6af2e4c5945635deb43/transformed/jetified-android-about-page-1.3.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.medyo/android-about-page/1.3.1/e931ce1ff8317fd0fde5f2e5b2a1cb0774a5d734/android-about-page-1.3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.medyo/android-about-page/1.3.1/b61ba8433418be90ca4a4143f80afc89d70e422e/android-about-page-1.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

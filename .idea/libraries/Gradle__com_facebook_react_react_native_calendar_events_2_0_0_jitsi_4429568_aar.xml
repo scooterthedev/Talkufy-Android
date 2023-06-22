@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d69244cb00ab0410d146ede0c7c003ea5ecfc9db2e23c28fdee8f4a11965c952
-size 895
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.react:react-native-calendar-events:2.0.0-jitsi-4429568@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/852a7b8d209e7a91b4e5263242bac22e/transformed/jetified-react-native-calendar-events-2.0.0-jitsi-4429568/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/852a7b8d209e7a91b4e5263242bac22e/transformed/jetified-react-native-calendar-events-2.0.0-jitsi-4429568/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.react/react-native-calendar-events/2.0.0-jitsi-4429568/2c06fcdfd582237bf01cfb0c4cadcfe869aac33a/react-native-calendar-events-2.0.0-jitsi-4429568-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
