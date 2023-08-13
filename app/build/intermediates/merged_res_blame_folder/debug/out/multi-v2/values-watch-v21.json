@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:048847bf38a11f210e537dd8729ad74fa397a859defe4d1b88538e57c4eb2b18
-size 769
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\yekut\\.gradle\\caches\\transforms-3\\266fc9fbee17466a3476317cef90020b\\transformed\\appcompat-1.4.1\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

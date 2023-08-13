@@ -1,3 +1,37 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0324cdcf8755eed4670016af87b6b4a08c6c3725c79475a8b73fdb53e13a376f
-size 1211
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:paddingBottom="20dp"
+    android:layout_height="match_parent">
+
+
+   <LinearLayout android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:gravity="bottom|center"
+   android:layout_weight="1" >
+
+       <ImageView android:layout_width="160dp"
+               android:layout_height="160dp"
+               android:src="@drawable/app_logo"
+    />
+
+   </LinearLayout>
+
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    style="@style/TextViewHeading"
+              android:textSize="28sp"
+              android:gravity="center|bottom"
+              android:textStyle="bold"
+              android:fontFamily="@font/segoeui"
+              android:text="Talkafy"
+              android:layout_marginBottom="40dp"
+              android:textColor="@color/md_grey_400"
+
+    />
+
+</LinearLayout>

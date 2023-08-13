@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d33f07d652c431d67e964b619fd7b6363c97361a625551c8faade816d9f8f146
-size 295
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <rotate
+        android:duration="2000"
+        android:fromDegrees="0"
+        android:toDegrees="360"
+        android:pivotX="50%"
+        android:pivotY="50%"  >
+    </rotate>
+
+</set>

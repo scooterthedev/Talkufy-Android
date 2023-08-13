@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bed87f0f37002604698df14a69f90e5a67421a0e91ab003459ddfcc15e6fde61
-size 294
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportHeight="16.0"
+    android:viewportWidth="16.0">
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M3,1.5v14l11,-7z"/>
+
+</vector>

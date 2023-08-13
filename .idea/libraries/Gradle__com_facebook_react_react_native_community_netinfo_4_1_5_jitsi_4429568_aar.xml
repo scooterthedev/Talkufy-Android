@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f7310bcea8c51c7b999f81c21c72a29c771011505bbfd380c76532ef1f76d727
-size 905
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.react:react-native-community_netinfo:4.1.5-jitsi-4429568@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/501222b9df1d861bec741bd983c31533/transformed/jetified-react-native-community_netinfo-4.1.5-jitsi-4429568/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/501222b9df1d861bec741bd983c31533/transformed/jetified-react-native-community_netinfo-4.1.5-jitsi-4429568/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.react/react-native-community_netinfo/4.1.5-jitsi-4429568/41a8b9d370bbd2f40fa37de2053bf243b4672b06/react-native-community_netinfo-4.1.5-jitsi-4429568-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

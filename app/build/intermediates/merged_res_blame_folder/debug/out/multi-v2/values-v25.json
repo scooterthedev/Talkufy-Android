@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:024f8ee792f2c2a7d2da9890c11a7376e95fe52a50678fb5d848963e3a207c5f
-size 760
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\yekut\\.gradle\\caches\\transforms-3\\266fc9fbee17466a3476317cef90020b\\transformed\\appcompat-1.4.1\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

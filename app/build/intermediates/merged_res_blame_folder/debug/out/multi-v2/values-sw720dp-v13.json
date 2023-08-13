@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0c762fb52a47b240ad5504a48948dafd9d6ebc0eaf9ad3a920085b10322fd266
-size 705
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\yekut\\.gradle\\caches\\transforms-3\\69c19b844d670e6727033e3167002c41\\transformed\\jetified-core-0.9.0.2\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "41",
+                        "endOffsets": "92"
+                    }
+                }
+            ]
+        }
+    ]
+}

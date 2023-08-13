@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:492edfbfe12e4998bd8bae48f6f616dbfffe9c222b2ba4fbfdb34a9fa42ab674
-size 1195
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.fresco:imagepipeline-base:2.0.0@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f4ef27ed2164537dd8f66bea6f7b80b3/transformed/jetified-imagepipeline-base-2.0.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f4ef27ed2164537dd8f66bea6f7b80b3/transformed/jetified-imagepipeline-base-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f4ef27ed2164537dd8f66bea6f7b80b3/transformed/jetified-imagepipeline-base-2.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline-base/2.0.0/60d71c13d0480ff70049e33f2f80a31e37b7ad33/imagepipeline-base-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline-base/2.0.0/31b4a4d419da259722f7cf366434557049df593b/imagepipeline-base-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

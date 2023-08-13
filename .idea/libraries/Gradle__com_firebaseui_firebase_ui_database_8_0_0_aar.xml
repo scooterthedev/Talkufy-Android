@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4b13836339a8d6d7f80964f3a469f11c3d2f4649f58ce519865e753e563eb98e
-size 990
+<component name="libraryTable">
+  <library name="Gradle: com.firebaseui:firebase-ui-database:8.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/52985972ed1a68b5501b2536afaa2719/transformed/jetified-firebase-ui-database-8.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/52985972ed1a68b5501b2536afaa2719/transformed/jetified-firebase-ui-database-8.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-database/8.0.0/2a90e0b652739049c8a25ce5cb1b80266c50a156/firebase-ui-database-8.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-database/8.0.0/49e64d3e00efe367ea7c2aafb30da827d60d9f71/firebase-ui-database-8.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

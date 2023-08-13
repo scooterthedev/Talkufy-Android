@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:25839bf9995b469919f11d6d3dec9c30eb5b9905b5fffea86f62b3f8963e7847
-size 461
+package ca.scooter.talkufy.jitsi_sdk;
+
+import androidx.core.app.ActivityCompat;
+import com.facebook.react.modules.core.PermissionAwareActivity;
+
+/**
+ * This interface serves as the umbrella interface that applications not using
+ * {@code JitsiMeetFragment} must implement in order to ensure full
+ * functionality.
+ */
+public interface JitsiMeetActivityInterface
+    extends ActivityCompat.OnRequestPermissionsResultCallback,
+        PermissionAwareActivity {
+}

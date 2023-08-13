@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:164e71c98e6517538dbca05d45096311c64c54754dfc4214b5ff2588f004c6e0
-size 1047
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.fresco:drawee:2.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c3b517be6836a3dce5f8dfdc1ddbc46f/transformed/jetified-drawee-2.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c3b517be6836a3dce5f8dfdc1ddbc46f/transformed/jetified-drawee-2.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c3b517be6836a3dce5f8dfdc1ddbc46f/transformed/jetified-drawee-2.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/drawee/2.0.0/416ad28d3ec4edf504c4253b25dc27af1127872c/drawee-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/drawee/2.0.0/fd8babf68363a8fb0585271b553e1d8537de137f/drawee-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

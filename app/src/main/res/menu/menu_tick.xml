@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b141318852b52c06ae0bc96d0fc69fb0bc2cbbdf0ee529f2e30beb4e89cab023
-size 400
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_confirm"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_done_tick_white_24dp"
+        android:title="@string/action_settings"
+        app:showAsAction="always" />
+</menu>

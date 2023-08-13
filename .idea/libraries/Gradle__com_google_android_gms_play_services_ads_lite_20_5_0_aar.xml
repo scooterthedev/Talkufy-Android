@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c889d771e8ea760295b19639e512cff37c80a97bee2e494494c2f1c8bc2902c5
-size 953
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-ads-lite:20.5.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/63641bafe03e4318ade1a5ffa8285443/transformed/jetified-play-services-ads-lite-20.5.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/63641bafe03e4318ade1a5ffa8285443/transformed/jetified-play-services-ads-lite-20.5.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/63641bafe03e4318ade1a5ffa8285443/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-ads-lite/20.5.0/9b07e4d598bfd873887958041711ec013dd40b9a/play-services-ads-lite-20.5.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

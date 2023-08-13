@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3b523bdbf305056c863acbbae583b3f343d6336f1dca4ef2de7d6aea13e2d546
-size 595
+[
+    {
+        "merged": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sent_audio_placeholder_item.xml",
+        "source": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\src\\main\\res\\layout\\sent_audio_placeholder_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sent_audio_item.xml",
+        "source": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\src\\main\\res\\layout\\sent_audio_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\received_audio_item.xml",
+        "source": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\src\\main\\res\\layout\\received_audio_item.xml"
+    }
+]

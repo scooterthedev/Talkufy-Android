@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e4b3be5e5f3ed5e4334979f72c3c73f5c89dbdccdaf75a39f329944ae0dc232d
-size 1026
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-encoders-json:18.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6b7a064ea4075fbde5cc27b44543799e/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6b7a064ea4075fbde5cc27b44543799e/transformed/jetified-firebase-encoders-json-18.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-encoders-json/18.0.0/8b885e5d8450f7afe805d5efbff0bb6085301c62/firebase-encoders-json-18.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-encoders-json/18.0.0/d1cddbffa2ae77d26fd0c0b2c37b94331be039ef/firebase-encoders-json-18.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

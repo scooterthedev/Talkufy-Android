@@ -1,3 +1,50 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f34a32b0ddcfd929367edc9df382a75d5437d99dfcaa9627d953f6c236188fcb
-size 1511
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activities.UploadPreviewActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+    />
+
+
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="0dp"
+    android:layout_weight="1"
+    >
+    <androidx.viewpager.widget.ViewPager
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+    android:id="@+id/viewPager"
+    />
+
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="20dp"
+                  android:layout_gravity="end|bottom"
+                  android:layout_height="wrap_content">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:id="@+id/sendBtn"
+                 android:layout_height="wrap_content"
+                android:src="@drawable/ic_send"
+        />
+
+
+    </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

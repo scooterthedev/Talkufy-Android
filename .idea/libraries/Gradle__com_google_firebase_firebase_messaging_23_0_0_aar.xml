@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f7748d5401aa95399d8d9a2a9f57fa9726952b37431e4f649b3f6529dc351ad5
-size 923
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-messaging:23.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9f5f8ee6c635a8e18bfb7b2ca00e5cdb/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9f5f8ee6c635a8e18bfb7b2ca00e5cdb/transformed/jetified-firebase-messaging-23.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9f5f8ee6c635a8e18bfb7b2ca00e5cdb/transformed/jetified-firebase-messaging-23.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-messaging/23.0.0/1a0335ee550294d3f21a1d385aea3c73b4daa942/firebase-messaging-23.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

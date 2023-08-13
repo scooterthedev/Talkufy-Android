@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:50d7bc67ca8c8437ab6ec0cbf584f22d9f4251302ebff84a993cea9729a57ea4
-size 292
+<AppUpdater>
+  <update>
+    <latestVersion>1.0.6-beta2</latestVersion>
+    <latestVersionCode>5</latestVersionCode>
+    <url>https://github.com/scooterthedev/Talkufy-Android/releases</url>
+     <releaseNotes>
+- Fixed Major Bugs
+- Small Bug fixes
+    </releaseNotes>
+  </update>
+</AppUpdater>

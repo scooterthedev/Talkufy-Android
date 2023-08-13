@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4c0b083794e2247ce8d46afc24218cead392c655775670e1f55c7fdfc49515e7
-size 1225
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Talkufy-Android.iml" filepath="$PROJECT_DIR$/.idea/modules/Talkufy-Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Talkufy-Android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Talkufy-Android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Talkufy-Android.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Talkufy-Android.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Talkufy-Android.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Talkufy-Android.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Talkufy-Android.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Talkufy-Android.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

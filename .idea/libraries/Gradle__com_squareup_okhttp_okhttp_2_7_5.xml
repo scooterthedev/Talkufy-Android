@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1bc0153b5b5c2384dddcbefcee1284c084101b5a6343bb67e044c929810d692d
-size 749
+<component name="libraryTable">
+  <library name="Gradle: com.squareup.okhttp:okhttp:2.7.5" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.7.5/7a15a7db50f86c4b64aa3367424a60e3a325b8f1/okhttp-2.7.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.7.5/87d10b7ccfeceee1878ef642caa98a6c338d2533/okhttp-2.7.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.7.5/6b16ea4e0a54f9eada97779ae33cb4d3223f5d35/okhttp-2.7.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

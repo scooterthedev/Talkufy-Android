@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5c0480dad4007c8ae21a0276dc705b347399534a97fb3c878f06822865b14570
-size 1043
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.material:material:1.5.0@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/05fd448b040042dc5944975fc2c29246/transformed/material-1.5.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/05fd448b040042dc5944975fc2c29246/transformed/material-1.5.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/05fd448b040042dc5944975fc2c29246/transformed/material-1.5.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/05fd448b040042dc5944975fc2c29246/transformed/material-1.5.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.5.0/8d3b87c7463f55053836b805e014cb238f64757a/material-1.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

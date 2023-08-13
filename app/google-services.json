@@ -1,3 +1,48 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:41603ceb221cc87a8faa9a3dec9e177394dce9fbc1c5d8d090cad88853f7685c
-size 1381
+{
+  "project_info": {
+    "project_number": "665003322152",
+    "firebase_url": "https://say-talk-3a648-default-rtdb.firebaseio.com",
+    "project_id": "say-talk-3a648",
+    "storage_bucket": "say-talk-3a648.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665003322152:android:2896d3a5003e920da8be1d",
+        "android_client_info": {
+          "package_name": "ca.scooter.talkufy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665003322152-7pa4vha823s0qbtnb4lhc55kj49e1hhj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.scooter.talkufy",
+            "certificate_hash": "7d583ff23446f04a378c9f893f78ec239b0b0d72"
+          }
+        },
+        {
+          "client_id": "665003322152-qee7gs6ah40qnr6441mm3ppgnnrua3q4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg4URfbZMm-VouwVO4ksRaWat1lXnQCBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665003322152-qee7gs6ah40qnr6441mm3ppgnnrua3q4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

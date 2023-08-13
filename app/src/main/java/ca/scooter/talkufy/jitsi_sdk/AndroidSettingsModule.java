@@ -1,3 +1,55 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3998a91b82cc03954ca5a24bf7fdd438366a295f512081cb126e868d2c0d28db
-size 1695
+/**
+ * Adapted from
+ * {@link https://github.com/Aleksandern/react-native-android-settings-library}.
+ */
+
+package ca.scooter.talkufy.jitsi_sdk;
+
+import android.content.ActivityNotFoundException;
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
+import android.provider.Settings;
+import com.facebook.react.bridge.Promise;
+import com.facebook.react.bridge.ReactApplicationContext;
+import com.facebook.react.bridge.ReactContextBaseJavaModule;
+import com.facebook.react.bridge.ReactMethod;
+import com.facebook.react.module.annotations.ReactModule;
+
+@ReactModule(name = AndroidSettingsModule.NAME)
+class AndroidSettingsModule
+    extends ReactContextBaseJavaModule {
+
+    public static final String NAME = "AndroidSettings";
+
+    public AndroidSettingsModule(ReactApplicationContext reactContext) {
+        super(reactContext);
+    }
+
+    @Override
+    public String getName() {
+        return NAME;
+    }
+
+    @ReactMethod
+    public void open(Promise promise) {
+        Context context = getReactApplicationContext();
+        Intent intent = new Intent();
+
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.setAction(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+        intent.setData(
+            Uri.fromParts("package", context.getPackageName(), null));
+
+        try {
+            context.startActivity(intent);
+        } catch (ActivityNotFoundException e) {
+            // Some devices may give an error here.
+            // https://developer.android.com/reference/android/provider/Settings.html#ACTION_APPLICATION_DETAILS_SETTINGS
+            promise.reject(e);
+            return;
+        }
+
+        promise.resolve(null);
+    }
+}

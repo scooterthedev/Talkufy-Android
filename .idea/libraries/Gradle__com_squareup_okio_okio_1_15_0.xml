@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c0a8939973780efa84fa444ef01ce86c69029bc2bd09f0bc7f9773db1271f8bb
-size 850
+<component name="libraryTable">
+  <library name="Gradle: com.squareup.okio:okio:1.15.0" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.15.0/bc28b5a964c8f5721eb58ee3f3c47a9bcbf4f4d8/okio-1.15.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.15.0/a504577b8e4cfecd3e4148a697faf9742c767180/okio-1.15.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.15.0/5667938926bdda03add0eac8c522164ce4180e5e/okio-1.15.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

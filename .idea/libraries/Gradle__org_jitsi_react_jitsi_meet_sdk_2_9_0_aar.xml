@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8fd4939bd90b66e4367d04ee316269e33bd124ea052a3a3c53ccf4dcbb6cdc17
-size 695
+<component name="libraryTable">
+  <library name="Gradle: org.jitsi.react:jitsi-meet-sdk:2.9.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/eafbc152182f733ab84b3fa6c6c4ce3c/transformed/jetified-jitsi-meet-sdk-2.9.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/eafbc152182f733ab84b3fa6c6c4ce3c/transformed/jetified-jitsi-meet-sdk-2.9.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/eafbc152182f733ab84b3fa6c6c4ce3c/transformed/jetified-jitsi-meet-sdk-2.9.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,3 +1,157 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:240b784fa2da203441ed26ef2a3774cdb8dcbdbd116963a11af670fc66f80f3e
-size 5777
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:id="@+id/container"
+                 android:layout_gravity="center"
+                 android:layout_height="match_parent">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <ImageView
+                    android:layout_width="210dp"
+                    android:layout_height="210dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mail_box_img" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/gotham"
+                    android:text="Connect with your phone"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/otp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/gotham"
+                    android:lineSpacingExtra="6dp"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/gotham"
+                    android:text="Enter your Mobile Number"
+                    android:textAlignment="center"
+                    android:textColor="#a3a3a3"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="12dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+
+                        <com.hbb20.CountryCodePicker
+                                app:ccp_autoFormatNumber="true"
+                                app:ccp_autoDetectCountry="true"
+                                app:ccp_defaultNameCode="CA"
+                                android:id="@+id/country_picker"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+
+                    </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#f6f6f6">
+
+                        <EditText
+                            android:id="@+id/mobile_number"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:fontFamily="@font/gotham"
+                            android:hint="1234-567-890"
+                            android:inputType="phone"
+
+                            android:padding="12dp"
+                            android:textColor="#000000"
+                            android:textColorHint="#c7c7c8"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/generate_otp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="24dp"
+                    style="@style/RoundButton"
+                    android:fontFamily="@font/gotham"
+                    android:text="Continue"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+</LinearLayout>

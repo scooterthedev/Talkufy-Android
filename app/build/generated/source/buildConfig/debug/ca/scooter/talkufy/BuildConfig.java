@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f5aea9682d7ffe44828af43fdcf5cf7fb601bced0209054fdac4236db31ca246
-size 399
+/**
+ * Automatically generated file. DO NOT MODIFY
+ */
+package ca.scooter.talkufy;
+
+public final class BuildConfig {
+  public static final boolean DEBUG = Boolean.parseBoolean("true");
+  public static final String APPLICATION_ID = "ca.scooter.talkufy";
+  public static final String BUILD_TYPE = "debug";
+  public static final int VERSION_CODE = 4;
+  public static final String VERSION_NAME = "1";
+}

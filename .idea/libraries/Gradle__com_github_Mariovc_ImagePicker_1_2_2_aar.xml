@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ec1b3b5cf2b9a8476c311aefcf4d853556a02aa9f2c33c537c47ed4e29c4505b
-size 873
+<component name="libraryTable">
+  <library name="Gradle: com.github.Mariovc:ImagePicker:1.2.2@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7f98dd7b684e432e3c7841675de96db0/transformed/jetified-ImagePicker-1.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7f98dd7b684e432e3c7841675de96db0/transformed/jetified-ImagePicker-1.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7f98dd7b684e432e3c7841675de96db0/transformed/jetified-ImagePicker-1.2.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Mariovc/ImagePicker/1.2.2/d7b5deec22d0c9b4bd6afd3d048fd3d95a9b3a09/ImagePicker-1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

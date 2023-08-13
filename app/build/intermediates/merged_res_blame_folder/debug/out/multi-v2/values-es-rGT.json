@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0d2f18499f2b9aa42906d62bee6e7893626a9992aa9b5767e3c90bc5d727c8e5
-size 823
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rGT\\values-es-rGT.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\yekut\\.gradle\\caches\\transforms-3\\329cbee4af88d7cb55ac116be15d305e\\transformed\\jetified-android-image-cropper-2.8.0\\res\\values-es-rGT\\values-es-rGT.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,170,217,273,336,422,504,581,657",
+                        "endColumns": "114,46,55,62,85,81,76,75,78",
+                        "endOffsets": "165,212,268,331,417,499,576,652,731"
+                    }
+                }
+            ]
+        }
+    ]
+}

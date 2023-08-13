@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e7bb31844b3d02f969345e90305e6cd1a6c92ef4bbb83f6c8a84fc141fb34693
-size 947
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/vw_BgItem">
+
+    <ImageView
+        android:id="@+id/iv_thumbnail_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/iv_camera_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/vw_ic_camera"
+        android:visibility="invisible" />
+
+    <View
+        android:id="@+id/shadow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/vw_ShadowItem"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

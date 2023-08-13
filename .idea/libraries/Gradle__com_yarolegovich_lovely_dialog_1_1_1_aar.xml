@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:619162cb27a6085570e8e4669bd52a5b9016dc2fa90fb38d4e27be9202a1a674
-size 682
+<component name="libraryTable">
+  <library name="Gradle: com.yarolegovich:lovely-dialog:1.1.1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b9acd3c96ef9361926afe0b108dbe01a/transformed/jetified-lovely-dialog-1.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b9acd3c96ef9361926afe0b108dbe01a/transformed/jetified-lovely-dialog-1.1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b9acd3c96ef9361926afe0b108dbe01a/transformed/jetified-lovely-dialog-1.1.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

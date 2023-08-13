@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:704732c3be4179f9f2799beebd66f8813651b2c9611749134d31ea9d007b0215
-size 194
+{
+  "version": 3,
+  "artifactType": {
+    "type": "COMPATIBLE_SCREEN_MANIFEST",
+    "kind": "Directory"
+  },
+  "applicationId": "ca.scooter.talkufy",
+  "variantName": "debug",
+  "elements": []
+}

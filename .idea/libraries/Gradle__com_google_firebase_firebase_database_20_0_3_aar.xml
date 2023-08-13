@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4a0de1562ef35373ba91a447d09576a48e23d7dd69f948d7468470effc233dbc
-size 991
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-database:20.0.3@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5188e72c2f5fdad6ae71834c289c56f2/transformed/jetified-firebase-database-20.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5188e72c2f5fdad6ae71834c289c56f2/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-database/20.0.3/42ed197c7be33ec1900a6d71c082dc432c92d1df/firebase-database-20.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-database/20.0.3/37a02f53a3b77496e3577da56871c301f4b852a6/firebase-database-20.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

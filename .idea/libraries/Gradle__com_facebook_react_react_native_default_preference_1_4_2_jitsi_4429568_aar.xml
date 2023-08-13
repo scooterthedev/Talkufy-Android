@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f866b63568b208029bc8fa196ff2dc69adfdbae26f2a81c3f1c7373ee164dfb5
-size 910
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.react:react-native-default-preference:1.4.2-jitsi-4429568@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5138c371d7c6767a30626c9aa3202cec/transformed/jetified-react-native-default-preference-1.4.2-jitsi-4429568/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5138c371d7c6767a30626c9aa3202cec/transformed/jetified-react-native-default-preference-1.4.2-jitsi-4429568/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.react/react-native-default-preference/1.4.2-jitsi-4429568/9c4ec336fe0d39520856090b452dad124837fb68/react-native-default-preference-1.4.2-jitsi-4429568-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

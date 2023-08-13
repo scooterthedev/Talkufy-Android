@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:135e8987f9c21c698ace4cd764656e36fc114d7ca8e15a6bbd4539796302817e
-size 520
+<component name="libraryTable">
+  <library name="Gradle: com.facebook:hermes:0.2.1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ba6e0ec2d12b2597d5b67c45563e148b/transformed/jetified-hermes-0.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ba6e0ec2d12b2597d5b67c45563e148b/transformed/jetified-hermes-0.2.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

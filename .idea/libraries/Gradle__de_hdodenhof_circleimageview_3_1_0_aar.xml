@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:75abf4bb8a91137ecbbf82ecc26f7dce210634f56da6dc16ad39f3ca640fbd18
-size 1098
+<component name="libraryTable">
+  <library name="Gradle: de.hdodenhof:circleimageview:3.1.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7e6f6f66d28cfac810c42baf68dd5a2b/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7e6f6f66d28cfac810c42baf68dd5a2b/transformed/jetified-circleimageview-3.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7e6f6f66d28cfac810c42baf68dd5a2b/transformed/jetified-circleimageview-3.1.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.hdodenhof/circleimageview/3.1.0/e33964c462b854162fee2bd3cd52889ef878df77/circleimageview-3.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.hdodenhof/circleimageview/3.1.0/e5635e59d66b172f3e99c6a7044dc9535c95d180/circleimageview-3.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

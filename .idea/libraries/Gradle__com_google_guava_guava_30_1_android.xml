@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f133de45667aa929eb39e0f84075527eedfb1e0bebfe4f5abd9aebaa03f2a8c2
-size 779
+<component name="libraryTable">
+  <library name="Gradle: com.google.guava:guava:30.1-android" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/30.1-android/1e904cca24cdf3dc84d5fe4f73e12f1186e04380/guava-30.1-android.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/30.1-android/df2246c8eaff3b5acf8ca17b9ae47281f292b131/guava-30.1-android-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/30.1-android/d02cb239bc7edbd7ca374e3185eab02ef8520520/guava-30.1-android-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

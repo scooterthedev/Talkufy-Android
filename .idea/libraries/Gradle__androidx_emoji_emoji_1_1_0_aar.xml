@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2946eea92b86a0c62fb8a85b171993bd03e7ab48262687b2b38db21c9ed9dc4d
-size 1160
+<component name="libraryTable">
+  <library name="Gradle: androidx.emoji:emoji:1.1.0@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/59480fdbd91583f8120ecaaed7a57ab4/transformed/emoji-1.1.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/59480fdbd91583f8120ecaaed7a57ab4/transformed/emoji-1.1.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/59480fdbd91583f8120ecaaed7a57ab4/transformed/emoji-1.1.0/jars/libs/noto-emoji-compat-java.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/59480fdbd91583f8120ecaaed7a57ab4/transformed/emoji-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/59480fdbd91583f8120ecaaed7a57ab4/transformed/emoji-1.1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.emoji/emoji/1.1.0/3a012f8a831e9d4d782e6b9942ffc86f97e39b5d/emoji-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a731ee9bcaf1761f1552f559c61d261b94d745741c4d58c5a3810b66f447fcd4
-size 1175
+<component name="libraryTable">
+  <library name="Gradle: com.theartofdev.edmodo:android-image-cropper:2.8.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/329cbee4af88d7cb55ac116be15d305e/transformed/jetified-android-image-cropper-2.8.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/329cbee4af88d7cb55ac116be15d305e/transformed/jetified-android-image-cropper-2.8.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/329cbee4af88d7cb55ac116be15d305e/transformed/jetified-android-image-cropper-2.8.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.theartofdev.edmodo/android-image-cropper/2.8.0/40cb681adc5857ef916275f6c3f45b662967e1c9/android-image-cropper-2.8.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.theartofdev.edmodo/android-image-cropper/2.8.0/e5160ab4f90a729c19db7841cb2d480ea6f5fe3/android-image-cropper-2.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

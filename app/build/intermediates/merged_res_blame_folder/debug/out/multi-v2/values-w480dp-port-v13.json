@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b644fb6855e3e2e560e9c3b6131ebb532fa1227334098150c3365909c69e1cb1
-size 820
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\yekut\\.gradle\\caches\\transforms-3\\05fd448b040042dc5944975fc2c29246\\transformed\\material-1.5.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,170,226,293,358,413,478",
+                        "endColumns": "58,55,55,66,64,54,64,68",
+                        "endOffsets": "109,165,221,288,353,408,473,542"
+                    }
+                }
+            ]
+        }
+    ]
+}
