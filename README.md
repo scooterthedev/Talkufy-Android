@@ -124,7 +124,7 @@ Ethereum Address: 0x65c397b50F61A6fa71fA774A1ecc35EC089f7916
 
 # License
 
-    Copyright 2022 Talkufy
+    Copyright 2023 Talkufy
     
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
