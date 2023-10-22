@@ -1,5 +1,6 @@
 <component name="libraryTable">
-  <library name="Gradle: com.dropbox.core:dropbox-core-sdk:3.0.8" external-system-id="GRADLE">
+  <library name="Gradle: com.dropbox.core:dropbox-core-sdk:3.0.8" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.dropbox.core" artifactId="dropbox-core-sdk" version="3.0.8" />
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dropbox.core/dropbox-core-sdk/3.0.8/9f2d878b41cbdb29ccdcbe0e2f2b4eb7237252e1/dropbox-core-sdk-3.0.8.jar!/" />
     </CLASSES>

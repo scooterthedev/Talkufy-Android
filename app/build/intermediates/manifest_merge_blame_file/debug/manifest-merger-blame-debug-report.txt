@@ -27,7 +27,7 @@
 18-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:13:5-79
 18-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:13:22-77
 19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-19-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:14:5-80
+19-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:14:5-109
 19-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:14:22-78
 20    <uses-permission android:name="android.permission.INTERNET" />
 20-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:15:5-66
@@ -47,36 +47,36 @@
 25    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 25-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:20:5-74
 25-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:20:22-72
-26    <uses-permission android:name="android.permission.INSTALL_SHORTCUT" />
-26-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:21:5-74
-26-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:21:22-72
+26    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+26-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:21:5-87
+26-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:21:22-85
 27    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 27-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:22:5-70
 27-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:22:22-68
 28    <uses-permission android:name="android.permission.BLUETOOTH" />
-28-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:10:5-68
-28-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:10:22-65
+28-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:23:5-68
+28-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:23:22-65
 29    <uses-permission android:name="android.permission.CAMERA" />
-29-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:11:5-65
-29-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:11:22-62
+29-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:24:5-65
+29-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:24:22-62
 30    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
-30-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:13:5-75
-30-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:13:22-72
+30-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:25:5-75
+30-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:25:22-72
 31    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-31-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:14:5-80
-31-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:14:22-77
-32    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-32-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:16:5-78
-32-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:16:22-75
-33    <uses-permission android:name="android.permission.WAKE_LOCK" />
-33-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:17:5-68
-33-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:17:22-65
-34    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-34-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:18:5-76
-34-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:18:22-73
-35    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-35-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:19:5-77
-35-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:19:22-74
+31-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:26:5-80
+31-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:26:22-77
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:27:5-68
+32-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:27:22-65
+33    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+33-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:28:5-76
+33-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:28:22-73
+34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+34-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:29:5-77
+34-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:29:22-74
+35    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+35-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:16:5-78
+35-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:16:22-75
 36
 37    <uses-feature
 37-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:21:5-23:35
@@ -126,7 +126,7 @@
 59-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut\.gradle\caches\transforms-3\de9c1a6d1d879437e3d6a1dee952262b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
 60
 61            <data android:scheme="https" />
-61-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:82:17-54
+61-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:88:17-54
 62        </intent> <!-- End of browser content -->
 63        <!-- For CustomTabsService -->
 64        <intent>
@@ -148,170 +148,170 @@
 71-->[androidx.work:work-runtime:2.5.0] C:\Users\yekut\.gradle\caches\transforms-3\2688c513341fb861f8ae8c2b792bb48b\transformed\work-runtime-2.5.0\AndroidManifest.xml:27:22-78
 72
 73    <application
-73-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:24:5-203:19
+73-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:30:5-209:19
 74        android:allowBackup="true"
 74-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut\.gradle\caches\transforms-3\eafbc152182f733ab84b3fa6c6c4ce3c\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:32:9-35
 75        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 75-->[androidx.core:core:1.7.0] C:\Users\yekut\.gradle\caches\transforms-3\c4386ff3ac3574ffa343c4f1745a1a9b\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 76        android:debuggable="true"
 77        android:icon="@mipmap/ic_launcher"
-77-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:25:9-43
+77-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:31:9-43
 78        android:label="@string/app_name"
-78-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:26:9-41
+78-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:32:9-41
 79        android:largeHeap="true"
-79-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:27:9-33
+79-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:33:9-33
 80        android:roundIcon="@mipmap/ic_launcher"
-80-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:28:9-48
+80-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:34:9-48
 81        android:supportsRtl="true"
-81-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:29:9-35
+81-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:35:9-35
 82        android:testOnly="true"
 83        android:theme="@style/AppTheme" >
-83-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:30:9-40
+83-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:36:9-40
 84        <activity
-84-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:32:9-34:38
+84-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:38:9-40:38
 85            android:name="ca.scooter.talkufy.activities.Updates"
-85-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:33:13-47
+85-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:39:13-47
 86            android:exported="true" />
-86-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:34:13-36
+86-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:40:13-36
 87
 88        <meta-data
-88-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:36:9-38:69
+88-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:42:9-44:69
 89            android:name="com.google.android.gms.ads.APPLICATION_ID"
-89-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:37:13-69
+89-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:43:13-69
 90            android:value="ca-app-pub-7637534093966773~4215198755" />
-90-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:38:13-67
+90-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:44:13-67
 91
 92        <activity
-92-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:40:9-49:20
+92-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:46:9-55:20
 93            android:name="ca.scooter.talkufy.BeginingSplashScreen"
-93-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:41:13-49
+93-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:47:13-49
 94            android:exported="true" >
-94-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:42:13-36
+94-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:48:13-36
 95            <intent-filter>
-95-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:44:13-48:29
+95-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:50:13-54:29
 96                <action android:name="android.intent.action.MAIN" />
-96-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:45:17-68
-96-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:45:25-66
+96-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:51:17-68
+96-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:51:25-66
 97
 98                <category android:name="android.intent.category.LAUNCHER" />
-98-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:47:17-76
-98-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:47:27-74
+98-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:53:17-76
+98-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:53:27-74
 99            </intent-filter>
 100        </activity>
 101        <activity
-101-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:50:9-57:34
+101-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:56:9-63:34
 102            android:name="ca.scooter.talkufy.jitsi_sdk.JitsiMeetActivity"
-102-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:51:13-56
+102-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:57:13-56
 103            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
-103-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:52:13-115
-104            android:launchMode="singleTask"
-104-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:53:13-44
+103-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:58:13-115
+104            android:launchMode="standard"
+104-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:59:13-42
 105            android:resizeableActivity="true"
-105-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:54:13-46
+105-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:60:13-46
 106            android:supportsPictureInPicture="true"
-106-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:55:13-52
+106-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:61:13-52
 107            android:windowSoftInputMode="adjustResize" />
-107-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:56:13-55
+107-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:62:13-55
 108        <activity android:name="ca.scooter.talkufy.jitsi_sdk.JitsiMeetFragment" />
-108-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:58:9-60:44
-108-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:59:13-56
+108-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:64:9-66:44
+108-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:65:13-56
 109        <activity android:name="ca.scooter.talkufy.activities.CreateGroupActivity" />
-109-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:61:9-67
-109-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:61:19-65
+109-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:67:9-67
+109-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:67:19-65
 110        <activity android:name="ca.scooter.talkufy.activities.CreateChannelActivity" />
-110-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:62:9-69
-110-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:62:19-67
+110-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:68:9-69
+110-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:68:19-67
 111        <activity android:name="ca.scooter.talkufy.activities.IncomingCallActivity" />
-111-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:63:9-68
-111-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:63:19-66
+111-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:69:9-68
+111-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:69:19-66
 112        <activity android:name="ca.scooter.talkufy.activities.OutgoingCallActivity" />
-112-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:64:9-68
-112-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:64:19-66
+112-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:70:9-68
+112-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:70:19-66
 113        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
-113-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:65:9-84
-113-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:65:19-82
+113-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:71:9-84
+113-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:71:19-82
 114        <activity
-114-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:66:9-69:58
+114-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:72:9-75:58
 115            android:name="ca.scooter.talkufy.activities.SplashActivity"
-115-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:67:13-54
+115-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:73:13-54
 116            android:roundIcon="@drawable/ic_play_black"
-116-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:68:13-56
+116-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:74:13-56
 117            android:theme="@style/AppTheme.NoActionBar" />
-117-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:69:13-56
+117-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:75:13-56
 118        <activity android:name="ca.scooter.talkufy.activities.SettingsActivity" />
-118-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:70:9-64
-118-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:70:19-62
+118-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:76:9-64
+118-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:76:19-62
 119        <activity android:name="ca.scooter.talkufy.activities.BlockListActivity" />
-119-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:71:9-65
-119-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:71:19-63
+119-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:77:9-65
+119-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:77:19-63
 120        <activity
-120-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:72:9-102:20
+120-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:9-108:20
 121            android:name="ca.scooter.talkufy.activities.ForwardActivity"
-121-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:73:13-55
+121-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:79:13-55
 122            android:exported="true"
-122-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:74:13-36
+122-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:13-36
 123            android:launchMode="singleTop"
-123-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:75:13-43
+123-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:81:13-43
 124            android:theme="@style/AppTheme.NoActionBar" >
-124-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:76:13-56
+124-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:82:13-56
 125            <intent-filter>
-125-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:77:13-83:29
+125-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:83:13-89:29
 126                <action android:name="android.intent.action.SEND" />
-126-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:17-68
-126-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:25-66
+126-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:84:17-68
+126-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:84:25-66
 127
 128                <category android:name="android.intent.category.DEFAULT" />
-128-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:17-75
-128-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:27-73
+128-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:86:17-75
+128-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:86:27-73
 129
 130                <data android:mimeType="text/plain" />
-130-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:82:17-54
-130-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:82:23-52
+130-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:88:17-54
+130-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:88:23-52
 131            </intent-filter>
 132            <intent-filter>
-132-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:84:13-90:29
+132-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:90:13-96:29
 133                <action android:name="android.intent.action.SEND" />
-133-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:17-68
-133-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:25-66
+133-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:84:17-68
+133-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:84:25-66
 134
 135                <category android:name="android.intent.category.DEFAULT" />
-135-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:17-75
-135-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:27-73
+135-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:86:17-75
+135-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:86:27-73
 136
 137                <data android:mimeType="image/*" />
-137-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:82:17-54
-137-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:82:23-52
+137-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:88:17-54
+137-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:88:23-52
 138            </intent-filter>
 139            <intent-filter>
-139-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:91:13-97:29
+139-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:97:13-103:29
 140                <action android:name="android.intent.action.SEND" />
-140-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:17-68
-140-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:25-66
+140-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:84:17-68
+140-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:84:25-66
 141
 142                <category android:name="android.intent.category.DEFAULT" />
-142-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:17-75
-142-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:27-73
+142-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:86:17-75
+142-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:86:27-73
 143
 144                <data android:mimeType="video/*" />
-144-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:82:17-54
-144-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:82:23-52
+144-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:88:17-54
+144-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:88:23-52
 145            </intent-filter>
 146
 147            <meta-data
-147-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:99:13-101:61
+147-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:105:13-107:61
 148                android:name="android.service.chooser.chooser_target_service"
-148-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:100:17-78
+148-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:106:17-78
 149                android:value=".ShareIntentChooserService" />
-149-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:101:17-59
+149-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:107:17-59
 150        </activity>
 151        <activity
-151-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:103:9-107:42
+151-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:109:9-113:42
 152            android:name="ca.scooter.talkufy.activities.UserProfileActivity"
-152-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:104:13-59
+152-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:110:13-59
 153            android:label="@string/title_activity_user_profile"
-153-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:105:13-64
+153-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:111:13-64
 154            android:theme="@style/AppTheme.NoActionBar.Translucent" />
-154-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:106:13-68
+154-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:112:13-68
 155        <!--
 156             The API key for Google Maps-based APIs is defined as a string resource.
 157             (See the file "res/values/google_maps_api.xml").
@@ -321,104 +321,104 @@
 161             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 162        -->
 163        <meta-data
-163-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:116:9-118:54
+163-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:122:9-124:54
 164            android:name="com.google.android.geo.API_KEY"
-164-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:117:13-58
+164-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:123:13-58
 165            android:value="@string/google_maps_key" />
-165-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:118:13-52
+165-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:124:13-52
 166
 167        <activity
-167-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:120:9-124:42
+167-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:126:9-130:42
 168            android:name="ca.scooter.talkufy.activities.MapsActivity"
-168-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:121:13-52
+168-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:127:13-52
 169            android:label="@string/title_activity_maps"
-169-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:122:13-56
+169-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:128:13-56
 170            android:theme="@style/AppTheme.NoActionBar" />
-170-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:123:13-56
+170-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:129:13-56
 171        <activity
-171-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:125:9-129:58
+171-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:131:9-135:58
 172            android:name="ca.scooter.talkufy.activities.HomeActivity"
-172-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:126:13-52
+172-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:132:13-52
 173            android:label="@string/app_name"
-173-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:127:13-45
+173-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:133:13-45
 174            android:launchMode="singleTop"
-174-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:128:13-43
+174-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:134:13-43
 175            android:theme="@style/AppTheme.NoActionBar" />
-175-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:129:13-56
+175-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:135:13-56
 176        <activity
-176-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:130:9-132:58
+176-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:136:9-138:58
 177            android:name="ca.scooter.talkufy.activities.MessageActivity"
-177-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:131:13-55
+177-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:137:13-55
 178            android:theme="@style/AppTheme.NoActionBar" />
-178-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:132:13-56
+178-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:138:13-56
 179        <activity
-179-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:133:9-136:54
+179-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:139:9-142:54
 180            android:name="ca.scooter.talkufy.activities.MobileLoginActivity"
-180-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:134:13-59
+180-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:140:13-59
 181            android:theme="@style/AppTheme.NoActionBar"
-181-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:135:13-56
+181-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:141:13-56
 182            android:windowSoftInputMode="adjustPan" />
-182-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:136:13-52
+182-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:142:13-52
 183        <activity android:name="ca.scooter.talkufy.activities.ContactsActivity" /> <!-- Provider for the library -->
-183-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:137:9-64
-183-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:137:19-62
+183-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:143:9-64
+183-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:143:19-62
 184        <provider
-184-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:138:9-148:20
+184-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:144:9-154:20
 185            android:name="androidx.core.content.FileProvider"
-185-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:139:13-62
+185-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:145:13-62
 186            android:authorities="com.mvc.imagepicker.provider"
-186-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:140:13-63
+186-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:146:13-63
 187            android:exported="false"
-187-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:141:13-37
+187-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:147:13-37
 188            android:grantUriPermissions="true" >
-188-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:142:13-47
+188-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:148:13-47
 189            <meta-data
-189-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:144:13-147:51
+189-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:150:13-153:51
 190                android:name="android.support.FILE_PROVIDER_PATHS"
-190-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:145:17-67
+190-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:151:17-67
 191                android:resource="@xml/provider_paths" />
-191-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:146:17-55
+191-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:152:17-55
 192        </provider>
 193
 194        <activity
-194-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:150:9-152:58
+194-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:156:9-158:58
 195            android:name="ca.scooter.talkufy.activities.UploadPreviewActivity"
-195-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:151:13-61
+195-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:157:13-61
 196            android:theme="@style/AppTheme.NoActionBar" />
-196-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:152:13-56
+196-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:158:13-56
 197        <activity android:name="ca.scooter.talkufy.activities.EditProfile" />
-197-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:153:9-59
-197-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:153:19-57
+197-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:159:9-59
+197-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:159:19-57
 198        <activity
-198-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:154:9-156:58
+198-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:160:9-162:58
 199            android:name="ca.scooter.talkufy.activities.ImagePreviewActivity"
-199-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:155:13-60
+199-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:161:13-60
 200            android:theme="@style/AppTheme.NoActionBar" />
-200-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:156:13-56
+200-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:162:13-56
 201        <activity
-201-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:157:9-159:58
+201-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:163:9-165:58
 202            android:name="ca.scooter.talkufy.activities.AboutTheDeveloperActivity"
-202-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:158:13-65
+202-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:164:13-65
 203            android:theme="@style/AppTheme.NoActionBar" />
-203-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:159:13-56
+203-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:165:13-56
 204        <activity android:name="ca.scooter.talkufy.activities.MultiContactChooserActivity" />
-204-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:160:9-75
-204-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:160:19-73
+204-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:166:9-75
+204-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:166:19-73
 205        <activity android:name="ca.scooter.talkufy.activities.FeedbackActivity" />
-205-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:161:9-64
-205-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:161:19-62
+205-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:167:9-64
+205-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:167:19-62
 206
 207        <service
-207-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:163:9-169:19
+207-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:169:9-175:19
 208            android:name="ca.scooter.talkufy.firebase.MessagingService"
-208-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:164:13-54
+208-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:170:13-54
 209            android:exported="false" >
-209-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:165:13-37
+209-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:171:13-37
 210            <intent-filter>
-210-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:166:13-168:29
+210-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:172:13-174:29
 211                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-211-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:167:17-77
-211-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:167:25-75
+211-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:173:17-77
+211-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:173:25-75
 212            </intent-filter>
 213        </service>
 214        <!--
@@ -426,51 +426,51 @@
 216     See README(https://goo.gl/l4GJaQ) for more.
 217        -->
 218        <meta-data
-218-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:174:9-176:53
+218-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:180:9-182:53
 219            android:name="com.google.firebase.messaging.default_notification_icon"
-219-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:175:13-83
+219-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:181:13-83
 220            android:resource="@mipmap/ic_launcher" />
-220-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:176:13-51
+220-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:182:13-51
 221        <!--
 222 Set color used with incoming notification messages. This is used when no color is set for the incoming
 223             notification message. See README(https://goo.gl/6BKBk7) for more.
 224        -->
 225        <meta-data
-225-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:181:9-183:52
+225-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:187:9-189:52
 226            android:name="com.google.firebase.messaging.default_notification_color"
-226-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:182:13-84
+226-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:188:13-84
 227            android:resource="@color/colorAccent" />
-227-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:183:13-50
+227-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:189:13-50
 228
 229        <service
-229-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:185:9-194:19
+229-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:191:9-200:19
 230            android:name="ca.scooter.talkufy.utils.ShareIntentChooserService"
-230-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:186:13-60
+230-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:192:13-60
 231            android:exported="true"
-231-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:187:13-36
+231-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:193:13-36
 232            android:label="@string/app_name"
-232-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:188:13-45
+232-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:194:13-45
 233            android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE" >
-233-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:189:13-80
+233-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:195:13-80
 234            <intent-filter>
-234-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:191:13-193:29
+234-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:197:13-199:29
 235                <action android:name="android.service.chooser.ChooserTargetService" />
-235-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:192:17-86
-235-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:192:25-84
+235-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:198:17-86
+235-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:198:25-84
 236            </intent-filter>
 237        </service>
 238
 239        <receiver
-239-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:196:9-202:20
+239-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:202:9-208:20
 240            android:name="ca.scooter.talkufy.broadcast_services.PhoneStateBroadcastReciever"
-240-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:197:13-75
+240-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:203:13-75
 241            android:exported="true" >
-241-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:198:13-36
+241-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:204:13-36
 242            <intent-filter>
-242-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:199:13-201:29
+242-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:205:13-207:29
 243                <action android:name="android.intent.action.PHONE_STATE" />
-243-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:200:17-75
-243-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:200:25-73
+243-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:206:17-75
+243-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:206:25-73
 244            </intent-filter>
 245        </receiver>
 246
@@ -521,11 +521,11 @@
 270            android:grantUriPermissions="true" >
 270-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\yekut\.gradle\caches\transforms-3\d3daeaa809d2d7c5881a0ed363bf2ae6\transformed\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:16:13-47
 271            <meta-data
-271-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:144:13-147:51
+271-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:150:13-153:51
 272                android:name="android.support.FILE_PROVIDER_PATHS"
-272-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:145:17-67
+272-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:151:17-67
 273                android:resource="@xml/file_provider_paths" />
-273-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:146:17-55
+273-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:152:17-55
 274        </provider>
 275
 276        <service
@@ -707,10 +707,10 @@
 368            android:exported="false" >
 368-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut\.gradle\caches\transforms-3\9f5f8ee6c635a8e18bfb7b2ca00e5cdb\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:44:13-37
 369            <intent-filter android:priority="-500" >
-369-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:166:13-168:29
+369-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:172:13-174:29
 370                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-370-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:167:17-77
-370-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:167:25-75
+370-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:173:17-77
+370-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:173:25-75
 371            </intent-filter>
 372        </service>
 373
@@ -733,14 +733,14 @@
 381-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut\.gradle\caches\transforms-3\de9c1a6d1d879437e3d6a1dee952262b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
 382
 383                <category android:name="android.intent.category.DEFAULT" />
-383-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:17-75
-383-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:27-73
+383-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:86:17-75
+383-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:86:27-73
 384                <category android:name="android.intent.category.BROWSABLE" />
 384-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut\.gradle\caches\transforms-3\de9c1a6d1d879437e3d6a1dee952262b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
 384-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut\.gradle\caches\transforms-3\de9c1a6d1d879437e3d6a1dee952262b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
 385
 386                <data
-386-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:82:17-54
+386-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:88:17-54
 387                    android:host="firebase.auth"
 388                    android:path="/"
 389                    android:scheme="genericidp" />
@@ -765,14 +765,14 @@
 399-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut\.gradle\caches\transforms-3\de9c1a6d1d879437e3d6a1dee952262b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
 400
 401                <category android:name="android.intent.category.DEFAULT" />
-401-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:17-75
-401-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:27-73
+401-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:86:17-75
+401-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:86:27-73
 402                <category android:name="android.intent.category.BROWSABLE" />
 402-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut\.gradle\caches\transforms-3\de9c1a6d1d879437e3d6a1dee952262b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
 402-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut\.gradle\caches\transforms-3\de9c1a6d1d879437e3d6a1dee952262b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
 403
 404                <data
-404-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:82:17-54
+404-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:88:17-54
 405                    android:host="firebase.auth"
 406                    android:path="/"
 407                    android:scheme="recaptcha" />
@@ -794,8 +794,8 @@
 416-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut\.gradle\caches\transforms-3\de9c1a6d1d879437e3d6a1dee952262b\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
 417
 418                <category android:name="android.intent.category.DEFAULT" />
-418-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:17-75
-418-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:27-73
+418-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:86:17-75
+418-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:86:27-73
 419            </intent-filter>
 420        </service>
 421
@@ -829,8 +829,8 @@
 435-->[com.google.firebase:firebase-ml-natural-language-smart-reply-model:19.0.0] C:\Users\yekut\.gradle\caches\transforms-3\6c81812a81e72937837a5dee55ed7e4b\transformed\jetified-firebase-ml-natural-language-smart-reply-model-19.0.0\AndroidManifest.xml:28:25-92
 436
 437                <category android:name="android.intent.category.DEFAULT" />
-437-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:17-75
-437-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:27-73
+437-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:86:17-75
+437-->C:\Users\yekut\IdeaProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:86:27-73
 438            </intent-filter>
 439        </service>
 440        <service

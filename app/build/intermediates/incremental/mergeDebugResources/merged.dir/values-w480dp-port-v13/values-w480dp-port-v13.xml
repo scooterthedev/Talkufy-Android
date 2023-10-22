@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0b27b88e402c8709c0dcfba7fd028d01225d8c431b8f158db7726958637e4ea1
-size 555
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mtrl_calendar_bottom_padding">0dp</dimen>
+    <dimen name="mtrl_calendar_day_corner">22dp</dimen>
+    <dimen name="mtrl_calendar_day_height">48dp</dimen>
+    <dimen name="mtrl_calendar_day_horizontal_padding">2dp</dimen>
+    <dimen name="mtrl_calendar_day_vertical_padding">2dp</dimen>
+    <dimen name="mtrl_calendar_day_width">48dp</dimen>
+    <dimen name="mtrl_calendar_days_of_week_height">48dp</dimen>
+    <dimen name="mtrl_calendar_month_horizontal_padding">0dp</dimen>
+</resources>

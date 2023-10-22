@@ -1,5 +1,6 @@
 <component name="libraryTable">
-  <library name="Gradle: com.amplitude:android-sdk:2.14.1" external-system-id="GRADLE">
+  <library name="Gradle: com.amplitude:android-sdk:2.14.1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.amplitude" artifactId="android-sdk" version="2.14.1" />
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amplitude/android-sdk/2.14.1/ef688443a7e7db9bbf188edd13cb7b3c1edce47a/android-sdk-2.14.1.jar!/" />
     </CLASSES>

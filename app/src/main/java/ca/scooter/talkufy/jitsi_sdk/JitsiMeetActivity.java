@@ -7,27 +7,23 @@ import android.content.IntentFilter;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-
 import androidx.annotation.Nullable;
-import androidx.fragment.app.FragmentActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
-
+import ca.scooter.talkufy.R;
 import com.facebook.react.modules.core.PermissionListener;
-
 import org.jitsi.meet.sdk.log.JitsiMeetLogger;
 
 import java.util.HashMap;
-
-import ca.scooter.talkufy.R;
 
 //
 //  A base activity for SDK users to embed. It uses {@link JitsiMeetFragment} to do the heavy
 //  lifting and wires the remaining Activity lifecycle methods so it works out of the box.
 
-public class JitsiMeetActivity extends FragmentActivity
+public class JitsiMeetActivity extends AppCompatActivity
         implements JitsiMeetActivityInterface {
 
-    protected static final String TAG = JitsiMeetActivity.class.getSimpleName();
+    protected static final String TAG = org.jitsi.meet.sdk.JitsiMeetActivity.class.getSimpleName();
 
     private static final String ACTION_JITSI_MEET_CONFERENCE = "org.jitsi.meet.CONFERENCE";
     private static final String JITSI_MEET_CONFERENCE_OPTIONS = "JitsiMeetConferenceOptions";
@@ -46,12 +42,15 @@ public class JitsiMeetActivity extends FragmentActivity
         Intent intent = new Intent(context, JitsiMeetActivity.class);
         intent.setAction(ACTION_JITSI_MEET_CONFERENCE);
         intent.putExtra(JITSI_MEET_CONFERENCE_OPTIONS, options);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         context.startActivity(intent);
     }
 
     public static void launch(Context context, String url) {
         JitsiMeetConferenceOptions options
-                = new JitsiMeetConferenceOptions.Builder().setRoom(url).build();
+                = new JitsiMeetConferenceOptions.Builder()
+                .setRoom(url)
+                .build();
         launch(context, options);
     }
 

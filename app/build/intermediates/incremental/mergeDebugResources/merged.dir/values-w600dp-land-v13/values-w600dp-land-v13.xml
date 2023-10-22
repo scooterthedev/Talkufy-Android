@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e1c79bcda60f952b8190f2b484134a2fd91678373fd86b4940ab1727d658c358
-size 118
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clock_face_margin_start">64dp</dimen>
+</resources>

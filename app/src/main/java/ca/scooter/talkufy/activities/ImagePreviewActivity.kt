@@ -1,5 +1,6 @@
 package ca.scooter.talkufy.activities
 
+import android.annotation.SuppressLint
 import android.graphics.Bitmap
 import android.graphics.Color
 import android.graphics.drawable.Drawable
@@ -24,6 +25,7 @@ class ImagePreviewActivity : AppCompatActivity() {
 
 
 
+    @SuppressLint("SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_image_preview)

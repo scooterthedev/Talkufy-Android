@@ -153,10 +153,10 @@ public class OutgoingCallActivity extends AppCompatActivity {
 
     private void initiateGroupConference(String targetUid, Boolean audioOnly) {
         FirebaseUtils.ref.INSTANCE.callRef(FirebaseUtils.INSTANCE.getUid()).setValue(
-                new Models.callModel(targetUid, FirebaseUtils.INSTANCE.getUid(), targetUid,
-                        String.valueOf(System.currentTimeMillis()),
-                        utils.constants.CALL_STATUS_CALL_JOINED,
-                        "conference", "group", audioOnly))
+                        new Models.callModel(targetUid, FirebaseUtils.INSTANCE.getUid(), targetUid,
+                                String.valueOf(System.currentTimeMillis()),
+                                utils.constants.CALL_STATUS_CALL_JOINED,
+                                "conference", "group", audioOnly))
                 .addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
                         //Join user to meeting no
@@ -180,16 +180,16 @@ public class OutgoingCallActivity extends AppCompatActivity {
         String format = simpleDateFormat.format(new Date());
 
         FirebaseUtils.ref.INSTANCE.callRef(FirebaseUtils.INSTANCE.getUid()).setValue(
-                new Models.callModel(callId, FirebaseUtils.INSTANCE.getUid(), TARGET_UID,
-                        startTimeMills, utils.constants.CALL_STATUS_CALLING, calltype,
-                        TARGET_TYPE, audioOnly))
+                        new Models.callModel(callId, FirebaseUtils.INSTANCE.getUid(), TARGET_UID,
+                                startTimeMills, utils.constants.CALL_STATUS_CALLING, calltype,
+                                TARGET_TYPE, audioOnly))
                 .addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
 
                         FirebaseUtils.ref.INSTANCE.callRef(TARGET_UID).setValue(
-                                new Models.callModel(callId, FirebaseUtils.INSTANCE.getUid(), TARGET_UID,
-                                        startTimeMills, utils.constants.CALL_STATUS_CALLING,
-                                        calltype, TARGET_TYPE, audioOnly))
+                                        new Models.callModel(callId, FirebaseUtils.INSTANCE.getUid(), TARGET_UID,
+                                                startTimeMills, utils.constants.CALL_STATUS_CALLING,
+                                                calltype, TARGET_TYPE, audioOnly))
                                 .addOnCompleteListener(task1 -> {
                                     if (task.isSuccessful()) {
 

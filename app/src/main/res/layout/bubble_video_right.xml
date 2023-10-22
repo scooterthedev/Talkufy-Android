@@ -38,7 +38,7 @@
         android:layout_height="wrap_content">
 
 
-            <com.nsromapa.frenzapp.saytalk.views.RoundCornerLayout
+            <ca.scooter.talkufy.views.RoundCornerLayout
                     android:layout_width="240dp"
                     app:cornerRadius="35dp"
                     app:topLeftEnabled="true"
@@ -176,7 +176,7 @@
 
                     </FrameLayout>
 
-            </com.nsromapa.frenzapp.saytalk.views.RoundCornerLayout>
+            </ca.scooter.talkufy.views.RoundCornerLayout>
 
 
         <TextView

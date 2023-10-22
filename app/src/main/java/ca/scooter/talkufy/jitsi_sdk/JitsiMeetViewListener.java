@@ -16,6 +16,8 @@
 
 package ca.scooter.talkufy.jitsi_sdk;
 
+import com.facebook.react.modules.core.PermissionListener;
+
 import java.util.Map;
 
 /**
@@ -47,4 +49,10 @@ public interface JitsiMeetViewListener {
      * @param data Map with a "url" key with the conference URL.
      */
     void onConferenceWillJoin(Map<String, Object> data);
+
+    int checkPermission(String s, int i, int i1);
+
+    int checkSelfPermission(String s);
+
+    void requestPermissions(String[] strings, int i, PermissionListener permissionListener);
 }

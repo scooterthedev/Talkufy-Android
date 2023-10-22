@@ -1,4 +1,4 @@
-#Sun Aug 13 16:29:02 EDT 2023
+#Sun Oct 22 09:00:56 EDT 2023
 base.0=C\:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.10=C\:\\Users\\yekut\\IdeaProjects\\Talkufy-Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex

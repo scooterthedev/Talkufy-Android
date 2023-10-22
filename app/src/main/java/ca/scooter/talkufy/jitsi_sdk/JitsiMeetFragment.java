@@ -8,8 +8,9 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import com.facebook.react.modules.core.PermissionListener;
 
-import java.util.Objects;
+import java.util.Map;
 
 /**
  * Base {@link Fragment} for applications integrating Jitsi Meet at a higher level. It
@@ -22,10 +23,10 @@ import java.util.Objects;
  * hooked to the React Native subsystem via proxy calls through the
  * {@code JitsiMeetActivityDelegate} static methods.
  */
-public class JitsiMeetFragment extends Fragment {
+public class JitsiMeetFragment extends Fragment implements JitsiMeetViewListener {
 
 
-     // Instance of the {@link JitsiMeetView} which this activity will display.
+    // Instance of the {@link JitsiMeetView} which this activity will display.
 
     private JitsiMeetView view;
 
@@ -34,7 +35,7 @@ public class JitsiMeetFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return this.view = new JitsiMeetView(Objects.requireNonNull(getActivity()));
+        return this.view = new JitsiMeetView(requireActivity());
     }
 
     public JitsiMeetView getJitsiView() {
@@ -60,5 +61,35 @@ public class JitsiMeetFragment extends Fragment {
         super.onStop();
 
         JitsiMeetActivityDelegate.onHostPause(getActivity());
+    }
+
+    @Override
+    public void onConferenceJoined(Map<String, Object> data) {
+
+    }
+
+    @Override
+    public void onConferenceTerminated(Map<String, Object> data) {
+
+    }
+
+    @Override
+    public void onConferenceWillJoin(Map<String, Object> data) {
+
+    }
+
+    @Override
+    public int checkPermission(String s, int i, int i1) {
+        return 0;
+    }
+
+    @Override
+    public int checkSelfPermission(String s) {
+        return 0;
+    }
+
+    @Override
+    public void requestPermissions(String[] strings, int i, PermissionListener permissionListener) {
+
     }
 }

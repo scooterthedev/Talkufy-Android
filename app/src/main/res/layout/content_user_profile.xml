@@ -6,7 +6,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:paddingTop="10dp"
-        tools:context=".saytalk.activities.UserProfileActivity"
+        tools:context=".talkufy.activities.UserProfileActivity"
         tools:showIn="@layout/activity_user_profile">
 
 

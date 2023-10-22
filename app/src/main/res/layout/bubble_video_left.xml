@@ -73,7 +73,7 @@
                     android:layout_height="wrap_content">
 
 
-                <com.nsromapa.frenzapp.saytalk.views.RoundCornerLayout
+                <ca.scooter.talkufy.views.RoundCornerLayout
                         android:layout_width="240dp"
                         android:id="@+id/video_container_left_card"
                         android:layout_height="210dp"
@@ -177,7 +177,7 @@
                             android:textColor="@color/transparent_white_10"
                     />
 
-                </com.nsromapa.frenzapp.saytalk.views.RoundCornerLayout>
+                </ca.scooter.talkufy.views.RoundCornerLayout>
 
                 <TextView
                         android:layout_width="match_parent"

@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:20343fb4c12cddc106dce0fcd2f8ef2cf29fe144159db5a443ae8eb3b83d99a5
-size 527
+<component name="libraryTable">
+  <library name="Gradle: C" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="__local_jars__" artifactId="C" version="\Users\yekut\AppData\Local\Android\Sdk\platforms\android-31\optional\org.apache.http.legacy.jar" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-31/optional/org.apache.http.legacy.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

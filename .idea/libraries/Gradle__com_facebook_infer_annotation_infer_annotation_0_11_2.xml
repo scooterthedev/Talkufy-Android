@@ -1,5 +1,6 @@
 <component name="libraryTable">
-  <library name="Gradle: com.facebook.infer.annotation:infer-annotation:0.11.2" external-system-id="GRADLE">
+  <library name="Gradle: com.facebook.infer.annotation:infer-annotation:0.11.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.facebook.infer.annotation" artifactId="infer-annotation" version="0.11.2" />
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.infer.annotation/infer-annotation/0.11.2/f514ff4ca022a579d9cf7524846988b646ae4491/infer-annotation-0.11.2.jar!/" />
     </CLASSES>

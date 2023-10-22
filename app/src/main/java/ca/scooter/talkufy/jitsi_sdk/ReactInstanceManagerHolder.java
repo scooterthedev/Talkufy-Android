@@ -1,7 +1,3 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by Fernflower decompiler)
-//
 
 package ca.scooter.talkufy.jitsi_sdk;
 
@@ -9,9 +5,6 @@ import android.app.Activity;
 import android.app.Application;
 
 import androidx.annotation.Nullable;
-
-import com.BV.LinearGradient.LinearGradientPackage;
-import com.calendarevents.CalendarEventsPackage;
 import com.corbt.keepawake.KCKeepAwakePackage;
 import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.bridge.NativeModule;
@@ -86,7 +79,7 @@ class ReactInstanceManagerHolder {
 
     static void initReactInstanceManager(Application application) {
         if (reactInstanceManager == null) {
-            ArrayList packages = new ArrayList(Arrays.asList(new LinearGradientPackage(), new CalendarEventsPackage(), new KCKeepAwakePackage(), new ca.scooter.talkufy.jitsi_sdk.FastImageViewPackage(), new MainReactPackage(), new VectorIconsPackage(), new BackgroundTimerPackage(), new WebRTCModulePackage(), new AsyncStoragePackage(), new RNCWebViewPackage(), new RNImmersivePackage(), new RNSoundPackage(), new ReactPackageAdapter() {
+            ArrayList packages = new ArrayList(Arrays.asList(new KCKeepAwakePackage(), new ca.scooter.talkufy.jitsi_sdk.FastImageViewPackage(), new MainReactPackage(), new VectorIconsPackage(), new BackgroundTimerPackage(), new WebRTCModulePackage(), new AsyncStoragePackage(), new RNCWebViewPackage(), new RNImmersivePackage(), new RNSoundPackage(), new ReactPackageAdapter() {
                 public @NotNull List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
                     return ReactInstanceManagerHolder.createNativeModules(reactContext);
                 }
@@ -102,7 +95,7 @@ class ReactInstanceManagerHolder {
             reactInstanceManager = ReactInstanceManager.builder().setApplication(application).setBundleAssetName("index.android.bundle").setJSMainModulePath("index.android").addPackages(packages).setUseDeveloperSupport(false).setInitialLifecycleState(LifecycleState.RESUMED).build();
             DevInternalSettings devSettings = (DevInternalSettings)reactInstanceManager.getDevSupportManager().getDevSettings();
             if (devSettings != null) {
-                devSettings.setBundleDeltasEnabled(false);
+                devSettings.setJSDevModeEnabled(false);
             }
 
             JitsiMeetUncaughtExceptionHandler.register();

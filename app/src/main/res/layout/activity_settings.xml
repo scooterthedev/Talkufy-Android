@@ -24,7 +24,7 @@
         app:itemHorizontalPadding="20dp"
         android:padding="10dp"
         android:layout_weight="1"
-        tools:context=".saytalk.activities.SettingsActivity">
+        tools:context=".talkufy.activities.SettingsActivity">
 
 
 </com.google.android.material.navigation.NavigationView>

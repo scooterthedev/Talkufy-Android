@@ -1,5 +1,6 @@
 package ca.scooter.talkufy.activities;
 
+import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.Window;
@@ -26,6 +27,7 @@ import ca.scooter.talkufy.R;
 import ca.scooter.talkufy.jitsi_sdk.JitsiMeetConferenceOptions;
 import ca.scooter.talkufy.utils.FirebaseUtils;
 import de.hdodenhof.circleimageview.CircleImageView;
+import org.jitsi.meet.sdk.JitsiMeetActivityDelegate;
 
 public class IncomingCallActivity extends AppCompatActivity {
 
@@ -78,8 +80,6 @@ public class IncomingCallActivity extends AppCompatActivity {
         callerNumber.setText(caller_phone);
 
         JitsiMeetConferenceOptions options = new JitsiMeetConferenceOptions.Builder()
-                .setRoom(call_id)
-                .setAudioOnly(audioOnly)
                 .build();
 
 
@@ -90,9 +90,9 @@ public class IncomingCallActivity extends AppCompatActivity {
 
         buttonPick.setOnClickListener(v -> {
             replyToNewCall(utils.constants.CALL_STATUS_ANSWERED,caller_uid);
-                buttonPick.setEnabled(false);
-               JitsiMeetActivity.launch(getApplicationContext(), String.valueOf(options));
-            });
+            buttonPick.setEnabled(false);
+            JitsiMeetActivity.launch(getApplicationContext(), String.valueOf(options));
+        });
 
         buttonReject.setOnClickListener(v -> {
             replyToNewCall(utils.constants.CALL_STATUS_REJECTED,caller_uid);

@@ -14,7 +14,7 @@
         android:orientation="vertical"
         android:padding="20dp"
         android:gravity="center_horizontal"
-        tools:context=".saytalk.activities.CreateGroupActivity">
+        tools:context=".talkufy.activities.CreateGroupActivity">
 
     <include layout="@layout/layout_profile_image_picker"/>
 

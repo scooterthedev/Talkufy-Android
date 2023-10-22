@@ -6,7 +6,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="0dp"
-        tools:context=".saytalk.activities.EditProfile">
+        tools:context="com.scooter.talkufy.activities.EditProfile">
 
     <include layout="@layout/layout_profile_image_picker" />
 

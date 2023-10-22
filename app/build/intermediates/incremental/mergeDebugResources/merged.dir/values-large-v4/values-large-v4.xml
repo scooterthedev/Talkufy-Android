@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d0ded145c743e0d2e7f2b772b2a3a4b30af15b425a91d98c9878cc95bc4d1da0
-size 2116
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440dp</dimen>
+    <item name="abc_dialog_fixed_height_major" type="dimen">60%</item>
+    <item name="abc_dialog_fixed_height_minor" type="dimen">90%</item>
+    <item name="abc_dialog_fixed_width_major" type="dimen">60%</item>
+    <item name="abc_dialog_fixed_width_minor" type="dimen">90%</item>
+    <item name="abc_dialog_min_width_major" type="dimen">55%</item>
+    <item name="abc_dialog_min_width_minor" type="dimen">80%</item>
+    <dimen name="md_styled_dialog_header">160dp</dimen>
+    <dimen name="md_styled_pic_size">66dp</dimen>
+    <dimen name="md_styled_text_description">20sp</dimen>
+    <dimen name="md_styled_text_title">25sp</dimen>
+    <style name="Base.Theme.AppCompat.DialogWhenLarge" parent="Base.Theme.AppCompat.Dialog.FixedSize"/>
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="Base.Theme.AppCompat.Light.Dialog.FixedSize"/>
+    <style name="Base.Theme.MaterialComponents.DialogWhenLarge" parent="Base.Theme.MaterialComponents.Dialog.FixedSize"/>
+    <style name="Base.Theme.MaterialComponents.Light.DialogWhenLarge" parent="Base.Theme.MaterialComponents.Light.Dialog.FixedSize"/>
+    <style name="Theme.Material3.Dark.DialogWhenLarge" parent="Base.Theme.Material3.Dark.Dialog">
+    <item name="windowFixedWidthMajor">@dimen/abc_dialog_fixed_width_major</item>
+    <item name="windowFixedWidthMinor">@dimen/abc_dialog_fixed_width_minor</item>
+    <item name="windowFixedHeightMajor">@dimen/abc_dialog_fixed_height_major</item>
+    <item name="windowFixedHeightMinor">@dimen/abc_dialog_fixed_height_minor</item>
+  </style>
+    <style name="Theme.Material3.Light.DialogWhenLarge" parent="Base.Theme.Material3.Light.Dialog">
+    <item name="windowFixedWidthMajor">@dimen/abc_dialog_fixed_width_major</item>
+    <item name="windowFixedWidthMinor">@dimen/abc_dialog_fixed_width_minor</item>
+    <item name="windowFixedHeightMajor">@dimen/abc_dialog_fixed_height_major</item>
+    <item name="windowFixedHeightMinor">@dimen/abc_dialog_fixed_height_minor</item>
+  </style>
+</resources>

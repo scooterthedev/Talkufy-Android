@@ -7,6 +7,6 @@
     <androidx.fragment.app.FragmentContainerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:name="org.jitsi.meet.sdk.JitsiMeetFragment"
+            android:name="ca.scooter.talkufy.jitsi_sdk.JitsiMeetFragment"
             android:id="@+id/jitsiFragment"/>
 </LinearLayout>

@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5316016c49042054a91fc7d72ee8ed07ed5751f65f5ba69ad0d0b73e48acb8df
-size 581
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".jitsi_sdk.JitsiMeetActivity">
+    <androidx.fragment.app.FragmentContainerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:name="ca.scooter.talkufy.jitsi_sdk.JitsiMeetFragment"
+            android:id="@+id/jitsiFragment"/>
+</LinearLayout>

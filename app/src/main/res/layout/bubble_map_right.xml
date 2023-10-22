@@ -41,7 +41,7 @@
         android:layout_height="wrap_content">
 
 
-           <com.nsromapa.frenzapp.saytalk.views.RoundCornerLayout
+           <ca.scooter.talkufy.views.RoundCornerLayout
                    android:layout_width="240dp"
 
                    android:id="@+id/map_container_right_card"
@@ -109,7 +109,7 @@
                </LinearLayout>
 
 
-           </com.nsromapa.frenzapp.saytalk.views.RoundCornerLayout>
+           </ca.scooter.talkufy.views.RoundCornerLayout>
 
 
 

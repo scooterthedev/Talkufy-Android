@@ -9,7 +9,7 @@
         android:background="@drawable/drawable_gradient_animation_list"
         android:orientation="vertical"
         android:padding="0dp"
-        tools:context=".saytalk.activities.IncomingCallActivity">
+        tools:context=".talkufy.activities.IncomingCallActivity">
     <TextView
             android:paddingTop="20dp"
             android:layout_width="wrap_content"
