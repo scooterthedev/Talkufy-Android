@@ -37,7 +37,7 @@ class ReactInstanceManagerHolder {
     }
 
     private static List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
-        List<NativeModule> nativeModules = new ArrayList(Arrays.asList(new ca.scooter.talkufy.jitsi_sdk.AndroidSettingsModule(reactContext), new AppInfoModule(reactContext), new AudioModeModule(reactContext), new DropboxModule(reactContext), new ExternalAPIModule(reactContext), new LocaleDetector(reactContext), new PictureInPictureModule(reactContext), new ProximityModule(reactContext), new WiFiStatsModule(reactContext), new NAT64AddrInfoModule(reactContext)));
+        List<NativeModule> nativeModules = new ArrayList(Arrays.asList(new AndroidSettingsModule(reactContext), new AppInfoModule(reactContext), new AudioModeModule(reactContext), new DropboxModule(reactContext), new ExternalAPIModule(reactContext), new LocaleDetector(reactContext), new PictureInPictureModule(reactContext), new ProximityModule(reactContext), new WiFiStatsModule(reactContext), new NAT64AddrInfoModule(reactContext)));
         if (AudioModeModule.useConnectionService()) {
             nativeModules.add(new RNConnectionService(reactContext));
         }
@@ -79,7 +79,18 @@ class ReactInstanceManagerHolder {
 
     static void initReactInstanceManager(Application application) {
         if (reactInstanceManager == null) {
-            ArrayList packages = new ArrayList(Arrays.asList(new KCKeepAwakePackage(), new ca.scooter.talkufy.jitsi_sdk.FastImageViewPackage(), new MainReactPackage(), new VectorIconsPackage(), new BackgroundTimerPackage(), new WebRTCModulePackage(), new AsyncStoragePackage(), new RNCWebViewPackage(), new RNImmersivePackage(), new RNSoundPackage(), new ReactPackageAdapter() {
+            ArrayList packages = new ArrayList(Arrays.asList(
+                    new KCKeepAwakePackage(),
+                    new FastImageViewPackage(),
+                    new MainReactPackage(),
+                    new VectorIconsPackage(),
+                    new BackgroundTimerPackage(),
+                    new WebRTCModulePackage(),
+                    new AsyncStoragePackage(),
+                    new RNCWebViewPackage(),
+                    new RNImmersivePackage(),
+                    new RNSoundPackage(),
+                    new ReactPackageAdapter() {
                 public @NotNull List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
                     return ReactInstanceManagerHolder.createNativeModules(reactContext);
                 }
@@ -92,7 +103,17 @@ class ReactInstanceManagerHolder {
             } catch (Exception var4) {
             }
 
-            reactInstanceManager = ReactInstanceManager.builder().setApplication(application).setBundleAssetName("index.android.bundle").setJSMainModulePath("index.android").addPackages(packages).setUseDeveloperSupport(false).setInitialLifecycleState(LifecycleState.RESUMED).build();
+            Activity ReactInstanceManagerHolder = new Activity();
+            reactInstanceManager = ReactInstanceManager.builder()
+                    .setApplication(application)
+                    .setCurrentActivity(ReactInstanceManagerHolder) // Set the current activity here
+                    .setBundleAssetName("index.android.bundle")
+                    .setJSMainModulePath("index.android")
+                    .addPackages(packages)
+                    .setUseDeveloperSupport(false)
+                    .setInitialLifecycleState(LifecycleState.RESUMED)
+                    .build();
+
             DevInternalSettings devSettings = (DevInternalSettings)reactInstanceManager.getDevSupportManager().getDevSettings();
             if (devSettings != null) {
                 devSettings.setJSDevModeEnabled(false);

@@ -246,11 +246,6 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_about -> {
                 startActivity(Intent(this@HomeActivity, AboutTheDeveloperActivity::class.java))
             }
-
-            R.id.nav_updates -> {
-                startActivity(Intent(this@HomeActivity, Updates::class.java))
-            }
-
         }
 
         drawer_layout.closeDrawer(GravityCompat.START)

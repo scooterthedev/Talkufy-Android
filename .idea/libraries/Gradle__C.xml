@@ -1,8 +1,7 @@
 <component name="libraryTable">
-  <library name="Gradle: C" type="java-imported" external-system-id="GRADLE">
-    <properties groupId="__local_jars__" artifactId="C" version="\Users\yekut\AppData\Local\Android\Sdk\platforms\android-31\optional\org.apache.http.legacy.jar" />
+  <library name="Gradle: C" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-31/optional/org.apache.http.legacy.jar!/" />
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-34/optional/org.apache.http.legacy.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

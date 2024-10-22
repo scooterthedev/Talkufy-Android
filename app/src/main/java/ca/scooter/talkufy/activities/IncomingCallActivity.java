@@ -14,12 +14,11 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import ca.scooter.talkufy.jitsi_sdk.JitsiMeetActivity;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.ValueEventListener;
 import ca.scooter.talkufy.utils.utils;
-
-import org.jitsi.meet.sdk.JitsiMeetActivity;
 
 import java.util.Objects;
 
@@ -79,19 +78,28 @@ public class IncomingCallActivity extends AppCompatActivity {
         callerName.setText(caller_name);
         callerNumber.setText(caller_phone);
 
-        JitsiMeetConferenceOptions options = new JitsiMeetConferenceOptions.Builder()
-                .build();
-
 
         if (!audioOnly){
             call_type_text.setText("Video Call");
             call_type_image.setImageResource(R.drawable.vw_ic_video_camera);
         }
 
+        JitsiMeetConferenceOptions options = new JitsiMeetConferenceOptions.Builder()
+                .build();
+
+
         buttonPick.setOnClickListener(v -> {
-            replyToNewCall(utils.constants.CALL_STATUS_ANSWERED,caller_uid);
+            replyToNewCall(utils.constants.CALL_STATUS_ANSWERED, caller_uid);
             buttonPick.setEnabled(false);
-            JitsiMeetActivity.launch(getApplicationContext(), String.valueOf(options));
+            if (options != null) {
+                Intent i = new Intent(getApplicationContext(), JitsiMeetActivity.class);
+                i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                i.putExtra("JitsiMeetConferenceOptions", options);
+                startActivity(i);
+            } else {
+                // Handle the case where options is null
+                // Log an error or show a message to indicate the issue
+            }
         });
 
         buttonReject.setOnClickListener(v -> {

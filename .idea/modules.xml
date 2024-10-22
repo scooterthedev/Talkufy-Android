@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Talkufy-Android.iml" filepath="$PROJECT_DIR$/.idea/modules/Talkufy-Android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Talkufy-Android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Talkufy-Android.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Talkufy-Android.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Talkufy-Android.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Talkufy-Android.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Talkufy-Android.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Talkufy-Android.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Talkufy-Android.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Talkufy-Android.iml" filepath="$PROJECT_DIR$/.idea/Talkufy-Android.iml" />
     </modules>
   </component>
 </project>

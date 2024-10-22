@@ -7,34 +7,17 @@ import androidx.appcompat.app.AppCompatActivity
 import ca.scooter.talkufy.R
 import ca.scooter.talkufy.utils.FirebaseUtils
 import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.AdSize
-import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
+import kotlinx.android.synthetic.main.activity_splash.*
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
 class SplashActivity : AppCompatActivity() {
-
-    lateinit var mAdView : AdView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
-
-        val adView = AdView(this)
-
-        adView.adSize = AdSize.BANNER
-
-        adView.adUnitId = "ca-app-pub-7637534093966773/7489047596"
-
-
-        MobileAds.initialize(this) {}
-
-        mAdView = findViewById(R.id.adView1)
-        mAdView = findViewById(R.id.adView)
-        val adRequest = AdRequest.Builder().build()
-        mAdView.loadAd(adRequest)
-
-
-
 
         if(FirebaseUtils.isLoggedIn()){
             startActivity(Intent(this, HomeActivity::class.java))

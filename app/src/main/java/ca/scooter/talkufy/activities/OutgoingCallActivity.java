@@ -25,6 +25,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.ValueEventListener;
 import de.hdodenhof.circleimageview.CircleImageView;
 import org.jitsi.meet.sdk.JitsiMeetActivity;
+import org.jitsi.meet.sdk.JitsiMeetConferenceOptions.Builder;
 import timber.log.Timber;
 import www.sanju.motiontoast.MotionToast;
 
@@ -73,7 +74,6 @@ public class OutgoingCallActivity extends AppCompatActivity {
         // setting exit fade animation duration to 2 seconds
         animationDrawable.setExitFadeDuration(2000);
 
-
         call_id = getIntent().getStringExtra("call_id");
         String target_name = getIntent().getStringExtra("target_name");
         String target_phone = getIntent().getStringExtra("target_phone");
@@ -97,7 +97,6 @@ public class OutgoingCallActivity extends AppCompatActivity {
         TextView callerNumber = findViewById(R.id.callernumber);
         callerName.setText(target_name);
         callerNumber.setText(target_phone);
-
 
         if (!audioOnly) {
             call_type_text.setText("Video Call");
@@ -146,10 +145,7 @@ public class OutgoingCallActivity extends AppCompatActivity {
         } else {
             initiateGroupConference(target_uid, audioOnly);
         }
-
-
     }
-
 
     private void initiateGroupConference(String targetUid, Boolean audioOnly) {
         FirebaseUtils.ref.INSTANCE.callRef(FirebaseUtils.INSTANCE.getUid()).setValue(
@@ -159,20 +155,16 @@ public class OutgoingCallActivity extends AppCompatActivity {
                                 "conference", "group", audioOnly))
                 .addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
-                        //Join user to meeting no
+                        // Join user to meeting now
                         joinMeToCallNow();
                     } else {
                         Toast.makeText(OutgoingCallActivity.this,
                                 "Couldn't Join Meeting, please try again", Toast.LENGTH_LONG).show();
                     }
                 });
-
-
     }
 
-
     private void initiateCallNow(String callId, Boolean audioOnly) {
-
         if (!TARGET_TYPE.equals("single")) calltype = "Conference";
         String startTimeMills = String.valueOf(System.currentTimeMillis());
 
@@ -185,14 +177,12 @@ public class OutgoingCallActivity extends AppCompatActivity {
                                 TARGET_TYPE, audioOnly))
                 .addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
-
                         FirebaseUtils.ref.INSTANCE.callRef(TARGET_UID).setValue(
                                         new Models.callModel(callId, FirebaseUtils.INSTANCE.getUid(), TARGET_UID,
                                                 startTimeMills, utils.constants.CALL_STATUS_CALLING,
                                                 calltype, TARGET_TYPE, audioOnly))
                                 .addOnCompleteListener(task1 -> {
                                     if (task.isSuccessful()) {
-
                                         final ProgressDialog progressDialog = new ProgressDialog(this);
                                         progressDialog.setTitle("Connecting you to your call");
                                         progressDialog.setMessage("");
@@ -202,42 +192,30 @@ public class OutgoingCallActivity extends AppCompatActivity {
                                         callingCountdown = new CountDownTimer(45000, 1000) {
                                             public void onTick(long millisUntilFinished) {
                                                 progressDialog.setMessage("Remaining Time " + millisUntilFinished / 1000);
-
                                             }
 
                                             @Override
                                             public void onFinish() {
-                                                createCallLog(" couldn't establish call at " + format,1);
-                                                progressDialog.setMessage("Call could not Established...");
+                                                createCallLog(" couldn't establish call at " + format, 1);
+                                                progressDialog.setMessage("Call could not be established...");
                                             }
-
                                         }.start();
                                         progressDialog.show();
                                     } else {
                                         abort();
-                                        createCallLog(" couldn't establish call at " + format,1);
+                                        createCallLog(" couldn't establish call at " + format, 1);
                                         Toast.makeText(this, "Sorry Couldn't initiate call...", Toast.LENGTH_SHORT).show();
                                     }
                                 });
-
                     } else {
-                        createCallLog(" couldn't establish call at " + format,1);
+                        createCallLog(" couldn't establish call at " + format, 1);
                         Toast.makeText(this, "Sorry Couldn't initiate call...", Toast.LENGTH_SHORT).show();
                     }
                 });
-
-
     }
 
     private void eyeCallStatus(ProgressDialog progressDialog,
                                String startTime, String startTimeMills) {
-        //Check if target's phone is
-        //1. Receiving an incoming call from telephoneManager(Busy)
-        //2. On an in ongoing call with telephoneManager(on another call)
-        //3. Ringing for our call(Call Ringing)
-        //4. Rejecting our call(Call Rejected)
-        //5. Answered to our call(Answered)
-
         FirebaseUtils.ref.INSTANCE.callRef(TARGET_UID)
                 .addValueEventListener(new ValueEventListener() {
                     @SuppressLint("SetTextI18n")
@@ -254,14 +232,12 @@ public class OutgoingCallActivity extends AppCompatActivity {
 
                                     callingCountdown = new CountDownTimer(45000, 1000) {
                                         @Override
-                                        public void onTick(long millisUntilFinished) {
-
-                                        }
+                                        public void onTick(long millisUntilFinished) { }
 
                                         @Override
                                         public void onFinish() {
                                             progressDialog.hide();
-                                            createCallLog("  missed a Meeting at " + startTime,2);
+                                            createCallLog("  missed a Meeting at " + startTime, 2);
                                             buttonReject.setVisibility(View.GONE);
                                             call_state_info.setText("No Answer");
                                         }
@@ -270,41 +246,35 @@ public class OutgoingCallActivity extends AppCompatActivity {
                                 case utils.constants.CALL_STATUS_ANSWERED:
                                     callingCountdown.cancel();
                                     progressDialog.hide();
-                                    ////Check duration
                                     duration = System.currentTimeMillis();
-                                    //Join user to meeting no
+                                    // Join user to meeting now
                                     joinMeToCallNow();
-
                                     break;
                                 case utils.constants.CALL_STATUS_REJECTED:
                                     callingCountdown.cancel();
                                     progressDialog.setMessage("Rejected");
-                                    createCallLog(" rejected a Meeting at " + startTime,2);
-
+                                    createCallLog(" rejected a Meeting at " + startTime, 2);
                                     buttonReject.setVisibility(View.GONE);
                                     call_state_info.setText("Meeting Rejected");
                                     break;
                                 case utils.constants.CALL_STATUS_BUSY:
                                     progressDialog.setMessage("Busy");
                                     callingCountdown.cancel();
-                                    createCallLog("'s phone was busy at " + startTime,2);
-
+                                    createCallLog("'s phone was busy at " + startTime, 2);
                                     buttonReject.setVisibility(View.GONE);
                                     call_state_info.setText("User Busy");
                                     break;
                                 case utils.constants.CALL_STATUS_ANOTHER_CALL:
                                     callingCountdown.cancel();
                                     progressDialog.setMessage("Rejected");
-                                    createCallLog(" was another an a call at " + startTime,2);
-
+                                    createCallLog(" was another on a call at " + startTime, 2);
                                     buttonReject.setVisibility(View.GONE);
                                     call_state_info.setText("User On Call");
                                     break;
                                 case utils.constants.CALL_STATUS_CALL_ENDED:
                                     progressDialog.setMessage("Meeting Ended...");
                                     createCallLog(" was called at " + startTime + ", Duration " +
-                                            getDurationBreakdown(duration - Long.parseLong(startTimeMills)),2);
-
+                                            getDurationBreakdown(duration - Long.parseLong(startTimeMills)), 2);
                                     buttonReject.setVisibility(View.GONE);
                                     call_state_info.setText("Meeting Ended");
                                     break;
@@ -312,16 +282,12 @@ public class OutgoingCallActivity extends AppCompatActivity {
                         } else {
                             abort();
                         }
-
                     }
 
                     @Override
-                    public void onCancelled(@NonNull DatabaseError databaseError) {
-
-                    }
+                    public void onCancelled(@NonNull DatabaseError databaseError) { }
                 });
     }
-
 
     private void createCallLog(String caption, int who) {
         String conversationType = "single";
@@ -344,21 +310,15 @@ public class OutgoingCallActivity extends AppCompatActivity {
                                 FirebaseUtils.INSTANCE.setCallLog(TARGET_UID, myUid, finalConversationType,
                                         myNumber, caption, "call_log_to");
                             }
-
                         } else {
-                            FirebaseUtils.ref.INSTANCE.callRef(FirebaseUtils.INSTANCE.getUid())
-                                    .removeValue();
+                            FirebaseUtils.ref.INSTANCE.callRef(FirebaseUtils.INSTANCE.getUid()).removeValue();
                         }
                         abort();
                     }
 
                     @Override
-                    public void onCancelled(@NonNull DatabaseError databaseError) {
-
-                    }
+                    public void onCancelled(@NonNull DatabaseError databaseError) { }
                 });
-
-
     }
 
     private void abort() {
@@ -379,7 +339,6 @@ public class OutgoingCallActivity extends AppCompatActivity {
                 });
     }
 
-
     public static String getDurationBreakdown(long millis) {
         if (millis < 0) {
             throw new IllegalArgumentException("Duration must be greater than zero!");
@@ -394,7 +353,6 @@ public class OutgoingCallActivity extends AppCompatActivity {
         long seconds = TimeUnit.MILLISECONDS.toSeconds(millis);
 
         StringBuilder sb = new StringBuilder(64);
-
 
         if (days > 0) {
             sb.append(days);
@@ -413,21 +371,26 @@ public class OutgoingCallActivity extends AppCompatActivity {
             sb.append(" Sec ");
         }
 
-        return (sb.toString());
+        return sb.toString();
     }
-
 
     private void joinMeToCallNow() {
-        JitsiMeetConferenceOptions options = new JitsiMeetConferenceOptions.Builder()
-                .setRoom(call_id)
-                .setWelcomePageEnabled(true)
-                .setAudioOnly(false)
-                .build();
-        JitsiMeetActivity.launch(OutgoingCallActivity.this, String.valueOf(options));
+        if (call_id != null) {
+            try {
+                JitsiMeetConferenceOptions options = new JitsiMeetConferenceOptions.Builder()
+                        .setRoom(call_id)
+                        .setWelcomePageEnabled(false)
+                        .setAudioOnly(audioOnly)
+                        .build();
+                JitsiMeetActivity.launch(this, options.toString());
+            } catch (Exception e) {
+                Toast.makeText(this, "Failed to create conference options: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+                Timber.e(e, "Failed to create conference options");
+            }
+        } else {
+            Toast.makeText(this, "Invalid call ID", Toast.LENGTH_SHORT).show();
+        }
     }
-
-
-
 
     @Override
     protected void onResume() {
@@ -446,5 +409,4 @@ public class OutgoingCallActivity extends AppCompatActivity {
             animationDrawable.stop();
         }
     }
-
 }

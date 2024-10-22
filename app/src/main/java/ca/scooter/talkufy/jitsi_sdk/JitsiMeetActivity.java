@@ -40,9 +40,9 @@ public class JitsiMeetActivity extends AppCompatActivity
 
     public static void launch(Context context, JitsiMeetConferenceOptions options) {
         Intent intent = new Intent(context, JitsiMeetActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.setAction(ACTION_JITSI_MEET_CONFERENCE);
         intent.putExtra(JITSI_MEET_CONFERENCE_OPTIONS, options);
-        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         context.startActivity(intent);
     }
 
@@ -143,6 +143,7 @@ public class JitsiMeetActivity extends AppCompatActivity
 
         if (Intent.ACTION_VIEW.equals(action)) {
             Uri uri = intent.getData();
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             if (uri != null) {
                 return new JitsiMeetConferenceOptions.Builder().setRoom(uri.toString()).build();
             }
@@ -220,8 +221,8 @@ public class JitsiMeetActivity extends AppCompatActivity
 
     @Override
     public void onNewIntent(Intent intent) {
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         super.onNewIntent(intent);
-
         JitsiMeetConferenceOptions options;
 
         if ((options = getConferenceOptions(intent)) != null) {
@@ -257,7 +258,6 @@ public class JitsiMeetActivity extends AppCompatActivity
 
     private void registerForBroadcastMessages() {
         IntentFilter intentFilter = new IntentFilter();
-
         for (BroadcastEvent.Type type : BroadcastEvent.Type.values()) {
             intentFilter.addAction(type.getAction());
         }

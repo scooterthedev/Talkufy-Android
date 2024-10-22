@@ -15,14 +15,6 @@
       },
       "oauth_client": [
         {
-          "client_id": "665003322152-7pa4vha823s0qbtnb4lhc55kj49e1hhj.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "ca.scooter.talkufy",
-            "certificate_hash": "7d583ff23446f04a378c9f893f78ec239b0b0d72"
-          }
-        },
-        {
           "client_id": "665003322152-qee7gs6ah40qnr6441mm3ppgnnrua3q4.apps.googleusercontent.com",
           "client_type": 3
         }

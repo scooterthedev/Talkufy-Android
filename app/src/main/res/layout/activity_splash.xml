@@ -10,13 +10,6 @@
     android:layout_height="match_parent"
     tools:context="ca.scooter.talkufy.activities.SplashActivity">
 
-    <com.google.android.gms.ads.AdView
-        xmlns:ads="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/adView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-7637534093966773/7489047596"/>
 
     <ImageView
                android:layout_width="160dp"
@@ -24,14 +17,6 @@
                android:layout_height="0dp"
                android:layout_gravity="center"
                android:src="@drawable/app_logo"/>
-
-    <com.google.android.gms.ads.AdView
-        xmlns:ads="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/adView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-7637534093966773/7489047596"/>
 
     <TextView
               android:layout_width="match_parent"
