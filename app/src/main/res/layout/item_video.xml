@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="100dp"
-    android:background="@color/vw_BgItem">
+    android:background="@color/white">
 
     <ImageView
         android:id="@+id/iv_thumbnail_video"
@@ -15,14 +15,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:src="@drawable/vw_ic_camera"
+        android:src="@drawable/ic_camera"
         android:visibility="invisible" />
 
     <View
         android:id="@+id/shadow_video"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/vw_ShadowItem"
+        android:background="@color/white"
         android:visibility="invisible" />
 
 
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_alignParentBottom="true"
         android:layout_height="20dp"
-        android:background="@color/vw_ShadowItem">
+        android:background="@color/white">
 
         <TextView
             android:id="@+id/txt_duration"

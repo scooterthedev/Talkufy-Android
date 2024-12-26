@@ -276,6 +276,7 @@ class MessagingService: FirebaseMessagingService() {
     }
 
 
+    @SuppressLint("SuspiciousIndentation")
     private fun updateNotificationWithBigText(
         remoteMessage: RemoteMessage,
         notificationCompatBuilder: NotificationCompat.Builder

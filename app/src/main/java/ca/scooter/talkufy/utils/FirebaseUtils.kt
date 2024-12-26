@@ -2,10 +2,12 @@ package ca.scooter.talkufy.utils
 
 import android.annotation.SuppressLint
 import android.app.Activity
+import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
 import android.graphics.Typeface
 import android.graphics.drawable.BitmapDrawable
+import android.net.Uri
 import android.os.Build
 import android.os.Handler
 import android.util.Log
@@ -20,6 +22,7 @@ import ca.scooter.talkufy.activities.UserProfileActivity
 import ca.scooter.talkufy.models.Models
 import ca.scooter.talkufy.utils.FirebaseUtils.ref.allMessageStatus
 import ca.scooter.talkufy.utils.FirebaseUtils.ref.user
+import ca.scooter.talkufy.utils.utils.toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import com.google.firebase.iid.FirebaseInstanceId
@@ -1254,30 +1257,40 @@ object FirebaseUtils {
                         when {
                             messageModel!!.messageType == EVENT_TYPE_LEFT -> textView.text =
                                 "❗ A member left"
+
                             messageModel.messageType == EVENT_TYPE_ADDED -> textView.text =
                                 "❗ A new member was added"
+
                             messageModel.messageType == EVENT_TYPE_CREATED -> textView.text =
                                 "❗ Channel was created"
+
                             messageModel.messageType == EVENT_TYPE_REMOVED -> textView.text =
                                 "❗ A member was removed"
+
                             messageModel.messageType == EVENT_TYPE_CALL_LOG_FROM -> textView.text =
                                 "☎  You made a call"
+
                             messageModel.messageType == EVENT_TYPE_CALL_LOG_TO -> textView.text =
                                 "\uD83D\uDCDE   You had a call"
 
                         }
-                    }else{
+                    } else {
                         when {
                             messageModel!!.messageType == EVENT_TYPE_LEFT -> textView.text =
                                 "❗ A member left"
+
                             messageModel.messageType == EVENT_TYPE_ADDED -> textView.text =
                                 "❗ A new member was added"
+
                             messageModel.messageType == EVENT_TYPE_CREATED -> textView.text =
                                 "❗ Group was created"
+
                             messageModel.messageType == EVENT_TYPE_REMOVED -> textView.text =
                                 "❗ A member was removed"
+
                             messageModel.messageType == EVENT_TYPE_CALL_LOG_FROM -> textView.text =
                                 "☎  You made a call"
+
                             messageModel.messageType == EVENT_TYPE_CALL_LOG_TO -> textView.text =
                                 "\uD83D\uDCDE  You had a call"
 
@@ -1307,8 +1320,10 @@ object FirebaseUtils {
                         when {
                             messageModel.messageType == utils.constants.FILE_TYPE_IMAGE -> textView.text =
                                 ("\uD83D\uDDBC Image")
+
                             messageModel.messageType == utils.constants.FILE_TYPE_VIDEO -> textView.text =
                                 "\uD83C\uDFA5 Video"
+
                             messageModel.messageType == utils.constants.FILE_TYPE_LOCATION -> textView.text =
                                 "\uD83D\uDCCC ${if (messageModel.caption.isEmpty()) " Location" else messageModel.caption}"
                         }
@@ -1429,8 +1444,10 @@ object FirebaseUtils {
                         when {
                             p0.getValue(Models.MessageStatus::class.java)!!.read ->
                                 messageStatusImageView.setImageResource(if (isForConversation) R.drawable.ic_read_green else R.drawable.ic_read_round)
+
                             p0.getValue(Models.MessageStatus::class.java)!!.delivered ->
                                 messageStatusImageView.setImageResource(if (isForConversation) R.drawable.ic_delivered_tick else R.drawable.ic_delivered_round)
+
                             else -> messageStatusImageView.setImageResource(if (isForConversation) R.drawable.ic_tick_sent_grey_24dp else R.drawable.ic_sent_round)
                         }
 
@@ -1466,9 +1483,9 @@ object FirebaseUtils {
             .setValue(
                 Models.MessageStatus(
                     getUid(), isRead, isDelivered, messageID,
-                     FirebaseAuth.getInstance().currentUser!!.phoneNumber!!,
-                     FirebaseAuth.getInstance().currentUser?.photoUrl.toString(),
-                             groupOrChannelNameIf
+                    FirebaseAuth.getInstance().currentUser!!.phoneNumber!!,
+                    FirebaseAuth.getInstance().currentUser?.photoUrl.toString(),
+                    groupOrChannelNameIf
                 )
             )
     }
@@ -1542,6 +1559,7 @@ object FirebaseUtils {
                                 null, null, null
                             )
                         }
+
                         userStatus.status.startsWith(VAL_TYPING) -> {
                             if (userStatus.status.endsWith(getUid()))
                                 textView.text =
@@ -1556,6 +1574,7 @@ object FirebaseUtils {
                             )
 
                         }
+
                         else -> {
                             val time =
                                 utils.getLocalTime(userStatus.timeInMillis)
@@ -1685,7 +1704,7 @@ object FirebaseUtils {
     fun checkForUpdate(context: Context, shouldShowToast: Boolean) {
         val key_app_code = "App_Version_Code"
 
- //       this will return an int
+        //       this will return an int
         FirebaseDatabase.getInstance().getReference(key_app_code)
             .addListenerForSingleValueEvent(object : ValueEventListener {
                 override fun onCancelled(p0: DatabaseError) {
@@ -1702,17 +1721,16 @@ object FirebaseUtils {
 
                     if (versionCode > ca.scooter.talkufy.BuildConfig.VERSION_CODE) {
 //                        show update dialog
-                        context.alert {
-                            positiveButton("Go to PlayStore") {
-                                context.browse(utils.constants.APP_LINK)
+                        AlertDialog.Builder(context).apply {
+                            setPositiveButton("Go to PlayStore") { _, _ ->
+                                val intent = Intent(Intent.ACTION_VIEW, Uri.parse(utils.constants.APP_LINK))
+                                context.startActivity(intent)
                             }
-                            negativeButton("Cancel") {
-                            }
-                            title = "Update available"
-                            message = "A New update has been available for Talkufy"
-                            isCancelable = false
-                        }
-                            .show()
+                            setNegativeButton("Cancel", null)
+                            setTitle("Update available")
+                            setMessage("A New update has been available for Talkufy")
+                            setCancelable(false)
+                        }.show()
                     } else if (shouldShowToast) {
                         context.toast("No update available")
                     }
@@ -1869,10 +1887,207 @@ object FirebaseUtils {
     fun setTargetOptionMenu(context: Context, uid: String, phoneNumber: String, view: View) {
 
         view.setOnClickListener {
-            context.selector("", listOf("View Profile", "Message", "Make a call")) { _, i ->
+            AlertDialog.Builder(context).apply {
+                setTitle("")
+                setItems(arrayOf("View Profile", "Message", "Make a call")) { _, i ->
+                    when (i) {
+                        1 -> {
+                            context.startActivity(Intent(context, MessageActivity::class.java).apply {
+                                putExtra(KEY_UID, uid)
+                                putExtra(utils.constants.KEY_NAME_OR_NUMBER, phoneNumber)
+                                putExtra(
+                                    utils.constants.KEY_TARGET_TYPE,
+                                    KEY_CONVERSATION_SINGLE
+                                )
+                                addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+                            })
+                        }
+
+                        0 -> {
+                            context.startActivity(
+                                Intent(
+                                    context,
+                                    UserProfileActivity::class.java
+                                ).apply {
+                                    putExtra(KEY_UID, uid)
+                                    putExtra(KEY_NAME, phoneNumber)
+                                    putExtra(utils.constants.KEY_IS_GROUP, false)
+                                })
+                        }
+
+                        2 -> {
+                            if (utils.hasCallPermission(context)) {
+                                AlertDialog.Builder(context).apply {
+                                    yesButton { context.makeCall(phoneNumber) }
+                                    noButton {}
+                                    message = "Call ${
+                                        utils.getNameFromNumber(
+                                            context,
+                                            phoneNumber
+                                        )
+                                    }"
+                                }.show()
+                            } else
+                                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                                    (context as Activity).requestPermissions(
+                                        arrayOf(android.Manifest.permission.CALL_PHONE),
+                                        132
+                                    )
+                                }
+
+                        }
+                    }
+                }
+            }
+        }
+
+
+        //this method will add events only, it won't remove member
+        //you have to use it in callback of member removal
+        fun removeMember(
+            uid: String, groupID: String, phoneNumber: String, groupName: String,
+            isRemovedByOther: Boolean
+        ) {
+            if (isRemovedByOther)
+                removedMemberEvent(
+                    uid,
+                    groupID,
+                    phoneNumber
+                )
+            else
+                leftMemberEvent(uid, groupID)
+            //update last message node
+            ref.lastMessage(uid)
+                .child(groupID)
+                .setValue(
+                    Models.LastMessageDetail(
+                        type = KEY_CONVERSATION_GROUP,
+                        nameOrNumber = groupName
+                    )
+                )
+
+        }
+
+        fun removeMemberFromChannel(
+            uid: String, channelID: String, phoneNumber: String, channelName: String,
+            isRemovedByOther: Boolean
+        ) {
+            if (isRemovedByOther)
+                removedChannelMemberEvent(uid, channelID, phoneNumber)
+            else
+                leftMemberEvent(uid, channelID)
+            //update last message node
+            ref.lastMessage(uid)
+                .child(channelID)
+                .setValue(
+                    Models.LastMessageDetail(
+                        type = KEY_CONVERSATION_CHANNEL,
+                        nameOrNumber = channelName
+                    )
+                )
+
+        }
+
+
+        fun showTargetOptionMenuFromProfile(
+            context: Context,
+            uid: String,
+            groupID: String,
+            phoneNumber: String,
+            isAdmin: Boolean,
+            isMeAdmin: Boolean,
+            groupMembers: MutableList<Models.GroupMember>,
+            groupName: String
+        ) {
+
+
+            context.selector(
+                "", listOf(
+                    "${if (isAdmin) "Dismiss" else "Make"} Admin",
+                    "Remove this member",
+                    "View Profile", "Message", "Make a call"
+                )
+            ) { _, i ->
 
                 when (i) {
+
+                    0 -> {
+                        if (!isMeAdmin)
+                            context.toast("You have to be an admin to remove someone")
+                        else {
+                            context.alert {
+                                message = if (isAdmin) "Dismiss ${
+                                    utils.getNameFromNumber(
+                                        context,
+                                        phoneNumber
+                                    )
+                                } from admin?"
+                                else "Make ${
+                                    utils.getNameFromNumber(
+                                        context,
+                                        phoneNumber
+                                    )
+                                } as Admin?"
+                                yesButton {
+                                    ref.groupMember(
+                                        groupID,
+                                        uid
+                                    )
+                                        .child("admin").setValue(!isAdmin)
+                                }
+                                noButton {}
+                            }.show()
+                        }
+                    }
+
                     1 -> {
+
+                        // make or dismiss admin
+                        if (!isMeAdmin) {
+                            context.toast("You have to be an admin to remove someone")
+                            return@selector
+                        }
+
+                        context.alert {
+                            yesButton {
+                                ref.groupMember(
+                                    groupID,
+                                    uid
+                                )
+                                    .child("removed").setValue(true).addOnSuccessListener {
+                                        context.toast("Member removed")
+                                        repeat(groupMembers.size) {
+
+                                            removeMember(
+                                                uid,
+                                                groupID,
+                                                phoneNumber,
+                                                groupName,
+                                                true
+                                            )
+                                        }
+
+                                        // add event to myself
+                                        removedMemberEvent(
+                                            getUid(),
+                                            groupID,
+                                            phoneNumber
+                                        )
+                                    }
+                            }
+                            noButton {}
+                            message = "Remove ${
+                                utils.getNameFromNumber(
+                                    context,
+                                    phoneNumber
+                                )
+                            } from this group?"
+                        }.show()
+                    }
+
+
+                    3 -> {
+                        //show message activity
                         context.startActivity(Intent(context, MessageActivity::class.java).apply {
                             putExtra(KEY_UID, uid)
                             putExtra(utils.constants.KEY_NAME_OR_NUMBER, phoneNumber)
@@ -1884,29 +2099,32 @@ object FirebaseUtils {
                         })
                     }
 
-                    0 -> {
-                        context.startActivity(
-                            Intent(
-                                context,
-                                UserProfileActivity::class.java
-                            ).apply {
-                                putExtra(KEY_UID, uid)
-                                putExtra(KEY_NAME, phoneNumber)
-                                putExtra(utils.constants.KEY_IS_GROUP, false)
-                            })
-                    }
-
                     2 -> {
+                        //show profile activity
+                        context.startActivity(Intent(context, UserProfileActivity::class.java).apply {
+                            putExtra(KEY_UID, uid)
+                            putExtra(KEY_NAME, phoneNumber)
+                            putExtra(utils.constants.KEY_IS_GROUP, false)
+                        })
+                    }
+///////////////////////////////////////////////////////////////////
+                    //////////////////////////////////////////
+                    /////////////////////////////////////////
+                    /////////////////////////////////////////
+                    4 -> {
+                        //make call
                         if (utils.hasCallPermission(context)) {
                             context.alert {
-                                yesButton { context.makeCall(phoneNumber) }
+                                yesButton {
+                                    context.makeCall(phoneNumber)
+                                }
                                 noButton {}
                                 message = "Call ${
                                     utils.getNameFromNumber(
                                         context,
                                         phoneNumber
                                     )
-                                }"
+                                }?"
                             }.show()
                         } else
                             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -1918,405 +2136,199 @@ object FirebaseUtils {
 
                     }
                 }
+
             }
         }
-    }
 
 
-    //this method will add events only, it won't remove member
-    //you have to use it in callback of member removal
-    fun removeMember(
-        uid: String, groupID: String, phoneNumber: String, groupName: String,
-        isRemovedByOther: Boolean
-    ) {
-        if (isRemovedByOther)
-            removedMemberEvent(
-                uid,
-                groupID,
-                phoneNumber
-            )
-        else
-            leftMemberEvent(uid, groupID)
-        //update last message node
-        ref.lastMessage(uid)
-            .child(groupID)
-            .setValue(
-                Models.LastMessageDetail(
-                    type = KEY_CONVERSATION_GROUP,
-                    nameOrNumber = groupName
+        fun showTargetOptionMenuFromProfileForChannel(
+            context: Context,
+            uid: String,
+            channelID: String,
+            phoneNumber: String,
+            isAdmin: Boolean,
+            isMeAdmin: Boolean,
+            channelMembers: MutableList<Models.ChannelMember>,
+            channelName: String
+        ) {
+            context.selector(
+                "", listOf(
+                    "${if (isAdmin) "Dismiss" else "Make"} Admin",
+                    "Remove this member",
+                    "View Profile", "Message", "Make a call"
                 )
-            )
+            ) { _, i ->
 
-    }
+                when (i) {
 
-    fun removeMemberFromChannel(
-        uid: String, channelID: String, phoneNumber: String, channelName: String,
-        isRemovedByOther: Boolean
-    ) {
-        if (isRemovedByOther)
-            removedChannelMemberEvent(uid, channelID, phoneNumber)
-        else
-            leftMemberEvent(uid, channelID)
-        //update last message node
-        ref.lastMessage(uid)
-            .child(channelID)
-            .setValue(
-                Models.LastMessageDetail(
-                    type = KEY_CONVERSATION_CHANNEL,
-                    nameOrNumber = channelName
-                )
-            )
-
-    }
-
-
-    fun showTargetOptionMenuFromProfile(
-        context: Context,
-        uid: String,
-        groupID: String,
-        phoneNumber: String,
-        isAdmin: Boolean,
-        isMeAdmin: Boolean,
-        groupMembers: MutableList<Models.GroupMember>,
-        groupName: String
-    ) {
-
-
-        context.selector(
-            "", listOf(
-                "${if (isAdmin) "Dismiss" else "Make"} Admin",
-                "Remove this member",
-                "View Profile", "Message", "Make a call"
-            )
-        ) { _, i ->
-
-            when (i) {
-
-                0 -> {
-                    if (!isMeAdmin)
-                        context.toast("You have to be an admin to remove someone")
-                    else {
-                        context.alert {
-                            message = if (isAdmin) "Dismiss ${
-                                utils.getNameFromNumber(
-                                    context,
-                                    phoneNumber
-                                )
-                            } from admin?"
-                            else "Make ${
-                                utils.getNameFromNumber(
-                                    context,
-                                    phoneNumber
-                                )
-                            } as Admin?"
-                            yesButton {
-                                ref.groupMember(
-                                    groupID,
-                                    uid
-                                )
-                                    .child("admin").setValue(!isAdmin)
-                            }
-                            noButton {}
-                        }.show()
-                    }
-                }
-
-                1 -> {
-
-                    // make or dismiss admin
-                    if (!isMeAdmin) {
-                        context.toast("You have to be an admin to remove someone")
-                        return@selector
-                    }
-
-                    context.alert {
-                        yesButton {
-                            ref.groupMember(
-                                groupID,
-                                uid
-                            )
-                                .child("removed").setValue(true).addOnSuccessListener {
-                                    this.ctx.toast("Member removed")
-                                    repeat(groupMembers.size) {
-
-                                        removeMember(
-                                            uid,
-                                            groupID,
-                                            phoneNumber,
-                                            groupName,
-                                            true
+                    0 -> {
+                        if (!isMeAdmin)
+                            context.toast("You have to be an admin to remove someone")
+                        else {
+                            context.alert {
+                                message =
+                                    if (isAdmin) "Dismiss ${
+                                        utils.getNameFromNumber(
+                                            context,
+                                            phoneNumber
                                         )
-                                    }
-
-                                    // add event to myself
-                                    removedMemberEvent(
-                                        getUid(),
-                                        groupID,
-                                        phoneNumber
-                                    )
+                                    } from admin?"
+                                    else "Make ${utils.getNameFromNumber(context, phoneNumber)} as Admin?"
+                                yesButton {
+                                    ref.channelMember(channelID, uid)
+                                        .child("admin").setValue(!isAdmin)
                                 }
+                                noButton {}
+                            }.show()
                         }
-                        noButton {}
-                        message = "Remove ${
-                            utils.getNameFromNumber(
-                                context,
-                                phoneNumber
-                            )
-                        } from this group?"
-                    }.show()
-                }
+                    }
 
+                    1 -> {
 
-                3 -> {
-                    //show message activity
-                    context.startActivity(Intent(context, MessageActivity::class.java).apply {
-                        putExtra(KEY_UID, uid)
-                        putExtra(utils.constants.KEY_NAME_OR_NUMBER, phoneNumber)
-                        putExtra(
-                            utils.constants.KEY_TARGET_TYPE,
-                            KEY_CONVERSATION_SINGLE
-                        )
-                        addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
-                    })
-                }
-
-                2 -> {
-                    //show profile activity
-                    context.startActivity(Intent(context, UserProfileActivity::class.java).apply {
-                        putExtra(KEY_UID, uid)
-                        putExtra(KEY_NAME, phoneNumber)
-                        putExtra(utils.constants.KEY_IS_GROUP, false)
-                    })
-                }
-///////////////////////////////////////////////////////////////////
-                //////////////////////////////////////////
-                /////////////////////////////////////////
-                /////////////////////////////////////////
-                4 -> {
-                    //make call
-                    if (utils.hasCallPermission(context)) {
-                        context.alert {
-                            yesButton {
-                                context.makeCall(phoneNumber)
-                            }
-                            noButton {}
-                            message = "Call ${
-                                utils.getNameFromNumber(
-                                    context,
-                                    phoneNumber
-                                )
-                            }?"
-                        }.show()
-                    } else
-                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                            (context as Activity).requestPermissions(
-                                arrayOf(android.Manifest.permission.CALL_PHONE),
-                                132
-                            )
+                        // make or dismiss admin
+                        if (!isMeAdmin) {
+                            context.toast("You have to be an admin to remove someone")
+                            return@selector
                         }
 
-                }
-            }
-
-        }
-    }
-
-
-
-
-
-
-    fun showTargetOptionMenuFromProfileForChannel(
-        context: Context,
-        uid: String,
-        channelID: String,
-        phoneNumber: String,
-        isAdmin: Boolean,
-        isMeAdmin: Boolean,
-        channelMembers: MutableList<Models.ChannelMember>,
-        channelName: String
-    ) {
-        context.selector(
-            "", listOf(
-                "${if (isAdmin) "Dismiss" else "Make"} Admin",
-                "Remove this member",
-                "View Profile", "Message", "Make a call"
-            )
-        ) { _, i ->
-
-            when (i) {
-
-                0 -> {
-                    if (!isMeAdmin)
-                        context.toast("You have to be an admin to remove someone")
-                    else {
                         context.alert {
-                            message =
-                                if (isAdmin) "Dismiss ${
-                                    utils.getNameFromNumber(
-                                        context,
-                                        phoneNumber
-                                    )
-                                } from admin?"
-                                else "Make ${utils.getNameFromNumber(context, phoneNumber)} as Admin?"
                             yesButton {
                                 ref.channelMember(channelID, uid)
-                                    .child("admin").setValue(!isAdmin)
-                            }
-                            noButton {}
-                        }.show()
-                    }
-                }
+                                    .child("removed").setValue(true).addOnSuccessListener {
+                                        this.ctx.toast("Member removed")
+                                        repeat(channelMembers.size) {
 
-                1 -> {
+                                            removeMemberFromChannel(uid, channelID, phoneNumber, channelName, true)
+                                        }
 
-                    // make or dismiss admin
-                    if (!isMeAdmin) {
-                        context.toast("You have to be an admin to remove someone")
-                        return@selector
-                    }
-
-                    context.alert {
-                        yesButton {
-                            ref.channelMember(channelID, uid)
-                                .child("removed").setValue(true).addOnSuccessListener {
-                                    this.ctx.toast("Member removed")
-                                    repeat(channelMembers.size) {
-
-                                        removeMemberFromChannel(uid, channelID, phoneNumber, channelName, true)
+                                        // add event to myself
+                                        removedChannelMemberEvent(getUid(), channelID, phoneNumber)
                                     }
-
-                                    // add event to myself
-                                    removedChannelMemberEvent(getUid(), channelID, phoneNumber)
-                                }
-                        }
-                        noButton {}
-                        message = "Remove ${utils.getNameFromNumber(context, phoneNumber)} from this Channel?"
-                    }.show()
-                }
-
-
-                3 -> {
-                    //show message activity
-                    context.startActivity(Intent(context, MessageActivity::class.java).apply {
-                        putExtra(KEY_UID, uid)
-                        putExtra(utils.constants.KEY_NAME_OR_NUMBER, phoneNumber)
-                        putExtra(utils.constants.KEY_TARGET_TYPE, KEY_CONVERSATION_SINGLE)
-                        addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
-                    })
-                }
-
-                2 -> {
-                    //show profile activity
-                    context.startActivity(Intent(context, UserProfileActivity::class.java).apply {
-                        putExtra(KEY_UID, uid)
-                        putExtra(KEY_NAME, phoneNumber)
-                        putExtra(utils.constants.KEY_IS_GROUP, false)
-                        putExtra(utils.constants.KEY_IS_CHANNEL, false)
-                    })
-                }
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-
-                4 -> {
-                    //make call
-                    if (utils.hasCallPermission(context)) {
-                        context.alert {
-                            yesButton {
-                                context.makeCall(phoneNumber)
                             }
                             noButton {}
-                            message = "Call ${utils.getNameFromNumber(context, phoneNumber)}?"
+                            message = "Remove ${utils.getNameFromNumber(context, phoneNumber)} from this Channel?"
                         }.show()
-                    } else
-                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                            (context as Activity).requestPermissions(
-                                arrayOf(android.Manifest.permission.CALL_PHONE),
-                                132
-                            )
-                        }
+                    }
 
+
+                    3 -> {
+                        //show message activity
+                        context.startActivity(Intent(context, MessageActivity::class.java).apply {
+                            putExtra(KEY_UID, uid)
+                            putExtra(utils.constants.KEY_NAME_OR_NUMBER, phoneNumber)
+                            putExtra(utils.constants.KEY_TARGET_TYPE, KEY_CONVERSATION_SINGLE)
+                            addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+                        })
+                    }
+
+                    2 -> {
+                        //show profile activity
+                        context.startActivity(Intent(context, UserProfileActivity::class.java).apply {
+                            putExtra(KEY_UID, uid)
+                            putExtra(KEY_NAME, phoneNumber)
+                            putExtra(utils.constants.KEY_IS_GROUP, false)
+                            putExtra(utils.constants.KEY_IS_CHANNEL, false)
+                        })
+                    }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                    4 -> {
+                        //make call
+                        if (utils.hasCallPermission(context)) {
+                            AlertDialog.Builder(context).apply {
+                                setPositiveButton("Yes") { _, _ ->
+                                    val intent = Intent(Intent.ACTION_CALL, Uri.parse("tel:$phoneNumber"))
+                                    context.startActivity(intent)
+                                }
+                                noButton {}
+                                message = "Call ${utils.getNameFromNumber(context, phoneNumber)}?"
+                            }.show()
+                        } else
+                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                                (context as Activity).requestPermissions(
+                                    arrayOf(android.Manifest.permission.CALL_PHONE),
+                                    132
+                                )
+                            }
+
+                    }
                 }
+
             }
+        }
+
+
+        fun removedChannelMemberEvent(uid: String, channelID: String, removedMemberPhoneNumber: String) {
+
+            ref.getChatRef(uid, channelID)
+                .child("MSG${System.currentTimeMillis()}")
+                .setValue(
+                    Models.MessageModel(
+                        removedMemberPhoneNumber,
+                        getPhoneNumber(),// this will use as remover
+                        messageType = EVENT_TYPE_REMOVED
+                    )
+                )
+        }
+
+
+        fun setonDisconnectListener() {
+
+            ref.userStatus(getUid())
+                .onDisconnect()
+                .setValue(Models.UserActivityStatus(VAL_OFFLINE, System.currentTimeMillis()))
+        }
+
+
+        fun setCallLog(
+            meOrTargetUID: String,
+            TargetOrMeUID: String,
+            conversationType: String,
+            meOrTargetNumber: String,
+            caption: String,
+            eventType: String
+        ) {
+            callLogToMessages(meOrTargetUID, TargetOrMeUID, eventType, caption)
+            //update last message node
+            ref.lastMessage(meOrTargetUID)
+                .child(TargetOrMeUID)
+                .setValue(
+                    Models.LastMessageDetail(
+                        type = conversationType,
+                        nameOrNumber = meOrTargetNumber
+                    )
+                )
 
         }
-    }
 
 
+        fun callLogToMessages(
+            meOrTargetUID: String,
+            TargetOrMeUID: String,
+            eventType: String,
+            caption: String
+        ) {
 
-
-
-    fun removedChannelMemberEvent(uid: String, channelID: String, removedMemberPhoneNumber: String) {
-
-        ref.getChatRef(uid, channelID)
-            .child("MSG${System.currentTimeMillis()}")
-            .setValue(
-                Models.MessageModel(
-                    removedMemberPhoneNumber,
-                    getPhoneNumber(),// this will use as remover
-                    messageType = EVENT_TYPE_REMOVED
+            ref.getChatRef(meOrTargetUID, TargetOrMeUID)
+                .child("MSG${System.currentTimeMillis()}")
+                .setValue(
+                    Models.MessageModel(
+                        getPhoneNumber(),
+                        getPhoneNumber(),// this will use as remover
+                        messageType = eventType,
+                        caption = caption
+                    )
                 )
-            )
+        }
     }
-
-
-
-
-    fun setonDisconnectListener() {
-
-        ref.userStatus(getUid())
-            .onDisconnect()
-            .setValue(Models.UserActivityStatus(VAL_OFFLINE, System.currentTimeMillis()))
-    }
-
-
-    fun setCallLog(
-        meOrTargetUID: String,
-        TargetOrMeUID: String,
-        conversationType: String,
-        meOrTargetNumber: String,
-        caption: String,
-        eventType: String
-    ) {
-        callLogToMessages(meOrTargetUID, TargetOrMeUID, eventType  ,caption)
-        //update last message node
-        ref.lastMessage(meOrTargetUID)
-            .child(TargetOrMeUID)
-            .setValue(
-                Models.LastMessageDetail(
-                    type = conversationType,
-                    nameOrNumber = meOrTargetNumber
-                )
-            )
-
-    }
-
-
-    private fun callLogToMessages(meOrTargetUID: String,
-                                  TargetOrMeUID: String,
-                                  eventType: String,
-                                  caption: String) {
-
-        ref.getChatRef(meOrTargetUID, TargetOrMeUID)
-            .child("MSG${System.currentTimeMillis()}")
-            .setValue(
-                Models.MessageModel(
-                    getPhoneNumber(),
-                    getPhoneNumber(),// this will use as remover
-                    messageType = eventType,
-                    caption = caption
-                )
-            )
-    }
-
-
 }

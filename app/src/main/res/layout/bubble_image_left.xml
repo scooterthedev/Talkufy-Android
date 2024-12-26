@@ -80,10 +80,6 @@
                         android:id="@+id/image_container_left_card"
                         android:layout_height="210dp"
                         app:cornerRadius="35dp"
-                        app:topLeftEnabled="false"
-                        app:topRightEnabled="true"
-                        app:bottomLeftEnabled="true"
-                        app:bottomRightEnabled="true"
                         android:background="@drawable/shape_bubble_left"
                         android:orientation="vertical">
 

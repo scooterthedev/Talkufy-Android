@@ -41,10 +41,6 @@
             <ca.scooter.talkufy.views.RoundCornerLayout
                     android:layout_width="240dp"
                     app:cornerRadius="35dp"
-                    app:topLeftEnabled="true"
-                    app:topRightEnabled="true"
-                    app:bottomLeftEnabled="true"
-                    app:bottomRightEnabled="false"
                     android:id="@+id/video_container_right_card"
                     android:layout_height="210dp"
                     android:background="@drawable/shape_bubble_right"

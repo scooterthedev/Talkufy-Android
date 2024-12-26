@@ -46,10 +46,6 @@
 
                 android:layout_height="210dp"
                 app:cornerRadius="35dp"
-                app:topLeftEnabled="true"
-                app:topRightEnabled="true"
-                app:bottomLeftEnabled="true"
-                app:bottomRightEnabled="false"
                 android:background="@drawable/shape_bubble_right"
                 android:orientation="vertical" tools:ignore="MissingClass">
 

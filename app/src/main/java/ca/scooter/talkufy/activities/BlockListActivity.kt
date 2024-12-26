@@ -11,18 +11,19 @@ import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import ca.scooter.talkufy.R
+import ca.scooter.talkufy.databinding.ActivityBlockListBinding
 import ca.scooter.talkufy.utils.FirebaseUtils
 import com.firebase.ui.database.FirebaseListAdapter
 import com.firebase.ui.database.FirebaseListOptions
 import ca.scooter.talkufy.utils.utils
-import kotlinx.android.synthetic.main.activity_block_list.*
-import kotlinx.android.synthetic.main.item_contact_layout.view.*
 
 class BlockListActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_block_list)
+        val binding = ActivityBlockListBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+//        setContentView(R.layout.activity_block_list)
 
         title = "Block List"
         if(supportActionBar!= null) {
@@ -59,7 +60,7 @@ class BlockListActivity : AppCompatActivity() {
         }
 
 
-        block_listview.setOnItemClickListener { _, _, position, _ ->
+        binding.blockListview.setOnItemClickListener { _, _, position, _ ->
             val uid = adapter.getRef(position).key.toString()
 
             AlertDialog.Builder(this@BlockListActivity).setMessage("Unblock this user")
@@ -72,7 +73,7 @@ class BlockListActivity : AppCompatActivity() {
 
         }
 
-        block_listview.adapter = adapter
+        binding.blockListview.adapter = adapter
     }
 
 

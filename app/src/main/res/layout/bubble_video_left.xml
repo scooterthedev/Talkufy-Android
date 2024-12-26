@@ -78,10 +78,6 @@
                         android:id="@+id/video_container_left_card"
                         android:layout_height="210dp"
                         app:cornerRadius="35dp"
-                        app:topLeftEnabled="false"
-                        app:topRightEnabled="true"
-                        app:bottomLeftEnabled="false"
-                        app:bottomRightEnabled="false"
                         android:orientation="vertical">
 
 

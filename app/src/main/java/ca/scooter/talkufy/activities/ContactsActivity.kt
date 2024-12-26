@@ -1,6 +1,7 @@
 package ca.scooter.talkufy.activities
 
 import android.Manifest
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -25,10 +26,11 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
 import kotlinx.android.synthetic.main.contact_screen.*
 import kotlinx.android.synthetic.main.item_conversation_layout.view.*
-import org.jetbrains.anko.doAsyncResult
-import org.jetbrains.anko.onComplete
-import org.jetbrains.anko.uiThread
-import java.util.concurrent.Future
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 class ContactsActivity : AppCompatActivity(){
 
@@ -37,7 +39,7 @@ class ContactsActivity : AppCompatActivity(){
     var registeredAvailableUser:MutableList<Models.Contact> = mutableListOf()
 
     var isForSelection = false
-    private var asyncLoader: Future<Unit>? = null
+    private var asyncLoader: Job? = null
 
 
 
@@ -52,35 +54,31 @@ class ContactsActivity : AppCompatActivity(){
 
         isForSelection = intent.getBooleanExtra(utils.constants.KEY_IS_FOR_SELECTION, false)
 
-        asyncLoader = doAsyncResult {
-
-            uiThread {
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-
-                    if(ActivityCompat.checkSelfPermission(this@ContactsActivity, Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED)
-                        requestPermissions(arrayOf(Manifest.permission.READ_CONTACTS), 101)
-                    else
+        asyncLoader = CoroutineScope(Dispatchers.IO).launch {
+            try {
+                withContext(Dispatchers.Main) {
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                        if (ActivityCompat.checkSelfPermission(this@ContactsActivity, Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED) {
+                            requestPermissions(arrayOf(Manifest.permission.READ_CONTACTS), 101)
+                        } else {
+                            loadRegisteredUsers()
+                        }
+                    } else {
                         loadRegisteredUsers()
-
+                    }
                 }
-                else
-                    loadRegisteredUsers()
+            } finally {
+                withContext(Dispatchers.Main) {
+                    contact_progressbar.visibility = View.GONE
+                }
             }
-
-            onComplete { contact_progressbar.visibility = View.GONE  }
         }
 
-
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-
-
-
-
     }
 
-
     override fun onDestroy() {
-        asyncLoader?.cancel(true)
+        asyncLoader?.cancel()
         super.onDestroy()
     }
 
@@ -110,6 +108,7 @@ class ContactsActivity : AppCompatActivity(){
 
         FirebaseUtils.ref.allUser()
             .addValueEventListener(object : ValueEventListener{
+                @SuppressLint("SuspiciousIndentation")
                 override fun onDataChange(p0: DataSnapshot) {
 
                     if(!p0.exists()) {
