@@ -20,11 +20,11 @@ import ca.scooter.talkufy.models.Models
 import ca.scooter.talkufy.utils.FirebaseUtils
 import ca.scooter.talkufy.utils.utils
 import ca.scooter.talkufy.utils.utils.toast
+import com.canhub.cropper.CropImage
+import com.canhub.cropper.CropImageView
 import com.google.android.gms.tasks.Continuation
 import com.google.android.gms.tasks.Task
 import com.google.firebase.storage.UploadTask
-import com.theartofdev.edmodo.cropper.CropImage
-import com.theartofdev.edmodo.cropper.CropImageView
 import me.shaohui.advancedluban.Luban
 import me.shaohui.advancedluban.OnCompressListener
 import java.io.File

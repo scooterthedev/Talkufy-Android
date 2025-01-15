@@ -18,40 +18,35 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import ca.scooter.talkufy.R
+import ca.scooter.talkufy.databinding.ContactScreenBinding
+import ca.scooter.talkufy.databinding.ItemConversationLayoutBinding
 import ca.scooter.talkufy.models.Models
 import ca.scooter.talkufy.utils.FirebaseUtils
 import ca.scooter.talkufy.utils.utils
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
-import kotlinx.android.synthetic.main.contact_screen.*
-import kotlinx.android.synthetic.main.item_conversation_layout.view.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-class ContactsActivity : AppCompatActivity(){
+class ContactsActivity : AppCompatActivity() {
 
-    //number list has 10 digit formatted number
-    var numberList:MutableList<Models.Contact> = mutableListOf()
-    var registeredAvailableUser:MutableList<Models.Contact> = mutableListOf()
-
-    var isForSelection = false
+    private lateinit var binding: ContactScreenBinding
+    private var numberList: MutableList<Models.Contact> = mutableListOf()
+    private var registeredAvailableUser: MutableList<Models.Contact> = mutableListOf()
+    private var isForSelection = false
     private var asyncLoader: Job? = null
-
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        setContentView(R.layout.contact_screen)
+        binding = ContactScreenBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         title = "My Contacts"
-
-        contacts_list.layoutManager = androidx.recyclerview.widget.LinearLayoutManager(this@ContactsActivity)
-
+        binding.contactsList.layoutManager = androidx.recyclerview.widget.LinearLayoutManager(this@ContactsActivity)
         isForSelection = intent.getBooleanExtra(utils.constants.KEY_IS_FOR_SELECTION, false)
 
         asyncLoader = CoroutineScope(Dispatchers.IO).launch {
@@ -69,7 +64,7 @@ class ContactsActivity : AppCompatActivity(){
                 }
             } finally {
                 withContext(Dispatchers.Main) {
-                    contact_progressbar.visibility = View.GONE
+                    binding.contactProgressbar.visibility = View.GONE
                 }
             }
         }
@@ -83,10 +78,9 @@ class ContactsActivity : AppCompatActivity(){
     }
 
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
-
-        when(requestCode){
+        when (requestCode) {
             101 -> {
-                if(grantResults[0] == PackageManager.PERMISSION_GRANTED && grantResults.isNotEmpty())
+                if (grantResults[0] == PackageManager.PERMISSION_GRANTED && grantResults.isNotEmpty())
                     loadRegisteredUsers()
                 else {
                     utils.longToast(this, "Permission not granted, exiting...")
@@ -94,51 +88,40 @@ class ContactsActivity : AppCompatActivity(){
                 }
             }
         }
-
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
     }
 
-
-    private fun loadRegisteredUsers(){
-
-
-
-
+    private fun loadRegisteredUsers() {
         numberList = utils.getContactList(this)
 
         FirebaseUtils.ref.allUser()
-            .addValueEventListener(object : ValueEventListener{
+            .addValueEventListener(object : ValueEventListener {
                 @SuppressLint("SuspiciousIndentation")
                 override fun onDataChange(p0: DataSnapshot) {
-
-                    if(!p0.exists()) {
+                    if (!p0.exists()) {
                         utils.toast(this@ContactsActivity, "No registered users")
                         return
                     }
 
                     registeredAvailableUser.clear()
 
-                    for (post in p0.children){
-                        val userModel = post.getValue(Models.User ::class.java)
-
+                    for (post in p0.children) {
+                        val userModel = post.getValue(Models.User::class.java)
                         val number = utils.getFormattedTenDigitNumber(userModel!!.phone)
                         val uid = userModel.uid
 
-
-                        for((index, item) in numberList.withIndex()) {
+                        for ((index, item) in numberList.withIndex()) {
                             if (item.number == number || item.number.contains(number)) {
                                 numberList[index].uid = uid
-                                if(uid!= FirebaseUtils.getUid() && !registeredAvailableUser.contains(numberList[index]))
-                                registeredAvailableUser.add(numberList[index])
+                                if (uid != FirebaseUtils.getUid() && !registeredAvailableUser.contains(numberList[index]))
+                                    registeredAvailableUser.add(numberList[index])
                             }
-
                         }
-
                     }
 
-                    contacts_list.adapter = adapter
+                    binding.contactsList.adapter = adapter
 
-                    if(isForSelection)
+                    if (isForSelection)
                         return
 
                     registeredAvailableUser.add(Models.Contact("Invite Users"))
@@ -146,134 +129,103 @@ class ContactsActivity : AppCompatActivity(){
                     registeredAvailableUser.add(1, Models.Contact("New Group"))
 
                     adapter.notifyDataSetChanged()
-                    contact_progressbar.visibility = View.GONE
-
-
+                    binding.contactProgressbar.visibility = View.GONE
                 }
 
-                override fun onCancelled(p0: DatabaseError) {
-                }
-
+                override fun onCancelled(p0: DatabaseError) {}
             })
     }
-
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         finish()
         return item.let { super.onOptionsItemSelected(it) }
     }
 
-
-    val adapter: RecyclerView.Adapter<ViewHolder> = object : RecyclerView.Adapter<ViewHolder>() {
-
-        override fun onCreateViewHolder(p0: ViewGroup, p1: Int): ViewHolder
-                = ViewHolder(layoutInflater.inflate(R.layout.item_conversation_layout, p0, false))
+    private val adapter: RecyclerView.Adapter<ViewHolder> = object : RecyclerView.Adapter<ViewHolder>() {
+        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
+            val binding = ItemConversationLayoutBinding.inflate(layoutInflater, parent, false)
+            return ViewHolder(binding)
+        }
 
         override fun getItemCount(): Int = registeredAvailableUser.size
 
         override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-
-            holder.name.text = registeredAvailableUser[position].name
-            holder.number.text = registeredAvailableUser[position].number
-
-            holder.pic.borderWidth = holder.pic.borderWidth
-            holder.number.visibility = View.VISIBLE
-
-            val uid = registeredAvailableUser.get(index = position).uid
-
-            FirebaseUtils.loadProfilePic(this@ContactsActivity, uid, holder.pic)
-            holder.pic.setPadding(0,0,0,0)
-
-            if(position == registeredAvailableUser.size - 1 || position == 0 || position == 1) {
-                holder.number.visibility = View.GONE
-                holder.pic.borderWidth = 0
-            }
-
-            when(position){
-                0 -> {
-                    holder.pic.setImageResource(R.drawable.ic_person_add_white_padded_24dp)
-                    holder.pic.circleBackgroundColor = ContextCompat.getColor(this@ContactsActivity,
-                        R.color.colorPrimary
-                    )
-                }
-
-                1-> {
-                    holder.pic.setImageResource(R.drawable.ic_group_add_white_24dp)
-                    holder.pic.circleBackgroundColor = ContextCompat.getColor(this@ContactsActivity,
-                        R.color.colorPrimary
-                    )
-                }
-                registeredAvailableUser.lastIndex -> {
-                    holder.pic.setPadding(30,30,30,30)
-                    holder.pic.circleBackgroundColor = Color.TRANSPARENT
-                    holder.pic.setImageResource(android.R.drawable.ic_menu_share)
-                }
-            }
-
-
-            holder.itemView.setOnClickListener {
-
-                if(isForSelection){
-                    setResult(Activity.RESULT_OK, intent.apply {
-                        putExtra(FirebaseUtils.KEY_UID, uid )
-                    })
-                    finish()
-                    return@setOnClickListener
-                }
-
-
-
-                when (position) {
-                    0 -> {
-                        // new contact
-                        val contactIntent = Intent(Intent.ACTION_INSERT)
-                        contactIntent.type = ContactsContract.RawContacts.CONTENT_TYPE
-                        startActivityForResult(contactIntent,1024)
-                    }
-                    1 -> {
-                        //new group
-                        startActivity(Intent(this@ContactsActivity, CreateGroupActivity::class.java))
-                        finish()
-                    }
-                    registeredAvailableUser.lastIndex -> utils.shareInviteText(this@ContactsActivity)
-                    
-                    else -> {
-                        startActivity(Intent(this@ContactsActivity, MessageActivity::class.java)
-                            .putExtra(FirebaseUtils.KEY_UID, uid)
-                            .putExtra(utils.constants.KEY_NAME_OR_NUMBER, registeredAvailableUser[position].number)
-                            .putExtra(utils.constants.KEY_TARGET_TYPE, FirebaseUtils.KEY_CONVERSATION_SINGLE))
-                        finish()
-                    }
-                }
-
-
-            }
-
-
+            val contact = registeredAvailableUser[position]
+            holder.bind(contact, position)
         }
-
-
     }
 
-
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-
-        if(resultCode == Activity.RESULT_OK) {
+        if (resultCode == Activity.RESULT_OK) {
             Log.d("ContactsActivity", "onActivityResult: ")
-            //refresh list
             loadRegisteredUsers()
         }
         super.onActivityResult(requestCode, resultCode, data)
     }
 
-    class ViewHolder(itemView: View) : androidx.recyclerview.widget.RecyclerView.ViewHolder(itemView){
-                val name = itemView.name
-                val number = itemView.mobile_number
-                val pic = itemView.pic
-                private val time = itemView.messageTime!!
+    inner class ViewHolder(private val binding: ItemConversationLayoutBinding) : RecyclerView.ViewHolder(binding.root) {
+        fun bind(contact: Models.Contact, position: Int) {
+            binding.name.text = contact.name
+            binding.mobileNumber.text = contact.number
+            binding.pic.borderWidth = binding.pic.borderWidth
+            binding.mobileNumber.visibility = View.VISIBLE
 
-                init {
-                    time.visibility = View.GONE
+            val uid = contact.uid
+
+            FirebaseUtils.loadProfilePic(this@ContactsActivity, uid, binding.pic)
+            binding.pic.setPadding(0, 0, 0, 0)
+
+            if (position == registeredAvailableUser.size - 1 || position == 0 || position == 1) {
+                binding.mobileNumber.visibility = View.GONE
+                binding.pic.borderWidth = 0
+            }
+
+            when (position) {
+                0 -> {
+                    binding.pic.setImageResource(R.drawable.ic_person_add_white_padded_24dp)
+                    binding.pic.circleBackgroundColor = ContextCompat.getColor(this@ContactsActivity, R.color.colorPrimary)
+                }
+                1 -> {
+                    binding.pic.setImageResource(R.drawable.ic_group_add_white_24dp)
+                    binding.pic.circleBackgroundColor = ContextCompat.getColor(this@ContactsActivity, R.color.colorPrimary)
+                }
+                registeredAvailableUser.lastIndex -> {
+                    binding.pic.setPadding(30, 30, 30, 30)
+                    binding.pic.circleBackgroundColor = Color.TRANSPARENT
+                    binding.pic.setImageResource(android.R.drawable.ic_menu_share)
                 }
             }
+
+            binding.root.setOnClickListener {
+                if (isForSelection) {
+                    setResult(Activity.RESULT_OK, intent.apply {
+                        putExtra(FirebaseUtils.KEY_UID, uid)
+                    })
+                    finish()
+                    return@setOnClickListener
+                }
+
+                when (position) {
+                    0 -> {
+                        val contactIntent = Intent(Intent.ACTION_INSERT)
+                        contactIntent.type = ContactsContract.RawContacts.CONTENT_TYPE
+                        startActivityForResult(contactIntent, 1024)
+                    }
+                    1 -> {
+                        startActivity(Intent(this@ContactsActivity, CreateGroupActivity::class.java))
+                        finish()
+                    }
+                    registeredAvailableUser.lastIndex -> utils.shareInviteText(this@ContactsActivity)
+                    else -> {
+                        startActivity(Intent(this@ContactsActivity, MessageActivity::class.java).apply {
+                            putExtra(FirebaseUtils.KEY_UID, uid)
+                            putExtra(utils.constants.KEY_NAME_OR_NUMBER, contact.number)
+                            putExtra(utils.constants.KEY_TARGET_TYPE, FirebaseUtils.KEY_CONVERSATION_SINGLE)
+                        })
+                        finish()
+                    }
+                }
+            }
+        }
+    }
 }

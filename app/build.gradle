@@ -106,6 +106,7 @@ android {
 
         // the above version is based androidX pattern
         implementation 'com.github.ArthurHub:Android-Image-Cropper:2.8.0'
+        implementation("com.vanniktech:android-image-cropper:4.6.0")
         implementation 'com.github.yarolegovich:LovelyDialog:v1.1.1'
 
         implementation 'com.github.aurelhubert:ahbottomnavigation:v2.3.4'
