@@ -29,8 +29,8 @@ object Holders {
 
     }
     class MyTextMsgHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
-        val message = itemView.messageText_right!!
-        val time = itemView.time_right!!
+        var message = itemView.messageText_right!!
+        var time = itemView.time_right!!
         val messageStatus = itemView.delivery_status!!
         val headerDateTime = itemView.header_right!!
         val container = itemView.container_right!!
@@ -43,7 +43,7 @@ object Holders {
 
     class MyImageMsgHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         val message = itemView.messageText_image_right!!
-        val time = itemView.time_image_right!!
+        var time = itemView.time_image_right!!
         val imageView = itemView.imageview_image_right!!
         val progressBar = itemView.progress_bar_image_right!!
         val tapToRetry = itemView.tap_retry_image_right!!
@@ -60,7 +60,7 @@ object Holders {
 
     class TargetImageMsgHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         val message = itemView.messageText_image_left!!
-        val time = itemView.time_image_left!!
+        var time = itemView.time_image_left!!
         val imageView = itemView.imageview_image_left!!
         val headerDateTime = itemView.header_image_left!!
         // val imageLayout = itemView.imageFrameLayout!!
@@ -79,7 +79,7 @@ object Holders {
 
     class MyVideoMsgHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         val message = itemView.messageText_video_right!!
-        val time = itemView.time_video_right!!
+        var time = itemView.time_video_right!!
         val centerImageView = itemView.imageview_video_right!!
         val progressBar = itemView.progress_bar_video_right!!
         val tapToRetry = itemView.tap_retry_video_right!!
@@ -102,7 +102,7 @@ object Holders {
 
     class TargetVideoMsgHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         val message = itemView.messageText_video_left!!
-        val time = itemView.time_video_left!!
+        var time = itemView.time_video_left!!
         val centerImageView = itemView.imageview_video_left!!
         val headerDateTime = itemView.header_video_left!!
         val videoLayout = itemView.videoFrameLayoutLeft!!
@@ -124,7 +124,7 @@ object Holders {
 
 
     class TargetMapHolder(itemView: View): RecyclerView.ViewHolder(itemView){
-        val message = itemView.messageText_map_left!!
+        var message = itemView.messageText_map_left!!
         val mapView = itemView.mapview_left!!
         val dateHeader = itemView.header_map_left!!
         val time = itemView.time_map_left
@@ -138,12 +138,12 @@ object Holders {
     }
 
     class MyMapHolder(itemView: View): RecyclerView.ViewHolder(itemView){
-        val message = itemView.messageText_map_right!!
+        var message = itemView.messageText_map_right!!
         val mapView = itemView.mapview_right!!
         val dateHeader = itemView.header_map_right!!
         val messageStatus = itemView.delivery_status_map_right!!
         val messageLayout = itemView.message_layout_map_right!!
-        val time = itemView.time_map_right!!
+        var time = itemView.time_map_right!!
 
 
         val container = itemView.container_map_right!!

@@ -5,7 +5,6 @@
 
     apply plugin: 'com.google.gms.google-services'
 
-
 android {
     signingConfigs {
     }
@@ -77,7 +76,7 @@ android {
         implementation 'androidx.multidex:multidex:2.0.1'
         implementation 'com.github.ChaosLeung:PinView:1.4.3'
         implementation 'com.github.Mariovc:ImagePicker:1.2.2'
-//        implementation 'com.vincent.filepicker:MultiTypeFilePicker:1.0.8'
+        implementation 'com.vincent.filepicker:MultiTypeFilePicker:1.0.8'
         implementation 'de.hdodenhof:circleimageview:3.1.0'
         implementation 'com.squareup.picasso:picasso:2.71828'
         // do not update this library or else file picker library will crash
@@ -98,7 +97,7 @@ android {
         implementation 'com.github.lopspower:CircularProgressBar:3.0.2'
         implementation 'androidx.emoji:emoji-bundled:1.1.0'
         implementation 'com.github.lguipeng:AnimCheckBox:1.0.1'
-//        implementation 'com.github.skyline1631:RoundCornerLayout:Tag'
+        implementation 'com.github.skyline1631:RoundCornerLayout:Tag'
         implementation 'com.hbb20:ccp:2.6.0'
         implementation fileTree(dir: "libs", include: ["*.jar"])
         implementation files('libs/anko-0.10.8.aar')

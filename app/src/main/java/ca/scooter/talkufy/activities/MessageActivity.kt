@@ -1,6 +1,7 @@
 package ca.scooter.talkufy.activities
 
 import android.Manifest
+import android.R.attr.drawingCacheQuality
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
 import android.animation.ArgbEvaluator
@@ -38,12 +39,19 @@ import androidx.emoji.text.EmojiCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import ca.scooter.talkufy.R
+import ca.scooter.talkufy.databinding.ActivityMessageBinding
+import ca.scooter.talkufy.databinding.BubbleLeftBinding
+import ca.scooter.talkufy.databinding.BubbleRightBinding
+import ca.scooter.talkufy.databinding.ItemSmartReplyBinding
+import ca.scooter.talkufy.databinding.LayoutAttachmentMenuBinding
+import ca.scooter.talkufy.databinding.TextHeaderBinding
 import ca.scooter.talkufy.firebase.MessagingService
 import ca.scooter.talkufy.models.Models
 import ca.scooter.talkufy.utils.DateFormatter
 import ca.scooter.talkufy.utils.FirebaseUtils
 import ca.scooter.talkufy.utils.Pref
 import ca.scooter.talkufy.utils.utils
+import ca.scooter.talkufy.utils.utils.toast
 import ca.scooter.talkufy.views.ColorGenerator
 import ca.scooter.talkufy.views.Holders
 import com.firebase.ui.database.BuildConfig
@@ -82,13 +90,8 @@ import com.vincent.filepicker.filter.entity.ImageFile
 import com.vincent.filepicker.filter.entity.VideoFile
 import io.codetail.animation.SupportAnimator
 import io.codetail.animation.ViewAnimationUtils
-import kotlinx.android.synthetic.main.activity_message.*
-import kotlinx.android.synthetic.main.bubble_left.view.*
-import kotlinx.android.synthetic.main.bubble_right.view.*
-import kotlinx.android.synthetic.main.item_smart_reply.view.*
-import kotlinx.android.synthetic.main.layout_attachment_menu.*
-import kotlinx.android.synthetic.main.layout_include_message_activity_toolbar.*
-import kotlinx.android.synthetic.main.text_header.view.*
+//import kotlinx.android.synthetic.main.layout_include_message_activity_toolbar.*
+//import kotlinx.android.synthetic.main.text_header.view.*
 import me.shaohui.advancedluban.Luban
 import me.shaohui.advancedluban.OnCompressListener
 import org.jetbrains.anko.*
@@ -99,10 +102,17 @@ import java.io.Serializable
 import java.text.SimpleDateFormat
 import java.util.*
 import java.util.concurrent.Future
+import kotlin.jvm.java
 
 @Suppress("DEPRECATION")
 class MessageActivity : AppCompatActivity() {
 
+    private lateinit var binding: ActivityMessageBinding
+    private lateinit var bubble_binding: BubbleLeftBinding
+    private lateinit var bubble_right_binding: BubbleRightBinding
+    private lateinit var smartbinding: ItemSmartReplyBinding
+    private lateinit var layout_attach_binding: LayoutAttachmentMenuBinding
+    private lateinit var text_binding: TextHeaderBinding
 
     var unreadHeaderPosition = 0
     var unreadMessageCount = 0
@@ -169,13 +179,16 @@ class MessageActivity : AppCompatActivity() {
     lateinit var adapter:FirebaseRecyclerAdapter<Models.MessageModel, RecyclerView.ViewHolder>
 
 
-
     @SuppressLint("LogNotTimber", "ShowToast")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.activity_message)
-
+        binding = ActivityMessageBinding.inflate(LayoutInflater).also { setContentView(it.root) }
+        bubble_binding = BubbleLeftBinding.inflate(LayoutInflater).also { setContentView(it.root)}
+        bubble_right_binding = BubbleRightBinding.inflate(LayoutInflater).also { setContentView(it.root)}
+        smartbinding = ItemSmartReplyBinding.inflate(LayoutInflater).also { setContentView(it.root)}
+        layout_attach_binding = LayoutAttachmentMenuBinding.inflate(LayoutInflater).also { setContentView(it.root)}
+        text_binding = TextHeaderBinding.inflate(LayoutInflater).also { setContentView(it.root)}
 
         FirebaseUtils.setonDisconnectListener()
 
@@ -215,18 +228,18 @@ class MessageActivity : AppCompatActivity() {
         loadGroupMembers()
         loadChannelMembers()
 
-        blockedSnackbar =   Snackbar.make(messageInputField, "You cannot reply to this conversation anymore", Snackbar.LENGTH_INDEFINITE)
+        blockedSnackbar =  Snackbar.make(binding.messageInputField, "You cannot reply to this conversation anymore", Snackbar.LENGTH_INDEFINITE)
 
 
 
 
         asyncLoader= doAsyncResult {
             uiThread {
-                message_progressbar.visibility = View.VISIBLE
+                binding.messageProgressbar.visibility = View.VISIBLE
                 initComponents()
 
                 onComplete {
-                    message_progressbar.visibility = View.GONE
+                    binding.messageProgressbar.visibility = View.GONE
                 }
             }
 
@@ -277,16 +290,16 @@ class MessageActivity : AppCompatActivity() {
                         if (p0.exists()){
                             try{
                                 isMeAdmin = p0.value as Boolean
-                                messageInputField.visibility = if(isMeAdmin) View.VISIBLE else View.INVISIBLE
-                                smart_reply_layout.visibility = if(isMeAdmin)View.VISIBLE else View.GONE
+                                binding.messageInputField.visibility = if(isMeAdmin) View.VISIBLE else View.INVISIBLE
+                                binding.smartReplyLayout.visibility = if(isMeAdmin)View.VISIBLE else View.GONE
                                 if (!isMeAdmin) blockedSnackbar?.show() else  blockedSnackbar?.dismiss()
                             }
                             catch (e:Exception){}
 
                         }else{
                             isMeAdmin = false
-                            messageInputField.visibility =  View.INVISIBLE
-                            smart_reply_layout.visibility =  View.GONE
+                            binding.messageInputField.visibility =  View.INVISIBLE
+                            binding.smartReplyLayout.visibility =  View.GONE
                             blockedSnackbar?.show()
                         }
                     }
@@ -308,16 +321,16 @@ class MessageActivity : AppCompatActivity() {
                         if (p0.exists()){
                             try{
                                 isMeRemoved = p0.value as Boolean
-                                messageInputField.visibility = if(isMeRemoved) View.VISIBLE else View.INVISIBLE
-                                smart_reply_layout.visibility = if(isMeRemoved)View.VISIBLE else View.GONE
+                                binding.messageInputField.visibility = if(isMeRemoved) View.VISIBLE else View.INVISIBLE
+                                binding.smartReplyLayout.visibility = if(isMeRemoved)View.VISIBLE else View.GONE
                                 if (!isMeRemoved) blockedSnackbar?.show() else  blockedSnackbar?.dismiss()
                             }
                             catch (e:Exception){}
 
                         }else{
                             isMeRemoved = false
-                            messageInputField.visibility =  View.INVISIBLE
-                            smart_reply_layout.visibility = View.GONE
+                            binding.messageInputField.visibility =  View.INVISIBLE
+                            binding.smartReplyLayout.visibility = View.GONE
                             blockedSnackbar?.show()
                         }
                     }
@@ -335,16 +348,16 @@ class MessageActivity : AppCompatActivity() {
                         if (p0.exists()){
                             try{
                                 isMeRemoved = p0.value as Boolean
-                                messageInputField.visibility = if(isMeRemoved) View.VISIBLE else View.INVISIBLE
-                                smart_reply_layout.visibility = if(isMeRemoved)View.VISIBLE else View.GONE
+                                binding.messageInputField.visibility = if(isMeRemoved) View.VISIBLE else View.INVISIBLE
+                                binding.smartReplyLayout.visibility = if(isMeRemoved)View.VISIBLE else View.GONE
                                 if (!isMeRemoved) blockedSnackbar?.show() else  blockedSnackbar?.dismiss()
                             }
                             catch (e:Exception){}
 
                         }else{
                             isMeRemoved = false
-                            messageInputField.visibility =  View.INVISIBLE
-                            smart_reply_layout.visibility = View.GONE
+                            binding.messageInputField.visibility =  View.INVISIBLE
+                            binding.smartReplyLayout.visibility = View.GONE
                             blockedSnackbar?.show()
                         }
                     }
@@ -392,7 +405,7 @@ class MessageActivity : AppCompatActivity() {
 
 
         else   if(isChannel) {
-            target_name_textview.text = nameOrNumber
+            binding.target_name_textview.text = nameOrNumber
 
             if(utils.isChannelID(nameOrNumber) || nameOrNumber.isEmpty()){
                 FirebaseUtils.ref.channelInfo(targetUid).child(utils.constants.KEY_NAME)
@@ -432,7 +445,7 @@ class MessageActivity : AppCompatActivity() {
             })
 
 
-        messageInputField.setOnFocusChangeListener { v, hasFocus -> dateStickyHeader.visibility = View.GONE }
+        binding.messageInputField.setOnFocusChangeListener { v, hasFocus -> binding.dateStickyHeader.visibility = View.GONE }
 
 
 
@@ -452,10 +465,10 @@ class MessageActivity : AppCompatActivity() {
         }
 
 
-        messageInputField.setTypingListener(object : MessageInput.TypingListener {
+        binding.messageInputField.setTypingListener(object : MessageInput.TypingListener {
             override fun onStartTyping() {
                 FirebaseUtils.setMeAsTyping(targetUid)
-                dateStickyHeader.visibility = View.GONE
+                binding.dateStickyHeader.visibility = View.GONE
             }
 
             override fun onStopTyping() { FirebaseUtils.setMeAsOnline() }
@@ -471,18 +484,18 @@ class MessageActivity : AppCompatActivity() {
 
 
 
-        smart_reply_layout.visibility = View.GONE
+        binding.smartReplyLayout.visibility = View.GONE
         checkIfBlocked(targetUid){
 
             if(isBlockedByUser || isBlockedByMe || isMeRemoved || (!isMeAdmin && isChannel)) {
-                messageInputField.visibility = View.INVISIBLE
-                smart_reply_layout.visibility = View.GONE
+                binding.messageInputField.visibility = View.INVISIBLE
+                binding.smartReplyLayout.visibility = View.GONE
                 blockedSnackbar?.show()
 
             }
             else {
-                messageInputField.visibility = View.VISIBLE
-                smart_reply_layout.visibility = View.VISIBLE
+                binding.messageInputField.visibility = View.VISIBLE
+                binding.smartReplyLayout.visibility = View.VISIBLE
                 blockedSnackbar?.dismiss()
                 bindSmartReply()
 
@@ -496,7 +509,7 @@ class MessageActivity : AppCompatActivity() {
         attachment_menu.visibility = View.INVISIBLE
 
 //        utils.hideFabs(fab_camera, fab_gallery, fab_video, fab_location)
-        messageInputField.setAttachmentsListener {
+        binding.messageInputField.setAttachmentsListener {
 
 
             if(isBlockedByUser || isBlockedByMe || isMeRemoved)
@@ -927,14 +940,14 @@ class MessageActivity : AppCompatActivity() {
 
         unreadMessageCount = intent.getIntExtra(utils.constants.KEY_UNREAD, 0)
 
-        messagesList.setHasFixedSize(true)
-        messagesList.setItemViewCacheSize(20)
-        messagesList.isDrawingCacheEnabled = true
-        messagesList.drawingCacheQuality = View.DRAWING_CACHE_QUALITY_HIGH
+        binding.messagesList.setHasFixedSize(true)
+        binding.messagesList.setItemViewCacheSize(20)
+        binding.messagesList.isDrawingCacheEnabled = true
+        binding.messagesList.drawingCacheQuality = View.DRAWING_CACHE_QUALITY_HIGH
 
         val linearLayoutManager = LinearLayoutManager(this)
         linearLayoutManager.stackFromEnd = true
-        messagesList.layoutManager = linearLayoutManager
+        binding.messagesList.layoutManager = linearLayoutManager
 
         setScrollingListener()
 
@@ -995,7 +1008,7 @@ class MessageActivity : AppCompatActivity() {
 
             override fun getItemCount(): Int {
 
-                message_progressbar.visibility = View.GONE
+                binding.messageProgressbar.visibility = View.GONE
 
                 return super.getItemCount()
             }
@@ -1015,14 +1028,14 @@ class MessageActivity : AppCompatActivity() {
 
                     when(model.messageType) {
                         FirebaseUtils.EVENT_TYPE_ADDED -> {
-                            textHolder.text.text =
+                            text_binding.headerTextView.text =
                                 utils.getNameFromNumber(context, model.from) + " added " + utils.getNameFromNumber(
                                     context,
                                     model.message
                                 )
                         }
                         FirebaseUtils.EVENT_TYPE_REMOVED -> {
-                            textHolder.text.text =
+                            text_binding.headerTextView.text =
                                 utils.getNameFromNumber(context, model.from) + " removed " + utils.getNameFromNumber(
                                     context,
                                     model.message
@@ -1030,46 +1043,46 @@ class MessageActivity : AppCompatActivity() {
 
                         }
                         FirebaseUtils.EVENT_TYPE_LEFT -> {
-                            textHolder.text.text = utils.getNameFromNumber(context, model.message) + " left"
+                            text_binding.headerTextView.text = utils.getNameFromNumber(context, model.message) + " left"
                         }
                         FirebaseUtils.EVENT_TYPE_CREATED -> {
                             if (isGroup)
-                                textHolder.text.text =
+                                text_binding.headerTextView.text =
                                     utils.getNameFromNumber(context, model.from) + " created this group"
                             else if (isChannel)
-                                textHolder.text.text =
+                                text_binding.headerTextView.text =
                                     utils.getNameFromNumber(context, model.from) + " created this channel"
                         }
 
                         FirebaseUtils.EVENT_TYPE_CALL_LOG_FROM -> {
-                            textHolder.text.text = nameOrNumber + " " + model.caption
+                            text_binding.headerTextView.text = nameOrNumber + " " + model.caption
                         }
                         FirebaseUtils.EVENT_TYPE_CALL_LOG_TO -> {
-                            textHolder.text.text = "You" + model.caption
+                            text_binding.headerTextView.text = "You" + model.caption
                         }
 
                         FirebaseUtils.EVENT_TYPE_CALL_LOG_JOINED -> {
-                            textHolder.text.text = "You" + model.caption
+                            text_binding.headerTextView.text = "You" + model.caption
                         }
 
                         FirebaseUtils.EVENT_TYPE_CALL_LOG_LEAVED -> {
-                            textHolder.text.text = "You" + model.caption
+                            text_binding.headerTextView.text = "You" + model.caption
                         }
                     }
 
                     //setting header if event
-                    textHolder.dateTextView.text = utils.getHeaderFormattedDate(model.timeInMillis)
+                    text_binding.headerDateText = utils.getHeaderFormattedDate(model.timeInMillis)
                     if(position>0){
 
                         val previousDate = Date(snapshots[position - 1].timeInMillis)
 
-                        textHolder.dateTextView.visibility =  if(!DateFormatter.isSameDay(Date(model.timeInMillis) ,  previousDate)){ View.VISIBLE }
+                        text_binding.headerDateText.visibility =  if(!DateFormatter.isSameDay(Date(model.timeInMillis) ,  previousDate)){ View.VISIBLE }
                         else{ View.GONE }
 
                     }
                     else{
 
-                        textHolder.dateTextView.visibility = View.VISIBLE
+                        text_binding.headerDateText.visibility = View.VISIBLE
 
                     }
 
@@ -1077,7 +1090,7 @@ class MessageActivity : AppCompatActivity() {
                     return
                 }
 
-                messagesList.setBackgroundColor(Color.WHITE)
+                binding.messagesList.setBackgroundColor(Color.WHITE)
 
                 setObserver()
 
@@ -1135,27 +1148,27 @@ class MessageActivity : AppCompatActivity() {
                         messageLayout = holder.messageLayout
                         dateHeader = holder.headerDateTime
 
-                        holder.itemView.bubble_left_translation.visibility = View.GONE
+                        bubble_binding.bubbleLeftTranslation.visibility = View.GONE
                         targetSenderIcon = holder.senderIcon
 
                         targetSenderTitle = holder.senderTitle
 
                     }
                     is Holders.MyTextMsgHolder -> {
-                        holder.time.text = utils.getLocalTime(model.timeInMillis)
-                        holder.message.text = model.message
+                        holder.time = utils.getLocalTime(model.timeInMillis)
+                        holder.message = model.message
                         dateHeader = holder.headerDateTime
                         container = holder.container
                         FirebaseUtils.setDeliveryStatusTick(targetUid, messageID, holder.messageStatus)
                         messageTextView = holder.message
                         messageLayout = holder.messageLayout
-                        holder.itemView.bubble_right_translation.visibility = View.GONE
+                        bubble_right_binding.bubbleRightTranslation.visibility = View.GONE
                         //end of my holder
 
                     }
                     is Holders.MyImageMsgHolder -> {
 
-                        holder.time.text = utils.getLocalTime(model.timeInMillis)
+                        holder.time = utils.getLocalTime(model.timeInMillis)
                         messageImage = holder.imageView
                         container = holder.container
                         dateHeader = holder.headerDateTime
@@ -1175,7 +1188,7 @@ class MessageActivity : AppCompatActivity() {
                         messageImage = holder.imageView
                         dateHeader = holder.headerDateTime
                         container = holder.container
-                        holder.time.text = utils.getLocalTime(model.timeInMillis)
+                        holder.time = utils.getLocalTime(model.timeInMillis)
                         messageTextView = holder.message
                         messageLayout = holder.messageLayout
 
@@ -1191,7 +1204,7 @@ class MessageActivity : AppCompatActivity() {
 
                         thumbnail = holder.thumbnail
                         videoLengthTextView = holder.videoLengthText
-                        holder.time.text = utils.getLocalTime(model.timeInMillis)
+                        holder.time = utils.getLocalTime(model.timeInMillis)
                         tapToDownload = holder.tap_to_download
                         dateHeader = holder.headerDateTime
                         container = holder.container
@@ -1209,7 +1222,7 @@ class MessageActivity : AppCompatActivity() {
                     is Holders.TargetVideoMsgHolder -> {
 
                         tapToDownload = holder.tap_to_download
-                        holder.time.text = utils.getLocalTime(model.timeInMillis)
+                        holder.time = utils.getLocalTime(model.timeInMillis)
                         thumbnail = holder.thumbnail
                         videoLengthTextView = holder.videoLengthText
                         dateHeader = holder.headerDateTime
@@ -1231,9 +1244,9 @@ class MessageActivity : AppCompatActivity() {
                     }
 
                     is Holders.MyMapHolder -> {
-                        holder.message.text = model.caption
+                        holder.message = model.caption
                         holder.message.visibility =  if(model.caption.isEmpty()) View.GONE else View.VISIBLE
-                        holder.time.text = utils.getLocalTime(model.timeInMillis)
+                        holder.time = utils.getLocalTime(model.timeInMillis)
                         messageLayout = holder.messageLayout
                         dateHeader = holder.dateHeader
                         messageTextView = holder.message
@@ -1247,7 +1260,7 @@ class MessageActivity : AppCompatActivity() {
 
                     is Holders.TargetMapHolder -> {
 
-                        holder.message.text = model.caption
+                        holder.message = model.caption
                         dateHeader = holder.dateHeader
                         container = holder.container
                         holder.time.text = utils.getLocalTime(model.timeInMillis)
@@ -1416,7 +1429,7 @@ class MessageActivity : AppCompatActivity() {
 
 
 
-                messageTextView?.let { it.setLinkTextColor(Color.BLUE) }
+                messageTextView?.setLinkTextColor(Color.BLUE)
 
                 val emojiProcessed = EmojiCompat.get().process(messageTextView!!.text)
                 messageTextView.text = emojiProcessed
@@ -1479,8 +1492,6 @@ class MessageActivity : AppCompatActivity() {
 
                 val model: Models.MessageModel = getItem(position)
 
-                val viewType: Int
-
                 if (model.messageType == FirebaseUtils.EVENT_TYPE_REMOVED ||
                     model.messageType == FirebaseUtils.EVENT_TYPE_LEFT ||
                     model.messageType == FirebaseUtils.EVENT_TYPE_ADDED ||
@@ -1493,7 +1504,7 @@ class MessageActivity : AppCompatActivity() {
                     return TYPE_EVENT
 
 
-                viewType = if(model.from == myUID){
+                val viewType: Int = if(model.from == myUID){
 
                     when {
                         model.messageType == utils.constants.FILE_TYPE_LOCATION -> TYPE_MY_MAP
@@ -1519,7 +1530,7 @@ class MessageActivity : AppCompatActivity() {
 
         }
 
-        messagesList.adapter = adapter
+        binding.messagesList.adapter = adapter
 
 
 
@@ -1540,7 +1551,7 @@ class MessageActivity : AppCompatActivity() {
 
                 val model = adapter.snapshots[positionStart]
 
-                val layoutManager = messagesList.layoutManager as LinearLayoutManager
+                val layoutManager = binding.messagesList.layoutManager as LinearLayoutManager
                 val lastVisiblePosition = layoutManager.findLastCompletelyVisibleItemPosition()
 
                 // If the recycler view is initially being loaded or the
@@ -1550,11 +1561,11 @@ class MessageActivity : AppCompatActivity() {
                 if (lastVisiblePosition == -1 ||
                     (positionStart >= (adapter.itemCount - 1) &&
                             lastVisiblePosition == (positionStart - 1))) {
-                    messagesList.scrollToPosition(adapter.itemCount - 1 - unreadMessageCount)
+                    binding.messagesList.scrollToPosition(adapter.itemCount - 1 - unreadMessageCount)
                 }
 
                 if(model.from == myUID)
-                    messagesList.scrollToPosition(adapter.itemCount - 1 - unreadMessageCount)
+                    binding.messagesList.scrollToPosition(adapter.itemCount - 1 - unreadMessageCount)
 
 
 
@@ -1572,13 +1583,13 @@ class MessageActivity : AppCompatActivity() {
 
 
 
-        messageInputField.setInputListener {
+        binding.messageInputField.setInputListener {
 
             if(isBlockedByMe || isBlockedByUser || isMeRemoved ||(isChannel && !isMeAdmin)) {
                 return@setInputListener true
             }
 
-            val message = messageInputField.inputEditText.text.toString()
+            val message = binding.messageInputField.inputEditText.text.toString()
 
             val messageModel= Models.MessageModel(message.trim() ,
                 myUID, targetUid ,isFile = false)
@@ -1588,7 +1599,7 @@ class MessageActivity : AppCompatActivity() {
             adapter.notifyItemChanged(0)
 
             addMessageToBoth(messageID, messageModel)
-            loadedPosition[messagesList.adapter!!.itemCount ]
+            loadedPosition[binding.messagesList.adapter!!.itemCount ]
 
 
 
@@ -2155,7 +2166,7 @@ class MessageActivity : AppCompatActivity() {
         val progressBar = CircularProgressBarsAt[messageID]
 
         progressBar?.visibility = View.VISIBLE
-        progressBar?.progress =0f
+        progressBar?.progress =0
 
         val storageRef =
             FirebaseStorage.getInstance().getReferenceFromUrl(model.message)
@@ -2711,15 +2722,15 @@ class MessageActivity : AppCompatActivity() {
 
         if(model.from == myUID)
         {
-            itemView.bubble_right_translation.text = translationHeading
-            itemView.bubble_right_translation.visibility = View.VISIBLE
+            bubble_right_binding.bubbleRightTranslation.text = translationHeading
+            bubble_right_binding.bubbleRightTranslation.visibility = View.VISIBLE
 
         }
         else
         {
-            itemView.bubble_left_translation.text = translationHeading
-            itemView.bubble_left_translation.visibility = View.VISIBLE
-
+            bubble_binding.bubbleLeftTranslation.text = translationHeading
+            bubble_binding.bubbleLeftTranslation.visibility = View.VISIBLE
+=
         }
 
         //identify language
@@ -2752,8 +2763,8 @@ class MessageActivity : AppCompatActivity() {
                             translationHeading = "Downloading files for $languageName"
 
                             when (myUID) {
-                                model.from -> itemView.bubble_right_translation.text = translationHeading
-                                else -> itemView.bubble_left_translation.text = translationHeading
+                                model.from -> bubble_right_binding.bubbleRightTranslation.text = translationHeading
+                                else -> bubble_binding.bubbleLeftTranslation.text = translationHeading
                             }
 
                             firebaseTranslator.downloadModelIfNeeded()
@@ -2784,8 +2795,8 @@ class MessageActivity : AppCompatActivity() {
 
 
         when (myUID) {
-            model.from -> itemView.bubble_right_translation.text = translationHeading
-            else -> itemView.bubble_left_translation.text = translationHeading
+            model.from -> bubble_right_binding.bubbleRightTranslation.text = translationHeading
+            else -> bubble_binding.bubbleLeftTranslation.text = translationHeading
         }
 
         firebaseTranslator.translate(model.message)
@@ -2795,12 +2806,12 @@ class MessageActivity : AppCompatActivity() {
                     Pref.getDefaultLanguage(this))).displayName} from $languageName"
                 when (myUID) {
                     model.from -> {
-                        itemView.messageText_right.text = translatedText
-                        itemView.bubble_right_translation.text = translationHeading
+                        bubble_right_binding.messageTextRight.text = translatedText
+                        bubble_right_binding.bubbleRightTranslation.text = translationHeading
                     }
                     else -> {
-                        itemView.messageText_left.text = translatedText
-                        itemView.bubble_left_translation.text = translationHeading
+                        bubble_binding.messageTextLeft.text = translatedText
+                        bubble_binding.bubbleLeftTranslation.text = translationHeading
                     }
                 }
             }
@@ -2808,8 +2819,8 @@ class MessageActivity : AppCompatActivity() {
                 Log.d("MessageActivity", "translateMessage: error =  ${it.message}")
                 translationHeading = "Failed to Translate"
                 when (myUID) {
-                    model.from -> itemView.bubble_right_translation.text = translationHeading
-                    else -> itemView.bubble_left_translation.text = translationHeading
+                    model.from -> bubble_right_binding.bubbleRightTranslation.text = translationHeading
+                    else -> bubble_binding.bubbleLeftTranslation.text = translationHeading
                 }
             }
     }
@@ -2939,7 +2950,7 @@ class MessageActivity : AppCompatActivity() {
                     utils.toast(context, "$resultCount results found")
                     upBtn.visibility = View.VISIBLE
                     downBtn.visibility = View.VISIBLE
-                    messagesList.scrollToPosition(searchFilterItemPosition[0])
+                    binding.messagesList.scrollToPosition(searchFilterItemPosition[0])
                     selectedPosition = searchFilterItemPosition[0]
                 }
                 else{
@@ -2995,7 +3006,7 @@ class MessageActivity : AppCompatActivity() {
 
             if(searchPosition>=0 && searchPosition<searchFilterItemPosition.count()) {
                 selectedPosition = searchFilterItemPosition[searchPosition]
-                messagesList.scrollToPosition(searchFilterItemPosition[searchPosition])
+                binding.messagesList.scrollToPosition(searchFilterItemPosition[searchPosition])
 
             }
 
@@ -3020,7 +3031,7 @@ class MessageActivity : AppCompatActivity() {
 
             if(searchPosition>=0 && searchPosition<searchFilterItemPosition.count()) {
                 selectedPosition = searchFilterItemPosition[searchPosition]
-                messagesList.scrollToPosition(searchFilterItemPosition[searchPosition])
+                binding.messagesList.scrollToPosition(searchFilterItemPosition[searchPosition])
 
             }
             adapter.notifyDataSetChanged()
@@ -3216,17 +3227,17 @@ class MessageActivity : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
     private fun setScrollingListener(){
 
-        bottomScrollButton.hide()
-        dateStickyHeader.visibility = View.INVISIBLE
+        binding.bottomScrollButton.hide()
+        binding.dateStickyHeader.visibility = View.INVISIBLE
 
         if(unreadMessageCount == 0)
-            unreadCount.visibility = View.GONE
+            binding.unreadCount.visibility = View.GONE
         Handler().postDelayed({
-            FirebaseUtils.setUnreadCount(targetUid, unreadCount)
+            FirebaseUtils.setUnreadCount(targetUid, binding.unreadCount)
         },2000)
 
 
-        val layoutManager = messagesList.layoutManager as LinearLayoutManager
+        val layoutManager = binding.messagesList.layoutManager as LinearLayoutManager
 
         val textView = TextView(this)
         textView.text = "Sample text"
@@ -3234,12 +3245,12 @@ class MessageActivity : AppCompatActivity() {
         val handler = Handler()
         var isRunning = false
 
-        bottomScrollButton.setOnClickListener {
-            unreadCount.visibility = View.INVISIBLE
-            messagesList.scrollToPosition(adapter.itemCount - 1)
+        binding.bottomScrollButton.setOnClickListener {
+            binding.unreadCount.visibility = View.INVISIBLE
+            binding.messagesList.scrollToPosition(adapter.itemCount - 1)
         }
 
-        messagesList.setOnScrollListener(object : RecyclerView.OnScrollListener() {
+        binding.messagesList.setOnScrollListener(object : RecyclerView.OnScrollListener() {
 
 
             override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
@@ -3247,12 +3258,12 @@ class MessageActivity : AppCompatActivity() {
 
                 if(newState == RecyclerView.SCROLL_STATE_IDLE || newState == RecyclerView.SCROLL_STATE_SETTLING) {
 
-                    if(dateStickyHeader.visibility == View.VISIBLE && !isRunning) {
+                    if(binding.dateStickyHeader.visibility == View.VISIBLE && !isRunning) {
                         isRunning = true
                         handler.postDelayed({
                             runOnUiThread {
                                 if (layoutManager.findLastVisibleItemPosition() < adapter.itemCount - 1)
-                                    dateStickyHeader.visibility = View.GONE
+                                    binding.dateStickyHeader.visibility = View.GONE
                                 isRunning = false
                             }
                         }, 1500)
@@ -3261,7 +3272,7 @@ class MessageActivity : AppCompatActivity() {
 
                 if(newState == RecyclerView.SCROLL_STATE_DRAGGING){
                     if(layoutManager.findLastVisibleItemPosition() < adapter.itemCount - 1)
-                        dateStickyHeader.visibility = View.VISIBLE
+                        binding.dateStickyHeader.visibility = View.VISIBLE
                 }
 
                 super.onScrollStateChanged(recyclerView, newState)
@@ -3273,15 +3284,15 @@ class MessageActivity : AppCompatActivity() {
 
                 if(layoutManager.findLastVisibleItemPosition() == adapter.itemCount - 1 )
                 {
-                    bottomScrollButton.hide()
+                    binding.bottomScrollButton.hide()
 
-                    smart_reply_root_layout.animate().translationY(0f).withStartAction { smart_reply_root_layout.visibility = View.VISIBLE }
+                    binding.smartReplyLayout.animate().translationY(0f).withStartAction { binding.smartReplyLayout.visibility = View.VISIBLE }
                 }
                 else if(adapter.itemCount > 5)
                 {
-                    bottomScrollButton.show()
-                    smart_reply_root_layout.animate().translationY(smart_reply_root_layout.height.toFloat())
-                        .withEndAction { smart_reply_root_layout.visibility = View.GONE }
+                    binding.bottomScrollButton.show()
+                    binding.smartReplyLayout.animate().translationY(bindSmartReply().height.toFloat())
+                        .withEndAction { binding.smartReplyLayout.visibility = View.GONE }
 
                 }
 
@@ -3289,11 +3300,11 @@ class MessageActivity : AppCompatActivity() {
 
 
                 if(layoutManager.findFirstVisibleItemPosition() <= 1) {
-                    dateStickyHeader.visibility = View.GONE
+                    binding.dateStickyHeader.visibility = View.GONE
                     return
                 }
 
-                dateStickyHeader.text = utils.getHeaderFormattedDate(adapter.getItem(layoutManager.findFirstVisibleItemPosition())
+                binding.dateStickyHeader.text = utils.getHeaderFormattedDate(adapter.getItem(layoutManager.findFirstVisibleItemPosition())
                     .timeInMillis)
 
 
@@ -3311,7 +3322,6 @@ class MessageActivity : AppCompatActivity() {
 
 
         Log.d("MessageActivity", "deleteSelectedMessages: $selectedItemPosition , msg ID = $selectedMessageIDs")
-
         AlertDialog.Builder(context)
             .setMessage("Delete selected messages?")
             .setPositiveButton("Yes") { _, _ ->
@@ -3379,7 +3389,7 @@ class MessageActivity : AppCompatActivity() {
                         else user_online_status.visibility = View.GONE
                     }
                     catch (e:Exception){}
-                    val snackbar = Snackbar.make(messageInputField, "You cannot reply to this conversation anymore", Snackbar.LENGTH_INDEFINITE)
+                    val snackbar = Snackbar.make(binding.messageInputField, "You cannot reply to this conversation anymore", Snackbar.LENGTH_INDEFINITE)
 
                     if(isMeRemoved)
                         snackbar.show()
@@ -3434,7 +3444,7 @@ class MessageActivity : AppCompatActivity() {
                         else user_online_status.visibility = View.GONE
                     }
                     catch (e:Exception){}
-                    val snackbar = Snackbar.make(messageInputField, "You cannot reply to this conversation anymore", Snackbar.LENGTH_INDEFINITE)
+                    val snackbar = Snackbar.make(binding.messageInputField, "You cannot reply to this conversation anymore", Snackbar.LENGTH_INDEFINITE)
 
                     if(isMeRemoved)
                         snackbar.show()
@@ -3450,7 +3460,7 @@ class MessageActivity : AppCompatActivity() {
     private fun bindSmartReply(){
 
 
-        smart_reply_layout.visibility = View.GONE
+        binding.smartReplyLayout.visibility = View.GONE
 
         FirebaseUtils.ref.getChatRef(myUID, targetUid)
             .addValueEventListener(object : ValueEventListener{
@@ -3502,10 +3512,10 @@ class MessageActivity : AppCompatActivity() {
                                     }
                                 }
 
-                                smart_reply_layout.visibility = if(it.suggestions.isNotEmpty()) View.VISIBLE else View.GONE
+                                binding.smartReplyLayout.visibility = if(it.suggestions.isNotEmpty()) View.VISIBLE else View.GONE
 
 
-                                smart_reply_recycler.adapter = object : RecyclerView.Adapter<RecyclerView.ViewHolder>(){
+                                binding.smartReplyRecycler.adapter = object : RecyclerView.Adapter<RecyclerView.ViewHolder>(){
                                     override fun onCreateViewHolder(p0: ViewGroup, p1: Int): RecyclerView.ViewHolder {
                                         return object : RecyclerView.ViewHolder(LayoutInflater.from(context)
                                             .inflate(R.layout.item_smart_reply,p0,false)){}
@@ -3519,16 +3529,16 @@ class MessageActivity : AppCompatActivity() {
 
                                         holder.itemView.item_text.setOnClickListener {
                                             Log.d("MessageActivity", "onBindViewHolder: suggestion text clicked")
-                                            messageInputField.inputEditText.setText(suggestion)
+                                            binding.messageInputField.inputEditText.setText(suggestion)
                                             if(Pref.isTapToReply(context))
-                                                messageInputField.button.callOnClick()
+                                                binding.messageInputField.button.callOnClick()
                                         }
 
                                         holder.itemView.setOnClickListener {
                                             Log.d("MessageActivity", "onBindViewHolder: suggestion clicked")
-                                            messageInputField.inputEditText.setText(suggestion)
+                                            binding.messageInputField.inputEditText.setText(suggestion)
                                             if(Pref.isTapToReply(context))
-                                                messageInputField.button.callOnClick()
+                                                binding.messageInputField.button.callOnClick()
                                         }
                                     }
 
@@ -3542,7 +3552,7 @@ class MessageActivity : AppCompatActivity() {
             })
 
 
-        smart_reply_setting.setOnClickListener {
+        binding.smartReplyLayout.setOnClickListener {
 
             val smartReplyCheckbox = CheckBox(this)
             val params = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT)
