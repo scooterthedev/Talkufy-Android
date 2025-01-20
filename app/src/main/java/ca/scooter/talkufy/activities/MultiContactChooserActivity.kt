@@ -6,6 +6,7 @@ import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
 import android.os.Parcelable
+import android.view.LayoutInflater
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -13,6 +14,9 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import ca.scooter.talkufy.R
+import ca.scooter.talkufy.databinding.ActivityMessageBinding
+import ca.scooter.talkufy.databinding.ContactScreenBinding
+import ca.scooter.talkufy.databinding.ItemForwardContactListBinding
 import ca.scooter.talkufy.models.Models
 import ca.scooter.talkufy.utils.FirebaseUtils
 import ca.scooter.talkufy.utils.utils
@@ -21,7 +25,7 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
 import kotlinx.android.synthetic.main.activity_multi_contact_chooser.*
 import kotlinx.android.synthetic.main.contact_screen.*
-import kotlinx.android.synthetic.main.item__forward_contact_list.view.*
+//import kotlinx.android.synthetic.main.item__forward_contact_list.view.*
 import kotlinx.android.synthetic.main.item_conversation_layout.view.*
 import kotlinx.android.synthetic.main.item_grid_contact_layout.view.*
 import org.jetbrains.anko.doAsyncResult
@@ -30,6 +34,8 @@ import org.jetbrains.anko.uiThread
 import java.util.concurrent.Future
 
 class MultiContactChooserActivity : AppCompatActivity(){
+
+    private lateinit var contact_binding: ItemForwardContactListBinding
 
     //number list has 10 digit formatted number
     var numberList:MutableList<Models.Contact> = mutableListOf()
@@ -45,6 +51,8 @@ class MultiContactChooserActivity : AppCompatActivity(){
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        contact_binding = ItemForwardContactListBinding.inflate(LayoutInflater).also { setContentView(it.root) }
 
         setContentView(R.layout.activity_multi_contact_chooser)
         title = "Choose from contacts"
@@ -264,11 +272,11 @@ class MultiContactChooserActivity : AppCompatActivity(){
         override fun getItemCount(): Int = selectedUsers.size
 
         override fun onBindViewHolder(p0: ParticipantHolder, p1: Int) {
-            p0.name.text = utils.getNameFromNumber(this@MultiContactChooserActivity,
+            p0.name = utils.getNameFromNumber(this@MultiContactChooserActivity,
                 selectedUsers[p1].number)
 
-            if(p0.name.text.isNotEmpty() && p0.name.text.contains(" ")){
-                p0.name.text = p0.name.text.substring(0,p0.name.text.indexOf(" "))
+            if(p0.name.isNotEmpty() && p0.name.contains(" ")){
+                p0.name = p0.name.substring(0,p0.name.indexOf(" "))
             }
 
             FirebaseUtils.loadProfileThumbnail(this@MultiContactChooserActivity, selectedUsers[p1].uid,
@@ -282,13 +290,13 @@ class MultiContactChooserActivity : AppCompatActivity(){
 
 
     class ViewHolder(itemView: View) : androidx.recyclerview.widget.RecyclerView.ViewHolder(itemView){
-                val name = itemView.name
-                val pic = itemView.pic
+                val name = itemView
+                val pic = itemView
                 val checkBox = itemView.checkbox
             }
 
     class ParticipantHolder(itemView: View): androidx.recyclerview.widget.RecyclerView.ViewHolder(itemView){
-        val name = itemView.grid_name!!
+        var name = itemView.grid_name!!
         val pic = itemView.grid_pic!!
         init {
             itemView.grid_cancel_btn.visibility = View.GONE

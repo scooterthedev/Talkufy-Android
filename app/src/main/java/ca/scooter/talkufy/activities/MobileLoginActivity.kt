@@ -2,8 +2,11 @@ package ca.scooter.talkufy.activities
 
 import android.os.Bundle
 import android.util.Log
+import android.view.LayoutInflater
 import androidx.appcompat.app.AppCompatActivity
 import ca.scooter.talkufy.R
+import ca.scooter.talkufy.databinding.ActivityMessageBinding
+import ca.scooter.talkufy.databinding.InputPhoneBinding
 import ca.scooter.talkufy.fragments.FragmentOTP
 import kotlinx.android.synthetic.main.input_phone.*
 import org.jetbrains.anko.alert
@@ -12,6 +15,8 @@ class MobileLoginActivity : AppCompatActivity() {
 
 
     private var fragmentOTP: FragmentOTP? = null
+
+    private lateinit var binding: InputPhoneBinding
 
     object KEY {
         const val PHONE = "phone"
@@ -24,24 +29,26 @@ class MobileLoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.input_phone)
 
-        country_picker.registerCarrierNumberEditText(mobile_number)
+        binding = InputPhoneBinding.inflate(LayoutInflater).also { setContentView(it.root) }
 
-        generate_otp.setOnClickListener {
+        binding.countryPicker.registerCarrierNumberEditText(binding.mobileNumber)
+
+        binding.generateOtp.setOnClickListener {
 
 
-            if(!country_picker.isValidFullNumber) {
-                mobile_number.error = "Input valid number"
+            if(!binding.countryPicker.isValidFullNumber) {
+                binding.mobileNumber.error = "Input valid number"
                 return@setOnClickListener
             }
 
 
             fragmentOTP = FragmentOTP()
             val bundle = Bundle()
-            val countryCode = country_picker.selectedCountryCode
-            val countryName = country_picker.selectedCountryName
-            val countryLocale = country_picker.selectedCountryNameCode
+            val countryCode = binding.countryPicker.selectedCountryCode
+            val countryName = binding.countryPicker.selectedCountryName
+            val countryLocale = binding.countryPicker.selectedCountryNameCode
 
-            bundle.putString(KEY.PHONE, country_picker.fullNumberWithPlus)
+            bundle.putString(KEY.PHONE, binding.countryPicker.fullNumberWithPlus)
             bundle.putString(KEY.COUNTRY, countryName)
             bundle.putString(KEY.COUNTRY_LOCALE_CODE, countryLocale)
             bundle.putString(KEY.COUNTRY_CODE, countryCode)
@@ -55,7 +62,7 @@ class MobileLoginActivity : AppCompatActivity() {
 
 
             alert {
-                message = "Is ${country_picker.fullNumberWithPlus} your phone number?"
+                message = "Is ${binding.countryPicker.fullNumberWithPlus} your phone number?"
                 positiveButton("Yes"){
                     supportFragmentManager.beginTransaction()
                         .replace(R.id.container, fragmentOTP!!)

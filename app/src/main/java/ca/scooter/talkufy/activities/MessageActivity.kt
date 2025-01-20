@@ -40,6 +40,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import ca.scooter.talkufy.R
 import ca.scooter.talkufy.databinding.ActivityMessageBinding
+import ca.scooter.talkufy.databinding.ActivityUploadPreviewBinding
 import ca.scooter.talkufy.databinding.BubbleLeftBinding
 import ca.scooter.talkufy.databinding.BubbleRightBinding
 import ca.scooter.talkufy.databinding.ItemSmartReplyBinding
@@ -113,6 +114,8 @@ class MessageActivity : AppCompatActivity() {
     private lateinit var layout_attach_binding: LayoutAttachmentMenuBinding
     private lateinit var text_binding: TextHeaderBinding
     private lateinit var toolbar_binding: LayoutIncludeMessageActivityToolbarBinding
+
+    private lateinit var binding_upload: ActivityUploadPreviewBinding
 
     var unreadHeaderPosition = 0
     var unreadMessageCount = 0
@@ -190,12 +193,13 @@ class MessageActivity : AppCompatActivity() {
         layout_attach_binding = LayoutAttachmentMenuBinding.inflate(LayoutInflater).also { setContentView(it.root)}
         text_binding = TextHeaderBinding.inflate(LayoutInflater).also { setContentView(it.root)}
         toolbar_binding = LayoutIncludeMessageActivityToolbarBinding.inflate(LayoutInflater).also { setContentView(it.root)}
+        binding_upload = ActivityUploadPreviewBinding.inflate(LayoutInflater).also { setContentView(it.root)}
 
 
         FirebaseUtils.setonDisconnectListener()
 
 
-        setSupportActionBar(toolbar)
+        setSupportActionBar(binding_upload.toolbar)
 
 
 

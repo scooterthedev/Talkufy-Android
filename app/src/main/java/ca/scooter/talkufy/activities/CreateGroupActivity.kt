@@ -7,15 +7,16 @@ import android.graphics.BitmapFactory
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
+import android.view.LayoutInflater
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import ca.scooter.talkufy.R
 import ca.scooter.talkufy.databinding.ActivityCreateGroupBinding
 import ca.scooter.talkufy.databinding.ItemGridContactLayoutBinding
+import ca.scooter.talkufy.databinding.LayoutIncludeMessageActivityToolbarBinding
 import ca.scooter.talkufy.models.Models
 import com.google.android.gms.tasks.Continuation
 import com.google.android.gms.tasks.Task
@@ -24,7 +25,6 @@ import ca.scooter.talkufy.utils.FirebaseUtils
 import ca.scooter.talkufy.utils.utils
 import ca.scooter.talkufy.utils.utils.toast
 import com.canhub.cropper.CropImage
-import com.canhub.cropper.CropImage.ActivityResult
 import me.shaohui.advancedluban.Luban
 import me.shaohui.advancedluban.OnCompressListener
 import java.io.File
@@ -33,6 +33,7 @@ import com.yarolegovich.lovelydialog.LovelyProgressDialog
 class CreateGroupActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityCreateGroupBinding
+    private lateinit var toolbar_binding: LayoutIncludeMessageActivityToolbarBinding
     var participantList:MutableList<Models.Contact> = ArrayList()
     var isProfileChanged = false
     lateinit var bitmap: Bitmap
@@ -43,12 +44,13 @@ class CreateGroupActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityCreateGroupBinding.inflate(layoutInflater)
+        toolbar_binding = LayoutIncludeMessageActivityToolbarBinding.inflate(LayoutInflater).also { setContentView(it.root)}
         setContentView(binding.root)
 
         title = "Create a new Group"
 
-        binding.profileCircleimageview.setImageResource(R.drawable.ic_group_white_24dp)
-        binding.profileCircleimageview.circleBackgroundColor = ContextCompat.getColor(this, R.color.colorPrimary)
+        toolbar_binding.profileCircleimageview.setImageResource(R.drawable.ic_group_white_24dp)
+        toolbar_binding.profileCircleimageview.circleBackgroundColor = ContextCompat.getColor(this, R.color.colorPrimary)
 
         binding.addParticipantBtn.setOnClickListener {
             val excludedUIDs:MutableList<String> = ArrayList()
@@ -109,13 +111,13 @@ class CreateGroupActivity : AppCompatActivity() {
                     override fun onSuccess(file: File?) {
                         imageFile = file!!
                         bitmap = BitmapFactory.decodeFile(file.path)
-                        binding.profileCircleimageview.setImageBitmap(bitmap)
+                        toolbar_binding.profileCircleimageview.setImageBitmap(bitmap)
                         isProfileChanged = true
                     }
 
                     override fun onError(e: Throwable?) {
                         bitmap = BitmapFactory.decodeFile(filePath)
-                        binding.profileCircleimageview.setImageBitmap(bitmap)
+                        toolbar_binding.profileCircleimageview.setImageBitmap(bitmap)
                         isProfileChanged = true
                     }
                 })

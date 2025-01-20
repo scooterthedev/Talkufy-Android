@@ -8,6 +8,7 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import ca.scooter.talkufy.R
@@ -45,12 +46,12 @@ class BlockListActivity : AppCompatActivity() {
         val adapter = object : FirebaseListAdapter<Any>(options){
             override fun populateView(v: View, model: Any, position: Int) {
 
-                val title = v.name
-                val pic = v.pic
+                val title = v
+                val pic = v
                 val uid =  getRef(position).key.toString()
 
 
-                FirebaseUtils.setUserDetailFromUID(this@BlockListActivity,title, uid , true)
+                FirebaseUtils.setUserDetailFromUID(this@BlockListActivity, title as TextView, uid , true)
 
                 FirebaseUtils.loadProfileThumbnail(this@BlockListActivity, uid, pic)
             }

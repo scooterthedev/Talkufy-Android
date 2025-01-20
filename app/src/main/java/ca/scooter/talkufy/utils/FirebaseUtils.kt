@@ -747,7 +747,7 @@ object FirebaseUtils {
             })
     }
 
-    fun loadProfileThumbnail(context: Context, uid: String, imageView: ImageView) {
+    fun loadProfileThumbnail(context: Context, uid: String, imageView: TextView) {
 
         try {
             imageView.setImageResource(R.drawable.contact_placeholder)

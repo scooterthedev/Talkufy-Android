@@ -2,59 +2,55 @@ package ca.scooter.talkufy.activities
 
 import android.app.Activity
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import ca.scooter.talkufy.R
 import ca.scooter.talkufy.adapters.ViewPagerImageAdapter
+import ca.scooter.talkufy.databinding.ActivityUploadPreviewBinding
 import ca.scooter.talkufy.utils.utils
-import com.vincent.filepicker.filter.entity.ImageFile
-import com.vincent.filepicker.filter.entity.VideoFile
-import kotlinx.android.synthetic.main.activity_upload_preview.*
-
+import com.molihuan.pathselector.entity.FileEntity
+import com.molihuan.pathselector.dialog.impl.PathSelectDialog
 class UploadPreviewActivity : AppCompatActivity() {
 
-    val imagePaths:MutableList<String> = ArrayList()
-    var imageCaptions:MutableList<String> = ArrayList()
-
+    val imagePaths: MutableList<String> = ArrayList()
+    var imageCaptions: MutableList<String> = ArrayList()
+    private lateinit var binding: ActivityUploadPreviewBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_upload_preview)
+        binding = ActivityUploadPreviewBinding.inflate(LayoutInflater).also { setContentView(it.root) }
 
-        setSupportActionBar(toolbar)
-        if(supportActionBar!=null) {
+        setSupportActionBar(binding.toolbar)
+        if (supportActionBar != null) {
             supportActionBar!!.setDisplayHomeAsUpEnabled(true)
             supportActionBar!!.setHomeButtonEnabled(true)
         }
 
         val isForSingleFile = intent.getBooleanExtra(utils.constants.IS_FOR_SINGLE_FILE, false)
 
-
-        if(isForSingleFile){
+        if (isForSingleFile) {
             val cameraImagePath = intent.getStringExtra(utils.constants.KEY_IMG_PATH)
             if (cameraImagePath != null) {
                 imagePaths.add(cameraImagePath)
             }
-        }
-        else {
+        } else {
+            val fileType = intent.getStringExtra(utils.constants.KEY_FILE_TYPE)
 
-
-            if (intent.getStringExtra(utils.constants.KEY_FILE_TYPE) == utils.constants.FILE_TYPE_VIDEO) {
-                val videoPaths = intent.getParcelableArrayListExtra<VideoFile>(utils.constants.KEY_IMG_PATH)
-
-                if (videoPaths != null) {
-                    for (item in videoPaths) {
-                        imageCaptions.add("")
-                        imagePaths.add(item.path.toString())
+            if (fileType == utils.constants.FILE_TYPE_VIDEO || fileType == utils.constants.FILE_TYPE_IMAGE) {
+                val fileSelector = PathSelectDialog().apply {
+                    this.config(this@UploadPreviewActivity) {
+                        showFileTypes = listOf("video/*", "image/*")
                     }
                 }
-            } else {
-                val imgFilePaths = intent.getParcelableArrayListExtra<ImageFile>(utils.constants.KEY_IMG_PATH)
 
-                if (imgFilePaths != null) {
-                    for (item in imgFilePaths) {
+                fileSelector.show(supportFragmentManager, "PathSelectorDialog")
+
+                fileSelector.setOnFileSelectCallback { selectedFiles ->
+                    for (fileEntity in selectedFiles) {
                         imageCaptions.add("")
-                        imagePaths.add(item.path.toString())
+                        imagePaths.add(fileEntity.path)
                     }
                 }
             }
@@ -75,50 +71,39 @@ class UploadPreviewActivity : AppCompatActivity() {
             imagePaths as java.util.ArrayList<String>,
             fileTypes
         )
-        viewPager.adapter = adapter
+        binding.viewPager.adapter = adapter
 
+        binding.sendBtn.setOnClickListener {
 
-
-
-
-        //preview.setImageBitmap(BitmapFactory.decodeFile(imgPath.toString()))
-
-        sendBtn.setOnClickListener {
-
-            if(imagePaths.isEmpty()){
+            if (imagePaths.isEmpty()) {
                 setResult(Activity.RESULT_CANCELED, intent)
                 finish()
-            }
-            else {
+            } else {
 
                 imageCaptions = adapter.getImageCaptions()
 
+                setResult(
+                    Activity.RESULT_OK,
+                    intent.putStringArrayListExtra(
+                        utils.constants.KEY_CAPTION,
+                        imageCaptions as java.util.ArrayList<String>?
+                    )
+                        .putStringArrayListExtra(
+                            utils.constants.KEY_IMG_PATH,
+                            imagePaths as java.util.ArrayList<String>?
+                        )
+                        .putExtra(
+                            utils.constants.KEY_FILE_TYPE, intent.getStringExtra(
+                                utils.constants.KEY_FILE_TYPE
+                            )
+                        )
+                )
 
-
-               setResult(
-                   Activity.RESULT_OK,
-                        intent.putStringArrayListExtra(
-                             utils.constants.KEY_CAPTION,
-                                  imageCaptions as java.util.ArrayList<String>?)
-                                       .putStringArrayListExtra(
-                                           utils.constants.KEY_IMG_PATH,
-                                                imagePaths as java.util.ArrayList<String>?
-                                            )
-                            .putExtra(
-                                utils.constants.KEY_FILE_TYPE, intent.getStringExtra(
-                                    utils.constants.KEY_FILE_TYPE))
-                                        )
-
-                                    finish()
-
-
-                }
-
-
+                finish()
 
             }
 
-
+        }
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
