@@ -17,8 +17,8 @@ import kotlinx.android.synthetic.main.text_header.view.*
 object Holders {
 
     class TargetTextMsgHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
-        val message = itemView.messageText_left!!
-        val time = itemView.time_left!!
+        var message = itemView.messageText_left!!
+        var time = itemView.time_left!!
         val headerDateTime = itemView.header_left!!
         // val imageLayout = itemView.imageFrameLayout!!
         val container = itemView.container_left!!
@@ -42,11 +42,11 @@ object Holders {
 
 
     class MyImageMsgHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
-        val message = itemView.messageText_image_right!!
+        var message = itemView.messageText_image_right!!
         var time = itemView.time_image_right!!
         val imageView = itemView.imageview_image_right!!
-        val progressBar = itemView.progress_bar_image_right!!
-        val tapToRetry = itemView.tap_retry_image_right!!
+        var progressBar = itemView.progress_bar_image_right!!
+        var tapToRetry = itemView.tap_retry_image_right!!
         val messageStatus = itemView.delivery_image_status!!
         val headerDateTime = itemView.header_image_right!!
         val container = itemView.container_image_right!!
@@ -59,7 +59,7 @@ object Holders {
     }
 
     class TargetImageMsgHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
-        val message = itemView.messageText_image_left!!
+        var message = itemView.messageText_image_left!!
         var time = itemView.time_image_left!!
         val imageView = itemView.imageview_image_left!!
         val headerDateTime = itemView.header_image_left!!
@@ -78,11 +78,11 @@ object Holders {
 
 
     class MyVideoMsgHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
-        val message = itemView.messageText_video_right!!
+        var message = itemView.messageText_video_right!!
         var time = itemView.time_video_right!!
         val centerImageView = itemView.imageview_video_right!!
-        val progressBar = itemView.progress_bar_video_right!!
-        val tapToRetry = itemView.tap_retry_video_right!!
+        var progressBar = itemView.progress_bar_video_right!!
+        var tapToRetry = itemView.tap_retry_video_right!!
         val messageStatus = itemView.delivery_video_status!!
         val headerDateTime = itemView.header_video_right!!
         val videoLayout = itemView.videoFrameLayoutRight!!
@@ -101,13 +101,13 @@ object Holders {
     }
 
     class TargetVideoMsgHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
-        val message = itemView.messageText_video_left!!
+        var message = itemView.messageText_video_left!!
         var time = itemView.time_video_left!!
         val centerImageView = itemView.imageview_video_left!!
         val headerDateTime = itemView.header_video_left!!
         val videoLayout = itemView.videoFrameLayoutLeft!!
         val thumbnail = itemView.thumbnail_left!!
-        val progressBar = itemView.progress_bar_video_left!!
+        var progressBar = itemView.progress_bar_video_left!!
         val videoLengthText = itemView.video_length_left!!
         val tap_to_download = itemView.tap_retry_download_video_left!!
         val container = itemView.container_video_left!!

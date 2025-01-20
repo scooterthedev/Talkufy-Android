@@ -44,6 +44,7 @@ import ca.scooter.talkufy.databinding.BubbleLeftBinding
 import ca.scooter.talkufy.databinding.BubbleRightBinding
 import ca.scooter.talkufy.databinding.ItemSmartReplyBinding
 import ca.scooter.talkufy.databinding.LayoutAttachmentMenuBinding
+import ca.scooter.talkufy.databinding.LayoutIncludeMessageActivityToolbarBinding
 import ca.scooter.talkufy.databinding.TextHeaderBinding
 import ca.scooter.talkufy.firebase.MessagingService
 import ca.scooter.talkufy.models.Models
@@ -90,8 +91,6 @@ import com.vincent.filepicker.filter.entity.ImageFile
 import com.vincent.filepicker.filter.entity.VideoFile
 import io.codetail.animation.SupportAnimator
 import io.codetail.animation.ViewAnimationUtils
-//import kotlinx.android.synthetic.main.layout_include_message_activity_toolbar.*
-//import kotlinx.android.synthetic.main.text_header.view.*
 import me.shaohui.advancedluban.Luban
 import me.shaohui.advancedluban.OnCompressListener
 import org.jetbrains.anko.*
@@ -113,6 +112,7 @@ class MessageActivity : AppCompatActivity() {
     private lateinit var smartbinding: ItemSmartReplyBinding
     private lateinit var layout_attach_binding: LayoutAttachmentMenuBinding
     private lateinit var text_binding: TextHeaderBinding
+    private lateinit var toolbar_binding: LayoutIncludeMessageActivityToolbarBinding
 
     var unreadHeaderPosition = 0
     var unreadMessageCount = 0
@@ -189,6 +189,8 @@ class MessageActivity : AppCompatActivity() {
         smartbinding = ItemSmartReplyBinding.inflate(LayoutInflater).also { setContentView(it.root)}
         layout_attach_binding = LayoutAttachmentMenuBinding.inflate(LayoutInflater).also { setContentView(it.root)}
         text_binding = TextHeaderBinding.inflate(LayoutInflater).also { setContentView(it.root)}
+        toolbar_binding = LayoutIncludeMessageActivityToolbarBinding.inflate(LayoutInflater).also { setContentView(it.root)}
+
 
         FirebaseUtils.setonDisconnectListener()
 
@@ -396,17 +398,16 @@ class MessageActivity : AppCompatActivity() {
 //                FirebaseUtils.setGroupName(nameOrNumber, target_name_textview)
             }
 
-            FirebaseUtils.loadGroupPicThumbnail(context, targetUid, profile_circleimageview)
+            FirebaseUtils.loadGroupPicThumbnail(context, targetUid, toolbar_binding.profileCircleimageview)
             if(nameOrNumber.isEmpty())
-                FirebaseUtils.setGroupName(targetUid, target_name_textview)
+                FirebaseUtils.setGroupName(targetUid, toolbar_binding.targetNameTextview)
 
             monitorGroupNameChanges()
         }
 
 
         else   if(isChannel) {
-            binding.target_name_textview.text = nameOrNumber
-
+            binding.toolbar_binding.targetNameTextview.text = nameOrNumber
             if(utils.isChannelID(nameOrNumber) || nameOrNumber.isEmpty()){
                 FirebaseUtils.ref.channelInfo(targetUid).child(utils.constants.KEY_NAME)
                     .addListenerForSingleValueEvent(object : ValueEventListener {
@@ -414,25 +415,25 @@ class MessageActivity : AppCompatActivity() {
                         override fun onDataChange(p0: DataSnapshot) {
                             if(p0.exists()) {
                                 nameOrNumber = p0.getValue(String::class.java)!!
-                                target_name_textview.text = nameOrNumber
+                                toolbar_binding.targetNameTextview.text = nameOrNumber
                             }
                         }
                     })
                 //FirebaseUtils.setChannelName(nameOrNumber, target_name_textview)
             }
 
-            FirebaseUtils.loadChannelPicThumbnail(context, targetUid, profile_circleimageview)
+            FirebaseUtils.loadChannelPicThumbnail(context, targetUid, toolbar_binding.profileCircleimageview)
             if(nameOrNumber.isEmpty())
-                FirebaseUtils.setChannelName(targetUid, target_name_textview)
+                FirebaseUtils.setChannelName(targetUid, toolbar_binding.targetNameTextview)
 
             monitorChannelNameChanges()
         }
 
 
         else {
-            target_name_textview.text = (utils.getNameFromNumber(context, nameOrNumber))
-            FirebaseUtils.loadProfileThumbnail(context, targetUid, profile_circleimageview)
-            FirebaseUtils.setUserOnlineStatus(this, targetUid, user_online_status)
+            toolbar_binding.targetNameTextview.text = (utils.getNameFromNumber(context, nameOrNumber))
+            FirebaseUtils.loadProfileThumbnail(context, targetUid, toolbar_binding.profileCircleimageview)
+            FirebaseUtils.setUserOnlineStatus(this, targetUid, toolbar_binding.userOnlineStatus)
         }
 
         val emojiConfig = androidx.emoji.bundled.BundledEmojiCompatConfig(this)
@@ -449,7 +450,7 @@ class MessageActivity : AppCompatActivity() {
 
 
 
-        layout_toolbar_title.setOnClickListener {
+        toolbar_binding.layoutToolbarTitle.setOnClickListener {
             startActivity(Intent(this, UserProfileActivity::class.java)
                 .putExtra(FirebaseUtils.KEY_UID, targetUid)
                 .putExtra(FirebaseUtils.KEY_NAME, nameOrNumber)
@@ -458,7 +459,7 @@ class MessageActivity : AppCompatActivity() {
             )
         }
 
-        back_layout_toolbar_message.setOnClickListener {
+        toolbar_binding.backLayoutToolbarMessage.setOnClickListener {
             if(intent.getBooleanExtra(utils.constants.KEY_IS_ONCE, false))
                 startActivity(Intent(context, HomeActivity::class.java))
             finish()
@@ -543,7 +544,7 @@ class MessageActivity : AppCompatActivity() {
 
                 override fun onDataChange(p0: DataSnapshot) {
                     nameOrNumber = p0.value.toString()
-                    target_name_textview.text = nameOrNumber
+                    toolbar_binding.targetNameTextview.text = nameOrNumber
                 }
             })
 
@@ -560,7 +561,7 @@ class MessageActivity : AppCompatActivity() {
 
                 override fun onDataChange(p0: DataSnapshot) {
                     nameOrNumber = p0.value.toString()
-                    target_name_textview.text = nameOrNumber
+                    toolbar_binding.targetNameTextview.text = nameOrNumber
                 }
             })
 
@@ -1141,8 +1142,8 @@ class MessageActivity : AppCompatActivity() {
 
                 when (holder) {
                     is Holders.TargetTextMsgHolder -> {
-                        holder.time.text = utils.getLocalTime(model.timeInMillis)
-                        holder.message.text = model.message
+                        holder.time = utils.getLocalTime(model.timeInMillis)
+                        holder.message = model.message
                         container = holder.container
                         messageTextView = holder.message
                         messageLayout = holder.messageLayout
@@ -1245,7 +1246,7 @@ class MessageActivity : AppCompatActivity() {
 
                     is Holders.MyMapHolder -> {
                         holder.message = model.caption
-                        holder.message.visibility =  if(model.caption.isEmpty()) View.GONE else View.VISIBLE
+                        holder.message =  if(model.caption.isEmpty()) View.GONE else View.VISIBLE
                         holder.time = utils.getLocalTime(model.timeInMillis)
                         messageLayout = holder.messageLayout
                         dateHeader = holder.dateHeader
@@ -1274,7 +1275,7 @@ class MessageActivity : AppCompatActivity() {
                         loadMap(holder.mapView, LatLng(latitude,longitude))
 
 
-                        holder.message.visibility =  if(model.caption.isEmpty()) View.GONE else View.VISIBLE
+                        holder.message =  if(model.caption.isEmpty()) View.GONE else View.VISIBLE
 
 
 
@@ -1611,8 +1612,9 @@ class MessageActivity : AppCompatActivity() {
 
     @SuppressLint("LogNotTimber")
     private fun setTapToRetryBtn(
-        tapToRetry:View, progressBar: CircularProgressBar, filePath:String, messageID: String,
-        caption: String, fileType:String){
+        tapToRetry: Int, progressBar: CircularProgressBar, filePath: String, messageID: String,
+        caption: String, fileType: String
+    ){
 
 
         Log.d("MessageActivity", "setTapToRetryBtn: caption ")
@@ -1803,7 +1805,7 @@ class MessageActivity : AppCompatActivity() {
                             .child(targetUid)
                             .setValue(
                                 Models.LastMessageDetail(type = FirebaseUtils.KEY_CONVERSATION_GROUP,
-                                    nameOrNumber = if(nameOrNumber.isNotEmpty()) nameOrNumber else target_name_textview.text.toString() ))
+                                    nameOrNumber = nameOrNumber.ifEmpty { toolbar_binding.targetNameTextview.text.toString() }))
 
                     }
             }
@@ -1840,7 +1842,7 @@ class MessageActivity : AppCompatActivity() {
                             .child(targetUid)
                             .setValue(
                                 Models.LastMessageDetail(type = FirebaseUtils.KEY_CONVERSATION_CHANNEL,
-                                    nameOrNumber = if(nameOrNumber.isNotEmpty()) nameOrNumber else target_name_textview.text.toString() ))
+                                    nameOrNumber = if(nameOrNumber.isNotEmpty()) nameOrNumber else toolbar_binding.targetNameTextview.text.toString() ))
 
                     }
             }
@@ -2166,7 +2168,7 @@ class MessageActivity : AppCompatActivity() {
         val progressBar = CircularProgressBarsAt[messageID]
 
         progressBar?.visibility = View.VISIBLE
-        progressBar?.progress =0
+        progressBar?.progress = 0
 
         val storageRef =
             FirebaseStorage.getInstance().getReferenceFromUrl(model.message)
@@ -2321,9 +2323,9 @@ class MessageActivity : AppCompatActivity() {
     //setting my Holders
     //setting my holder config
     private fun setMyImageHolder(holder: Holders.MyImageMsgHolder, model: Models.MessageModel, messageID: String){
-        holder.tapToRetry.visibility = View.GONE
+        holder.tapToRetry = View.GONE
 
-        holder.progressBar.visibility = View.VISIBLE
+        holder.progressBar = View.VISIBLE
         CircularProgressBarsAt[messageID] = holder.progressBar
         mediaControlImageViewAt[messageID] = holder.imageUploadControl
 
@@ -2331,7 +2333,7 @@ class MessageActivity : AppCompatActivity() {
 
 
 
-        holder.message.visibility =  if(model.caption.isEmpty()) View.GONE else View.VISIBLE
+        holder.message =  if(model.caption.isEmpty()) View.GONE else View.VISIBLE
 
 
         setTapToRetryBtn(holder.tapToRetry,holder.progressBar,model.file_local_path, messageID,model.caption, model.messageType)
@@ -2352,14 +2354,14 @@ class MessageActivity : AppCompatActivity() {
                 .into(holder.imageView, object: Callback{
 
                     override fun onSuccess() {
-                        holder.progressBar.visibility = if(isUploading[messageID] == true) View.VISIBLE else View.GONE
+                        holder.progressBar = if(isUploading[messageID] == true) View.VISIBLE else View.GONE
 
                     }
 
                     @SuppressLint("LogNotTimber")
                     override fun onError(e: Exception?) {
 
-                        holder.progressBar.visibility = View.GONE
+                        holder.progressBar = View.GONE
 
                         Log.d("MessageActivity", "onError: img file failed to load : " + e!!.message)
                     }
@@ -2380,7 +2382,7 @@ class MessageActivity : AppCompatActivity() {
                     .into(holder.imageView, object: Callback{
                         override fun onSuccess() {
 
-                            holder.progressBar.visibility = View.GONE
+                            holder.progressBar = View.GONE
 
                             saveBitmapFromPicasso(model.message, messageID, true)
 
@@ -2390,7 +2392,7 @@ class MessageActivity : AppCompatActivity() {
                         @SuppressLint("LogNotTimber")
                         override fun onError(e: Exception?) {
 
-                            holder.progressBar.visibility = if(isUploading[messageID] == false) View.GONE else View.VISIBLE
+                            holder.progressBar = if(isUploading[messageID] == false) View.GONE else View.VISIBLE
 
                             Log.d("MessageActivity", "onError: img url failed to load")
 
@@ -2412,7 +2414,7 @@ class MessageActivity : AppCompatActivity() {
 
         }
 
-        holder.message.text = model.caption
+        holder.message = model.caption
     }
 
     //setting my video holder
@@ -2427,12 +2429,12 @@ class MessageActivity : AppCompatActivity() {
         setTapToRetryBtn(holder.tapToRetry,holder.progressBar,model.file_local_path, messageID,model.caption, model.messageType)
 
 
-        holder.tapToRetry.visibility = View.GONE
-        holder.progressBar.visibility = if(isUploading[messageID] == true) View.VISIBLE else View.GONE
-        holder.message.visibility =  if(model.caption.isEmpty()) View.GONE else View.VISIBLE
+        holder.tapToRetry = View.GONE
+        holder.progressBar = if(isUploading[messageID] == true) View.VISIBLE else View.GONE
+        holder.message =  if(model.caption.isEmpty()) View.GONE else View.VISIBLE
 
 
-        if(holder.progressBar.visibility == View.VISIBLE)
+        if(holder.progressBar == View.VISIBLE)
             holder.centerImageView.setImageResource(R.drawable.ic_clear_white_24dp)
         else
             holder.centerImageView.setImageResource(R.drawable.ic_play_white)
@@ -2444,10 +2446,10 @@ class MessageActivity : AppCompatActivity() {
     //setting target Holders
     //setting target image holder
     private fun setTargetImageHolder(holder: Holders.TargetImageMsgHolder, model: Models.MessageModel, messageID: String){
-        holder.message.visibility =  if(model.caption.isEmpty()) View.GONE else View.VISIBLE
+        holder.message =  if(model.caption.isEmpty()) View.GONE else View.VISIBLE
 
 
-        holder.message.text = model.caption
+        holder.message = model.caption
         holder.cardContainer.setCornerEnabled(false,true, model.caption.isEmpty(), model.caption.isEmpty())
 
 
@@ -2493,8 +2495,8 @@ class MessageActivity : AppCompatActivity() {
     //setting target video holder
     private fun setTargetVideoHolder(holder: Holders.TargetVideoMsgHolder, model: Models.MessageModel, messageID: String){
 
-        holder.message.visibility =  if(model.caption.isEmpty()) View.GONE else View.VISIBLE
-        holder.message.text = model.caption
+        holder.message =  if(model.caption.isEmpty()) View.GONE else View.VISIBLE
+        holder.message = model.caption
         holder.cardContainer.setCornerEnabled(false,true, model.caption.isEmpty(), model.caption.isEmpty())
 
 
@@ -2503,12 +2505,12 @@ class MessageActivity : AppCompatActivity() {
         mediaControlImageViewAt[messageID] = holder.centerImageView
 
         //lets hide progressbar for now
-        holder.progressBar.visibility = View.GONE
+        holder.progressBar = View.GONE
 
 
 
 
-        if(holder.progressBar.visibility == View.VISIBLE)
+        if(holder.progressBar == View.VISIBLE)
             holder.centerImageView.setImageResource(R.drawable.ic_clear_white_24dp)
         else
             holder.centerImageView.setImageResource(R.drawable.ic_play_white)
@@ -2828,8 +2830,10 @@ class MessageActivity : AppCompatActivity() {
     var isContextMenuActive = false
 
 
+    @Deprecated("This method has been deprecated in favor of using the\n      {@link OnBackPressedDispatcher} via {@link #getOnBackPressedDispatcher()}.\n      The OnBackPressedDispatcher controls how back button events are dispatched\n      to one or more {@link OnBackPressedCallback} objects.")
     @SuppressLint("ObsoleteSdkInt")
     override fun onBackPressed() {
+        super.onBackPressed()
 
         if(attachment_menu.visibility == View.VISIBLE)
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
@@ -3097,7 +3101,7 @@ class MessageActivity : AppCompatActivity() {
 
             R.id.app_bar_video_call -> {
                 AlertDialog.Builder(context)
-                    .setMessage("Do you want to start a VIDEO meeting with " + target_name_textview.text + "?")
+                    .setMessage("Do you want to start a VIDEO meeting with " + toolbar_binding.targetNameTextview.text + "?")
                     .setPositiveButton("Yes, Please!") { _, _ ->
 
                         var callId = targetUid
@@ -3119,7 +3123,7 @@ class MessageActivity : AppCompatActivity() {
 
             R.id.app_bar_audio_call -> {
                 AlertDialog.Builder(context)
-                    .setMessage("Do you want to start an AUDIO meeting with " + target_name_textview.text + "?")
+                    .setMessage("Do you want to start an AUDIO meeting with " + toolbar_binding.targetNameTextview.text + "?")
                     .setPositiveButton("Yes, Please!") { _, _ ->
 
                         var callId = targetUid
@@ -3154,7 +3158,7 @@ class MessageActivity : AppCompatActivity() {
                         FirebaseUtils.ref.user(targetUid)
                             .addListenerForSingleValueEvent(object :ValueEventListener{
                                 override fun onCancelled(p0: DatabaseError) {
-                                    val targetPhone:String = target_name_textview.text.toString()
+                                    val targetPhone:String = toolbar_binding.targetNameTextview.text.toString()
                                     startNewCall(callId, audioOnly,targetPhone)
                                 }
 
@@ -3165,7 +3169,7 @@ class MessageActivity : AppCompatActivity() {
 
                                     } else {
 
-                                        val targetPhone:String = target_name_textview.text.toString()
+                                        val targetPhone:String = toolbar_binding.targetNameTextview.text.toString()
                                         startNewCall(callId, audioOnly, targetPhone)
                                     }
                                 }
@@ -3181,7 +3185,7 @@ class MessageActivity : AppCompatActivity() {
         var targetType = "single"
         if (isGroup) targetType = "group"
 
-        val targetName:String = target_name_textview.text.toString()
+        val targetName:String = toolbar_binding.targetNameTextview.text.toString()
         val intent = Intent(context, OutgoingCallActivity::class.java).apply {
             putExtra("call_id",callId)
             putExtra("target_name", targetName)
@@ -3438,10 +3442,10 @@ class MessageActivity : AppCompatActivity() {
                     try {
                         if (!isMeRemoved) {
                             members = members.trim().substring(0, members.lastIndex - 1)
-                            user_online_status.text = "" + channelMembers.size + " Subscribers"
+                            toolbar_binding.userOnlineStatus.text = "" + channelMembers.size + " Subscribers"
                             Log.d("MessageActivity", "onDataChange: member name = $members")
                         }
-                        else user_online_status.visibility = View.GONE
+                        else toolbar_binding.userOnlineStatus.visibility = View.GONE
                     }
                     catch (e:Exception){}
                     val snackbar = Snackbar.make(binding.messageInputField, "You cannot reply to this conversation anymore", Snackbar.LENGTH_INDEFINITE)
