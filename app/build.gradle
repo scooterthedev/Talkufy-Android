@@ -133,7 +133,7 @@ android {
 
         //These dependencies have been used in this lib so you need to include them according to gradle 3.0 and higher
         implementation 'com.google.code.gson:gson:2.8.2'
-        implementation 'org.jsoup:jsoup:1.10.2'
+        implementation 'org.jsoup:jsoup:1.18.3'
 
         //Gif Support
         implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.24'
