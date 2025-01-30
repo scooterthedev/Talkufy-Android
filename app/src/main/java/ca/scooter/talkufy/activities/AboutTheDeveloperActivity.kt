@@ -35,7 +35,7 @@ class AboutTheDeveloperActivity : AppCompatActivity(){
                 )
             )
             .addGroup("Connect with us")
-            .addEmail("yekutiel.yunger@gmail.com")
+            .addEmail("info@talkufy.com")
             .addWebsite(
                 "https://instructables.com/member/AwesomeBanana120/",
                 "Visit my website (Temp, it will be removed in a later update.)"
